@@ -1,6 +1,6 @@
 # GoldRush — Claude Agent Handoff
 **Generated:** 2026-08-17
-**Last updated:** 2026-08-17 — Phase 1 complete; all five tranches signed off and closed
+**Last updated:** 2026-08-17 — Phase 1 frozen; Phase 2 data ingestion initiated
 **Prepared by:** Chris (Pragmatic Project Advisor)
 **Project root:** /mnt/d/Projects/GoldRush
 **Connector:** GR
@@ -18,15 +18,15 @@
   - Spec C v2 — Variable Admission Criteria ✓
   - Spec D v2 — AI Evidence Protocol ✓
 - **Phase 1 formally unblocked** — all pre-Phase-1 blockers resolved
-- **Phase 1 T1 signed off** — Layers 0, 1, 3; 16 ADMIT, 8 CONDITIONAL, 0 REJECT
+- **Phase 1 T1 signed off** — Layers 0, 1, 3; 18 ADMIT, 6 CONDITIONAL, 0 REJECT
 - **Phase 1 T2 signed off** — Layers 4, 5; 12 ADMIT, 4 CONDITIONAL, 0 REJECT
 - **Phase 1 T3 signed off** — Layers 2, 7; 7 ADMIT, 4 CONDITIONAL, 0 REJECT
 - **Phase 1 T4 signed off** — Layers 6, 9; 4 ADMIT, 6 CONDITIONAL, 0 REJECT
 
 ### Current State
-- Phase 1 is **IN PROGRESS** — T1/T2/T3/T4 closed; T5 draft complete and pending review
-- **Immediate task for incoming agent: review T5 registry and sign off or return issues to Grace**
-- T5 scope: Layers 8, 10, 11 — draft at `docs/phase1-registry/T5-registry.md`
+- Phase 1 is **COMPLETE and FROZEN** — all five tranches closed; 74 records, 44 admitted, 30 conditional, 0 rejected
+- Phase 2 is **INITIATED** — source-lock inventory and ingestion contract at `docs/phase2-data-ingestion-plan.md`
+- T5 scope: Layers 8, 10, 11 — closed at `docs/phase1-registry/T5-registry.md`
 - No code written yet; `mcp_server.py` exists at project root (purpose not reviewed)
 - All authoritative specs are in `docs/specs/v2/`; v1 specs are superseded
 
@@ -79,7 +79,7 @@ System score per horizon:
 ### Variable Admission Gate (Spec C v2)
 All five criteria must pass:
 - **A** — Causal Relevance: credible mechanism documented
-- **B** — Incremental Information: adds what existing set does not already capture; T5 Criterion B baseline = T1 + T3 + T4 signed-off registries (T2 is closed but was not part of T3/T4 working baseline)
+- **B** — Incremental Information: adds what existing set does not already capture; Phase 1 master registry is now the frozen SSOT baseline
 - **C** — Data/Evidence Reliability: source quality, revision behavior, historical coverage
 - **D** — Operational Feasibility: weekly retrieval, cost, maintenance burden
 - **E** — Forecast-Horizon Relevance: relevant to at least one of the four fixed horizons
@@ -109,7 +109,7 @@ Decisions: ADMIT / CONDITIONAL (Research Only) / REJECT
 
 ## 3. NEXT STEPS
 
-### Phase 1 — Variable Registry (IN PROGRESS)
+### Phase 1 — Variable Registry (COMPLETE — SSOT frozen)
 
 | Tranche | Layers | Status |
 |---|---|---|
@@ -117,11 +117,11 @@ Decisions: ADMIT / CONDITIONAL (Research Only) / REJECT
 | T2 | 4, 5 | **CLOSED — signed off 2026-08-17** |
 | T3 | 2, 7 | **CLOSED — signed off 2026-08-17** |
 | T4 | 6, 9 | **CLOSED — signed off 2026-08-17** |
-| T5 | 8, 10, 11 | **OPEN — draft at `docs/phase1-registry/T5-registry.md`** |
+| T5 | 8, 10, 11 | **CLOSED — signed off 2026-08-17** |
 
-### Immediate Task — T5
+### Phase 2 Immediate Task
 
-Send `handoff/T5-Grace-Brief.md` to Grace. T5 covers Layers 8 (Investment Flows), 10 (Market Microstructure and Derivatives), and 11 (Expectations, Psychology, and Reflexivity). T5 closes Phase 1.
+Begin source locking and raw-observation storage for the 44 ADMIT variables using `docs/phase2-data-ingestion-plan.md`. T5 closes Phase 1.
 
 **T5 key risks to brief Grace on:**
 - L8/L0 boundary: ETF flow (L8) vs. ETF holdings stock (L0-003) — distinct mechanisms, both admissible if separated
@@ -255,7 +255,8 @@ handoff/
   T1-Grace-Brief.md                            ← Reference only; T1 closed
   T3-Grace-Brief.md                            ← Reference only; T3 closed
   T4-Grace-Brief.md                            ← Reference only; T4 closed
-  T5-Grace-Brief.md                            ← Reference only; T5 open
+  T5-Grace-Brief.md                            ← Reference only; T5 closed
+  phase2-data-ingestion-plan.md                ← Phase 2 source-lock inventory and ingestion contract
 ```
 
 ### Phase 1 Registry — Running Totals (signed-off tranches only)
@@ -268,7 +269,7 @@ handoff/
 | T4 | 6, 9 | 4 | 6 | 0 |
 | **Signed-off total** | | **41** | **20** | **0** |
 
-T5 (Layers 8, 10, 11) draft open: 3 ADMIT, 10 CONDITIONAL, 0 REJECT.
+T5 (Layers 8, 10, 11) closed: 3 ADMIT, 10 CONDITIONAL, 0 REJECT.
 
 ### Authoritative Spec Locations
 - `docs/specs/v2/spec_a_interaction_dependency_rules_v2.md`
@@ -330,8 +331,8 @@ RELEVANT HORIZONS:
 ### Implementation Phases
 | Phase | Deliverable | Status |
 |---|---|---|
-| 1 | Variable Registry | **IN PROGRESS — T5 draft complete; review pending** |
-| 2 | Data Ingestion | Not started |
+| 1 | Variable Registry | **COMPLETE — Phase 1 SSOT frozen** |
+| 2 | Data Ingestion | **IN PROGRESS — source-lock inventory initiated** |
 | 3 | AI Evidence Processing | Not started |
 | 4 | Scoring Engine | Not started |
 | 5 | Probability Engine | Not started |
