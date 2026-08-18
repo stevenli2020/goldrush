@@ -71,7 +71,7 @@ Every deferral must state the blocker and the condition required to reopen the t
 
 ## Tracker statuses
 
-`Not started` → `Proposed` → `Under review` → `Changes requested` → `Ready for approval` → `Complete` or `Deferred`
+`Not done` → `Complete` or `Deferred`
 
 ## Tracker fields
 
