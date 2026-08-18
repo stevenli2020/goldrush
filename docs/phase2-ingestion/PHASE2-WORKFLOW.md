@@ -8,8 +8,8 @@ This workflow is self-contained. It does not require participants to understand 
 
 ## Roles
 
-- **Implementation owner:** Proposes the source, fallback, collection method, and collector changes.
-- **Grace:** Opens tasks, acts as quality gatekeeper, reviews against the acceptance criteria, and requests adjustments.
+- **Implementation owner:** The user initially proposes and implements the source, fallback, collection method, and collector changes.
+- **Grace:** Coordinates the next variable, provides the initial task handoff, acts as quality gatekeeper, reviews against the acceptance criteria, and requests adjustments. Grace does not begin implementation unless explicitly asked.
 - **Final approver:** Approves Grace’s recommendation to mark the variable `Complete` or `Deferred`.
 
 Additional Grace members may work in parallel, provided each variable has one owner and one tracker record.
@@ -17,19 +17,24 @@ Additional Grace members may work in parallel, provided each variable has one ow
 ## Variable loop
 
 1. Grace selects the next admitted variable from the tracker.
-2. Grace checks whether an existing source adapter, collector, or transformation can be reused before a new implementation is proposed.
-3. The implementation owner proposes:
+2. Grace gives a very brief introduction covering:
+   - the Variable ID and variable name;
+   - what the variable represents;
+   - the expected deliverable.
+3. Grace waits for the implementation owner to propose the source and implementation. Grace must not begin implementation automatically.
+4. Grace checks whether an existing source adapter, collector, or transformation can be reused before a new implementation is proposed.
+5. The implementation owner proposes:
    - primary source;
    - fallback source;
    - programmatic collection method;
    - collector module location;
    - expected fields, units, and timestamps.
-4. Grace reviews the proposal and requests specific changes where necessary.
-5. The implementation owner reworks the collector and returns it for review.
-6. Grace validates the result and recommends `Complete` or `Deferred`.
-7. The final approver accepts the recommendation.
-8. Grace updates `SOURCE-IMPLEMENTATION-TRACKER.md` with the completed review record and final status.
-9. The next variable begins.
+6. Grace reviews the proposal and requests specific changes where necessary.
+7. The implementation owner reworks the collector and returns it for review.
+8. Grace validates the result and recommends `Complete` or `Deferred`.
+9. The final approver accepts the recommendation.
+10. Grace updates `SOURCE-IMPLEMENTATION-TRACKER.md` with the completed review record and final status.
+11. The next variable begins.
 
 ## Reuse-first rule
 
@@ -92,6 +97,8 @@ Every deferral must state the blocker and the condition required to reopen the t
 ## Operating rules
 
 - Work on one variable per task.
+- At task start, Grace only introduces the next variable and defines the deliverable; implementation begins only after the user responds.
+- Grace must not proactively write implementation code, select a source, or begin collection unless explicitly instructed.
 - Keep implementation notes short and practical.
 - Do not silently change source, schema, units, or transformation rules.
 - Do not promote deferred variables into production collection.

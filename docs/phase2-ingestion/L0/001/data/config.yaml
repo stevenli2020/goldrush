@@ -1,0 +1,140 @@
+# L0-001 — Above-Ground Gold Stock
+# Collector configuration
+# Version: 1.0.0
+# Last updated: 2026-08-18
+
+variable:
+  id: L0-001
+  name: Above-Ground Gold Stock
+  layer: L0
+  status: ADMIT
+  horizons:
+    - 1-3 years
+    - 3-10 years
+
+collector:
+  script: collectors/wgc_scraper.py
+  status: not_yet_built  # New shared adapter required; does not exist on disk
+  shared_by:
+    - L0-001
+    - L0-002
+    - L0-003
+    - L0-005
+    - L0-006
+    - L5-001
+    - L5-002
+    - L8-001
+
+source:
+  primary:
+    name: WGC_GOLDHUB
+    provider: World Gold Council
+    underlying_providers:
+      - Metals Focus
+      - Refinitiv GFMS
+      - World Gold Council
+    page_url: https://www.gold.org/goldhub/data/how-much-gold
+    download_url: https://www.gold.org/download/file/7588/above-ground-gold-stocks.xlsx
+    format: xlsx
+    coverage_start: 2010
+    coverage_end: 2025  # Update annually after each WGC release
+    frequency: annual
+    access: public
+    api_key_required: false
+    automated_access_validated: false  # Must be confirmed before production
+    tos_permits_automated_retrieval: null  # Must be confirmed before production
+  fallback:
+    type: carry_forward
+    description: >
+      Carry last successfully collected WGC observation with availability_status STALE.
+      Operational continuity only; not a fresh data pull.
+      No alternative live source is used.
+    usgs_excluded: true  # USGS provides mine production, not stock estimates; excluded from pipeline
+  reference_material:
+    methodology_pdf: https://www.gold.org/download/file/7589/above-ground-stocks-methodology.pdf
+    role: lineage_and_reference_only  # Not a live fallback source
+
+schedule:
+  annual_trigger: >
+    Trigger on WGC Gold Demand Trends report release detection;
+    typically published Q1 of the following year.
+    Collect within 7 days of detection.
+  revision_check: monthly
+  revision_check_method: checksum_on_download_url
+  revision_check_action: >
+    If checksum changes, treat as revision event and re-collect immediately.
+
+storage:
+  raw_archive: docs/phase2-ingestion/L0/001/data/raw/
+  raw_filename_pattern: raw_wgc_above_ground_stock_{YYYYMMDD}.xlsx
+  raw_subdirectory_pattern: raw/{YYYY}/
+  samples_dir: docs/phase2-ingestion/L0/001/data/samples/
+  samples_note: Static fixtures only; collector does not write here
+
+validation:
+  checks:
+    - id: stock_present
+      field: above_ground_stock_tonnes
+      rule: non-null and greater than 0
+      fail_status: FAIL
+    - id: plausible_range
+      field: above_ground_stock_tonnes
+      lower_bound_tonnes: 150000
+      upper_bound_tonnes: 300000
+      breach_status: FLAG
+      note: >
+        Current figure ~220,000t. Bounds chosen with generous headroom.
+        Breach requires operator review; system does not auto-reject.
+    - id: yoy_change
+      rule: >
+        Flag any year-on-year change that is large relative to known annual mine supply
+        (~3,300–3,600t) or any year-on-year decline beyond rounding.
+        No fixed percentage bounds. Operator decides on flagged records.
+      breach_status: FLAG
+    - id: subcomponents_sum
+      rule: sum of sub-components within 1% of reported total where present
+      breach_status: FLAG
+      hard_fail_threshold_pct: 5
+    - id: revision_fields_complete
+      rule: >
+        If is_revised is true, prior_publication_date, prior_value_tonnes,
+        and revision_reason must all be non-null.
+      breach_status: FAIL
+    - id: file_parseable
+      rule: xlsx downloads without error; at least one numeric value extracted
+      breach_status: FAIL
+
+flag_handling:
+  archive: true
+  stage: true
+  enter_scoring: false
+  scoring_requires: explicit_operator_approval
+
+availability_status_values:
+  - AVAILABLE       # Clean retrieval, all checks passed
+  - PARTIAL         # Fallback source used (not applicable for this variable; included for schema completeness)
+  - STALE           # Carry-forward; no new data; operator approval required before scoring
+  - INCOMPLETE      # Total present; sub-components absent
+  - BLOCKED         # Retrieval failed; all retries exhausted
+  - INSUFFICIENT_EVIDENCE  # Last observation older than 24 months
+
+freshness:
+  stale_warning_months: 18
+  unusable_months: 24
+  blocked_retry_hours: 24
+  blocked_escalate_hours: 72
+
+logging:
+  level: INFO
+  escalate_on:
+    - FAIL
+    - BLOCKED
+    - INSUFFICIENT_EVIDENCE
+  log_on:
+    - FLAG
+    - STALE
+
+ownership:
+  proposal_author: Chris
+  collector_developer: TBD  # Assigned separately; Chris does not build collector scripts
+  operator_contact: TBD

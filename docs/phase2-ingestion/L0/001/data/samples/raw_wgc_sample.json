@@ -1,0 +1,59 @@
+{
+  "_note": "Static development fixture. Illustrates the parsed payload structure produced by wgc_scraper.py from the WGC above-ground-gold-stocks.xlsx download. Values are illustrative only and must not be used as production data.",
+  "_source_page": "https://www.gold.org/goldhub/data/how-much-gold",
+  "_download_url": "https://www.gold.org/download/file/7588/above-ground-gold-stocks.xlsx",
+  "_retrieval_timestamp": "2025-02-14T03:22:10Z",
+  "_raw_file_path": "data/raw/2025/raw_wgc_above_ground_stock_20250214.xlsx",
+  "_file_checksum_sha256": "a3f8c2d1e7b0449f82c5610dae3921fc74b8e05d6c91a27f3084bcde5691f0a2",
+  "workbook_sheets": ["Above-ground stock"],
+  "parsed_rows": [
+    {
+      "year": 2010,
+      "total_tonnes": 171300.0,
+      "jewellery_tonnes": 79300.0,
+      "bars_coins_etf_tonnes": 34100.0,
+      "central_banks_tonnes": 29700.0,
+      "other_tonnes": 28200.0
+    },
+    {
+      "year": 2011,
+      "total_tonnes": 174600.0,
+      "jewellery_tonnes": 80800.0,
+      "bars_coins_etf_tonnes": 35900.0,
+      "central_banks_tonnes": 30100.0,
+      "other_tonnes": 27800.0
+    },
+    {
+      "year": 2022,
+      "total_tonnes": 209668.0,
+      "jewellery_tonnes": 93965.0,
+      "bars_coins_etf_tonnes": 47554.0,
+      "central_banks_tonnes": 36518.0,
+      "other_tonnes": 31631.0
+    },
+    {
+      "year": 2023,
+      "total_tonnes": 213100.0,
+      "jewellery_tonnes": 95800.0,
+      "bars_coins_etf_tonnes": 49200.0,
+      "central_banks_tonnes": 36900.0,
+      "other_tonnes": 31200.0
+    },
+    {
+      "year": 2024,
+      "total_tonnes": 216642.0,
+      "jewellery_tonnes": 96232.0,
+      "bars_coins_etf_tonnes": 49874.0,
+      "central_banks_tonnes": 38060.0,
+      "other_tonnes": 32476.0
+    },
+    {
+      "year": 2025,
+      "total_tonnes": 219891.0,
+      "jewellery_tonnes": 97645.0,
+      "bars_coins_etf_tonnes": 50978.0,
+      "central_banks_tonnes": 38666.0,
+      "other_tonnes": 32602.0
+    }
+  ]
+}

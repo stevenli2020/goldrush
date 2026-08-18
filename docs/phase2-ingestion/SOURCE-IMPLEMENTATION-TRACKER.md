@@ -13,7 +13,7 @@
 
 | ID | Variable | Owner | Primary source | Fallback source | Collection method | Reuse check | Collector | Status | Review notes | Final decision |
 |---|---|---|---|---|---|---|---|---|---|---|
-| L0-001 | Above-Ground Gold Stock |  |  |  |  |  |  | Not done |  |  |
+| L0-001 | Above-Ground Gold Stock | Chris | WGC GoldHub above-ground stock `.xlsx` | Carry-forward of last WGC observation (`STALE`); no live alternative | Planned shared `collectors/wgc_scraper.py`; annual release trigger plus monthly checksum revision check | Reuse planned WGC shared adapter for L0-002, L0-003, L0-005, L0-006, L5-001, L5-002, L8-001; no existing adapter on disk | `collectors/wgc_scraper.py` (not yet built) | Not done | Grace review 2026-08-18: proposal/data package satisfies documentation, field/unit/timestamp, raw-preservation, fallback, validation, and reuse criteria. Recommend Deferred pending reproducible collector implementation/test, WGC URL/access and ToS validation, methodology archive, and named operator/developer. Reopen when these pre-production blockers are resolved and a live PASS run is evidenced. |  |
 | L0-002 | Central-Bank Gold Holdings |  |  |  |  |  |  | Not done |  |  |
 | L0-003 | Gold ETF Holdings |  |  |  |  |  |  | Not done |  |  |
 | L0-005 | Bar-and-Coin Investment Holdings / Demand |  |  |  |  |  |  | Not done |  |  |
