@@ -1,200 +1,25 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "L0-001-above-ground-stock",
-  "title": "L0-001 Above-Ground Gold Stock — Observation Record",
-  "description": "Single processed observation for L0-001. One record per observation_year per collection event. Revision events produce a new record with is_revised: true.",
   "type": "object",
-  "required": [
-    "variable_id",
-    "observation_year",
-    "above_ground_stock_tonnes",
-    "source_name",
-    "source_endpoint",
-    "underlying_providers",
-    "publication_date",
-    "retrieval_timestamp",
-    "raw_file_path",
-    "is_revised",
-    "validation_status",
-    "availability_status"
-  ],
+  "required": ["observation_year", "observation_date", "jewellery_tonnes", "private_investment_tonnes", "bars_and_coins_tonnes", "etfs_tonnes", "central_banks_tonnes", "other_tonnes", "total_above_ground_tonnes", "source_citation", "workbook_sha256", "ingested_at", "validation_status", "availability_status", "parser_version"],
   "properties": {
-    "variable_id": {
-      "type": "string",
-      "const": "L0-001",
-      "description": "Always L0-001."
-    },
-    "observation_year": {
-      "type": "integer",
-      "minimum": 2010,
-      "maximum": 2100,
-      "description": "Calendar year the stock estimate represents. Coverage starts 2010 per WGC dataset."
-    },
-    "above_ground_stock_tonnes": {
-      "type": "number",
-      "exclusiveMinimum": 0,
-      "description": "Total accumulated above-ground gold stock in metric tonnes."
-    },
-    "jewellery_tonnes": {
-      "type": ["number", "null"],
-      "description": "Sub-component: jewellery stock in metric tonnes. Null if not published."
-    },
-    "bars_coins_etf_tonnes": {
-      "type": ["number", "null"],
-      "description": "Sub-component: bars, coins, and gold-backed ETFs combined as published by WGC. Must not be split. Null if not published."
-    },
-    "central_banks_tonnes": {
-      "type": ["number", "null"],
-      "description": "Sub-component: central bank holdings in metric tonnes. Null if not published."
-    },
-    "other_tonnes": {
-      "type": ["number", "null"],
-      "description": "Sub-component: other uses in metric tonnes. Null if not published."
-    },
-    "source_name": {
-      "type": "string",
-      "const": "WGC_GOLDHUB",
-      "description": "Always WGC_GOLDHUB for primary collection."
-    },
-    "source_endpoint": {
-      "type": "string",
-      "format": "uri",
-      "description": "Exact URL retrieved by the collector."
-    },
-    "underlying_providers": {
-      "type": "string",
-      "description": "Semicolon-separated list of underlying data providers as credited on the WGC page.",
-      "example": "Metals Focus; Refinitiv GFMS; World Gold Council"
-    },
-    "publication_date": {
-      "type": "string",
-      "format": "date",
-      "description": "Date WGC published or last updated this estimate (ISO 8601, YYYY-MM-DD)."
-    },
-    "retrieval_timestamp": {
-      "type": "string",
-      "format": "date-time",
-      "description": "UTC datetime when the collector fetched the file (ISO 8601)."
-    },
-    "raw_file_path": {
-      "type": "string",
-      "description": "Relative path to the archived .xlsx file in data/raw/."
-    },
-    "is_revised": {
-      "type": "boolean",
-      "description": "True only when this record revises a previously stored observation for the same observation_year. A new year is a new record, not a revision."
-    },
-    "prior_publication_date": {
-      "type": ["string", "null"],
-      "format": "date",
-      "description": "Required and non-null when is_revised is true. Date of the superseded observation."
-    },
-    "prior_value_tonnes": {
-      "type": ["number", "null"],
-      "description": "Required and non-null when is_revised is true. Previously stored total for this observation_year."
-    },
-    "revision_reason": {
-      "type": ["string", "null"],
-      "description": "Required and non-null when is_revised is true. e.g. 'WGC methodology update', 'Metals Focus data revision'."
-    },
-    "transformation_notes": {
-      "type": ["string", "null"],
-      "description": "Any unit conversion or transformation applied. Null if raw value used as-is."
-    },
-    "validation_status": {
-      "type": "string",
-      "enum": ["PASS", "FLAG", "FAIL"],
-      "description": "PASS: all checks passed. FLAG: outside expected bounds but potentially valid; operator review required before scoring. FAIL: implausible or incomplete; do not archive to processed store."
-    },
-    "availability_status": {
-      "type": "string",
-      "enum": [
-        "AVAILABLE",
-        "PARTIAL",
-        "STALE",
-        "INCOMPLETE",
-        "BLOCKED",
-        "INSUFFICIENT_EVIDENCE"
-      ],
-      "description": "AVAILABLE on clean retrieval. All other values indicate a degraded or missing-data condition."
-    },
-    "anomaly_notes": {
-      "type": ["string", "null"],
-      "description": "Required when validation_status is FLAG or FAIL. Free text describing the anomaly."
-    }
-  },
-  "allOf": [
-    {
-      "if": {
-        "properties": { "is_revised": { "const": true } }
-      },
-      "then": {
-        "properties": {
-          "prior_publication_date": { "type": "string", "format": "date" },
-          "prior_value_tonnes": { "type": "number" },
-          "revision_reason": { "type": "string", "minLength": 1 }
-        },
-        "required": ["prior_publication_date", "prior_value_tonnes", "revision_reason"]
-      }
-    },
-    {
-      "if": {
-        "properties": { "validation_status": { "enum": ["FLAG", "FAIL"] } }
-      },
-      "then": {
-        "properties": {
-          "anomaly_notes": { "type": "string", "minLength": 1 }
-        },
-        "required": ["anomaly_notes"]
-      }
-    }
-  ],
-  "examples": [
-    {
-      "variable_id": "L0-001",
-      "observation_year": 2024,
-      "above_ground_stock_tonnes": 216642.0,
-      "jewellery_tonnes": 96232.0,
-      "bars_coins_etf_tonnes": 49874.0,
-      "central_banks_tonnes": 38060.0,
-      "other_tonnes": 32476.0,
-      "source_name": "WGC_GOLDHUB",
-      "source_endpoint": "https://www.gold.org/download/file/7588/above-ground-gold-stocks.xlsx",
-      "underlying_providers": "Metals Focus; Refinitiv GFMS; World Gold Council",
-      "publication_date": "2025-02-11",
-      "retrieval_timestamp": "2025-02-14T03:22:10Z",
-      "raw_file_path": "data/raw/2025/raw_wgc_above_ground_stock_20250214.xlsx",
-      "is_revised": false,
-      "prior_publication_date": null,
-      "prior_value_tonnes": null,
-      "revision_reason": null,
-      "transformation_notes": null,
-      "validation_status": "PASS",
-      "availability_status": "AVAILABLE",
-      "anomaly_notes": null
-    },
-    {
-      "variable_id": "L0-001",
-      "observation_year": 2023,
-      "above_ground_stock_tonnes": 213100.0,
-      "jewellery_tonnes": 95800.0,
-      "bars_coins_etf_tonnes": 49200.0,
-      "central_banks_tonnes": 36900.0,
-      "other_tonnes": 31200.0,
-      "source_name": "WGC_GOLDHUB",
-      "source_endpoint": "https://www.gold.org/download/file/7588/above-ground-gold-stocks.xlsx",
-      "underlying_providers": "Metals Focus; Refinitiv GFMS; World Gold Council",
-      "publication_date": "2025-02-11",
-      "retrieval_timestamp": "2025-02-14T03:22:10Z",
-      "raw_file_path": "data/raw/2025/raw_wgc_above_ground_stock_20250214.xlsx",
-      "is_revised": true,
-      "prior_publication_date": "2024-01-31",
-      "prior_value_tonnes": 212582.0,
-      "revision_reason": "Metals Focus data revision applied retrospectively in 2025 Gold Demand Trends report",
-      "transformation_notes": null,
-      "validation_status": "PASS",
-      "availability_status": "AVAILABLE",
-      "anomaly_notes": null
-    }
-  ]
+    "observation_year": {"type": "integer", "minimum": 1900},
+    "observation_date": {"type": "string", "format": "date"},
+    "jewellery_tonnes": {"type": "number", "minimum": 0},
+    "private_investment_tonnes": {"type": "number", "minimum": 0},
+    "bars_and_coins_tonnes": {"type": "number", "minimum": 0},
+    "etfs_tonnes": {"type": "number", "minimum": 0},
+    "central_banks_tonnes": {"type": "number", "minimum": 0},
+    "other_tonnes": {"type": "number", "minimum": 0},
+    "total_above_ground_tonnes": {"type": "number", "minimum": 0},
+    "source_citation": {"type": "string", "minLength": 1},
+    "workbook_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "ingested_at": {"type": "string", "format": "date-time"},
+    "download_date": {"type": ["string", "null"]},
+    "source_publication_date": {"type": ["string", "null"]},
+    "validation_status": {"type": "string", "enum": ["PASS", "FLAG", "FAIL"]},
+    "availability_status": {"type": "string", "enum": ["AVAILABLE", "STALE", "BLOCKED", "INCOMPLETE"]},
+    "parser_version": {"type": "string", "minLength": 1}
+  }
 }
