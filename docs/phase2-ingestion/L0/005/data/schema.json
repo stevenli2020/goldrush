@@ -1,0 +1,255 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "L0-005 Observation Schema",
+  "description": "Data validation schema for L0-005 Bar-and-Coin Investment Holdings / Demand observations. Two record types share this schema: observation_period_type=annual and observation_period_type=quarterly. This implementation produces a demand-flow series only; accumulated holdings are not constructed.",
+  "type": "object",
+  "required": [
+    "variable_id",
+    "observation_period",
+    "observation_period_type",
+    "observation_year",
+    "total_bar_and_coin_tonnes",
+    "unit",
+    "source_name",
+    "source_workbook",
+    "source_publication_date",
+    "download_date",
+    "workbook_sha256",
+    "ingested_at",
+    "parser_version",
+    "underlying_providers",
+    "is_revised",
+    "validation_status",
+    "availability_status"
+  ],
+  "properties": {
+    "variable_id": {
+      "type": "string",
+      "const": "L0-005"
+    },
+    "observation_period": {
+      "type": "string",
+      "description": "Period label exactly as it appears in the workbook header row. Annual: '2025'. Quarterly: \"Q2'26\".",
+      "examples": ["2025", "Q2'26", "Q1'10"]
+    },
+    "observation_period_type": {
+      "type": "string",
+      "enum": ["annual", "quarterly"]
+    },
+    "observation_year": {
+      "type": "integer",
+      "minimum": 2010,
+      "description": "Calendar year. For quarterly records derived from period label (e.g. Q2'26 → 2026)."
+    },
+    "observation_quarter": {
+      "type": ["integer", "null"],
+      "enum": [1, 2, 3, 4, null],
+      "description": "Quarter number 1-4. Null for annual records."
+    },
+    "bar_demand_tonnes": {
+      "type": ["number", "null"],
+      "description": "Gold Balance sheet Row 21: Bars. Metric tonnes. Annual records only; null for all quarterly records (WGC does not publish this sub-component at quarterly frequency)."
+    },
+    "official_coin_demand_tonnes": {
+      "type": ["number", "null"],
+      "description": "Gold Balance sheet Row 22: Official Coins. Metric tonnes. Annual records only; null for all quarterly records."
+    },
+    "medals_imitation_coin_tonnes": {
+      "type": ["number", "null"],
+      "description": "Gold Balance sheet Row 23: Medals / Imitation Coins. Metric tonnes. Annual records only; null for all quarterly records."
+    },
+    "total_bar_and_coin_tonnes": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Gold Balance sheet Row 20: Total Bar and Coin. Reconciled global demand total. Metric tonnes. Available for both annual and quarterly records."
+    },
+    "named_country_total_tonnes": {
+      "type": ["number", "null"],
+      "description": "Bar and Coin sheet Row 44: Total above (sum of named countries). Metric tonnes. May differ from Gold Balance total due to Other & stock change."
+    },
+    "other_and_stock_change_tonnes": {
+      "type": ["number", "null"],
+      "description": "Bar and Coin sheet Row 45: Other & stock change. Metric tonnes. Can be positive or negative."
+    },
+    "world_total_bar_and_coin_sheet_tonnes": {
+      "type": ["number", "null"],
+      "description": "Bar and Coin sheet Row 46: World total. Should reconcile with total_bar_and_coin_tonnes within 1%."
+    },
+    "unit": {
+      "type": "string",
+      "const": "metric_tonnes"
+    },
+    "source_name": {
+      "type": "string",
+      "const": "WGC_GDT"
+    },
+    "source_workbook": {
+      "type": "string",
+      "description": "Filename of the downloaded workbook.",
+      "examples": ["GDT_Tables_Q2'26_EN.xlsx", "GDT_Tables_Q1'26_EN.xlsx"]
+    },
+    "source_publication_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date WGC published this workbook. Recorded manually by operator at download time. ISO 8601 (YYYY-MM-DD)."
+    },
+    "download_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date operator downloaded the workbook. ISO 8601 (YYYY-MM-DD)."
+    },
+    "workbook_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "SHA-256 hex digest of the .xlsx file as downloaded. Used for integrity verification and revision detection. Fixture examples use clearly labelled placeholder strings; live run must populate with actual digest."
+    },
+    "ingested_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "UTC timestamp when parser processed this record. ISO 8601."
+    },
+    "parser_version": {
+      "type": "string",
+      "description": "Version of parse_bar_and_coin.py that produced this record.",
+      "examples": ["1.0.0", "1.1.0"]
+    },
+    "underlying_providers": {
+      "type": "string",
+      "const": "Metals Focus; Refinitiv GFMS; ICE Benchmark Administration; World Gold Council"
+    },
+    "is_revised": {
+      "type": "boolean",
+      "description": "True when this record replaces a previously stored observation for the same observation_period with a changed value. A new period appearing for the first time is not a revision."
+    },
+    "prior_workbook_sha256": {
+      "type": ["string", "null"],
+      "description": "SHA-256 of the prior workbook. Required (non-null) when is_revised=true."
+    },
+    "prior_total_bar_and_coin_tonnes": {
+      "type": ["number", "null"],
+      "description": "Previously stored total_bar_and_coin_tonnes for this observation_period. Required (non-null) when is_revised=true. Must differ from current total_bar_and_coin_tonnes."
+    },
+    "revision_reason": {
+      "type": ["string", "null"],
+      "description": "Explanation of why the value changed. Required (non-null) when is_revised=true."
+    },
+    "validation_status": {
+      "type": "string",
+      "enum": ["PASS", "FLAG", "FAIL"]
+    },
+    "availability_status": {
+      "type": "string",
+      "enum": ["AVAILABLE", "STALE", "INCOMPLETE", "BLOCKED", "INSUFFICIENT_EVIDENCE"]
+    },
+    "anomaly_notes": {
+      "type": ["string", "null"],
+      "description": "Required when validation_status is FLAG or FAIL. Describes the anomaly."
+    }
+  },
+  "if": {
+    "properties": { "is_revised": { "const": true } }
+  },
+  "then": {
+    "required": ["prior_workbook_sha256", "prior_total_bar_and_coin_tonnes", "revision_reason"],
+    "properties": {
+      "prior_workbook_sha256": { "type": "string" },
+      "prior_total_bar_and_coin_tonnes": { "type": "number" },
+      "revision_reason": { "type": "string", "minLength": 1 }
+    }
+  },
+  "examples": [
+    {
+      "_fixture_note": "Static development fixture. workbook_sha256 is a placeholder; not a live-run hash.",
+      "variable_id": "L0-005",
+      "observation_period": "2025",
+      "observation_period_type": "annual",
+      "observation_year": 2025,
+      "observation_quarter": null,
+      "bar_demand_tonnes": 1098.28230698,
+      "official_coin_demand_tonnes": 171.8232527,
+      "medals_imitation_coin_tonnes": 135.83278004,
+      "total_bar_and_coin_tonnes": 1405.93833972,
+      "named_country_total_tonnes": 1384.4613026,
+      "other_and_stock_change_tonnes": 21.47703713,
+      "world_total_bar_and_coin_sheet_tonnes": 1405.93833973,
+      "unit": "metric_tonnes",
+      "source_name": "WGC_GDT",
+      "source_workbook": "GDT_Tables_Q2'26_EN.xlsx",
+      "source_publication_date": "2026-08-07",
+      "download_date": "2026-08-18",
+      "workbook_sha256": "FIXTURE_PLACEHOLDER_NOT_A_LIVE_HASH_replace_before_production_00",
+      "ingested_at": "2026-08-18T10:30:00Z",
+      "parser_version": "1.0.0",
+      "underlying_providers": "Metals Focus; Refinitiv GFMS; ICE Benchmark Administration; World Gold Council",
+      "is_revised": false,
+      "prior_workbook_sha256": null,
+      "prior_total_bar_and_coin_tonnes": null,
+      "revision_reason": null,
+      "validation_status": "PASS",
+      "availability_status": "AVAILABLE",
+      "anomaly_notes": null
+    },
+    {
+      "_fixture_note": "Static development fixture. Q2'26 quarterly record. Sub-components null (annual-only). workbook_sha256 is a placeholder.",
+      "variable_id": "L0-005",
+      "observation_period": "Q2'26",
+      "observation_period_type": "quarterly",
+      "observation_year": 2026,
+      "observation_quarter": 2,
+      "bar_demand_tonnes": null,
+      "official_coin_demand_tonnes": null,
+      "medals_imitation_coin_tonnes": null,
+      "total_bar_and_coin_tonnes": 307.08301057,
+      "named_country_total_tonnes": 300.79380145,
+      "other_and_stock_change_tonnes": 6.28920912,
+      "world_total_bar_and_coin_sheet_tonnes": 307.08301057,
+      "unit": "metric_tonnes",
+      "source_name": "WGC_GDT",
+      "source_workbook": "GDT_Tables_Q2'26_EN.xlsx",
+      "source_publication_date": "2026-08-07",
+      "download_date": "2026-08-18",
+      "workbook_sha256": "FIXTURE_PLACEHOLDER_NOT_A_LIVE_HASH_replace_before_production_00",
+      "ingested_at": "2026-08-18T10:30:00Z",
+      "parser_version": "1.0.0",
+      "underlying_providers": "Metals Focus; Refinitiv GFMS; ICE Benchmark Administration; World Gold Council",
+      "is_revised": false,
+      "prior_workbook_sha256": null,
+      "prior_total_bar_and_coin_tonnes": null,
+      "revision_reason": null,
+      "validation_status": "PASS",
+      "availability_status": "AVAILABLE",
+      "anomaly_notes": null
+    },
+    {
+      "_fixture_note": "Static development fixture. Revision example: Q1'26 total revised downward in Q3'26 workbook. workbook_sha256 values are placeholders.",
+      "variable_id": "L0-005",
+      "observation_period": "Q1'26",
+      "observation_period_type": "quarterly",
+      "observation_year": 2026,
+      "observation_quarter": 1,
+      "bar_demand_tonnes": null,
+      "official_coin_demand_tonnes": null,
+      "medals_imitation_coin_tonnes": null,
+      "total_bar_and_coin_tonnes": 471.23456789,
+      "named_country_total_tonnes": 469.11234567,
+      "other_and_stock_change_tonnes": 2.12222222,
+      "world_total_bar_and_coin_sheet_tonnes": 471.23456789,
+      "unit": "metric_tonnes",
+      "source_name": "WGC_GDT",
+      "source_workbook": "GDT_Tables_Q3'26_EN.xlsx",
+      "source_publication_date": "2026-11-06",
+      "download_date": "2026-11-10",
+      "workbook_sha256": "FIXTURE_PLACEHOLDER_Q3_WORKBOOK_NOT_A_LIVE_HASH_replace_0000000",
+      "ingested_at": "2026-11-10T09:00:00Z",
+      "parser_version": "1.0.0",
+      "underlying_providers": "Metals Focus; Refinitiv GFMS; ICE Benchmark Administration; World Gold Council",
+      "is_revised": true,
+      "prior_workbook_sha256": "FIXTURE_PLACEHOLDER_NOT_A_LIVE_HASH_replace_before_production_00",
+      "prior_total_bar_and_coin_tonnes": 476.77916012,
+      "revision_reason": "WGC Q3'26 workbook revised Q1'26 figure from 476.77916012t to 471.23456789t; underlying Metals Focus dataset updated",
+      "validation_status": "PASS",
+      "availability_status": "AVAILABLE",
+      "anomaly_notes": null
+    }
+  ]
+}

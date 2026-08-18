@@ -1,0 +1,120 @@
+# L0-005 Configuration
+
+# Parser specification
+parser: parse_bar_and_coin.py
+parser_version: "1.0.0"
+fallback: carry_forward_stale
+
+# Source
+source:
+  name: "WGC_GDT"
+  description: "World Gold Council Gold Demand Trends quarterly workbook"
+  access_method: "manual_download"
+  tos_compliance: "Confirmed 2026-08-18. Manual download for internal analytical use is permitted."
+  workbook_dir: "docs/phase2-ingestion/L0/005/data/gold-demand-trends/"
+  workbook_filename_pattern: "GDT_Tables_Q{Q}'{YY}_EN.xlsx"
+  underlying_providers: "Metals Focus; Refinitiv GFMS; ICE Benchmark Administration; World Gold Council"
+
+# Release schedule (approximate; operator confirms each quarter)
+release_schedule:
+  Q1: "~May"
+  Q2: "~August"
+  Q3: "~November"
+  Q4: "~February (following year)"
+  overdue_threshold_days: 120
+
+# Workbook extraction targets
+extraction:
+  gold_balance_sheet:
+    sheet_name: "Gold Balance"
+    header_row: 5
+    targets:
+      total_bar_and_coin:
+        row: 20
+        label: "Total Bar and Coin"
+      bars:
+        row: 21
+        label: "Bars"
+      official_coins:
+        row: 22
+        label: "Official Coins"
+      medals_imitation_coins:
+        row: 23
+        label: "Medals Imitation Coins"
+
+  bar_and_coin_sheet:
+    sheet_name: "Bar and Coin"
+    header_row: 5
+    targets:
+      named_country_total:
+        row: 44
+        label: "Total above"
+      other_and_stock_change:
+        row: 45
+        label: "Other & stock change"
+      world_total:
+        row: 46
+        label: "World total"
+
+# Units
+units:
+  input: "metric_tonnes"
+  output: "metric_tonnes"
+  decimal_places: 5
+
+# Validation rules
+validation:
+  global_total_min: 0
+  annual_plausible_range:
+    min: 600
+    max: 2000
+    unit: "metric_tonnes"
+  quarterly_plausible_range:
+    min: 100
+    max: 700
+    unit: "metric_tonnes"
+  subcomponent_tolerance_pct: 1.0
+  subcomponent_fail_threshold_pct: 5.0
+  sheet_reconciliation_tolerance_pct: 1.0
+  qoq_change_flag_threshold: 200
+  country_negatives_allowed: true
+  global_negative_action: "FAIL"
+
+# Period label formats
+period_labels:
+  annual_pattern: "^[0-9]{4}$"
+  quarterly_pattern: "^Q[1-4]'[0-9]{2}$"
+
+# Output storage
+storage:
+  processed_path: "docs/phase2-ingestion/L0/005/data/processed/L0_005_observations.csv"
+  workbook_archive_path: "docs/phase2-ingestion/L0/005/data/gold-demand-trends/"
+  log_path: "docs/phase2-ingestion/L0/005/data/archive/ingest.log"
+  append_only: true
+
+# Freshness monitoring
+monitoring:
+  stale_threshold_days: 180
+  insufficient_evidence_days: 365
+  alert_on_failure: true
+
+# Shared workbook protocol
+shared_workbook:
+  coordinator: "Grace"
+  note: >
+    The GDT workbook is shared with L0-002, L0-003, L0-006, and L8-001.
+    Grace coordinates one download per quarter. All GDT-dependent parsers run
+    against the same archived file. Do not download the workbook independently
+    for each variable.
+
+# Ownership
+ownership:
+  parser_owner: "Chris"
+  config_owner: "Chris"
+  operational_owner: "Chris"
+  shared_workbook_coordinator: "Grace"
+  tos_confirmed_by: "APROXI"
+  tos_confirmed_date: "2026-08-18"
+  publication_date_method: "Recorded automatically by parser from workbook metadata on first processing"
+  last_reviewed: "2026-08-18"
+  last_updated: "2026-08-18"
