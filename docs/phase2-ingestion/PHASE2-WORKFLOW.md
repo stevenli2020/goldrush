@@ -4,6 +4,8 @@
 
 This workflow is self-contained. It does not require participants to understand the wider project context beyond the variable currently assigned.
 
+**Operational tracker:** Grace must update [SOURCE-IMPLEMENTATION-TRACKER.md](SOURCE-IMPLEMENTATION-TRACKER.md) whenever a variable task closes, recording the final source, fallback, collection method, reuse decision, collector, review outcome, and `Complete` or `Deferred` decision.
+
 ## Roles
 
 - **Implementation owner:** Proposes the source, fallback, collection method, and collector changes.
@@ -26,7 +28,8 @@ Additional Grace members may work in parallel, provided each variable has one ow
 5. The implementation owner reworks the collector and returns it for review.
 6. Grace validates the result and recommends `Complete` or `Deferred`.
 7. The final approver accepts the recommendation.
-8. Grace updates the tracker and the next variable begins.
+8. Grace updates `SOURCE-IMPLEMENTATION-TRACKER.md` with the completed review record and final status.
+9. The next variable begins.
 
 ## Reuse-first rule
 
@@ -94,3 +97,4 @@ Every deferral must state the blocker and the condition required to reopen the t
 - Do not promote deferred variables into production collection.
 - Do not allow parallel work to overwrite another owner’s tracker record.
 - Resolve disagreements through the review loop before final approval.
+- A variable task is not closed until Grace has updated `SOURCE-IMPLEMENTATION-TRACKER.md`.
