@@ -1,0 +1,5 @@
+openbb>=4.0.0
+openbb-imf>=1.0.0
+pandas>=2.0.0
+pytest>=8.0.0
+pyyaml>=6.0

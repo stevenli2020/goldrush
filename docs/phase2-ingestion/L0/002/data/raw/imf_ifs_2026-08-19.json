@@ -1,0 +1,52 @@
+{
+  "retrieved_at": "2026-08-19T03:11:55.239550+00:00",
+  "source": "IMF IFS via OpenBB",
+  "query": "IL::RGV_REVS",
+  "entities": [
+    "USA",
+    "EZB",
+    "CHN",
+    "JPN",
+    "CHE",
+    "IMF"
+  ],
+  "raw_response": {
+    "USA": {
+      "latest_observation_date": "2026-06-30",
+      "raw_value_troy_oz": 261498926.24,
+      "metric_tonnes": 8133.526,
+      "status": "FRESH"
+    },
+    "EZB": {
+      "latest_observation_date": "2026-01-31",
+      "raw_value_troy_oz": 16346000.0,
+      "metric_tonnes": 508.417,
+      "status": "STALE",
+      "age_days": 200
+    },
+    "CHN": {
+      "latest_observation_date": "2026-06-30",
+      "raw_value_troy_oz": 75440000.0,
+      "metric_tonnes": 2346.446,
+      "status": "FRESH"
+    },
+    "JPN": {
+      "latest_observation_date": "2026-06-30",
+      "raw_value_troy_oz": 27198880.83,
+      "metric_tonnes": 845.98,
+      "status": "FRESH"
+    },
+    "CHE": {
+      "latest_observation_date": "2026-06-30",
+      "raw_value_troy_oz": 33435000.0,
+      "metric_tonnes": 1039.945,
+      "status": "FRESH"
+    },
+    "IMF": {
+      "latest_observation_date": "2026-06-30",
+      "raw_value_troy_oz": 90474267.0,
+      "metric_tonnes": 2814.064,
+      "status": "FRESH"
+    }
+  }
+}

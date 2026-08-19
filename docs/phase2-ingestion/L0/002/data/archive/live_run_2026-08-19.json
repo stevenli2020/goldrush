@@ -1,0 +1,12 @@
+{
+  "run_id": "2026-08-19T03:11:55.239550+00:00",
+  "source": "IMF IFS via OpenBB",
+  "query": "IL::RGV_REVS",
+  "collector_version": "1.2.0",
+  "raw_file": "data/raw/imf_ifs_2026-08-19.json",
+  "processed_file": "data/processed/gold_holdings_panel_2026-08-19.csv",
+  "entity_count": 6,
+  "unit": "metric_tonnes",
+  "validation_status": "PASS",
+  "notes": "Live run completed successfully; EA observation is correctly marked STALE under the 150-day freshness threshold"
+}

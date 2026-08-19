@@ -1,0 +1,34 @@
+# L0-002: Central-Bank Gold Holdings Configuration
+
+module:
+  id: "L0-002"
+  name: "Central-Bank Gold Holdings"
+  version: "1.1.0"
+
+source:
+  provider: "imf"
+  database: "International Financial Statistics (IFS)"
+  symbol: "IL::RGV_REVS"
+  description: "Monetary Gold, Total / Gold Reserves (Troy Ounces)"
+  frequency: "monthly"
+
+conversion:
+  target_unit: "metric tonnes"
+  multiplier: 0.0000311034768  # Fine troy ounces to metric tonnes (31.1034768g / 1,000,000g)
+
+panel_entities:
+  US: "USA"
+  EA: "EZB"  # European Central Bank / Euro Area
+  CN: "CHN"
+  JP: "JPN"
+  CH: "CHE"
+  IMF: "IMF"
+
+storage:
+  output_panel_file: "gold_holdings_panel.csv"
+  audit_log_file: "audit_log.csv"
+
+fallback_policy:
+  strategy: "carry_forward_stale"
+  max_stale_periods: 3
+  status_flag_on_delay: "STALE"
