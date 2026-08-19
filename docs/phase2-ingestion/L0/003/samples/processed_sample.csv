@@ -1,0 +1,3 @@
+observation_date,region,holdings_tonnes,unit,validation_status,availability_status,publication_date,download_date
+2026-08-14,GLOBAL,3125.40,metric_tonnes,VALID,CURRENT,2026-08-18,2026-08-19
+2026-08-15,GLOBAL,3125.40,metric_tonnes,FLAGGED_STALE,STALE,2026-08-18,2026-08-19

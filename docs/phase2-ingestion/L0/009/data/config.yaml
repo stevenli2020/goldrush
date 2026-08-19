@@ -1,0 +1,85 @@
+# L0-009 Configuration
+
+# Parser specification
+parser: parse_gilr.py
+parser_version: "1.0.0"
+fallback: carry_forward_stale
+
+# Source — Input 1: SOFR3M
+sofr:
+  series: "SOFR3M"
+  endpoint: "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SOFR3M"
+  source_label: "FRED_SOFR3M"
+  access: "free_public_csv"
+  api_key_required: false
+  api_key_env_var: "FRED_API_KEY"   # Optional; set if rate-limiting becomes an issue
+  format: "csv"
+  frequency: "daily_business_days"
+  publication_lag_days: 1           # T+1; yesterday's rate available today
+
+# Source — Input 2: CME COMEX Gold Futures
+cme:
+  front_series: "CHRIS/CME_GC1"
+  far_series: "CHRIS/CME_GC2"
+  endpoint_pattern: "https://data.nasdaq.com/api/v3/datasets/{series}.csv"
+  source_label_auto: "NASDAQ_CHRIS_CME"
+  source_label_manual: "CME_MANUAL"
+  access: "free_tier_nasdaq"
+  tos_status: "Pending confirmation for production analytical use; manual download acceptable fallback"
+  format: "csv"
+  frequency: "daily_cme_trading_days"
+  settlement_time_et: "14:00"
+
+# Contract selection rules
+contract_selection:
+  front_min_days_to_expiry: 5         # Avoid delivery-period distortion
+  target_span_days: 90                # Target ~90 calendar days between contracts
+  min_span_days: 60                   # Minimum acceptable span
+  max_span_days: 120                  # Maximum acceptable span
+  roll_proximity_flag_days: 10        # FLAG if front expiry within 10 days of observation
+  delivery_months: [2, 4, 6, 8, 10, 12]   # COMEX gold delivery months (Feb, Apr, Jun, Aug, Oct, Dec)
+  # Expiry rule: third-to-last business day of the delivery month
+  # Parser must resolve contract codes to actual expiry dates
+
+# Calculation
+calculation:
+  formula: "GILR_CME = SOFR3M - CME_implied_forward_rate"
+  cme_forward_rate_formula: "((far_settlement / front_settlement) - 1) * (360 / days_between_contracts) * 100"
+  day_count: "actual/360"
+  units: "percent_per_annum"
+  reconciliation_tolerance_pct: 0.0001   # Recomputed GILR must match stored value within this
+
+# Validation rules
+validation:
+  sofr_min_pct_pa: 0.0              # FLAG if below; FAIL if < -1.0
+  sofr_fail_threshold_pct_pa: -1.0
+  settlement_min: 0.0               # FAIL if either settlement <= 0
+  settlement_ratio_min: 0.85        # FLAG if far/front ratio outside [0.85, 1.15]
+  settlement_ratio_max: 1.15
+  gilr_flag_min_pct_pa: -2.0        # FLAG if outside range; never FAIL on range alone
+  gilr_flag_max_pct_pa: 4.0
+  missing_day_flag_threshold: 3     # FLAG if gap > 3 consecutive trading days
+  missing_day_block_threshold: 5    # BLOCKED if gap > 5 consecutive trading days
+
+# Freshness monitoring
+monitoring:
+  stale_threshold_trading_days: 5
+  block_threshold_trading_days: 5
+  alert_on_failure: true
+
+# Storage — paths relative to this script's directory
+storage:
+  raw_dir: "raw"                    # Subdirectory per date: raw/YYYY-MM-DD/
+  processed_path: "processed/L0_009_observations.csv"
+  log_path: "archive/ingest.log"
+  append_only: true
+
+# Ownership
+ownership:
+  parser_owner: "Chris"
+  config_owner: "Chris"
+  operational_owner: "Chris"
+  tos_nasdaq_confirmed: false
+  tos_nasdaq_confirmed_date: null
+  last_reviewed: "2026-08-19"
+  last_updated: "2026-08-19"

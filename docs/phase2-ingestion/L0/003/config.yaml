@@ -1,0 +1,27 @@
+variable_id: "L0-003"
+variable_name: "Gold ETF Holdings"
+source:
+  primary_file: "data/gold_etf_holdings/ETF_Flows_2026-08-04_1202.xlsx"
+  file_format: "xlsx"
+  publication_date: "2026-08-04"
+  download_date: "2026-08-04"
+  publisher: "World Gold Council"
+output:
+  processed_file: "processed/L0_003_observations.csv"
+  log_file: "archive/ingest.log"
+freshness_rules:
+  expected_frequency: "monthly"
+  max_stale_days: 45
+schema:
+  fields:
+    - name: "observation_date"
+      type: "string"
+      format: "YYYY-MM-DD"
+    - name: "region"
+      type: "string"
+    - name: "holdings_tonnes"
+      type: "float"
+      unit: "metric_tonnes"
+    - name: "aum_usd_bn"
+      type: "float"
+      nullable: true
