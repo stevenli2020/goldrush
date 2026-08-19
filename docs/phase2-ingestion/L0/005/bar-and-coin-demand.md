@@ -2,10 +2,10 @@
 
 **Variable ID:** L0-005  
 **Layer:** L0 — Gold's Stock/Flow Monetary Architecture  
-**Status:** ADMIT  
+**Status:** COMPLETE
 **Owner:** Chris  
-**Proposal version:** v1 (draft)  
-**Date:** 2026-08-18
+**Proposal version:** v2 (implemented and approved)
+**Date:** 2026-08-19
 
 ---
 
@@ -242,7 +242,7 @@ The `Bar and Coin` sheet provides country-level breakdown of the combined total.
 4. Build and test `parse_bar_and_coin.py` against current workbook (B1)
 5. Formalise shared workbook download protocol (B6)
 6. Execute live parse; confirm `PASS` (B5)
-7. Report to APROXI → Grace sign-off → status = LOCKED
+7. Report to APROXI → Grace sign-off → status = COMPLETE
 
 ---
 
@@ -250,11 +250,11 @@ The `Bar and Coin` sheet provides country-level breakdown of the combined total.
 
 | Item | Status | Note |
 |---|---|---|
-| Proposal | DRAFT | This document |
+| Proposal | COMPLETE | Implemented and approved 2026-08-19 |
 | Sources | LOCKED | WGC GDT quarterly workbook; no live fallback |
 | Scope | LOCKED | Demand flow; quarterly + annual; bars/coins split from Gold Balance sheet |
-| Fields/schema | DRAFT | See schema.json |
-| Parser | OPEN | `parse_bar_and_coin.py` not yet built |
-| Config | DRAFT | See config.yaml |
-| Operational manual | DRAFT | See data/README.md |
-| Pre-production blockers | 6 OPEN | See Section 8 |
+| Fields/schema | COMPLETE | See schema.json |
+| Parser | COMPLETE | `data/parse_bar_and_coin.py`; live run passed 82/82 records |
+| Config | COMPLETE | See config.yaml |
+| Operational manual | COMPLETE | See data/README.md |
+| Pre-production blockers | CLOSED | Resolved and reviewed 2026-08-19 |

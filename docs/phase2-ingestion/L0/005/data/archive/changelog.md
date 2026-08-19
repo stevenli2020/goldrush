@@ -7,7 +7,7 @@
 
 ### v2 — 2026-08-19 — Blockers resolved; live run completed
 **Author:** Chris  
-**Status:** COMPLETE — pending Grace re-review
+**Status:** COMPLETE — approved and closed
 
 **Resolved since v1:**
 - B1: `parse_bar_and_coin.py` implemented at `docs/phase2-ingestion/L0/005/data/parse_bar_and_coin.py`
@@ -19,6 +19,14 @@
 - B7: 20-test suite written and passing (20/20)
 - B8: Schema Q2'26 example corrected to 307.08301057t
 - B9: Revision example replaced with genuine value-change scenario
+
+### v3 — 2026-08-19 — Grace re-review and final approval
+**Status:** COMPLETE — officially closed
+
+- Grace re-review accepted the proportional, personal-project implementation.
+- Final approver approved L0-005 for closure on 2026-08-19.
+- Tracker status updated to `Complete`.
+- No unresolved implementation blockers remain.
 
 ### v1 — 2026-08-18 — Initial implementation draft
 **Author:** Chris  
