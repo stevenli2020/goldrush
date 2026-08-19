@@ -33,14 +33,14 @@
 | **L5-002** | Gold Share of Official Reserves | In Progress | Y | `openbb`, `imf-data` | Y | N | N |
 | **L5-003** | Reserve Composition Change / USD Share Change | In Progress | Y | `openbb`, `imf-data` | Y | N | N |
 | **L5-006** | Official-Sector Gold Sales / Lending | In Progress | Y | `openbb`, `imf-data` | Y | N | N |
-| **L6-001** | Active Conflict and Escalation Signal | — | Y | `gdelt` / GDELT wrappers | Y | N | N |
-| **L6-002** | Sanctions and Sovereign-Asset Freeze Events | — | N | — | Y (OFAC API) | Y | N |
+| **L6-001** | Active Conflict and Escalation Signal | In Progress | Y | `gdelt` / GDELT wrappers | Y | N | N |
+| **L6-002** | Sanctions and Sovereign-Asset Freeze Events | In Progress | N | — | Y (OFAC API) | Y | N |
 | **L7-001** | Major Central-Bank Balance-Sheet Liquidity | In Progress | Y | `fredapi`, `openbb` | Y | N | N |
 | **L7-003** | Global Private Non-Financial Credit Growth | In Progress | Y | OpenBB / BIS API | Y | N | N |
 | **L7-004** | Credit-Spread Financial Stress | In Progress | Y | `fredapi`, `openbb` | Y | N | N |
 | **L7-005** | Treasury Repo Funding Stress | In Progress | Y | `fredapi` | Y | N | N |
 | **L8-001** | Gold ETF Net Flows | In Progress | Y | `olddatasets/gold-spot-downloader` | Y | Y | N |
-| **L9-001** | Shanghai Gold Exchange Premium/Discount | — | N | — | N | Y | N |
-| **L9-004** | India Physical Gold Imports and Consumer Demand | — | N | — | N | Y | N |
+| **L9-001** | Shanghai Gold Exchange Premium/Discount | In Progress | N | — | N | Y | N |
+| **L9-004** | India Physical Gold Imports and Consumer Demand | In Progress | N | — | N | Y | N |
 | **L10-001** | COMEX Managed-Money Net Positioning | In Progress | Y | `cot_reports`, `cftc-cot` | Y | N | N |
 | **L10-002** | COMEX Gold Futures Open Interest | In Progress | Y | `cot_reports`, `yfinance` | Y | Y | N |
