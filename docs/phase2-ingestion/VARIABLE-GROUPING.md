@@ -1,9 +1,9 @@
 | ID | Variable | Status | Open Source Proj? (Y/N) | Open Source Options | Free API Available? (Y/N) | Can Scrape? (Y/N) | Absolutely No Free Info? (Y/N) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **L0-001** | Above-Ground Gold Stock | — | N | — | N | Y | N |
+| **L0-001** | Above-Ground Gold Stock | Completed | N | — | N | Y | N |
 | **L0-002** | Central-Bank Gold Holdings | — | Y | `openbb`, `imf-data` | Y | N | N |
 | **L0-003** | Gold ETF Holdings | — | Y | `olddatasets/gold-spot-downloader` | Y | N | N |
-| **L0-005** | Bar-and-Coin Investment Holdings / Demand | — | N | — | N | Y | N |
+| **L0-005** | Bar-and-Coin Investment Holdings / Demand | In Progress | N | — | N | Y | N |
 | **L0-006** | Gold Recycling Flow | — | N | — | N | Y | N |
 | **L0-009** | Gold Lease Rates / Forward Rates | — | N | — | N | Y | N |
 | **L1-001** | 10Y TIPS Real Yield | In Progress | Y | `fedfred`, `fredapi`, `openbb` | Y | N | N |
