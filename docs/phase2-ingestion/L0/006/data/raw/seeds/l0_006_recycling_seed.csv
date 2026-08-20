@@ -1,0 +1,13 @@
+# provenance_source: World Gold Council Gold Demand Trends (Q4 2025 Release)
+# coverage_period: 2024-Q1 to 2025-Q4
+# created_at: 2026-05-01
+# fixture_type: Frozen Offline Seed Baseline
+observation_date,value,unit,frequency
+2024-03-31,315.4,tonnes,quarterly
+2024-06-30,332.1,tonnes,quarterly
+2024-09-30,320.8,tonnes,quarterly
+2024-12-31,310.5,tonnes,quarterly
+2025-03-31,328.0,tonnes,quarterly
+2025-06-30,341.2,tonnes,quarterly
+2025-09-30,335.6,tonnes,quarterly
+2025-12-31,322.9,tonnes,quarterly

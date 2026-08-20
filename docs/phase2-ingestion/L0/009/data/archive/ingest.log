@@ -1,12 +1,6 @@
-2026-08-19 08:23:09,156 UTC | INFO | --- L0-009 run: observation_date=2026-08-18 manual=False ---
-2026-08-19 08:23:09,159 UTC | INFO | Fetching SOFR3M from https://fred.stlouisfed.org/graph/fredgraph.csv?id=SOFR3M
-2026-08-19 08:23:21,738 UTC | INFO | --- L0-009 run: observation_date=2026-08-18 manual=True ---
-2026-08-19 08:23:21,743 UTC | INFO | SOFR3M (manual): 4.85% p.a. (vintage 2026-08-18)
-2026-08-19 08:23:21,747 UTC | INFO | CME manual: GCZ26=2547.1, GCG27=2608.3
-2026-08-19 08:23:21,747 UTC | ERROR | Manual contract span 57d outside [60, 120]; aborting
-2026-08-19 08:24:17,220 UTC | INFO | --- L0-009 run: observation_date=2026-08-18 manual=True ---
-2026-08-19 08:24:17,245 UTC | INFO | SOFR3M (manual): 4.85% p.a. (vintage 2026-08-18)
-2026-08-19 08:24:17,249 UTC | INFO | CME manual: GCQ26=2485.3, GCV26=2502.8
-2026-08-19 08:24:17,250 UTC | INFO | SOFR3M=4.85%, CME_fwd=4.088557%, GILR-CME=0.761443% p.a.
-2026-08-19 08:24:17,251 UTC | INFO | Validation: FLAG — Front contract expires in 9 days; near roll date — proxy may show transient basis effects
-2026-08-19 08:24:17,255 UTC | INFO | Appended record for 2026-08-18 to /mnt/d/Projects/GoldRush/docs/phase2-ingestion/L0/009/data/processed/L0_009_observations.csv
+2026-08-20 12:01:45,531 UTC | INFO | --- L0-009 run: observation_date=2026-08-18 manual=True ---
+2026-08-20 12:01:45,542 UTC | INFO | SOFR3M (manual): 4.85% p.a. (vintage 2026-08-18)
+2026-08-20 12:01:45,549 UTC | INFO | CME manual: GCQ26=4489.4, GCV26=4511.3
+2026-08-20 12:01:45,551 UTC | INFO | SOFR3M=4.85%, CME_fwd=2.832479%, GILR-CME=2.017521% p.a.
+2026-08-20 12:01:45,551 UTC | INFO | Validation: FLAG — Front contract expires in 9 days; near roll date — proxy may show transient basis effects
+2026-08-20 12:01:45,559 UTC | INFO | Appended record for 2026-08-18 to /mnt/d/Projects/GoldRush/docs/phase2-ingestion/L0/009/data/processed/L0_009_observations.csv

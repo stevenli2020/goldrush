@@ -1,0 +1,20 @@
+variable_id: "L0-006"
+variable_name: "gold_recycling_flow"
+unit: "tonnes"
+frequency: "quarterly"
+collector: "scripts/parse_gold_recycling.py"
+
+source:
+  target_sheets: ["Gold Balance", "Supply", "Supply_and_Demand"]
+  search_keywords: ["recycled gold", "recycling", "recycled"]
+  header_regex: "^(Q[1-4][\\s'’]?\\d{2,4}|\\d{4}\\s?Q[1-4])$"
+
+paths:
+  shared_raw_workbook: "gold-demand-trends/GDT_Tables_Q2'26_EN.xlsx"
+  seed_csv: "data/raw/seeds/l0_006_recycling_seed.csv"
+  processed_output: "processed/l0_006_gold_recycling_flow.json" 
+
+validation:
+  hard_min_value: 0.0
+  warning_min_value: 150.0
+  warning_max_value: 600.0
