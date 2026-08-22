@@ -1,0 +1,13 @@
+{
+  "target": "etf",
+  "page_url": "https://www.gold.org/goldhub/data/gold-etfs-holdings-and-flows",
+  "download_url": "https://www.gold.org/download/file/21037/ETF_Flows_2026-08-04_1202.xlsx",
+  "filename": "ETF_Flows_2026-08-04_1202.xlsx",
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/raw/etf/ETF_Flows_2026-08-04_1202.xlsx",
+  "size_bytes": 1471791,
+  "sha256": "7d99c380046c6a74ba5f8bfd33def459e4fd697f3ff042fcbd296a6ad7871dae",
+  "downloaded_at": "2026-08-20T22:09:12.738049+00:00",
+  "http_status": 200,
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "changed": true
+}

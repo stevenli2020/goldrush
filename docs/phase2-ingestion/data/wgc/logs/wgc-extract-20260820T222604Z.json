@@ -1,0 +1,30 @@
+{
+  "run_at": "2026-08-20T22:26:04.719313+00:00",
+  "results": [
+    {
+      "target": "above_ground",
+      "status": "UNCHANGED",
+      "sha256": "f843a8e49e37b46512e45704ae74e6e8e92dc9ba15defdfcb098c3ca81b55a09"
+    },
+    {
+      "target": "etf",
+      "status": "SKIPPED",
+      "reason": "no parser mapping configured"
+    },
+    {
+      "target": "gdt",
+      "status": "UNCHANGED",
+      "sha256": "32f3c7c795b3ce83be9e3bbd53b27da97218d446d40d63b4ecdce7d214a1a687"
+    },
+    {
+      "target": "official_changes",
+      "status": "SKIPPED",
+      "reason": "no parser mapping configured"
+    },
+    {
+      "target": "official_holdings",
+      "status": "SKIPPED",
+      "reason": "no parser mapping configured"
+    }
+  ]
+}

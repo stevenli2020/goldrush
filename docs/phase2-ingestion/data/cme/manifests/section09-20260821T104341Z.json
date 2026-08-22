@@ -1,0 +1,12 @@
+{
+  "target": "section09",
+  "source_url": "https://www.cmegroup.com/daily_bulletin/current/Section09_Interest_Rate_Futures.pdf",
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/cme/raw/interest-rates/section09-20260821T104319Z.pdf",
+  "sha256": "1f1a0f77c0e7b6672b9ba7770ae4909d64f499510bc52627b8c367e13a1291b3",
+  "size_bytes": 77991,
+  "retrieved_at": "2026-08-21T10:43:41.929593+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "changed": false,
+  "forced": false
+}

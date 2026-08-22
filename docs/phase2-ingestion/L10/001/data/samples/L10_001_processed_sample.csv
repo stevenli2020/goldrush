@@ -1,0 +1,2 @@
+variable_id,observation_date,report_date,value,managed_money_net_contracts,managed_money_long_contracts,managed_money_short_contracts,managed_money_spreading_contracts,open_interest_contracts,unit,source_series_id,validation_status,availability_status,parser_version
+L10-001,2026-08-18,2026-08-18,141648,141648,154595,12947,15591,406260,contracts,CFTC_088691_FutOnly,PASS,AVAILABLE,0.1.0

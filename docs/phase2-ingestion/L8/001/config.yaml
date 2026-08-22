@@ -1,0 +1,18 @@
+variable_id: L8-001
+variable_name: Gold ETF Net Flows
+frequency: monthly
+source:
+  provider: World Gold Council
+  workbook_sheet: "Fund flows by month"
+  unit: metric_tonnes
+  access_method: shared_wgc_download
+validation:
+  non_numeric_values: skip
+  duplicate_dates: keep_first
+  global_flow_range_review_tonnes: 5000
+storage:
+  output: processed/L8_001_observations.csv
+  sample_dir: samples
+fallback:
+  method: carry_forward_stale
+  scoring_requires_operator_approval: true

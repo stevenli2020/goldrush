@@ -1,0 +1,13 @@
+variable_id: L5-001
+variable_name: Monthly Official-Sector Gold Purchase Volume
+frequency: monthly
+source:
+  provider: World Gold Council
+  workbook_sheet: Monthly
+  unit: metric_tonnes
+validation:
+  negative_values_allowed: true
+  aggregation: sum_country_changes
+fallback:
+  method: carry_forward_stale
+  scoring_requires_operator_approval: true

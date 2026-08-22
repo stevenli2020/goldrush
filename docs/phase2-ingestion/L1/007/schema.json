@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "L1-007 5Y5Y Forward Real Rate Proxy Observation",
+  "type": "object",
+  "required": ["variable_id", "observation_date", "value", "unit", "input_5y_series_id", "input_10y_series_id", "input_5y_raw_sha256", "input_10y_raw_sha256", "input_5y_retrieved_at", "input_10y_retrieved_at", "formula_version", "parser_version", "validation_status", "availability_status"],
+  "properties": {
+    "variable_id": {"const": "L1-007"},
+    "observation_date": {"type": "string", "format": "date"},
+    "value": {"type": "number", "description": "5Y5Y forward real-rate proxy, percent."},
+    "unit": {"const": "percent"},
+    "source_name": {"const": "FRED-derived"},
+    "input_5y_series_id": {"const": "DFII5"},
+    "input_10y_series_id": {"const": "DFII10"},
+    "input_5y_raw_path": {"type": "string"},
+    "input_10y_raw_path": {"type": "string"},
+    "input_5y_raw_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "input_10y_raw_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "input_5y_retrieved_at": {"type": "string", "format": "date-time"},
+    "input_10y_retrieved_at": {"type": "string", "format": "date-time"},
+    "formula_version": {"const": "5y5y-real-forward-compound-v1"},
+    "parser_version": {"type": "string"},
+    "validation_status": {"enum": ["PASS", "FLAG"]},
+    "availability_status": {"enum": ["AVAILABLE", "STALE"]}
+  }
+}

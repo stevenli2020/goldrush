@@ -1,0 +1,18 @@
+collector:
+  name: cme
+  raw_root: ../../data/cme/raw
+  manifest_root: ../../data/cme/manifests
+  log_root: ../../data/cme/logs
+  cookie_jar: ../../data/cme/cookies/cookies.json
+targets:
+  section09: Section09_Interest_Rate_Futures.pdf
+  section10: Section10_Interest_Rate_Futures_Continued.pdf
+  section62: Section62_Metals_Futures_Products.pdf
+  section02b: Section02B_Summary_Volume_And_Open_Interest_Metals_Futures_And_Options.pdf
+extractors:
+  section10: L1-006
+  section62: L0-009
+  section02b: L10-002
+security:
+  never_commit_cookies: true
+  never_commit_credentials: true

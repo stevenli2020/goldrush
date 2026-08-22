@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "L1-002 5Y TIPS Real Yield Observation",
+  "type": "object",
+  "required": ["variable_id", "observation_date", "value", "unit", "source_name", "source_series_id", "raw_file_path", "raw_sha256", "retrieved_at", "validation_status", "availability_status", "parser_version"],
+  "properties": {
+    "variable_id": {"const": "L1-002"},
+    "observation_date": {"type": "string", "format": "date"},
+    "value": {"type": "number", "description": "5-year inflation-indexed Treasury yield, percent."},
+    "unit": {"const": "percent"},
+    "source_name": {"const": "FRED"},
+    "source_series_id": {"const": "DFII5"},
+    "raw_file_path": {"type": "string"},
+    "raw_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "retrieved_at": {"type": "string", "format": "date-time"},
+    "validation_status": {"enum": ["PASS", "FLAG", "FAIL"]},
+    "availability_status": {"enum": ["AVAILABLE", "STALE", "BLOCKED"]},
+    "parser_version": {"type": "string"}
+  }
+}

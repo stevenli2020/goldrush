@@ -1,0 +1,16 @@
+collector:
+  name: fred
+  client_version: "0.1.0"
+  raw_dir: ../../data/macro/raw/fred
+  manifest_dir: ../../data/macro/manifests
+  log_dir: ../../data/macro/logs
+
+security:
+  api_key_environment_variable: FRED_API_KEY
+  api_key_file: ../../data/macro/secrets/fred_api_key
+  key_precedence: environment_over_local_file
+  never_commit_credentials: true
+
+series:
+  L1-001: DFII10
+  L1-002: DFII5

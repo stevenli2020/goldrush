@@ -1,0 +1,12 @@
+variable_id: L0-009
+variable_name: Gold Lease Rates / Forward Rates
+parser: parser.py
+source:
+  cme_file: Section62_Metals_Futures_Products.pdf
+  funding_series: FRED SOFR90DAYAVG (90-day average SOFR; normalized as sofr3m_percent)
+method:
+  formula: "((far_settlement / near_settlement) ** (365 / days) - 1) * 100 - sofr3m_percent"
+  scope: simple_gold_forward_minus_funding_proxy
+collection:
+  fallback: carry_forward_stale
+  stale_after_trading_days: 5

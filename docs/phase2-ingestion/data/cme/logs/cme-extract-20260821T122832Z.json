@@ -1,0 +1,53 @@
+{
+  "run_at": "2026-08-21T12:28:32.054235+00:00",
+  "results": [
+    {
+      "target": "section02b",
+      "status": "INSPECTED_UNUSED",
+      "reason": "required marker not present; raw file retained",
+      "sha256": "fed6ee2c09de5da4c71c1553cc797561e41f953ba41d75f4dd7943f316c5b9ab"
+    },
+    {
+      "target": "section09",
+      "status": "INSPECTED_UNUSED",
+      "reason": "required marker not present; raw file retained",
+      "sha256": "1f1a0f77c0e7b6672b9ba7770ae4909d64f499510bc52627b8c367e13a1291b3"
+    },
+    {
+      "target": "section62",
+      "status": "INSPECTED_UNUSED",
+      "reason": "required marker not present; raw file retained",
+      "sha256": "02ed054c2c9bb6fffca2b5fd4cd28c1cb2097408a588fc24f686f5fe1eebb0ad"
+    },
+    {
+      "target": "section10",
+      "status": "PASS",
+      "stage": "parse",
+      "selected": true,
+      "sha256": "2c76b70858a372f30df1e6a374d4bb372d62475fe7e28841d5a4a3930bc69f88",
+      "stdout": "{\n  \"rows\": 1,\n  \"latest\": {\n    \"variable_id\": \"L1-006\",\n    \"observation_date\": \"2026-08-21\",\n    \"value\": 3.6299999999999955,\n    \"unit\": \"percent_per_annum\",\n    \"source_name\": \"CME 30-Day Fed Funds futures\",\n    \"source_series_id\": \"ZQQ26\",\n    \"settlement_price\": 96.37,\n    \"expiry_date\": \"2026-08-31\",\n    \"source_url\": \"https://www.cmegroup.com/daily_bulletin/current/Section10_Interest_Rate_Futures_Continued.pdf\",\n    \"source_pdf_sha256\": \"2c76b70858a372f30df1e6a374d4bb372d62475fe7e28841d5a4a3930bc69f88\",\n    \"retrieved_at\": \"2026-08-21T12:00:40.838427+00:00\",\n    \"formula_version\": \"1.0.0\",\n    \"parser_version\": \"0.1.0\",\n    \"validation_status\": \"PASS\",\n    \"availability_status\": \"AVAILABLE\"\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "target": "l0_009",
+      "status": "FAIL",
+      "stage": "parse",
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/mnt/d/Projects/GoldRush/docs/phase2-ingestion/L0/009/parser.py\", line 44, in <module>\n    rows = parse(args.cme, args.sofr)\n  File \"/mnt/d/Projects/GoldRush/docs/phase2-ingestion/L0/009/parser.py\", line 34, in parse\n    raise ValueError(\"no overlapping CME/SOFR3M observations\")\nValueError: no overlapping CME/SOFR3M observations\n"
+    },
+    {
+      "target": "l10_002",
+      "status": "PASS",
+      "stage": "parse",
+      "stdout": "Wrote 1 observations to /mnt/d/Projects/GoldRush/docs/phase2-ingestion/L10/002/data/processed/L10_002_observations.csv\n",
+      "stderr": ""
+    },
+    {
+      "target": "l3_001",
+      "status": "PASS",
+      "stage": "parse",
+      "stdout": "Wrote 1 observations to /mnt/d/Projects/GoldRush/docs/phase2-ingestion/L3/001/data/processed/L3_001_observations.csv\n",
+      "stderr": ""
+    }
+  ]
+}

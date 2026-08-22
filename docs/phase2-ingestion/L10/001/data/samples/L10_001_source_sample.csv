@@ -1,0 +1,2 @@
+report_date,market_name,cftc_contract_market_code,open_interest,managed_money_long,managed_money_short,managed_money_spreading,contract_units,fut_only_or_combined,raw_path,raw_sha256,retrieved_at
+2026-08-18,GOLD - COMMODITY EXCHANGE INC.,088691,406260,154595,12947,15591,CONTRACTS OF 100 TROY OUNCES,FutOnly,data/raw/f_disagg_2026-08-18_1ccf845821d6.txt,1ccf845821d6b07af2146d119fb58fb155b247a0378ecdd0cc6939b8e521e70f,2026-08-22T16:02:42.692425+00:00

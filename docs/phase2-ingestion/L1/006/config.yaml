@@ -1,0 +1,23 @@
+variable_id: L1-006
+variable_name: Expected Policy Rate
+parser_version: "0.1.0"
+formula_version: "1.0.0"
+source:
+  name: CME 30-Day Fed Funds futures
+  url: https://www.cmegroup.com/daily_bulletin/current/Section10_Interest_Rate_Futures_Continued.pdf
+  product: "30D FED FD FUT (ZQ)"
+  frequency: daily_cme_trading_days
+  unit: percent_per_annum
+  formula: "100 - settlement_price"
+collection:
+  downloader: download.py
+  parser: parser.py
+  raw_dir: data/raw
+  processed_path: data/processed/L1_006_observations.csv
+  fallback: carry_forward_stale
+  stale_after_calendar_days: 3
+selection:
+  contract: nearest active contract with expiry after observation date
+validation:
+  flag_min_percent: 0.0
+  flag_max_percent: 20.0

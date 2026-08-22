@@ -1,0 +1,31 @@
+{
+  "run_at": "2026-08-21T10:45:51.711179+00:00",
+  "results": [
+    {
+      "target": "section09",
+      "status": "PASS",
+      "source_url": "https://www.cmegroup.com/daily_bulletin/current/Section09_Interest_Rate_Futures.pdf",
+      "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/cme/raw/interest-rates/section09-20260821T104319Z.pdf",
+      "sha256": "1f1a0f77c0e7b6672b9ba7770ae4909d64f499510bc52627b8c367e13a1291b3",
+      "size_bytes": 77991,
+      "retrieved_at": "2026-08-21T10:45:51.642011+00:00",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "changed": false,
+      "forced": false
+    },
+    {
+      "target": "section10",
+      "status": "PASS",
+      "source_url": "https://www.cmegroup.com/daily_bulletin/current/Section10_Interest_Rate_Futures_Continued.pdf",
+      "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/cme/raw/interest-rates/section10-20260821T104319Z.pdf",
+      "sha256": "2c76b70858a372f30df1e6a374d4bb372d62475fe7e28841d5a4a3930bc69f88",
+      "size_bytes": 93769,
+      "retrieved_at": "2026-08-21T10:45:51.677724+00:00",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "changed": false,
+      "forced": false
+    }
+  ]
+}

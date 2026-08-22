@@ -1,0 +1,15 @@
+variable_id: L3-001
+variable_name: Fed Funds Futures Expected Policy Rate
+parser: parser.py
+source:
+  provider: CME Group
+  instrument: 30-Day Fed Funds futures
+  frequency: daily
+method:
+  scope: multi_contract_forward_policy_path
+  horizon_months: 12
+  aggregation: equal_weighted_average_of_eligible_contracts
+  boundary: distinct_from_L1_006_nearest_contract_anchor
+collection:
+  fallback: carry_forward_stale
+  stale_after_trading_days: 3

@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "L5-002 Gold Share of Official Reserves",
+  "type": "object",
+  "required": ["variable_id", "country", "gold_share_of_reserves", "unit", "workbook_sha256", "validation_status", "availability_status"],
+  "properties": {
+    "variable_id": {"const": "L5-002"},
+    "country": {"type": "string"},
+    "gold_share_of_reserves": {"type": "number", "minimum": 0, "maximum": 1},
+    "holdings_tonnes": {"type": ["number", "null"], "minimum": 0},
+    "unit": {"const": "fraction"},
+    "source_file": {"type": "string"},
+    "source_publication_date": {"type": "string", "format": "date"},
+    "download_date": {"type": "string", "format": "date"},
+    "workbook_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "validation_status": {"enum": ["PASS", "FLAG", "FAIL"]},
+    "availability_status": {"enum": ["AVAILABLE", "STALE", "BLOCKED"]}
+  }
+}

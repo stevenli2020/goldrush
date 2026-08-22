@@ -1,0 +1,20 @@
+variable:
+  id: L1-001
+  name: 10Y TIPS Real Yield
+  frequency: daily
+
+source:
+  provider: Federal Reserve Bank of St. Louis
+  client: collectors/macro/fred_client.py
+  series_id: DFII10
+  unit: percent
+
+parser:
+  script: parser.py
+  version: "0.1.0"
+  stale_after_days: 7
+
+fallback:
+  method: carry_forward
+  availability_status: STALE
+  approval_required_for_scoring: true

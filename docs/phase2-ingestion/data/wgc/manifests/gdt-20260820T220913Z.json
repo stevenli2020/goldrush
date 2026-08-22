@@ -1,0 +1,13 @@
+{
+  "target": "gdt",
+  "page_url": "https://www.gold.org/goldhub/data/gold-demand-by-country",
+  "download_url": "https://www.gold.org/download/file/20975/GDT_Tables_Q2&#039;26_EN.xlsx",
+  "filename": "GDT_Tables_Q2'26_EN.xlsx",
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/raw/gdt/GDT_Tables_Q2'26_EN.xlsx",
+  "size_bytes": 258338,
+  "sha256": "32f3c7c795b3ce83be9e3bbd53b27da97218d446d40d63b4ecdce7d214a1a687",
+  "downloaded_at": "2026-08-20T22:09:13.583031+00:00",
+  "http_status": 200,
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "changed": true
+}

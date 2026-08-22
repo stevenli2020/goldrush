@@ -1,0 +1,23 @@
+variable:
+  id: L1-003
+  name: Forward Real Rates
+  frequency: daily_estimate
+  refresh: approximately weekly
+
+source:
+  provider: Federal Reserve Board GS&W staff research product
+  url: https://www.federalreserve.gov/data/yield-curve-tables/feds200805.csv
+  downloader: download.py
+  required_inputs: [TIPSY02, TIPSY03, TIPSY05, TIPSY07, TIPSY10, TIPSY20]
+  compounding: continuously_compounded_percent_per_annum
+
+formula:
+  version: gsw-forward-summary-v1
+  components: [2Y1Y, 3Y2Y, 5Y2Y, 7Y3Y, 10Y10Y]
+  output: equal_weighted_mean
+
+validation:
+  flag_outside_range_percent: [-10, 20]
+  require_complete_case: true
+  interpolate_missing: false
+  stale_after_days: 7

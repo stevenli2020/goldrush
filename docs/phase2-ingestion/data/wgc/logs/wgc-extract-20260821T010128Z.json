@@ -1,0 +1,30 @@
+{
+  "run_at": "2026-08-21T01:01:28.473962+00:00",
+  "results": [
+    {
+      "target": "above_ground",
+      "status": "UNCHANGED",
+      "sha256": "f843a8e49e37b46512e45704ae74e6e8e92dc9ba15defdfcb098c3ca81b55a09"
+    },
+    {
+      "target": "etf",
+      "status": "UNCHANGED",
+      "sha256": "7d99c380046c6a74ba5f8bfd33def459e4fd697f3ff042fcbd296a6ad7871dae"
+    },
+    {
+      "target": "gdt",
+      "status": "UNCHANGED",
+      "sha256": "32f3c7c795b3ce83be9e3bbd53b27da97218d446d40d63b4ecdce7d214a1a687"
+    },
+    {
+      "target": "official_changes",
+      "status": "UNCHANGED",
+      "sha256": "87869faa77c31fc8b10da3c820fed426d0b2bdc7847d348867fbd1328aee9e16"
+    },
+    {
+      "target": "official_holdings",
+      "status": "UNCHANGED",
+      "sha256": "5d33b938e25b0fb3fd3c37462ad120c8db678e90cc27a47fc22dae1bce7b5d82"
+    }
+  ]
+}

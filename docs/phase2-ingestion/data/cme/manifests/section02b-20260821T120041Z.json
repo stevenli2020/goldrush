@@ -1,0 +1,12 @@
+{
+  "target": "section02b",
+  "source_url": "https://www.cmegroup.com/daily_bulletin/current/Section02B_Summary_Volume_And_Open_Interest_Metals_Futures_And_Options.pdf",
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/cme/raw/interest-rates/section02b-20260821T120041Z.pdf",
+  "sha256": "fed6ee2c09de5da4c71c1553cc797561e41f953ba41d75f4dd7943f316c5b9ab",
+  "size_bytes": 90746,
+  "retrieved_at": "2026-08-21T12:00:41.209237+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "changed": true,
+  "forced": false
+}

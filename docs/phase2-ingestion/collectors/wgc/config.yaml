@@ -1,0 +1,65 @@
+# Shared WGC collector configuration for wgc_download.py.
+collector:
+  name: wgc
+  parser_version: "0.1.0"
+  raw_root: ../../data/wgc/raw
+  manifest_root: ../../data/wgc/manifests
+  log_root: ../../data/wgc/logs
+  cookie_jar: ../../data/wgc/cookies/cookies.json
+
+targets:
+  official_changes:
+    directory: central-bank
+    page_url: https://www.gold.org/goldhub/data/gold-reserves-by-country
+    link_pattern: 'href=["''](.*?/download/file/.*?change.*?\.xlsx?)\s*["'']'
+  official_holdings:
+    directory: central-bank
+    page_url: https://www.gold.org/goldhub/data/gold-reserves-by-country
+    link_pattern: 'href=["''](.*?/download/file/.*?world.*?official.*?\.xlsx?)\s*["'']'
+  etf:
+    directory: etf
+    page_url: https://www.gold.org/goldhub/data/gold-etfs-holdings-and-flows
+    link_pattern: 'href=["''](.*?/download/file/.*?(?:etf.*?flow|flow.*?etf).*?\.xlsx?)\s*["'']'
+  gdt:
+    directory: gdt
+    page_url: https://www.gold.org/goldhub/data/gold-demand-by-country
+    link_pattern: 'href=["''](.*?/download/file/.*?gdt.*?\.xlsx?)\s*["'']'
+  above_ground:
+    directory: above-ground
+    page_url: https://www.gold.org/goldhub/data/how-much-gold
+    link_pattern: 'href=["''](.*?/download/file/.*?above-ground-gold.*?\.xlsx?)\s*["'']'
+
+security:
+  never_commit_cookies: true
+  never_commit_credentials: true
+
+# Explicit parser dispatch. Add a target only after its parser CLI is verified.
+extractors:
+  official_changes:
+    script: docs/phase2-ingestion/L5/001/parse_official_purchases.py
+    publication_date: "2026-08-20"
+    args: [--input, "{input}", --output, docs/phase2-ingestion/L5/001/processed/L5_001_observations.csv, --publication-date, "{publication_date}", --download-date, "{download_date}"]
+  official_holdings:
+    - script: docs/phase2-ingestion/L0/002/parse_official_holdings.py
+      publication_date: "2026-08-20"
+      args: [--input, "{input}", --output, docs/phase2-ingestion/L0/002/processed/L0_002_observations.csv, --publication-date, "{publication_date}", --download-date, "{download_date}"]
+    - script: docs/phase2-ingestion/L5/002/parse_gold_reserve_share.py
+      publication_date: "2026-08-20"
+      args: [--input, "{input}", --output, docs/phase2-ingestion/L5/002/processed/L5_002_observations.csv, --publication-date, "{publication_date}", --download-date, "{download_date}"]
+  etf:
+    - script: docs/phase2-ingestion/collectors/wgc/run_etf_holdings.py
+      publication_date: "2026-08-04"
+      args: [--input, "{input}", --output, docs/phase2-ingestion/L0/003/processed/L0_003_observations.csv, --log, docs/phase2-ingestion/L0/003/archive/ingest.log, --publication-date, "{publication_date}", --download-date, "{download_date}"]
+    - script: docs/phase2-ingestion/L8/001/parse_etf_flows.py
+      publication_date: "2026-08-04"
+      args: [--input, "{input}", --output, docs/phase2-ingestion/L8/001/processed/L8_001_observations.csv, --publication-date, "{publication_date}", --download-date, "{download_date}"]
+  above_ground:
+    script: docs/phase2-ingestion/L0/001/scripts/parse_above_ground.py
+    args: [--input, "{input}", --output-dir, docs/phase2-ingestion/L0/001/data/processed]
+  gdt:
+    - script: docs/phase2-ingestion/L0/005/parse_bar_and_coin.py
+      publication_date: "2026-08-07"
+      args: [--workbook, "{input}", --config, config.yaml, --publication-date, "{publication_date}", --download-date, "{download_date}"]
+    - script: docs/phase2-ingestion/collectors/wgc/run_gold_recycling.py
+      publication_date: "2026-08-07"
+      args: [--input, "{input}", --output, docs/phase2-ingestion/L0/006/processed/L0_006_observations.json, --publication-date, "{publication_date}", --download-date, "{download_date}"]

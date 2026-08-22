@@ -1,0 +1,4 @@
+variable: {id: L4-003, name: 5Y Breakeven Inflation, frequency: daily}
+source: {provider: Federal Reserve Bank of St. Louis, client: collectors/macro/fred_client.py, series_id: T5YIE, unit: percent}
+parser: {script: parser.py, version: "0.1.0", stale_after_days: 7}
+fallback: {method: carry_forward, availability_status: STALE, approval_required_for_scoring: true}

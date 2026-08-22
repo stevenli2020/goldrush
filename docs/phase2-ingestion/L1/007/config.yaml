@@ -1,0 +1,26 @@
+variable:
+  id: L1-007
+  name: 5Y5Y Forward Real Rate
+  frequency: daily
+  classification: derived_proxy
+
+source:
+  provider: Federal Reserve Bank of St. Louis
+  client: collectors/macro/fred_client.py
+  input_series: [DFII5, DFII10]
+  unit: percent
+
+formula:
+  version: 5y5y-real-forward-compound-v1
+  expression: "100 * (((1 + DFII10/100)^10 / (1 + DFII5/100)^5)^(1/5) - 1)"
+  limitation: "Approximation from constant-maturity TIPS yields, not a full zero-coupon real-yield curve."
+
+parser:
+  script: parser.py
+  version: "0.1.0"
+  stale_after_days: 7
+
+fallback:
+  method: carry_forward
+  availability_status: STALE
+  approval_required_for_scoring: true

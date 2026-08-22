@@ -1,0 +1,11 @@
+{
+  "source_url": "https://www.cftc.gov/dea/newcot/f_disagg.txt",
+  "retrieved_at": "2026-08-22T16:02:42.692425+00:00",
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/L10/001/data/raw/f_disagg_2026-08-18_1ccf845821d6.txt",
+  "size_bytes": 443622,
+  "sha256": "1ccf845821d6b07af2146d119fb58fb155b247a0378ecdd0cc6939b8e521e70f",
+  "report_date_latest": "2026-08-18",
+  "gold_row_count": 1,
+  "http_status": 200,
+  "client_version": "0.1.0"
+}

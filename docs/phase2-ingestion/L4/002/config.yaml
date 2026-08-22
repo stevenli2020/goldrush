@@ -1,0 +1,4 @@
+variable: {id: L4-002, name: Core PCE Inflation Rate, frequency: monthly}
+source: {provider: Federal Reserve Bank of St. Louis, client: collectors/macro/fred_client.py, series_id: PCEPILFE, unit: index}
+parser: {script: parser.py, version: "0.1.0", stale_after_days: 45}
+fallback: {method: carry_forward, availability_status: STALE, approval_required_for_scoring: true}

@@ -1,0 +1,21 @@
+variable:
+  id: L1-005
+  name: Treasury Term Premium
+  frequency: daily
+
+source:
+  provider: Board of Governors of the Federal Reserve System via FRED
+  client: collectors/macro/fred_client.py
+  series_id: THREEFYTP10
+  unit: percent
+  methodology: Kim-Wright three-factor arbitrage-free term-structure model
+
+parser:
+  script: parser.py
+  version: "0.1.0"
+  stale_after_days: 7
+
+fallback:
+  method: carry_forward
+  availability_status: STALE
+  approval_required_for_scoring: true

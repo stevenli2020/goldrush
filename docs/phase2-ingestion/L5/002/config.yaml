@@ -1,0 +1,12 @@
+variable_id: L5-002
+variable_name: Gold Share of Official Reserves
+frequency: as_published
+source:
+  provider: World Gold Council / IMF IFS
+  workbook_sheet: PDF
+  unit: fraction
+validation:
+  share_range: 0..1
+fallback:
+  method: carry_forward_stale
+  scoring_requires_operator_approval: true

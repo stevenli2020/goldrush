@@ -1,6 +1,0 @@
-2026-08-20 12:01:45,531 UTC | INFO | --- L0-009 run: observation_date=2026-08-18 manual=True ---
-2026-08-20 12:01:45,542 UTC | INFO | SOFR3M (manual): 4.85% p.a. (vintage 2026-08-18)
-2026-08-20 12:01:45,549 UTC | INFO | CME manual: GCQ26=4489.4, GCV26=4511.3
-2026-08-20 12:01:45,551 UTC | INFO | SOFR3M=4.85%, CME_fwd=2.832479%, GILR-CME=2.017521% p.a.
-2026-08-20 12:01:45,551 UTC | INFO | Validation: FLAG — Front contract expires in 9 days; near roll date — proxy may show transient basis effects
-2026-08-20 12:01:45,559 UTC | INFO | Appended record for 2026-08-18 to /mnt/d/Projects/GoldRush/docs/phase2-ingestion/L0/009/data/processed/L0_009_observations.csv

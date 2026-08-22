@@ -1,0 +1,19 @@
+variable_id: L10-001
+variable_name: COMEX Managed-Money Net Positioning
+source:
+  url: https://www.cftc.gov/dea/newcot/f_disagg.txt
+  report: Disaggregated Futures-Only Commitments of Traders
+  contract_market_code: "088691"
+  market_name: GOLD - COMMODITY EXCHANGE INC.
+  report_type: FutOnly
+  layout_fields: 191
+  release_pattern: Tuesday positions generally released Friday
+calculation:
+  value: managed_money_long_contracts - managed_money_short_contracts
+  unit: contracts
+freshness:
+  stale_after_calendar_days: 10
+  carry_forward: latest valid observation only; no synthetic rows
+fallback:
+  source_failure: use last valid observation and calculate freshness from report_date
+  no_prior_observation: BLOCKED
