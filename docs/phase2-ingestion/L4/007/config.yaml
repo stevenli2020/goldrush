@@ -1,0 +1,27 @@
+variable:
+  id: L4-007
+  name: Debt / GDP
+  frequency: quarterly
+
+source:
+  provider: U.S. Office of Management and Budget and Federal Reserve Bank of St. Louis
+  client: docs/phase2-ingestion/collectors/macro/fred_client.py
+  series_id: GFDEGDQ188S
+  release: Debt to Gross Domestic Product Ratios
+  unit: percent_of_gdp
+  seasonal_adjustment: seasonally_adjusted
+
+output:
+  field: federal_debt_pct_gdp
+  definition: U.S. federal total public debt divided by GDP
+
+parser:
+  script: parser.py
+  version: "0.1.0"
+  stale_after_days_from_quarter_end: 190
+  pass_range: [0, 250]
+
+fallback:
+  method: carry_forward_latest_valid
+  availability_status: STALE
+  no_prior_status: BLOCKED

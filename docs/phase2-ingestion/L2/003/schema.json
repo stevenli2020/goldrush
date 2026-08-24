@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "L2-003 USD/CNY Observation",
+  "type": "object",
+  "required": ["variable_id", "observation_date", "usd_cny", "unit", "source_name", "source_series_id", "source_release", "raw_file_path", "manifest_path", "raw_sha256", "retrieved_at", "validation_status", "availability_status", "parser_version"],
+  "properties": {
+    "variable_id": {"const": "L2-003"},
+    "observation_date": {"type": "string", "format": "date"},
+    "usd_cny": {"type": "number", "minimum": 0},
+    "unit": {"const": "cny_per_usd"},
+    "source_name": {"const": "FRED / Federal Reserve Board"},
+    "source_series_id": {"const": "DEXCHUS"},
+    "source_release": {"const": "H.10 Foreign Exchange Rates"},
+    "raw_file_path": {"type": "string"},
+    "manifest_path": {"type": "string"},
+    "raw_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "retrieved_at": {"type": "string", "format": "date-time"},
+    "validation_status": {"enum": ["PASS", "FLAG", "FAIL"]},
+    "availability_status": {"enum": ["AVAILABLE", "STALE", "BLOCKED"]},
+    "parser_version": {"type": "string"}
+  }
+}

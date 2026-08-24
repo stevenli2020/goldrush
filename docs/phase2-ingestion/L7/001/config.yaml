@@ -1,0 +1,27 @@
+variable:
+  id: L7-001
+  name: Major Central-Bank Balance-Sheet Liquidity
+  implementation_scope: Federal Reserve balance-sheet proxy
+  frequency: weekly
+
+source:
+  provider: Federal Reserve Board via FRED
+  client: docs/phase2-ingestion/collectors/macro/fred_client.py
+  series_id: WALCL
+  release: H.4.1 Factors Affecting Reserve Balances
+  unit: millions_usd
+  observation_definition: Federal Reserve total assets, Wednesday level
+  seasonal_adjustment: not_seasonally_adjusted
+  normal_release: Thursday, generally 4:30 p.m. ET
+
+parser:
+  script: parser.py
+  version: "0.1.0"
+  stale_after_days: 10
+  plausibility_min_millions_usd: 100000
+  plausibility_max_millions_usd: 50000000
+
+fallback:
+  method: carry_forward_latest_valid
+  availability_status: STALE
+  no_prior_status: BLOCKED

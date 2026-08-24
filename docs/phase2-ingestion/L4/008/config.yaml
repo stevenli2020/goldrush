@@ -1,0 +1,24 @@
+variable:
+  id: L4-008
+  name: Interest Expense / Government Revenue
+  frequency: annual_fiscal_year
+  unit: percent_of_federal_receipts
+
+source:
+  provider: U.S. Treasury Fiscal Data
+  dataset: Monthly Treasury Statement Table 3
+  endpoint: https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/mts/mts_table_3
+  filter: "line_code_nbr:in:(130,360)"
+  field: current_fytd_rcpt_outly_amt
+  fiscal_year_end_month: 9
+
+parser:
+  script: parser.py
+  version: "0.1.0"
+  stale_after_days: 450
+  pass_range_pct: [0, 50]
+
+fallback:
+  method: carry_forward_latest_valid
+  availability_status: STALE
+  no_prior_status: BLOCKED

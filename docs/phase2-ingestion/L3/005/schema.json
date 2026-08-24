@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "L3-005 FOMC dot distribution record",
+  "type": "object",
+  "required": ["variable_id","sep_release_date","meeting_date","projection_horizon","rate_bin_midpoint","participant_count","median_projected_rate","unit","publication_timestamp","retrieved_at","html_source_url","pdf_source_url","html_raw_path","pdf_raw_path","html_manifest_path","pdf_manifest_path","html_sha256","pdf_sha256","validation_status","availability_status","parser_version"],
+  "properties": {
+    "variable_id": {"const": "L3-005"},
+    "sep_release_date": {"type": "string", "format": "date"},
+    "meeting_date": {"type": "string", "format": "date"},
+    "projection_horizon": {"type": "string"},
+    "rate_bin_midpoint": {"type": "number", "minimum": 0, "maximum": 20},
+    "participant_count": {"type": "integer", "minimum": 0},
+    "median_projected_rate": {"type": "number", "minimum": 0, "maximum": 20},
+    "unit": {"const": "percent"},
+    "publication_timestamp": {"type": "string", "format": "date-time"},
+    "retrieved_at": {"type": "string", "format": "date-time"},
+    "html_source_url": {"type": "string", "pattern": "^https://www\\.federalreserve\\.gov/"},
+    "pdf_source_url": {"type": "string", "pattern": "^https://www\\.federalreserve\\.gov/"},
+    "html_raw_path": {"type": "string"}, "pdf_raw_path": {"type": "string"},
+    "html_manifest_path": {"type": "string"}, "pdf_manifest_path": {"type": "string"},
+    "html_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "pdf_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "validation_status": {"enum": ["PASS","FLAG","FAIL"]},
+    "availability_status": {"enum": ["AVAILABLE","STALE","BLOCKED"]},
+    "parser_version": {"type": "string"}
+  }
+}

@@ -14,3 +14,7 @@ python parse_gold_reserve_share.py \
 The share is stored as a fraction (for example, `0.814219` = 81.4219%).
 Negative or out-of-range shares fail validation. Stale carry-forward requires
 operator approval before scoring.
+
+The workbook contains two side-by-side entity panels. Both panels are extracted
+with a `panel` field, and each row retains its original `holdings_as_of` value.
+The separate aggregate table below the panels is not included.

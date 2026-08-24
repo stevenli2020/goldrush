@@ -177,7 +177,7 @@ Before naming a new collector, check:
 | Federal Reserve H.10 / FRED FX | `collectors/treasury_api_client.py` | L2-002, L2-003 |
 | CFTC COT | (not yet created) | L10-001 |
 | CME Group | (not yet created) | L10-002 |
-| FOMC / Federal Reserve | (not yet created) | L3-005, L3-006 |
+| FOMC / Federal Reserve | `collectors/fomc/fomc_download.py` | L3-005, L3-006 |
 | ACLED / GPR | (not yet created) | L6-001 |
 | SGE | (not yet created) | L9-001 |
 

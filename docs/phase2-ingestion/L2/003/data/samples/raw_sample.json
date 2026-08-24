@@ -1,0 +1,9 @@
+{
+  "series_id": "DEXCHUS",
+  "observations": [
+    {"date": "2026-08-12", "value": "6.7433"},
+    {"date": "2026-08-13", "value": "6.7428"},
+    {"date": "2026-08-14", "value": "6.7412"}
+  ],
+  "_fixture_note": "Static parser fixture; live raw response and manifest are preserved in the shared FRED data location."
+}

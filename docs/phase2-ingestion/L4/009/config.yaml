@@ -1,0 +1,24 @@
+variable:
+  id: L4-009
+  name: Treasury Maturity Structure
+  frequency: monthly
+
+source:
+  provider: U.S. Treasury Fiscal Data
+  dataset: Monthly Statement of the Public Debt Table 3 Marketable Securities
+  endpoint: https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/debt/mspd/mspd_table_3_market
+  client: docs/phase2-ingestion/collectors/treasury/treasury_api_client.py
+  fields: record_date,security_type_desc,security_class1_desc,maturity_date,outstanding_amt,src_line_nbr
+  unit: millions_of_us_dollars
+
+parser:
+  script: parser.py
+  version: "0.1.0"
+  stale_after_days: 62
+  pass_coverage_min_pct: 95
+  pass_ratio_range_pct: [5, 80]
+
+fallback:
+  method: expose_latest_valid_observation
+  availability_status: STALE
+  no_prior_status: BLOCKED

@@ -7,6 +7,8 @@ source:
   unit: fraction
 validation:
   share_range: 0..1
+  panels: left_and_right
+  retain_holdings_as_of: true
 fallback:
   method: carry_forward_stale
   scoring_requires_operator_approval: true

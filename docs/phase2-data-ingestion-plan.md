@@ -54,7 +54,7 @@ The inventory below is the initial Phase 2 source-lock queue. “Source” recor
 | L4-006 | Fiscal Deficit / GDP | Official fiscal statistics. | Monthly / quarterly / annual | Free / public | 1–3 years; 3–10 years — structural |
 | L4-007 | Debt / GDP | Official sovereign fiscal data. | Quarterly / annual | Free / public | 1–3 years; 3–10 years — structural |
 | L4-008 | Interest Expense / Government Revenue | Official government budget/fiscal reports. | Quarterly / annual | Free / public | 1–3 years; 3–10 years — structural |
-| L4-009 | Treasury Maturity Structure | Official Treasury debt-management and issuance data. | Daily / monthly / auction schedule depending on measure | Free / public | 1–3 months; 1–3 years; 3–10 years — structural / cyclical |
+| L4-009 | Treasury Maturity Structure | U.S. Treasury Fiscal Data Monthly Statement of the Public Debt, Table 3 Marketable Securities (`mspd_table_3_market`); completed measure is marketable debt maturing within one calendar year as a percentage of Total Marketable debt. | Monthly | Free / public | 1–3 months; 1–3 years — structural / cyclical |
 | L5-001 | Monthly Official-Sector Gold Purchase Volume | Official central-bank disclosures and established institutional gold-market datasets. | Monthly / quarterly | Generally public / mixed for some institutions | 1–3 months; 1–3 years; 3–10 years — structural / cyclical |
 | L5-002 | Gold Share of Official Reserves | Official reserve data / institutional reserve-composition datasets. | Monthly / quarterly / annual | Mixed / public for many major institutions | 1–3 years; 3–10 years — structural |
 | L5-003 | Reserve Composition Change / USD Share Change | Official reserve-composition statistics and institutional reserve datasets. | Quarterly / annual | Mixed / some restricted components | 1–3 years; 3–10 years — structural |
@@ -95,4 +95,3 @@ The inventory below is the initial Phase 2 source-lock queue. “Source” recor
 ## 5. Phase 1-to-Phase 2 handoff
 
 The Phase 1 variable universe is frozen at 74 records: 44 admitted, 30 conditional, and 0 rejected. Phase 2 may validate and ingest the admitted universe, but it may not add variables, change layer ownership, alter layer weights, or promote conditional variables without the defined review process.
-

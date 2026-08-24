@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "L7-005 Treasury Repo Funding Stress Observation",
+  "type": "object",
+  "required": ["variable_id", "observation_date", "sofr_percent", "effr_percent", "repo_funding_stress_bps", "unit", "observation_definition", "source_name", "source_release", "source_attribution", "sofr_series_id", "effr_series_id", "sofr_raw_file_path", "effr_raw_file_path", "sofr_manifest_file_path", "effr_manifest_file_path", "sofr_raw_sha256", "effr_raw_sha256", "sofr_retrieved_at", "effr_retrieved_at", "validation_status", "availability_status", "parser_version"],
+  "properties": {
+    "variable_id": {"const": "L7-005"},
+    "observation_date": {"type": "string", "format": "date"},
+    "sofr_percent": {"type": "number"}, "effr_percent": {"type": "number"}, "repo_funding_stress_bps": {"type": "number"},
+    "unit": {"const": "basis_points"},
+    "observation_definition": {"const": "SOFR minus EFFR, multiplied by 100; secured Treasury repo funding relative to effective federal funds"},
+    "source_name": {"const": "FRED"}, "source_release": {"const": "Federal Reserve Bank of New York Reference Rates"}, "source_attribution": {"const": "Federal Reserve Bank of New York via FRED"},
+    "sofr_series_id": {"const": "SOFR"}, "effr_series_id": {"const": "EFFR"},
+    "sofr_raw_file_path": {"type": "string", "minLength": 1}, "effr_raw_file_path": {"type": "string", "minLength": 1}, "sofr_manifest_file_path": {"type": "string", "minLength": 1}, "effr_manifest_file_path": {"type": "string", "minLength": 1},
+    "sofr_raw_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "effr_raw_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "sofr_retrieved_at": {"type": "string", "format": "date-time"}, "effr_retrieved_at": {"type": "string", "format": "date-time"},
+    "validation_status": {"enum": ["PASS", "FLAG", "FAIL"]}, "availability_status": {"enum": ["AVAILABLE", "STALE", "BLOCKED"]}, "parser_version": {"type": "string"}
+  }
+}

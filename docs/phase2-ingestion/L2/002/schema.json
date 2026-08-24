@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "L2-002 Broad Trade-Weighted Nominal US Dollar Index Observation",
+  "type": "object",
+  "required": ["variable_id", "observation_date", "index_value", "unit", "index_definition", "source_name", "source_series_id", "source_release", "raw_file_path", "raw_sha256", "retrieved_at", "validation_status", "availability_status", "parser_version"],
+  "properties": {
+    "variable_id": {"const": "L2-002"},
+    "observation_date": {"type": "string", "format": "date"},
+    "index_value": {"type": "number", "minimum": 0},
+    "unit": {"const": "index"},
+    "index_definition": {"const": "Index Jan 2006=100, not seasonally adjusted"},
+    "source_name": {"const": "FRED"},
+    "source_series_id": {"const": "DTWEXBGS"},
+    "source_release": {"const": "H.10 Foreign Exchange Rates"},
+    "raw_file_path": {"type": "string"},
+    "raw_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "retrieved_at": {"type": "string", "format": "date-time"},
+    "validation_status": {"enum": ["PASS", "FLAG", "FAIL"]},
+    "availability_status": {"enum": ["AVAILABLE", "STALE", "BLOCKED"]},
+    "parser_version": {"type": "string"}
+  }
+}

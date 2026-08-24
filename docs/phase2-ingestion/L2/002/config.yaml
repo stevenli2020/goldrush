@@ -1,0 +1,22 @@
+variable:
+  id: L2-002
+  name: Broad Trade-Weighted Nominal US Dollar Index
+  frequency: daily
+
+source:
+  provider: Federal Reserve Board via FRED
+  client: docs/phase2-ingestion/collectors/macro/fred_client.py
+  series_id: DTWEXBGS
+  release: H.10 Foreign Exchange Rates
+  unit: index
+  definition: Index Jan 2006=100, not seasonally adjusted
+
+parser:
+  script: parser.py
+  version: "0.1.0"
+  stale_after_days: 10
+
+fallback:
+  method: carry_forward_latest_valid
+  availability_status: STALE
+  no_prior_status: BLOCKED

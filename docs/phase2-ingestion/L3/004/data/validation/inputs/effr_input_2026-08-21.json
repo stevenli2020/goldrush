@@ -1,0 +1,15 @@
+{
+  "trade_date": "2026-08-21",
+  "effr_pct": 3.63,
+  "effr_observation_date": "2026-08-20",
+  "source_series_id": "EFFR",
+  "source_raw_path": "docs/phase2-ingestion/data/macro/raw/fred/EFFR-20260823T235726Z.json",
+  "source_raw_sha256": "6af5795178c4ff23046afb27953b72b3be13faabfb66c31d0220531c9b119993",
+  "source_manifest_path": "docs/phase2-ingestion/data/macro/manifests/EFFR-20260823T235726Z.json",
+  "source_retrieved_at": "2026-08-23T23:57:26.097172+00:00",
+  "trade_date_query_raw_path": "docs/phase2-ingestion/L3/004/data/validation/inputs/fred/EFFR-20260824T022423Z.json",
+  "trade_date_query_raw_sha256": "067d5d939d8bef79e137e737707c90b27a21d6172c20b46499142d88c709bc81",
+  "trade_date_query_manifest_path": "docs/phase2-ingestion/L3/004/data/validation/inputs/manifests/EFFR-20260824T022423Z.json",
+  "trade_date_query_observation_count": 0,
+  "selection_note": "The preserved FRED query for 2026-08-21 returned no published observation. The explicit 3.63% input is the latest preserved EFFR observation available before the comparison trade date (2026-08-20), preventing substitution of a later rate."
+}

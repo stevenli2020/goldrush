@@ -1,0 +1,23 @@
+variable_id: L3-004
+variable_name: Probability Distribution of Future Policy Outcomes
+status: complete
+source_name: Calculated CME-method policy outcome probability
+calculation_method: cumulative_cme_fedwatch_probability_tree_v1
+package_version: 0.1.3
+production_scope:
+  meetings: next_2
+validation_scope:
+  meetings: next_3
+  observation_dates: [2026-08-19, 2026-08-20, 2026-08-21]
+validation:
+  official_directory: data/validation/official
+  probability_sum_tolerance: 0.001
+  maximum_absolute_bucket_error: 0.10
+  maximum_total_variation_distance: 0.10
+  material_official_probability: 0.001
+  result: passed_all_9_comparisons
+fallback:
+  valid_prior: latest_complete_distribution_as_STALE
+  no_prior: machine_readable_BLOCKED
+freshness_days: 3
+recommendation: approved_complete_2026-08-24

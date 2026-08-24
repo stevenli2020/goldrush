@@ -1,8 +1,0 @@
-{
-  "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SOFR90DAYAVG",
-  "source_series": "SOFR90DAYAVG",
-  "output_path": "/mnt/d/Projects/GoldRush/L0/009/data/raw/sofr3m.csv",
-  "sha256": "7271d659c7fe7684d9d407e79a538b135bb4f4b8054067a6cc27f26248b0edac",
-  "rows": 2125,
-  "retrieved_at": "2026-08-21T12:29:32.775923+00:00"
-}

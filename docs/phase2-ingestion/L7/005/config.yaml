@@ -1,0 +1,29 @@
+variable:
+  id: L7-005
+  name: Treasury Repo Funding Stress
+  frequency: daily_business_day
+
+source:
+  provider: Federal Reserve Bank of New York via FRED
+  client: docs/phase2-ingestion/collectors/macro/fred_client.py
+  series_ids: [SOFR, EFFR]
+  units: percent
+  seasonal_adjustment: not_seasonally_adjusted
+  observation_timing: underlying overnight business-day reference rate
+
+transformation:
+  formula: (SOFR - EFFR) * 100
+  output_unit: basis_points
+  interpretation: positive values indicate SOFR above EFFR; negative values are valid
+
+parser:
+  script: parser.py
+  version: "0.1.0"
+  stale_after_days: 5
+  plausible_rate_range_percent: [-10, 50]
+  plausible_spread_range_bps: [-500, 2000]
+
+fallback:
+  method: carry_forward_latest_valid_overlap
+  availability_status: STALE
+  no_prior_status: BLOCKED

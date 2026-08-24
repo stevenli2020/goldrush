@@ -1,0 +1,26 @@
+variable:
+  id: L7-004
+  name: Credit-Spread Financial Stress
+  frequency: daily_close
+
+source:
+  provider: ICE Data Indices, LLC via FRED
+  client: docs/phase2-ingestion/collectors/macro/fred_client.py
+  series_id: BAMLH0A0HYM2
+  title: ICE BofA US High Yield Index Option-Adjusted Spread
+  release: ICE BofA Indices
+  unit: percentage_points
+  seasonal_adjustment: not_seasonally_adjusted
+  observation_timing: daily_close
+  update_timing: after_vendor_availability_no_fixed_time
+
+parser:
+  script: parser.py
+  version: "0.1.0"
+  stale_after_days: 7
+  plausible_range_pct: [0.5, 30]
+
+fallback:
+  method: carry_forward_latest_valid
+  availability_status: STALE
+  no_prior_status: BLOCKED

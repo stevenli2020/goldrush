@@ -1,0 +1,17 @@
+{
+  "$schema":"http://json-schema.org/draft-07/schema#","title":"L3-002 Forward Policy Rate Curve","type":"object",
+  "required":["variable_id","observation_date","contract","settlement_price","implied_policy_rate_pct","expiry_date","months_ahead","curve_position","unit","source_name","source_url","source_pdf_path","source_manifest_path","source_pdf_sha256","retrieved_at","formula_version","parser_version","is_revised","validation_status","availability_status"],
+  "properties":{
+    "variable_id":{"const":"L3-002"},"observation_date":{"type":"string","format":"date"},
+    "contract":{"type":"string","pattern":"^ZQ[FGHJKMNQUVXZ][0-9]{2}$"},
+    "settlement_price":{"type":"number"},"implied_policy_rate_pct":{"type":"number"},
+    "expiry_date":{"type":"string","format":"date"},"months_ahead":{"type":"integer","minimum":1},
+    "curve_position":{"type":"integer","minimum":1},"unit":{"const":"percent_per_annum"},
+    "source_name":{"const":"CME 30-Day Fed Funds futures"},"source_url":{"type":"string","minLength":1},
+    "source_pdf_path":{"type":"string","minLength":1},"source_manifest_path":{"type":"string","minLength":1},
+    "source_pdf_sha256":{"type":"string","pattern":"^[a-f0-9]{64}$"},"retrieved_at":{"type":"string","format":"date-time"},
+    "formula_version":{"const":"1.0.0"},"parser_version":{"type":"string"},"is_revised":{"type":"boolean"},
+    "prior_settlement_price":{"type":["number","null"]},"validation_status":{"enum":["PASS","FLAG"]},
+    "availability_status":{"enum":["AVAILABLE","STALE"]}
+  }
+}

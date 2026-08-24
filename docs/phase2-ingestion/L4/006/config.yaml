@@ -1,0 +1,26 @@
+variable:
+  id: L4-006
+  name: Fiscal Deficit / GDP
+  frequency: annual
+
+source:
+  provider: U.S. Office of Management and Budget and Federal Reserve Bank of St. Louis
+  client: docs/phase2-ingestion/collectors/macro/fred_client.py
+  series_id: FYFSGDA188S
+  release: Debt to Gross Domestic Product Ratios
+  unit: percent_of_gdp
+
+output:
+  field: fiscal_balance_pct_gdp
+  sign_convention: negative=deficit; positive=surplus
+
+parser:
+  script: parser.py
+  version: "0.1.0"
+  stale_after_days_from_fiscal_year_end: 550
+  pass_range: [-30, 10]
+
+fallback:
+  method: carry_forward_latest_valid
+  availability_status: STALE
+  no_prior_status: BLOCKED

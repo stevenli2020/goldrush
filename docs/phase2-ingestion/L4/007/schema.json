@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "L4-007 Federal Debt as Percent of GDP Observation",
+  "type": "object",
+  "required": ["variable_id", "observation_date", "observation_year", "observation_quarter", "federal_debt_pct_gdp", "unit", "series_definition", "period_definition", "seasonal_adjustment", "source_name", "source_series_id", "source_release", "raw_file_path", "manifest_path", "raw_sha256", "retrieved_at", "validation_status", "availability_status", "parser_version"],
+  "properties": {
+    "variable_id": {"const": "L4-007"},
+    "observation_date": {"type": "string", "format": "date"},
+    "observation_year": {"type": "integer", "minimum": 1900},
+    "observation_quarter": {"type": "integer", "minimum": 1, "maximum": 4},
+    "federal_debt_pct_gdp": {"type": "number"},
+    "unit": {"const": "percent_of_gdp"},
+    "series_definition": {"const": "U.S. federal total public debt divided by GDP"},
+    "period_definition": {"const": "FRED quarterly observation date is the first day of the quarter"},
+    "seasonal_adjustment": {"const": "seasonally_adjusted"},
+    "source_name": {"const": "FRED"},
+    "source_series_id": {"const": "GFDEGDQ188S"},
+    "source_release": {"const": "Debt to Gross Domestic Product Ratios"},
+    "raw_file_path": {"type": "string", "minLength": 1},
+    "manifest_path": {"type": "string", "minLength": 1},
+    "raw_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "retrieved_at": {"type": "string", "format": "date-time"},
+    "validation_status": {"enum": ["PASS", "FLAG", "FAIL"]},
+    "availability_status": {"enum": ["AVAILABLE", "STALE", "BLOCKED"]},
+    "parser_version": {"const": "0.1.0"}
+  }
+}

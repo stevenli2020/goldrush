@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "L4-006 Fiscal Balance as Percent of GDP Observation",
+  "type": "object",
+  "required": ["variable_id", "observation_date", "observation_year", "fiscal_balance_pct_gdp", "unit", "sign_convention", "period_definition", "source_name", "source_series_id", "source_release", "raw_file_path", "manifest_path", "raw_sha256", "retrieved_at", "validation_status", "availability_status", "parser_version"],
+  "properties": {
+    "variable_id": {"const": "L4-006"},
+    "observation_date": {"type": "string", "format": "date"},
+    "observation_year": {"type": "integer", "minimum": 1900},
+    "fiscal_balance_pct_gdp": {"type": "number"},
+    "unit": {"const": "percent_of_gdp"},
+    "sign_convention": {"const": "negative=deficit; positive=surplus"},
+    "period_definition": {"const": "federal fiscal-year balance divided by annual calendar-year GDP, using FRED's published year label"},
+    "source_name": {"const": "FRED"},
+    "source_series_id": {"const": "FYFSGDA188S"},
+    "source_release": {"const": "Debt to Gross Domestic Product Ratios"},
+    "raw_file_path": {"type": "string", "minLength": 1},
+    "manifest_path": {"type": "string", "minLength": 1},
+    "raw_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "retrieved_at": {"type": "string", "format": "date-time"},
+    "validation_status": {"enum": ["PASS", "FLAG", "FAIL"]},
+    "availability_status": {"enum": ["AVAILABLE", "STALE", "BLOCKED"]},
+    "parser_version": {"const": "0.1.0"}
+  }
+}

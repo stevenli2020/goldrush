@@ -4,6 +4,10 @@ This collector aggregates country-level monthly changes from the WGC official
 reserves workbook into a global tonnes series. Positive values represent net
 purchases; negative values represent net sales or reductions.
 
+Aggregation uses one canonical displayed country series per entity. Rows marked
+with `*` are excluded to avoid double-counting alternative/gross series (for
+example `Turkey*`); the adjusted `Turkey` series is retained.
+
 Run it with:
 
 ```bash

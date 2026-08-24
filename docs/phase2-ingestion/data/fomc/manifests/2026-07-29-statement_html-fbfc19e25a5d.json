@@ -1,0 +1,13 @@
+{
+  "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+  "document_type": "statement_html",
+  "release_date": "2026-07-29",
+  "meeting_date": "2026-07-29",
+  "retrieved_at": "2026-08-24T04:17:47.342902+00:00",
+  "size_bytes": 81213,
+  "content_type": "text/html",
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/fomc/raw/2026-07-29-statement_html-fbfc19e25a5d.html",
+  "sha256": "fbfc19e25a5d4693dd6edf6da510413aa63bbe8b15460a5e1afa04080924f1a7",
+  "changed": true,
+  "collector_version": "0.1.0"
+}

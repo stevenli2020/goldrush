@@ -1,0 +1,15 @@
+{
+  "endpoint": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/debt/mspd/mspd_table_3_market",
+  "query": {
+    "fields": "record_date,security_type_desc,security_class1_desc,maturity_date,outstanding_amt,src_line_nbr",
+    "filter": "record_date:gte:1900-01-01",
+    "sort": "record_date,src_line_nbr",
+    "page[size]": 10000
+  },
+  "retrieved_at": "2026-08-24T03:49:35.808873+00:00",
+  "raw_paths": ["raw_sample.json"],
+  "page_sha256": ["16a71240e18b990b54f162faf3a4bcfebf047bbbfc8223d5c566949349d3e60d"],
+  "source_sha256": "16a71240e18b990b54f162faf3a4bcfebf047bbbfc8223d5c566949349d3e60d",
+  "page_count": 1,
+  "record_count": 5
+}

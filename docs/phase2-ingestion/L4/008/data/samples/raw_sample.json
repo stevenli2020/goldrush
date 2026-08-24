@@ -1,0 +1,9 @@
+{
+  "data": [
+    {"record_date": "2024-09-30", "record_fiscal_year": "2024", "line_code_nbr": "130", "classification_desc": "Total Receipts", "current_fytd_rcpt_outly_amt": "4918735644738.25"},
+    {"record_date": "2024-09-30", "record_fiscal_year": "2024", "line_code_nbr": "360", "classification_desc": "Interest on Treasury Debt Securities (Gross)", "current_fytd_rcpt_outly_amt": "1133036890149.16"},
+    {"record_date": "2025-09-30", "record_fiscal_year": "2025", "line_code_nbr": "130", "classification_desc": "Total Receipts", "current_fytd_rcpt_outly_amt": "5234616386315.43"},
+    {"record_date": "2025-09-30", "record_fiscal_year": "2025", "line_code_nbr": "360", "classification_desc": "Interest on Treasury Debt Securities (Gross)", "current_fytd_rcpt_outly_amt": "1215613829754.39"}
+  ],
+  "meta": {"total-pages": 1}
+}

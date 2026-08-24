@@ -1,0 +1,20 @@
+{
+  "endpoint": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/mts/mts_table_3",
+  "query": {
+    "filter": "line_code_nbr:in:(130,360)",
+    "sort": "record_date",
+    "page[size]": 1000
+  },
+  "retrieved_at": "2026-08-24T03:24:34.614142+00:00",
+  "raw_paths": [
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260824T032434Z-page001.json"
+  ],
+  "page_sha256": [
+    "f417b18fa39b66fe96ef2a9436a233598d9139df6ce4b3c612d20a8849106f10"
+  ],
+  "source_sha256": "f417b18fa39b66fe96ef2a9436a233598d9139df6ce4b3c612d20a8849106f10",
+  "page_count": 1,
+  "record_count": 274,
+  "byte_size": 186201,
+  "client_version": "0.1.0"
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "L3-006 reviewed FOMC statement record",
+  "type": "object",
+  "required": ["variable_id","meeting_date","statement_release_date","publication_timestamp","retrieval_timestamp","target_range_lower_percent","target_range_upper_percent","guidance_signal","rationale","supporting_evidence","counter_evidence","reviewer","review_timestamp","statement_text","statement_text_sha256","source_url","html_raw_path","pdf_raw_path","html_manifest_path","pdf_manifest_path","html_sha256","pdf_sha256","validation_status","availability_status","parser_version"],
+  "properties": {
+    "variable_id": {"const": "L3-006"},
+    "meeting_date": {"type": "string", "format": "date"},
+    "statement_release_date": {"type": "string", "format": "date"},
+    "publication_timestamp": {"type": "string", "format": "date-time"},
+    "retrieval_timestamp": {"type": "string", "format": "date-time"},
+    "target_range_lower_percent": {"type": ["number","null"], "minimum": 0, "maximum": 20},
+    "target_range_upper_percent": {"type": ["number","null"], "minimum": 0, "maximum": 20},
+    "guidance_signal": {"enum": ["DOVISH","NEUTRAL","HAWKISH","MIXED","UNCLASSIFIED"]},
+    "rationale": {"type": "string"}, "supporting_evidence": {"type": "string"},
+    "counter_evidence": {"type": "string"}, "reviewer": {"type": "string"},
+    "review_timestamp": {"type": "string"}, "statement_text": {"type": "string", "minLength": 40},
+    "statement_text_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "source_url": {"type": "string", "pattern": "^https://www\\.federalreserve\\.gov/"},
+    "html_raw_path": {"type": "string"}, "pdf_raw_path": {"type": "string"},
+    "html_manifest_path": {"type": "string"}, "pdf_manifest_path": {"type": "string"},
+    "html_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "pdf_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "validation_status": {"enum": ["PASS","FLAG","FAIL"]},
+    "availability_status": {"enum": ["AVAILABLE","STALE","BLOCKED"]},
+    "parser_version": {"type": "string"}
+  }
+}

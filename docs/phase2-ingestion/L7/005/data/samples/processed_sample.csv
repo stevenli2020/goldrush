@@ -1,0 +1,4 @@
+variable_id,observation_date,sofr_percent,effr_percent,repo_funding_stress_bps,unit
+L7-005,2026-08-21,5.25,5.00,25.0,basis_points
+L7-005,2020-03-17,0.26,0.08,18.0,basis_points
+L7-005,2020-03-18,0.15,0.16,-1.0,basis_points

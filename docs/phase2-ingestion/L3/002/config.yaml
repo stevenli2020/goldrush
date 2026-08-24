@@ -1,0 +1,14 @@
+variable_id: L3-002
+variable_name: Forward Policy Rate Curve
+parser_version: "0.1.1"
+formula: "implied_policy_rate_pct = 100 - settlement_price"
+source:
+  provider: CME Group
+  instrument: 30-Day Fed Funds futures
+  accepted_manifest_targets: [section09, section10]
+  normalized_input: docs/phase2-ingestion/data/cme/processed/section10_normalized.csv
+  frequency: daily_cme_trading_days
+fallback:
+  method: carry_forward_latest_valid_curve
+  stale_after_days: 3
+  no_prior_status: BLOCKED

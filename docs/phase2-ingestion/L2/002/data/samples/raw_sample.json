@@ -1,0 +1,9 @@
+{
+  "series_id": "DTWEXBGS",
+  "observations": [
+    {"date": "2026-08-12", "value": "119.2260"},
+    {"date": "2026-08-13", "value": "119.1054"},
+    {"date": "2026-08-14", "value": "118.9028"}
+  ],
+  "_fixture_note": "Static parser fixture; live raw response and manifest are preserved in the shared FRED data location."
+}

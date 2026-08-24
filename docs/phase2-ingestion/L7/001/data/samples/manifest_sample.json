@@ -1,0 +1,6 @@
+{
+  "series_id": "WALCL",
+  "sha256": "011661c2630a0dd175f3f5f44bab672647084fb30c2d143bca9aa318d774fb32",
+  "retrieved_at": "2026-08-23T23:07:11.360067+00:00",
+  "_fixture_note": "Static manifest for raw_sample.json; not the full live-run manifest."
+}

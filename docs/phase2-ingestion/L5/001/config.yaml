@@ -7,7 +7,9 @@ source:
   unit: metric_tonnes
 validation:
   negative_values_allowed: true
-  aggregation: sum_country_changes
+  aggregation: sum_canonical_country_series
+  excluded_rows: labels ending with '*', including gross Turkey*
+  included_adjusted_series: Turkey
 fallback:
   method: carry_forward_stale
   scoring_requires_operator_approval: true

@@ -1,0 +1,13 @@
+{
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm",
+  "document_type": "sep_html",
+  "release_date": "2026-06-17",
+  "meeting_date": "2026-06-17",
+  "retrieved_at": "2026-08-24T04:17:45.846431+00:00",
+  "size_bytes": 232840,
+  "content_type": "text/html",
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/fomc/raw/2026-06-17-sep_html-cb17f0cd73a3.html",
+  "sha256": "cb17f0cd73a3471240a567a82d439a5f585f7515831e0bce55f9cd18f33aee1e",
+  "changed": true,
+  "collector_version": "0.1.0"
+}

@@ -1,0 +1,24 @@
+variable:
+  id: L2-003
+  name: USD/CNY
+  frequency: daily
+
+source:
+  provider: Federal Reserve Board via FRED
+  client: docs/phase2-ingestion/collectors/macro/fred_client.py
+  series_id: DEXCHUS
+  release: H.10 Foreign Exchange Rates
+  unit: cny_per_usd
+  definition: Chinese Yuan Renminbi to One U.S. Dollar, not seasonally adjusted
+  market: H.10 New York noon buying rate for cable transfers; distinct from offshore CNH and PBoC central parity
+
+parser:
+  script: parser.py
+  version: "0.1.0"
+  stale_after_days: 10
+  plausible_range: [4.0, 9.0]
+
+fallback:
+  method: carry_forward_latest_valid
+  availability_status: STALE
+  no_prior_status: BLOCKED

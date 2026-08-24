@@ -1,0 +1,23 @@
+variable_id: L7-003
+source:
+  name: BIS Credit to the non-financial sector
+  dataset_id: "BIS:WS_TC(2.0)"
+  series_key: Q.5A.P.A.M.USD.A
+  url: https://stats.bis.org/api/v1/data/WS_TC/Q.5A.P.A.M.USD.A?startPeriod=1970-Q1
+  frequency: quarterly
+selection:
+  borrower_country: 5A
+  borrower_sector: P
+  lender_sector: A
+  valuation: M
+  unit: USD
+  unit_multiplier: 9
+  adjustment: A
+validation:
+  minimum_level_exclusive: 0
+  unusual_yoy_growth_pct: 30
+  stale_after_days: 270
+fallback:
+  method: carry_forward_latest_valid
+  manual_raw_placement: data/raw/
+  no_prior_status: BLOCKED

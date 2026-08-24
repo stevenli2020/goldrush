@@ -1,0 +1,23 @@
+variable_id: L5-003
+source:
+  name: IMF Currency Composition of Official Foreign Exchange Reserves (COFER)
+  dataset_id: "IMF.STA:COFER"
+  series_id: G001.AFXRA.CI_USD.SHRO_PT.Q
+  url: https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.STA/COFER/+/*?startPeriod=2000-Q1
+  frequency: quarterly
+selection:
+  country: G001
+  indicator: AFXRA
+  currency: CI_USD
+  transformation: SHRO_PT
+  frequency: Q
+validation:
+  share_min_pct: 0
+  share_max_pct: 100
+  unusual_qoq_change_pp: 5
+  stale_after_days: 200
+fallback:
+  method: carry_forward_latest_valid
+  manual_raw_placement: data/raw/
+  no_prior_status: BLOCKED
+

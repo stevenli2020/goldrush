@@ -1,0 +1,4 @@
+variable_id,observation_date,index_value,unit,index_definition,source_name,source_series_id,source_release,raw_file_path,raw_sha256,retrieved_at,validation_status,availability_status,parser_version
+L2-002,2026-08-12,119.226,index,"Index Jan 2006=100, not seasonally adjusted",FRED,DTWEXBGS,H.10 Foreign Exchange Rates,raw_sample.json,e186379db69ab219a3e12b5d4770743c37524771c764878a236a118c9b3dfc7c,2026-08-23T00:00:00+00:00,PASS,AVAILABLE,0.1.0
+L2-002,2026-08-13,119.1054,index,"Index Jan 2006=100, not seasonally adjusted",FRED,DTWEXBGS,H.10 Foreign Exchange Rates,raw_sample.json,e186379db69ab219a3e12b5d4770743c37524771c764878a236a118c9b3dfc7c,2026-08-23T00:00:00+00:00,PASS,AVAILABLE,0.1.0
+L2-002,2026-08-14,118.9028,index,"Index Jan 2006=100, not seasonally adjusted",FRED,DTWEXBGS,H.10 Foreign Exchange Rates,raw_sample.json,e186379db69ab219a3e12b5d4770743c37524771c764878a236a118c9b3dfc7c,2026-08-23T00:00:00+00:00,PASS,AVAILABLE,0.1.0

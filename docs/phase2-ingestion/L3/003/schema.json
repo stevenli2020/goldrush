@@ -1,0 +1,16 @@
+{
+  "$schema":"http://json-schema.org/draft-07/schema#","title":"L3-003 Expected Terminal Policy Rate","type":"object",
+  "required":["variable_id","observation_date","expected_terminal_policy_rate_pct","selected_contract","selected_expiry_date","curve_direction","nearest_rate_pct","farthest_rate_pct","contracts_examined","selection_method_version","unit","source_curve","source_url","source_pdf_path","source_manifest_path","source_pdf_sha256","retrieved_at","parser_version","is_revised","validation_status","availability_status"],
+  "properties":{
+    "variable_id":{"const":"L3-003"},"observation_date":{"type":"string","format":"date"},
+    "expected_terminal_policy_rate_pct":{"type":"number"},"selected_contract":{"type":"string","pattern":"^ZQ"},
+    "selected_expiry_date":{"type":"string","format":"date"},"curve_direction":{"enum":["downward","upward","flat"]},
+    "nearest_rate_pct":{"type":"number"},"farthest_rate_pct":{"type":"number"},
+    "contracts_examined":{"type":"integer","minimum":2,"maximum":12},"selection_method_version":{"const":"1.0.0"},
+    "unit":{"const":"percent_per_annum"},"source_curve":{"const":"L3-002"},"source_url":{"type":"string","minLength":1},
+    "source_pdf_path":{"type":"string","minLength":1},"source_manifest_path":{"type":"string","minLength":1},
+    "source_pdf_sha256":{"type":"string","pattern":"^[a-f0-9]{64}$"},"retrieved_at":{"type":"string","format":"date-time"},
+    "parser_version":{"type":"string"},"is_revised":{"type":"boolean"},"prior_terminal_rate_pct":{"type":["number","null"]},
+    "validation_status":{"const":"PASS"},"availability_status":{"enum":["AVAILABLE","STALE"]}
+  }
+}

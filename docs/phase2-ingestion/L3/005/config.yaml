@@ -1,0 +1,17 @@
+variable:
+  id: L3-005
+  name: FOMC Dot Plot Path
+  frequency: quarterly_event
+source:
+  provider: Board of Governors of the Federal Reserve System
+  primary: accessible SEP projection-material HTML
+  supporting: matching official SEP PDF
+parser:
+  script: parser.py
+  version: "0.1.0"
+  stale_after_days: 120
+  allowed_missing_participants_per_horizon: 1
+fallback:
+  method: carry_forward_latest_release
+  status: STALE
+  no_prior_status: BLOCKED

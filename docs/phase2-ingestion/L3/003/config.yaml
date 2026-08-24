@@ -1,0 +1,14 @@
+variable_id: L3-003
+variable_name: Expected Terminal Policy Rate
+source_curve: L3-002
+parser_version: "0.1.0"
+selection_method_version: "1.0.0"
+selection:
+  contracts: first_12_eligible_monthly_contracts
+  downward: minimum_implied_rate
+  upward: maximum_implied_rate
+  flat: farthest_eligible_rate
+fallback:
+  method: carry_forward_latest_valid
+  availability_status: STALE
+  no_prior_status: BLOCKED

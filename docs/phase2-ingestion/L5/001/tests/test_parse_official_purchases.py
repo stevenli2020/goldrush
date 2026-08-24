@@ -15,4 +15,12 @@ class OfficialPurchaseTests(unittest.TestCase):
             self.assertEqual(result.iloc[1]["official_purchase_change_tonnes"],1)
             self.assertEqual(len(result.iloc[0]["workbook_sha256"]),64)
 
+    def test_excludes_gross_star_series_but_keeps_adjusted_turkey(self):
+        with tempfile.TemporaryDirectory() as d:
+            p=Path(d)/"changes.xlsx"
+            rows=[[None,"Country",None,"2026-01-01"],["x","Turkey*",None,100],["x","Turkey",None,7],["x","A",None,3]]
+            pd.DataFrame(rows).to_excel(p,sheet_name="Monthly",index=False,header=False)
+            result=parse_file(p,"2026-08-20","2026-08-21")
+            self.assertEqual(result.iloc[0]["official_purchase_change_tonnes"],10)
+
 if __name__ == "__main__": unittest.main()
