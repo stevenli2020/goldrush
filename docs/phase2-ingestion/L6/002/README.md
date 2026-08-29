@@ -1,0 +1,5 @@
+# L6-002 Sanctions and Sovereign-Asset Freeze Events
+
+This is a narrow U.S. OFAC sanctions-list event proxy. It records official XML delta `ADD`, `UPDATE`, and `REMOVE` actions, target identity/type, program tags, sanctions type, and legal-authority text. `is_candidate` and `matched_term` are name-based triage metadata only; they are not qualification, retrieval control, a severity value, or a Phase 3 score. An OFAC action is not automatically a sovereign-asset freeze and no severity, legal-impact, country-keyword, or gold-direction score is inferred. UN, EU, UK, and other jurisdictions are outside scope.
+
+`collector.py` POSTs `{}` to the official archive API with a required year, selects the newest entry by `publishDisplayDate`, downloads through `/api/download/delta`, preserves the XML unchanged as `L6-002_<publication-date>[_<sequence>].xml`, and writes an immutable manifest. `parser.py` handles the official namespace, publication date, top-level actions, descendant-only updates, and update entities without names (retained as null). A failed run carries forward prior rows as `STALE`; no prior writes a machine-readable `BLOCKED` status artifact.

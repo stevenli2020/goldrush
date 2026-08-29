@@ -1,0 +1,11 @@
+{
+  "locked_at": "2026-08-29T00:00:00Z",
+  "purpose": "Candidate-triage and official-document retrieval pilot only; not a scoring dataset.",
+  "cases": [
+    {"id": "BCV-2019-04-17", "target_name": "BANCO CENTRAL DE VENEZUELA", "publication_date": "2019-04-17", "expected_candidate": true, "expected_retrieval": true, "official_source": "https://ofac.treasury.gov/recent-actions/20190417"},
+    {"id": "CBR-2022-02-22", "target_name": "CENTRAL BANK OF THE RUSSIAN FEDERATION", "publication_date": "2022-02-22", "expected_candidate": true, "expected_retrieval": true, "official_source": "https://ofac.treasury.gov/recent-actions/20220222"},
+    {"id": "DAB-2022-02-11", "target_name": "DA AFGHANISTAN BANK", "publication_date": "2022-02-11", "expected_candidate": true, "expected_retrieval": true, "official_source": "https://ofac.treasury.gov/media/918431/download?inline="},
+    {"id": "CBI-2019-09-20", "target_name": "BANK MARKAZI JOMHOURI ISLAMI IRAN", "publication_date": "2019-09-20", "expected_candidate": true, "expected_retrieval": true, "official_source": "https://ofac.treasury.gov/recent-actions/20190920"},
+    {"id": "DPRK-CB-2017-09-26", "target_name": "CENTRAL BANK OF THE DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA", "publication_date": "2017-09-26", "expected_candidate": true, "expected_retrieval": true, "official_source": "https://ofac.treasury.gov/recent-actions/20170926_33"}
+  ]
+}

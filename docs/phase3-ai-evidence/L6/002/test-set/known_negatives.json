@@ -1,0 +1,17 @@
+{
+  "locked_at": "2026-08-29T00:00:00Z",
+  "source_delta": "docs/phase2-ingestion/L6/002/data/raw/ofac-delta-2026-08-20.xml",
+  "purpose": "Clearly non-sovereign actions selected before pilot execution.",
+  "cases": [
+    {"ofac_entity_id": "57958", "target_name": "ALARCON HOLGUIN, Jimmy Leonidas", "expected_candidate": false},
+    {"ofac_entity_id": "58253", "target_name": "DEDE, Onder", "expected_candidate": false},
+    {"ofac_entity_id": "58265", "target_name": "YILMAZ, Yunus Alper", "expected_candidate": false},
+    {"ofac_entity_id": "58286", "target_name": "AKYUZ, Vasfi", "expected_candidate": false},
+    {"ofac_entity_id": "58301", "target_name": "KARASALIH, Feyyad", "expected_candidate": false},
+    {"ofac_entity_id": "58345", "target_name": "MERO MERO, Alfonso", "expected_candidate": false},
+    {"ofac_entity_id": "58377", "target_name": "ARCASDENOE, S.A.", "expected_candidate": false},
+    {"ofac_entity_id": "58378", "target_name": "ALHO FISH, S.A.", "expected_candidate": false},
+    {"ofac_entity_id": "58379", "target_name": "GLOBALDISTRIAL, S.A.S.", "expected_candidate": false},
+    {"ofac_entity_id": "58380", "target_name": "JAH-HMH, S.A.S.", "expected_candidate": false}
+  ]
+}

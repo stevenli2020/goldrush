@@ -1,0 +1,8 @@
+variable_id: L6-002
+source: U.S. Treasury OFAC Sanctions List Service archived structured deltas
+source_page: https://ofac.treasury.gov/sanctions-list-service
+formats: [xml]
+frequency: event-driven
+fallback: manual placement of official delta file, then carry_forward_latest_valid
+no_prior_status: BLOCKED
+scope: U.S.-specific official list actions; not a legal, severity, or sovereign-freeze classifier

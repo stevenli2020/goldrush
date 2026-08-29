@@ -1,0 +1,26 @@
+{
+  "variable_id": "L6-002",
+  "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-08-20_delta.xml",
+  "archive_api": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/GetDeltaFileArchive?year=2026",
+  "retrieved_at": "2026-08-24T11:29:22.037672+00:00",
+  "publication_date": "2026-08-20",
+  "publication_datetime": "2026-08-20T00:00:00",
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/L6/002/data/raw/ofac-delta-2026-08-20.xml",
+  "size_bytes": 218801,
+  "content_type": "text/xml",
+  "http_status": 200,
+  "collector_version": "0.2.0",
+  "archive_entry": {
+    "fileType": null,
+    "fileName": "2026-08-20_delta.xml",
+    "description": null,
+    "size": 213342,
+    "sizeFormatted": "208.34 KB",
+    "downloadLink": "DeltaArchive/2026-08-20_delta.xml",
+    "isExternalLink": false,
+    "lastUpdated": null,
+    "datePublished": null,
+    "publishDisplayDate": "2026-08-20T00:00:00",
+    "displayOrder": 0
+  }
+}

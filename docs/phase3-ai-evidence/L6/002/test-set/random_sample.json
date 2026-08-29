@@ -1,0 +1,411 @@
+{
+  "locked_at": "2026-08-29T15:12:25.036640+00:00",
+  "seed": 6002,
+  "years": [
+    2025,
+    2026
+  ],
+  "purpose": "Random source-backed sample for manual candidate false-positive review.",
+  "cases": [
+    {
+      "archive_filename": "2026-02-25_delta.xml",
+      "publication_date": "2026-02-25",
+      "ofac_entity_id": "56631",
+      "target_name": "ALTIS TEKSTIL MAKINA TICARET LIMITED SIRKETI",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-02-25_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-09-02_delta.xml",
+      "publication_date": "2025-09-02",
+      "ofac_entity_id": "55082",
+      "target_name": "AL-SAMARRA'I, Waleed Khaled Hameed",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-09-02_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-10-01_delta.xml",
+      "publication_date": "2025-10-01",
+      "ofac_entity_id": "15573",
+      "target_name": "MOZZAFARNIA, Reza",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-10-01_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2026-07-29_delta.xml",
+      "publication_date": "2026-07-29",
+      "ofac_entity_id": "58189",
+      "target_name": "QI HANG SHIP MANAGEMENT LIMITED",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-07-29_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2026-05-08_delta_2.xml",
+      "publication_date": "2026-05-08",
+      "ofac_entity_id": "13156",
+      "target_name": "MINISTRY OF DEFENCE EXPORT CENTER",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-05-08_delta_2.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2026-05-29_delta.xml",
+      "publication_date": "2026-05-29",
+      "ofac_entity_id": "54204",
+      "target_name": "SEPEHR, Ali Majd",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-05-29_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-12-18_delta.xml",
+      "publication_date": "2025-12-18",
+      "ofac_entity_id": "26182",
+      "target_name": "KAYAKIRAN, Evren",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-12-18_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2026-05-19_delta.xml",
+      "publication_date": "2026-05-19",
+      "ofac_entity_id": "55822",
+      "target_name": "AHMED, Sherif Ahmed Ewis",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-05-19_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2026-04-01_delta.xml",
+      "publication_date": "2026-04-01",
+      "ofac_entity_id": "25077",
+      "target_name": "RODRIGUEZ GOMEZ, Delcy Eloina",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-04-01_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-05-01_delta.xml",
+      "publication_date": "2025-05-01",
+      "ofac_entity_id": "53943",
+      "target_name": "MORFIN MORFIN, Cesar",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-05-01_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-05-21_delta.xml",
+      "publication_date": "2025-05-21",
+      "ofac_entity_id": "11438",
+      "target_name": "CARTEL DEL NORESTE",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-05-21_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-12-31_delta.xml",
+      "publication_date": "2025-12-31",
+      "ofac_entity_id": "56704",
+      "target_name": "KRAPE MYRTLE CO LTD",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-12-31_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2026-03-09_delta.xml",
+      "publication_date": "2026-03-09",
+      "ofac_entity_id": "57109",
+      "target_name": "SUDANESE MUSLIM BROTHERHOOD",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-03-09_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-05-02.xml",
+      "publication_date": "2025-05-02",
+      "ofac_entity_id": "53980",
+      "target_name": "VIV ANSANM",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-05-02.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-04-28_delta.xml",
+      "publication_date": "2025-04-28",
+      "ofac_entity_id": "36072",
+      "target_name": "CLIPPER",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-04-28_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2026-03-13_delta.xml",
+      "publication_date": "2026-03-13",
+      "ofac_entity_id": "27885",
+      "target_name": "KOVALEVSKIJ, Nikita Gennadievitch",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-03-13_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-11-06_delta.xml",
+      "publication_date": "2025-11-06",
+      "ofac_entity_id": "56282",
+      "target_name": "QASIR, Ja'far Muhammad",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-11-06_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2026-05-20_delta.xml",
+      "publication_date": "2026-05-20",
+      "ofac_entity_id": "57107",
+      "target_name": "OJEDA AVILES, Armando de Jesus",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-05-20_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-08-21_delta.xml",
+      "publication_date": "2025-08-21",
+      "ofac_entity_id": "32727",
+      "target_name": "DANA HOLDINGS LIMITED",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-08-21_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-02-06_delta.xml",
+      "publication_date": "2025-02-06",
+      "ofac_entity_id": "48406",
+      "target_name": "SIRI",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-02-06_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2026-04-16_delta.xml",
+      "publication_date": "2026-04-16",
+      "ofac_entity_id": "47202",
+      "target_name": "EXPORTADORA DE METALES SOCIEDAD ANONIMA",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-04-16_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-09-18_delta.xml",
+      "publication_date": "2025-09-18",
+      "ofac_entity_id": "54695",
+      "target_name": "PONCE FELIX, Juan Jose",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-09-18_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-09-16_delta.xml",
+      "publication_date": "2025-09-16",
+      "ofac_entity_id": "55449",
+      "target_name": "EVEREST INTERNATIONAL L.L.C",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-09-16_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2026-08-20_delta.xml",
+      "publication_date": "2026-08-20",
+      "ofac_entity_id": "57958",
+      "target_name": "ALARCON HOLGUIN, Jimmy Leonidas",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-08-20_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2026-08-06_delta.xml",
+      "publication_date": "2026-08-06",
+      "ofac_entity_id": "32628",
+      "target_name": "LOPEZ MIERA, Alvaro Victoriano",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-08-06_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2026-05-07_delta.xml",
+      "publication_date": "2026-05-07",
+      "ofac_entity_id": "57533",
+      "target_name": "AL-BEHADILI, Mustafa Hashim Lazim",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-05-07_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-08-11_delta.xml",
+      "publication_date": "2025-08-11",
+      "ofac_entity_id": "26953",
+      "target_name": "\u202b\u0628\u0644\u06cf\u0686\u0633\u062a\u0627\u0646 \u0622\u062c\u0648\u06cc\u06cc\u0621 \u0644\u0634\u06a9\u0631\u202c",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-08-11_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2026-07-14_delta.xml",
+      "publication_date": "2026-07-14",
+      "ofac_entity_id": "58093",
+      "target_name": "AVA TARABAR DARYA COMPANY",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-07-14_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2026-05-18_delta.xml",
+      "publication_date": "2026-05-18",
+      "ofac_entity_id": "30976",
+      "target_name": "MINISTRY OF INTERIOR OF CUBA",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-05-18_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-05-28_delta.xml",
+      "publication_date": "2025-05-28",
+      "ofac_entity_id": "7743",
+      "target_name": "MILUTINOVIC, Milan",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-05-28_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-01-15_delta.xml",
+      "publication_date": "2025-01-15",
+      "ofac_entity_id": "34675",
+      "target_name": "JOINT STOCK COMMERCIAL BANK TRANSCAPITALBANK CLOSED JOINT STOCK COMPANY",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-01-15_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2026-04-23_delta.xml",
+      "publication_date": "2026-04-23",
+      "ofac_entity_id": "57181",
+      "target_name": "RITHY, Raksmei",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-04-23_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-10-14_delta.xml",
+      "publication_date": "2025-10-14",
+      "ofac_entity_id": "53054",
+      "target_name": "PRINCE GROUP TRANSNATIONAL CRIMINAL ORGANIZATION",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-10-14_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-04-10_delta.xml",
+      "publication_date": "2025-04-10",
+      "ofac_entity_id": "53874",
+      "target_name": "BRAR, Jugwinder Singh",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-04-10_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2026-03-06_delta.xml",
+      "publication_date": "2026-03-06",
+      "ofac_entity_id": "45728",
+      "target_name": "GLOBE TREKKERS LLC",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-03-06_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-11-24_delta.xml",
+      "publication_date": "2025-11-24",
+      "ofac_entity_id": "41492",
+      "target_name": "SERGHIDES, Demetrios",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-11-24_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-08-12_delta.xml",
+      "publication_date": "2025-08-12",
+      "ofac_entity_id": "55047",
+      "target_name": "COOPERATIVE DES ARTISANAUX MINIERS DU CONGO",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-08-12_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2026-01-13_delta.xml",
+      "publication_date": "2026-01-13",
+      "ofac_entity_id": "56482",
+      "target_name": "JORDANIAN MUSLIM BROTHERHOOD",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-01-13_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-08-20_delta.xml",
+      "publication_date": "2025-08-20",
+      "ofac_entity_id": "54211",
+      "target_name": "GUILLOU, Nicolas Yann",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-08-20_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2026-06-18_delta.xml",
+      "publication_date": "2026-06-18",
+      "ofac_entity_id": "57558",
+      "target_name": "GLOBE TECHNOLOGY PROVIDERS SARL",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-06-18_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-04-01_delta.xml",
+      "publication_date": "2025-04-01",
+      "ofac_entity_id": "53830",
+      "target_name": "RAH ROSHD INTERNATIONAL TRADE EXCHANGES DEVELOPMENT",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-04-01_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2026-06-23_delta.xml",
+      "publication_date": "2026-06-23",
+      "ofac_entity_id": "35015",
+      "target_name": "KRUGOVOV, Anton Alekseevich",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-06-23_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-05-05_delta.xml",
+      "publication_date": "2025-05-05",
+      "ofac_entity_id": "53778",
+      "target_name": "KAREN NATIONAL ARMY",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-05-05_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-11-13_delta.xml",
+      "publication_date": "2025-11-13",
+      "ofac_entity_id": "56263",
+      "target_name": "BLIRI S.A. DE C.V.",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-11-13_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-06-10_delta.xml",
+      "publication_date": "2025-06-10",
+      "ofac_entity_id": "53912",
+      "target_name": "EL BARAKA ASSOCIATION FOR CHARITABLE AND HUMANITARIAN WORK",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-06-10_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2026-07-23_delta.xml",
+      "publication_date": "2026-07-23",
+      "ofac_entity_id": "44525",
+      "target_name": "BEL-KAP-STEEL LLC",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-07-23_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-03-31.xml",
+      "publication_date": "2025-03-31",
+      "ofac_entity_id": "51103",
+      "target_name": "BENGUIAT JIMENEZ, Alberto David",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-03-31.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2025-11-07_delta.xml",
+      "publication_date": "2025-11-07",
+      "ofac_entity_id": "15591",
+      "target_name": "KHATTAB, Anas Hasan",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2025-11-07_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2026-04-30_delta.xml",
+      "publication_date": "2026-04-30",
+      "ofac_entity_id": "57505",
+      "target_name": "KABILA, Joseph Kabange",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-04-30_delta.xml",
+      "manual_review_required": true
+    },
+    {
+      "archive_filename": "2026-02-27_delta.xml",
+      "publication_date": "2026-02-27",
+      "ofac_entity_id": "33499",
+      "target_name": "KHOURY, Dany",
+      "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-02-27_delta.xml",
+      "manual_review_required": true
+    }
+  ]
+}

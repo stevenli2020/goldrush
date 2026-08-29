@@ -1,0 +1,13 @@
+{
+  "locked_at": "2026-08-29T00:00:00Z",
+  "acceptance_criteria": {
+    "known_positive_candidate_rate": 1.0,
+    "known_negative_candidate_rate_maximum": 0.05,
+    "known_positive_retrieval_rate_minimum": 0.8
+  },
+  "files": {
+    "known_positives.json": "b1f48cd2ed7a0fe6cd53e8ceea8312adaa651cbf306cb68ea04482321e9dd100",
+    "known_negatives.json": "69c423df08d907260290fedeb0ff62d1b875697f699f23a4b28af3666f572ccc",
+    "random_sample.json": "47b7d0cd9f459e3facc108238a9816ea22710807fd94aa7c868fadc0be68a409"
+  }
+}

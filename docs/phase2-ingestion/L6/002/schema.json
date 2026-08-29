@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "L6-002 OFAC list actions",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "variable_id",
+    "event_date",
+    "publication_date",
+    "action_type",
+    "list_identifier",
+    "ofac_entity_id",
+    "target_name",
+    "target_type",
+    "program_tags",
+    "sanctions_type",
+    "legal_authorities_raw",
+    "is_candidate",
+    "matched_term",
+    "source_delta_path",
+    "source_url",
+    "manifest_path",
+    "retrieved_at",
+    "validation_status",
+    "availability_status",
+    "fallback_checked_at",
+    "parser_version"
+  ],
+  "properties": {
+    "variable_id": {
+      "const": "L6-002"
+    },
+    "event_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "publication_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "action_type": {
+      "enum": [
+        "ADD",
+        "UPDATE",
+        "REMOVE"
+      ]
+    },
+    "list_identifier": {
+      "type": "string",
+      "minLength": 1
+    },
+    "ofac_entity_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "target_name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "target_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "program_tags": {
+      "type": "string"
+    },
+    "sanctions_type": {
+      "type": "string"
+    },
+    "legal_authorities_raw": {
+      "type": "string"
+    },
+    "is_candidate": {
+      "type": "boolean"
+    },
+    "matched_term": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_delta_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_url": {
+      "type": "string",
+      "minLength": 1
+    },
+    "manifest_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "validation_status": {
+      "enum": [
+        "PASS",
+        "FLAG"
+      ]
+    },
+    "availability_status": {
+      "enum": [
+        "AVAILABLE",
+        "STALE"
+      ]
+    },
+    "fallback_checked_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "parser_version": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}
