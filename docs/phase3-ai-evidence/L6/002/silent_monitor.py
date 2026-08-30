@@ -30,6 +30,7 @@ def run(monitor_dir: Path, year: int | None = None) -> dict:
     raw_dir = monitor_dir / 'raw'
     manifest_dir = monitor_dir / 'manifests'
     phase2_csv = monitor_dir / 'phase2.csv'
+    run_at = datetime.now(timezone.utc)
     manifest = collector.collect(raw_dir, manifest_dir, year=year)
     raw_path = Path(manifest['raw_path'])
     manifest_path = next(manifest_dir.glob(f"L6-002_{manifest['publication_date']}*.manifest.json"))
@@ -44,13 +45,13 @@ def run(monitor_dir: Path, year: int | None = None) -> dict:
         'variable_id': 'L6-002',
         'run_status': 'SILENT_COMPLETE',
         'notifications_sent': False,
-        'run_at': datetime.now(timezone.utc).isoformat(),
+        'run_at': run_at.isoformat(),
         'source_manifest': str(manifest_path),
         'phase2_output': str(phase2_csv),
         'candidate_count': len(candidate_events),
         'records': records,
     }
-    output = monitor_dir / 'silent-monitor.json'
+    output = monitor_dir / f'silent-monitor-{run_at.strftime("%Y%m%dT%H%M%SZ")}.json'
     output.write_text(json.dumps(result, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
     print(f'Wrote silent monitor snapshot to {output}')
     return result
