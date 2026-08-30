@@ -31,7 +31,7 @@ class Session:
 
 
 def event():
-    return {'ofac_entity_id': '1', 'publication_date': '2026-08-20', 'target_name': 'Central Bank of Example', 'official_names': json.dumps([{'value': 'Central Bank of Example'}, {'value': 'Example Reserve Bank'}]), 'legal_authorities_raw': 'Executive Order 14024'}
+    return {'ofac_entity_id': '1', 'publication_date': '2026-08-20', 'action_type': 'ADD', 'target_name': 'Central Bank of Example', 'official_names': json.dumps([{'value': 'Central Bank of Example'}, {'value': 'Example Reserve Bank'}]), 'legal_authorities_raw': 'Executive Order 14024'}
 
 
 def test_recent_action_link_matches_entity_name():

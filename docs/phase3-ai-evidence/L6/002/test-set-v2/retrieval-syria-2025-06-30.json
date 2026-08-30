@@ -3,6 +3,7 @@
     "variable_id": "L6-002",
     "ofac_entity_id": "30663",
     "publication_date": "2025-06-30",
+    "action_type": "REMOVE",
     "target_name": "CENTRAL BANK OF SYRIA",
     "retrieval_status": "FOUND",
     "primary_document_url": "https://ofac.treasury.gov/recent-actions/20250630",
@@ -15,6 +16,6 @@
         "content_type": "text/html; charset=UTF-8"
       }
     ],
-    "retrieved_at": "2026-08-30T00:52:06.269961+00:00"
+    "retrieved_at": "2026-08-30T01:13:20.590832+00:00"
   }
 ]

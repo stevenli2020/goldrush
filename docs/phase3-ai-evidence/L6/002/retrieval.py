@@ -171,6 +171,7 @@ def evidence_record(event, status, text, source_url, attempts, matched_name):
         'variable_id': 'L6-002',
         'ofac_entity_id': event['ofac_entity_id'],
         'publication_date': event['publication_date'],
+        'action_type': event.get('action_type'),
         'target_name': event.get('target_name'),
         'retrieval_status': status,
         'primary_document_url': source_url,

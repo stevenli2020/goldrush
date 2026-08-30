@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "L6-002 Phase 3 scored evidence",
+  "type": "object",
+  "required": ["variable_id", "retrieval_status", "score", "score_breakdown", "evidentiary_gaps", "scoring_status"],
+  "properties": {
+    "variable_id": {"const": "L6-002"},
+    "retrieval_status": {"type": "string"},
+    "score": {"type": ["integer", "null"], "minimum": 0, "maximum": 100},
+    "score_breakdown": {
+      "type": "object",
+      "required": ["legal_action", "sovereign_relevance", "asset_scope", "legal_authority"],
+      "properties": {
+        "legal_action": {"type": "integer", "minimum": 0, "maximum": 40},
+        "sovereign_relevance": {"type": "integer", "minimum": 0, "maximum": 30},
+        "asset_scope": {"type": "integer", "minimum": 0, "maximum": 20},
+        "legal_authority": {"type": "integer", "minimum": 0, "maximum": 10}
+      },
+      "additionalProperties": false
+    },
+    "evidentiary_gaps": {"type": "array", "items": {"type": "string"}},
+    "scoring_status": {"enum": ["SCORABLE", "INSUFFICIENT_EVIDENCE", "REVERSED"]},
+    "action_state": {"enum": ["ACTIVE", "REVERSED", null]},
+    "reversal_flag": {"type": "boolean"}
+  },
+  "additionalProperties": true
+}
