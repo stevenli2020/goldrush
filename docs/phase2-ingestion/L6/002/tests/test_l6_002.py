@@ -42,6 +42,12 @@ def test_latest_same_date_uses_numbered_sequence():
     entries = [{'fileName': '2026-05-28_delta.xml', 'downloadLink': 'x', 'publishDisplayDate': '2026-05-28T00:00:00'}, {'fileName': '2026-05-28_delta_2.xml', 'downloadLink': 'y', 'publishDisplayDate': '2026-05-28T00:00:00'}]
     assert collector.select_latest(entries)['fileName'].endswith('_delta_2.xml')
 
+def test_select_entry_uses_exact_archive_filename():
+    entries = [{'fileName': '2026-07-14_delta.xml', 'downloadLink': 'x', 'publishDisplayDate': '2026-07-14T00:00:00'}]
+    assert collector.select_entry(entries, '2026-07-14_delta.xml')['downloadLink'] == 'x'
+    with pytest.raises(ValueError):
+        collector.select_entry(entries, 'missing.xml')
+
 def test_api_url_and_namespace_fixture(tmp_path):
     raw, mp = fixture(tmp_path)
     assert 'publication_date' in json.loads(mp.read_text())

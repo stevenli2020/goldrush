@@ -1,0 +1,1209 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sanctionsData xmlns="https://www.treasury.gov/ofac/DeltaFile/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.treasury.gov/ofac/DeltaFile/1.0 https://www.treasury.gov/ofac/downloads/sanctions/1.0/DeltaFile.xsd">
+  <publicationInfo>
+    <datePublished>2024-02-14T00:00:00-05:00</datePublished>
+    <publicationType>Standard Action</publicationType>
+  </publicationInfo>
+  <referenceValues/>
+  <featureTypes />
+  <entities>
+
+    <entity id="47576" action="add">
+      <generalInfo>
+        <identityId>39200</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50113" refId="1550" datePublished="2024-02-14">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="50942" refId="91167">IFSR</sanctionsProgram>
+        <sanctionsProgram id="50940" refId="211">SDGT</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40160" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="37404" refId="1828">Executive Order 13224 (Terrorism)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="73659">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="71966">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>INFORMATICS SERVICES CORPORATION</formattedLastName>
+              <formattedFullName>INFORMATICS SERVICES CORPORATION</formattedFullName>
+              <nameParts>
+                <namePart id="125343">
+                  <type refId="1525">Entity Name</type>
+                  <value>Informatics Services Corporation</value>
+                </namePart>
+              </nameParts>
+            </translation>
+            <translation id="72136">
+              <isPrimary>false</isPrimary>
+              <script refId="20100">Arabic</script>
+              <formattedLastName>‫شرکت خدمات انفورماتیک‬</formattedLastName>
+              <formattedFullName>‫شرکت خدمات انفورماتیک‬</formattedFullName>
+              <nameParts>
+                <namePart id="125545">
+                  <type refId="1525">Entity Name</type>
+                  <value>شرکت خدمات انفورماتیک</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="73660">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="71967">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>INFORMATICS AND SERVICES CORPORATION</formattedLastName>
+              <formattedFullName>INFORMATICS AND SERVICES CORPORATION</formattedFullName>
+              <nameParts>
+                <namePart id="125344">
+                  <type refId="1525">Entity Name</type>
+                  <value>Informatics and Services Corporation</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="73661">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="71968">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>INFORMATICS SERVICES COMPANY</formattedLastName>
+              <formattedFullName>INFORMATICS SERVICES COMPANY</formattedFullName>
+              <nameParts>
+                <namePart id="125345">
+                  <type refId="1525">Entity Name</type>
+                  <value>Informatics Services Company</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="71056">
+          <country refId="11109">Iran</country>
+          <translations>
+            <translation id="58171">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="94624">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Marjan Building, No. 6</value>
+                </addressPart>
+                <addressPart id="94625">
+                  <type refId="1452">ADDRESS2</type>
+                  <value>Madadkaran Street, Shahnazari Street</value>
+                </addressPart>
+                <addressPart id="94626">
+                  <type refId="1453">ADDRESS3</type>
+                  <value>Mother Square, Mirdamad Boulevard</value>
+                </addressPart>
+                <addressPart id="94627">
+                  <type refId="1454">CITY</type>
+                  <value>Tehran</value>
+                </addressPart>
+                <addressPart id="94628">
+                  <type refId="1456">POSTAL CODE</type>
+                  <value>1545654311</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="69068">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>66747</versionId>
+          <value>15 Dec 1993</value>
+          <valueDate id="104942">
+            <fromDateBegin>1993-12-15</fromDateBegin>
+            <fromDateEnd>1993-12-15</fromDateEnd>
+            <toDateBegin>1993-12-15</toDateBegin>
+            <toDateEnd>1993-12-15</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="69074">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>66753</versionId>
+          <value>section 1(b) of Executive Order 13224, as amended by Executive Order 13886</value>
+          <valueRefId>92084</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="69069">
+          <type featureTypeId="14">Website</type>
+          <versionId>66748</versionId>
+          <value>www.isc.co.ir</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="38114">
+          <type refId="91760">Business Registration Number</type>
+          <name nameId="73659" nameTranslationId="71966">INFORMATICS SERVICES CORPORATION</name>
+          <documentNumber>101605</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11109">Iran</issuingCountry>
+        </identityDocument>
+        <identityDocument id="38115">
+          <type refId="1584">National ID No.</type>
+          <name nameId="73659" nameTranslationId="71966">INFORMATICS SERVICES CORPORATION</name>
+          <documentNumber>10101455520</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11109">Iran</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="18970">
+          <type refId="15001">Providing support to</type>
+          <relatedEntity entityId="4632">BANK MARKAZI JOMHOURI ISLAMI IRAN</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="47577" action="add">
+      <generalInfo>
+        <identityId>39201</identityId>
+        <entityType refId="600">Individual</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50114" refId="1550" datePublished="2024-02-14">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="50941" refId="211">SDGT</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40161" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="37405" refId="1828">Executive Order 13224 (Terrorism)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="73662">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="71969">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Seyed Abotaleb</formattedFirstName>
+              <formattedLastName>NAJAFI</formattedLastName>
+              <formattedFullName>NAJAFI, Seyed Abotaleb</formattedFullName>
+              <nameParts>
+                <namePart id="125347">
+                  <type refId="1521">First Name</type>
+                  <value>Seyed Abotaleb</value>
+                </namePart>
+                <namePart id="125346">
+                  <type refId="1520">Last Name</type>
+                  <value>Najafi</value>
+                </namePart>
+              </nameParts>
+            </translation>
+            <translation id="72137">
+              <isPrimary>false</isPrimary>
+              <script refId="20100">Arabic</script>
+              <formattedLastName>‫سید ابوطالب نجفی‬</formattedLastName>
+              <formattedFullName>‫سید ابوطالب نجفی‬</formattedFullName>
+              <nameParts>
+                <namePart id="125547">
+                  <type refId="1521">First Name</type>
+                  <value>سید ابوطالب</value>
+                </namePart>
+                <namePart id="125546">
+                  <type refId="1520">Last Name</type>
+                  <value>نجفی</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="73663">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="71970">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Nasser</formattedFirstName>
+              <formattedLastName>NAJAFI</formattedLastName>
+              <formattedFullName>NAJAFI, Nasser</formattedFullName>
+              <nameParts>
+                <namePart id="125350">
+                  <type refId="1521">First Name</type>
+                  <value>Nasser</value>
+                </namePart>
+                <namePart id="125349">
+                  <type refId="1520">Last Name</type>
+                  <value>Najafi</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="73664">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="71971">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Aboutaleb</formattedFirstName>
+              <formattedLastName>NAJAFI</formattedLastName>
+              <formattedFullName>NAJAFI, Aboutaleb</formattedFullName>
+              <nameParts>
+                <namePart id="125352">
+                  <type refId="1521">First Name</type>
+                  <value>Aboutaleb</value>
+                </namePart>
+                <namePart id="125351">
+                  <type refId="1520">Last Name</type>
+                  <value>Najafi</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="71058">
+          <country refId="11109">Iran</country>
+          <translations>
+            <translation id="58172">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="69070">
+          <type featureTypeId="8">Birthdate</type>
+          <versionId>66749</versionId>
+          <value>25 Sep 1956</value>
+          <valueDate id="104950">
+            <fromDateBegin>1956-09-25</fromDateBegin>
+            <fromDateEnd>1956-09-25</fromDateEnd>
+            <toDateBegin>1956-09-25</toDateBegin>
+            <toDateEnd>1956-09-25</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="69071">
+          <type featureTypeId="224">Gender</type>
+          <versionId>66750</versionId>
+          <value>Male</value>
+          <valueRefId>91526</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="69073">
+          <type featureTypeId="10">Nationality Country</type>
+          <versionId>66752</versionId>
+          <value>Iran</value>
+          <valueRefId>11109</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="69072">
+          <type featureTypeId="9">Place of Birth</type>
+          <versionId>66751</versionId>
+          <value>Iran</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="69085">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>66764</versionId>
+          <value>section 1(b) of Executive Order 13224, as amended by Executive Order 13886</value>
+          <valueRefId>92084</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="38116">
+          <type refId="1584">National ID No.</type>
+          <name nameId="73662" nameTranslationId="71969">NAJAFI, Seyed Abotaleb</name>
+          <documentNumber>2063167788</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11109">Iran</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="18955">
+          <type refId="15002">Acting for or on behalf of</type>
+          <relatedEntity entityId="47576">INFORMATICS SERVICES CORPORATION</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="47578" action="add">
+      <generalInfo>
+        <identityId>39202</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50115" refId="1550" datePublished="2024-02-14">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="50943" refId="211">SDGT</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40162" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="37406" refId="1828">Executive Order 13224 (Terrorism)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="73665">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="71972">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>ADVANCE BANKING SOLUTION TRADING DMCC</formattedLastName>
+              <formattedFullName>ADVANCE BANKING SOLUTION TRADING DMCC</formattedFullName>
+              <nameParts>
+                <namePart id="125353">
+                  <type refId="1525">Entity Name</type>
+                  <value>Advance Banking Solution Trading DMCC</value>
+                </namePart>
+              </nameParts>
+            </translation>
+            <translation id="72138">
+              <isPrimary>false</isPrimary>
+              <script refId="20100">Arabic</script>
+              <formattedLastName>‫آدفانس بانکینغ سولیوشن تریدنغ م.د.م.س‬</formattedLastName>
+              <formattedFullName>‫آدفانس بانکینغ سولیوشن تریدنغ م.د.م.س‬</formattedFullName>
+              <nameParts>
+                <namePart id="125548">
+                  <type refId="1525">Entity Name</type>
+                  <value>آدفانس بانکینغ سولیوشن تریدنغ م.د.م.س</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="73666">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="71973">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>ADVANCE BANKING SOLUTIONS DMCC</formattedLastName>
+              <formattedFullName>ADVANCE BANKING SOLUTIONS DMCC</formattedFullName>
+              <nameParts>
+                <namePart id="125354">
+                  <type refId="1525">Entity Name</type>
+                  <value>Advance Banking Solutions DMCC</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="73667">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>true</isLowQuality>
+          <translations>
+            <translation id="71974">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>ABS CORPORATION</formattedLastName>
+              <formattedFullName>ABS CORPORATION</formattedFullName>
+              <nameParts>
+                <namePart id="125355">
+                  <type refId="1525">Entity Name</type>
+                  <value>ABS Corporation</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="71060">
+          <country refId="11210">United Arab Emirates</country>
+          <translations>
+            <translation id="58173">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="94629">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>804 Jumeirah Bay Tower X3</value>
+                </addressPart>
+                <addressPart id="94630">
+                  <type refId="1454">CITY</type>
+                  <value>Dubai</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="69075">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>66754</versionId>
+          <value>section 1(b) of Executive Order 13224, as amended by Executive Order 13886</value>
+          <valueRefId>92084</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="38117">
+          <type refId="92121">Economic Register Number (CBLS)</type>
+          <name nameId="73665" nameTranslationId="71972">ADVANCE BANKING SOLUTION TRADING DMCC</name>
+          <documentNumber>11459098</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11210">United Arab Emirates</issuingCountry>
+        </identityDocument>
+        <identityDocument id="38118">
+          <type refId="92121">Economic Register Number (CBLS)</type>
+          <name nameId="73665" nameTranslationId="71972">ADVANCE BANKING SOLUTION TRADING DMCC</name>
+          <documentNumber>11464855</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11210">United Arab Emirates</issuingCountry>
+        </identityDocument>
+        <identityDocument id="38119">
+          <type refId="91504">License</type>
+          <name nameId="73665" nameTranslationId="71972">ADVANCE BANKING SOLUTION TRADING DMCC</name>
+          <documentNumber>DMCC-402070</documentNumber>
+          <isValid>true</isValid>
+          <issuingLocation>Dubai</issuingLocation>
+          <issuingCountry refId="11210">United Arab Emirates</issuingCountry>
+        </identityDocument>
+        <identityDocument id="38120">
+          <type refId="91504">License</type>
+          <name nameId="73665" nameTranslationId="71972">ADVANCE BANKING SOLUTION TRADING DMCC</name>
+          <documentNumber>JLT-66110</documentNumber>
+          <isValid>true</isValid>
+          <issuingLocation>Dubai</issuingLocation>
+          <issuingCountry refId="11210">United Arab Emirates</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="18954">
+          <type refId="15003">Owned or Controlled By</type>
+          <relatedEntity entityId="47576">INFORMATICS SERVICES CORPORATION</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="47579" action="add">
+      <generalInfo>
+        <identityId>39203</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50116" refId="1550" datePublished="2024-02-14">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="50944" refId="211">SDGT</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40163" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="37407" refId="1828">Executive Order 13224 (Terrorism)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="73668">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="71975">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>FREEDOM STAR GENERAL TRADING CO. L.L.C.</formattedLastName>
+              <formattedFullName>FREEDOM STAR GENERAL TRADING CO. L.L.C.</formattedFullName>
+              <nameParts>
+                <namePart id="125356">
+                  <type refId="1525">Entity Name</type>
+                  <value>Freedom Star General Trading Co. L.L.C.</value>
+                </namePart>
+              </nameParts>
+            </translation>
+            <translation id="72139">
+              <isPrimary>false</isPrimary>
+              <script refId="20100">Arabic</script>
+              <formattedLastName>‫شرکة نجم الحریة للتجارة العامة ذات مسئولیة محدودة‬</formattedLastName>
+              <formattedFullName>‫شرکة نجم الحریة للتجارة العامة ذات مسئولیة محدودة‬</formattedFullName>
+              <nameParts>
+                <namePart id="125549">
+                  <type refId="1525">Entity Name</type>
+                  <value>‫شرکة نجم الحریة للتجارة العامة ذات مسئولیة محدودة‬</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="73669">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="71976">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>FREEDOM STAR GENERAL TRADING CO. LLC</formattedLastName>
+              <formattedFullName>FREEDOM STAR GENERAL TRADING CO. LLC</formattedFullName>
+              <nameParts>
+                <namePart id="125357">
+                  <type refId="1525">Entity Name</type>
+                  <value>Freedom Star General Trading Co. LLC</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="73670">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="71977">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>STAR OF FREEDOM GENERAL TRADING COMPANY LIMITED LIABILITY</formattedLastName>
+              <formattedFullName>STAR OF FREEDOM GENERAL TRADING COMPANY LIMITED LIABILITY</formattedFullName>
+              <nameParts>
+                <namePart id="125358">
+                  <type refId="1525">Entity Name</type>
+                  <value>Star of Freedom General Trading Company Limited Liability</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="73671">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="71978">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>FREEDOM STAR GENERAL TRADING</formattedLastName>
+              <formattedFullName>FREEDOM STAR GENERAL TRADING</formattedFullName>
+              <nameParts>
+                <namePart id="125359">
+                  <type refId="1525">Entity Name</type>
+                  <value>Freedom Star General Trading</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="71064">
+          <country refId="11210">United Arab Emirates</country>
+          <translations>
+            <translation id="58175">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="94631">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>P.O. Box 33237</value>
+                </addressPart>
+                <addressPart id="94632">
+                  <type refId="1454">CITY</type>
+                  <value>Dubai</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+        <address id="71065">
+          <country refId="11210">United Arab Emirates</country>
+          <translations>
+            <translation id="58176">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="94633">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Shop No. 5</value>
+                </addressPart>
+                <addressPart id="94634">
+                  <type refId="1452">ADDRESS2</type>
+                  <value>Al Ras</value>
+                </addressPart>
+                <addressPart id="94635">
+                  <type refId="1454">CITY</type>
+                  <value>Dubai</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+        <address id="71066">
+          <country refId="11210">United Arab Emirates</country>
+          <translations>
+            <translation id="58177">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="94974">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Deira Al Ras</value>
+                </addressPart>
+                <addressPart id="94975">
+                  <type refId="1454">CITY</type>
+                  <value>Dubai</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="69079">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>66758</versionId>
+          <value>09 Jan 1997</value>
+          <valueDate id="104972">
+            <fromDateBegin>1997-01-09</fromDateBegin>
+            <fromDateEnd>1997-01-09</fromDateEnd>
+            <toDateBegin>1997-01-09</toDateBegin>
+            <toDateEnd>1997-01-09</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="69086">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>66765</versionId>
+          <value>section 1(b) of Executive Order 13224, as amended by Executive Order 13886</value>
+          <valueRefId>92084</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="38124">
+          <type refId="91751">Chamber of Commerce Number</type>
+          <name nameId="73668" nameTranslationId="71975">FREEDOM STAR GENERAL TRADING CO. L.L.C.</name>
+          <documentNumber>41962</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11210">United Arab Emirates</issuingCountry>
+        </identityDocument>
+        <identityDocument id="38123">
+          <type refId="92121">Economic Register Number (CBLS)</type>
+          <name nameId="73668" nameTranslationId="71975">FREEDOM STAR GENERAL TRADING CO. L.L.C.</name>
+          <documentNumber>10795786</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11210">United Arab Emirates</issuingCountry>
+        </identityDocument>
+        <identityDocument id="38122">
+          <type refId="91504">License</type>
+          <name nameId="73668" nameTranslationId="71975">FREEDOM STAR GENERAL TRADING CO. L.L.C.</name>
+          <documentNumber>244911</documentNumber>
+          <isValid>true</isValid>
+          <issuingLocation>Dubai</issuingLocation>
+          <issuingCountry refId="11210">United Arab Emirates</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="18956">
+          <type refId="15001">Providing support to</type>
+          <relatedEntity entityId="47576">INFORMATICS SERVICES CORPORATION</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="47581" action="add">
+      <generalInfo>
+        <identityId>39205</identityId>
+        <entityType refId="600">Individual</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50118" refId="1550" datePublished="2024-02-14">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="50946" refId="211">SDGT</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40165" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="37409" refId="1828">Executive Order 13224 (Terrorism)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="73673">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="71980">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Pouria</formattedFirstName>
+              <formattedLastName>MIRDAMADI</formattedLastName>
+              <formattedFullName>MIRDAMADI, Pouria</formattedFullName>
+              <nameParts>
+                <namePart id="125364">
+                  <type refId="1521">First Name</type>
+                  <value>Pouria</value>
+                </namePart>
+                <namePart id="125363">
+                  <type refId="1520">Last Name</type>
+                  <value>Mirdamadi</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="73674">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="71981">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Pouria Mir Damadi</formattedFirstName>
+              <formattedLastName>ESFAHANI</formattedLastName>
+              <formattedFullName>ESFAHANI, Pouria Mir Damadi</formattedFullName>
+              <nameParts>
+                <namePart id="125366">
+                  <type refId="1521">First Name</type>
+                  <value>Pouria</value>
+                </namePart>
+                <namePart id="125365">
+                  <type refId="1520">Last Name</type>
+                  <value>Esfahani</value>
+                </namePart>
+                <namePart id="125367">
+                  <type refId="1522">Middle Name</type>
+                  <value>Mir Damadi</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="71242">
+          <country refId="11109">Iran</country>
+          <translations>
+            <translation id="58266">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="69080">
+          <type featureTypeId="8">Birthdate</type>
+          <versionId>66759</versionId>
+          <value>20 Sep 1979</value>
+          <valueDate id="104981">
+            <fromDateBegin>1979-09-20</fromDateBegin>
+            <fromDateEnd>1979-09-20</fromDateEnd>
+            <toDateBegin>1979-09-20</toDateBegin>
+            <toDateEnd>1979-09-20</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="69092">
+          <type featureTypeId="224">Gender</type>
+          <versionId>66771</versionId>
+          <value>Male</value>
+          <valueRefId>91526</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="69082">
+          <type featureTypeId="10">Nationality Country</type>
+          <versionId>66761</versionId>
+          <value>France</value>
+          <valueRefId>11090</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="69081">
+          <type featureTypeId="9">Place of Birth</type>
+          <versionId>66760</versionId>
+          <value>Tehran, Iran</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="69083">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>66762</versionId>
+          <value>section 1(b) of Executive Order 13224, as amended by Executive Order 13886</value>
+          <valueRefId>92084</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="38137">
+          <type refId="1584">National ID No.</type>
+          <name nameId="73673" nameTranslationId="71980">MIRDAMADI, Pouria</name>
+          <documentNumber>0703THR00011</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11090">France</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="18957">
+          <type refId="15002">Acting for or on behalf of</type>
+          <relatedEntity entityId="47576">INFORMATICS SERVICES CORPORATION</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="47583" action="add">
+      <generalInfo>
+        <identityId>39207</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50120" refId="1550" datePublished="2024-02-14">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="50948" refId="211">SDGT</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40167" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="37411" refId="1828">Executive Order 13224 (Terrorism)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="73676">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="71983">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>TED TEKNOLOJI GELISTIRME HIZMETLERI SANAYI TICARET ANONIM SIRKETI</formattedLastName>
+              <formattedFullName>TED TEKNOLOJI GELISTIRME HIZMETLERI SANAYI TICARET ANONIM SIRKETI</formattedFullName>
+              <nameParts>
+                <namePart id="125369">
+                  <type refId="1525">Entity Name</type>
+                  <value>Ted Teknoloji Gelistirme Hizmetleri Sanayi Ticaret Anonim Sirketi</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="73677">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="71984">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>TED TEKNOLOJI</formattedLastName>
+              <formattedFullName>TED TEKNOLOJI</formattedFullName>
+              <nameParts>
+                <namePart id="125370">
+                  <type refId="1525">Entity Name</type>
+                  <value>TED Teknoloji</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="73678">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="71985">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>TEDTEKNOLOJI</formattedLastName>
+              <formattedFullName>TEDTEKNOLOJI</formattedFullName>
+              <nameParts>
+                <namePart id="125371">
+                  <type refId="1525">Entity Name</type>
+                  <value>Tedteknoloji</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="71072">
+          <country refId="11205">Turkey</country>
+          <translations>
+            <translation id="58179">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="94644">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Cobancesme Mah. Sanayi Cad. Nish Residence D Blok</value>
+                </addressPart>
+                <addressPart id="94645">
+                  <type refId="1452">ADDRESS2</type>
+                  <value>Kapi No. 44</value>
+                </addressPart>
+                <addressPart id="94646">
+                  <type refId="1453">ADDRESS3</type>
+                  <value>D Daire No. 173, Bahcelievler</value>
+                </addressPart>
+                <addressPart id="94647">
+                  <type refId="1454">CITY</type>
+                  <value>Istanbul</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="69084">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>66763</versionId>
+          <value>28 Aug 2019</value>
+          <valueDate id="104992">
+            <fromDateBegin>2019-08-28</fromDateBegin>
+            <fromDateEnd>2019-08-28</fromDateEnd>
+            <toDateBegin>2019-08-28</toDateBegin>
+            <toDateEnd>2019-08-28</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="69087">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>66766</versionId>
+          <value>section 1(b) of Executive Order 13224, as amended by Executive Order 13886</value>
+          <valueRefId>92084</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="38127">
+          <type refId="1584">National ID No.</type>
+          <name nameId="73676" nameTranslationId="71983">TED TEKNOLOJI GELISTIRME HIZMETLERI SANAYI TICARET ANONIM SIRKETI</name>
+          <documentNumber>833094273300001</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11205">Turkey</issuingCountry>
+        </identityDocument>
+        <identityDocument id="38128">
+          <type refId="1615">Trade License No.</type>
+          <name nameId="73676" nameTranslationId="71983">TED TEKNOLOJI GELISTIRME HIZMETLERI SANAYI TICARET ANONIM SIRKETI</name>
+          <documentNumber>205413-5</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11205">Turkey</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="18958">
+          <type refId="15003">Owned or Controlled By</type>
+          <relatedEntity entityId="47576">INFORMATICS SERVICES CORPORATION</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="47590" action="add">
+      <generalInfo>
+        <identityId>39214</identityId>
+        <entityType refId="600">Individual</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50127" refId="1550" datePublished="2024-02-14">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="50955" refId="211">SDGT</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40174" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="37418" refId="1828">Executive Order 13224 (Terrorism)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="73693">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="72004">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Mohammad Reza</formattedFirstName>
+              <formattedLastName>KHADEMI</formattedLastName>
+              <formattedFullName>KHADEMI, Mohammad Reza</formattedFullName>
+              <nameParts>
+                <namePart id="125391">
+                  <type refId="1521">First Name</type>
+                  <value>Mohammad</value>
+                </namePart>
+                <namePart id="125390">
+                  <type refId="1520">Last Name</type>
+                  <value>Khademi</value>
+                </namePart>
+                <namePart id="125392">
+                  <type refId="1522">Middle Name</type>
+                  <value>Reza</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="73694">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="72005">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Mohammad Rida Esfandiar</formattedFirstName>
+              <formattedLastName>KHADEMI</formattedLastName>
+              <formattedFullName>KHADEMI, Mohammad Rida Esfandiar</formattedFullName>
+              <nameParts>
+                <namePart id="125394">
+                  <type refId="1521">First Name</type>
+                  <value>Mohammad Rida</value>
+                </namePart>
+                <namePart id="125393">
+                  <type refId="1520">Last Name</type>
+                  <value>Khademi</value>
+                </namePart>
+                <namePart id="125395">
+                  <type refId="1522">Middle Name</type>
+                  <value>Esfandiar</value>
+                </namePart>
+              </nameParts>
+            </translation>
+            <translation id="72140">
+              <isPrimary>false</isPrimary>
+              <script refId="20100">Arabic</script>
+              <formattedLastName>‫محمد رضا اسفندیار خادمي‬</formattedLastName>
+              <formattedFullName>‫محمد رضا اسفندیار خادمي‬</formattedFullName>
+              <nameParts>
+                <namePart id="125551">
+                  <type refId="1521">First Name</type>
+                  <value>محمد رضا</value>
+                </namePart>
+                <namePart id="125550">
+                  <type refId="1520">Last Name</type>
+                  <value>خادمي</value>
+                </namePart>
+                <namePart id="125552">
+                  <type refId="1522">Middle Name</type>
+                  <value>اسفندیار</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="73695">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="72006">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Mohammad</formattedFirstName>
+              <formattedLastName>KHADEMI</formattedLastName>
+              <formattedFullName>KHADEMI, Mohammad</formattedFullName>
+              <nameParts>
+                <namePart id="125397">
+                  <type refId="1521">First Name</type>
+                  <value>Mohammad</value>
+                </namePart>
+                <namePart id="125396">
+                  <type refId="1520">Last Name</type>
+                  <value>Khademi</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="71086">
+          <country refId="11210">United Arab Emirates</country>
+          <translations>
+            <translation id="58187">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="94676">
+                  <type refId="1454">CITY</type>
+                  <value>Dubai</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="69088">
+          <type featureTypeId="8">Birthdate</type>
+          <versionId>66767</versionId>
+          <value>05 Apr 1966</value>
+          <valueDate id="105033">
+            <fromDateBegin>1966-04-05</fromDateBegin>
+            <fromDateEnd>1966-04-05</fromDateEnd>
+            <toDateBegin>1966-04-05</toDateBegin>
+            <toDateEnd>1966-04-05</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="69090">
+          <type featureTypeId="224">Gender</type>
+          <versionId>66769</versionId>
+          <value>Male</value>
+          <valueRefId>91526</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="69089">
+          <type featureTypeId="10">Nationality Country</type>
+          <versionId>66768</versionId>
+          <value>Iran</value>
+          <valueRefId>11109</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="69091">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>66770</versionId>
+          <value>section 1(b) of Executive Order 13224, as amended by Executive Order 13886</value>
+          <valueRefId>92084</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <relationships>
+        <relationship id="18959">
+          <type refId="15001">Providing support to</type>
+          <relatedEntity entityId="47576">INFORMATICS SERVICES CORPORATION</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+  </entities>
+</sanctionsData>

@@ -1,0 +1,1935 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sanctionsData xmlns="https://www.treasury.gov/ofac/DeltaFile/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.treasury.gov/ofac/DeltaFile/1.0 https://www.treasury.gov/ofac/downloads/sanctions/1.0/DeltaFile.xsd">
+  <publicationInfo>
+    <datePublished>2025-11-04T00:00:00-05:00</datePublished>
+    <publicationType>Standard Action</publicationType>
+  </publicationInfo>
+  <referenceValues />
+  <featureTypes />
+  <entities>
+    <entity id="22985">
+      <names>
+        <name id="36097">
+          <aliasType refId="1400" oldRefId="1401" action="update" oldValue="F.K.A.">A.K.A.</aliasType>
+        </name>
+      </names>
+      <features>
+        <feature id="93748" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91327</versionId>
+          <value>TA3941uFAvmVibSkQ6fMJXxmaSNovX86mz</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="93749" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91328</versionId>
+          <value>TA39q3p75XRSWYAEaSF7dANtyksoa3sLge</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93762" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91341</versionId>
+          <value>TBATDh41qMQ1yeVYecneEvhpfayYmkAQWS</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93763" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91342</versionId>
+          <value>TBwghbQMsBC5xcUxE7ZpYXhfDMXZAfiFv6</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93764" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91343</versionId>
+          <value>TBWRDpQsW1ZVPGGaBAwVLNb7iqmVBuM1nj</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93765" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91344</versionId>
+          <value>TBYRhsZR7Mdn9ezpGVLwZiNVnGm8wZGLAD</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93766" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91345</versionId>
+          <value>TBZefVsyQpzzxc2WSCLbZBECvxVdzGqdtC</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93767" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91346</versionId>
+          <value>TC5UNu3LGrjjVCuLNDdVgjm4oL5cQAyFRZ</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93768" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91347</versionId>
+          <value>TCA7AfTSuDmgYk2VaezfPuZF4Z4X8wxwcQ</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93769" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91348</versionId>
+          <value>TDNKsLvsY2iSznyghddXz7ZDRc4X3191Z8</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93770" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91349</versionId>
+          <value>TE3mCcPULjPUE7ykX7RArDPAhyahoy3d2j</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93771" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91350</versionId>
+          <value>TF4J8Gp7zbS8NA3HLuxsLdx7Ebzr6weCGn</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93772" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91351</versionId>
+          <value>TFdHux43bs21qRsygv5WQWfgtbQeT6nXey</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93773" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91352</versionId>
+          <value>TFrH3dcpnR3tADrAcfyJwiK4brsgf3B7PG</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93774" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91353</versionId>
+          <value>TFurWgnyNMq9bhLrLoT9FGnrLfAL2BtR5R</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93775" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91354</versionId>
+          <value>TGDaYNWFXi9HJ7NacfETF15vhUH7eRhKzt</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93776" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91355</versionId>
+          <value>TGdpkwNVFjw2DnbHBCFKLvCygPVPz9w4iM</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93777" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91356</versionId>
+          <value>TGKgLatirRpTugS6wgCUKerjLbzWKXAVqx</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93778" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91357</versionId>
+          <value>TGMFaAXH15oaW8MpcNHLid6NbMKWaaNPdC</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93779" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91358</versionId>
+          <value>TGpNzk9noyvCCdnFPuSg5cqptPs16LjXZq</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93780" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91359</versionId>
+          <value>TGRZZsD8gxahF5oE6C7K8LLRHqQzoPa5bX</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93781" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91360</versionId>
+          <value>THEQTsqPhRDDfgcfBW5npH5Lr9PZhpthrf</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93782" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91361</versionId>
+          <value>THHb5iMAbZgQYY19h6uY66y5xt6e11gcZC</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93783" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91362</versionId>
+          <value>THob8vRrpDybXeqZDj8ukQhMjJVJ5nCbTW</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93784" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91363</versionId>
+          <value>THUqqeevBQS3EYordDJKwp8DLFknesnfCD</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93785" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91364</versionId>
+          <value>TJ812KESWjzJZGEWBPFCu74Js5zQS7jN5A</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93786" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91365</versionId>
+          <value>TJBg9SxwiUUoqJGk18vK9avxkuV8GrKMK7</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93787" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91366</versionId>
+          <value>TLRMHPjLGXsVpD9RVzSfat6zDiVDrd4b4w</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93788" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91367</versionId>
+          <value>TMECKT19hfumcK3KqQKbhxkn1ohyeR58xu</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93789" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91368</versionId>
+          <value>TMgnRWb9xFMtktny9Lzty21QYLLQD93ft6</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93790" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91369</versionId>
+          <value>TMiSGhXXVsvJzqwGbwAsGiFxWg2eALZoM5</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93791" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91370</versionId>
+          <value>TPcUZYthDfxNsHQnZZGBM1BDNBeNSjfPZE</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93792" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91371</versionId>
+          <value>TPF9UQhqpV18BPWg5xo6MeB3h8t4iEg9gP</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93793" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91372</versionId>
+          <value>TPo3JyryRcQ3uhBWexeYhtkpMitsUwY4uB</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93794" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91373</versionId>
+          <value>TPPR7e8hGC57dexrE2jy1f94wtuGyVP6Dp</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93795" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91374</versionId>
+          <value>TQKQ4ntejdYYJpuYkFz8oCSDoXW6RKRDdY</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93796" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91375</versionId>
+          <value>TQthYM5nLqwAEr6DScC8tRtw29ncEB53mK</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93797" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91376</versionId>
+          <value>TR18rEj7gWjKBJLYrowyfnvjWLTTsXGngK</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93798" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91377</versionId>
+          <value>TRkGqvaobVp4XDNmSceRo5hDcJYDTFmYjd</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93799" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91378</versionId>
+          <value>TTct1DezYvriNWU7Wi3mygLoskkaw61mra</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93800" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91379</versionId>
+          <value>TTUqoT6EAmiM1xLvwVwxhjvjaoEUGtKDdZ</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93801" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91380</versionId>
+          <value>TTzMs5AR66jr9mQMkWfCHVwd3AiLLYPepQ</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93802" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91381</versionId>
+          <value>TUKsuPVb8kgJVFp5x528KC5HisUVdzxami</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93803" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91382</versionId>
+          <value>TVDsEFm19zLV8HeXdt6G75rLroxnp6uqpV</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93804" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91383</versionId>
+          <value>TVu2SiQrWSnfwk8quAeDxfiaLy6FHzYkMA</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93805" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91384</versionId>
+          <value>TVyiDQ25H6Rx6PcNV1WyjGasGSa8ehj1Uv</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93806" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91385</versionId>
+          <value>TW3RgbhYkFEFnmRJ9mE9b83T9XYSMkjwuD</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93807" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91386</versionId>
+          <value>TWwv8FQiES3yHGig7y3zJWYuPaZfSV3vmY</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93808" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91387</versionId>
+          <value>TXc4kRiMEcdXRxWpSKkD5qKaARExN4uxPq</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93809" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91388</versionId>
+          <value>TXFUYHVJMDyKikutvCG6qNgTUS5pxtZhHs</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93810" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91389</versionId>
+          <value>TYD6a4PAAfAgegEdDf9oZUnW4DFmS8jeFT</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93811" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91390</versionId>
+          <value>TYK29mbyvVxLaLUKdFSTRADMwoxaVbVZQg</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="93812" action="add">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>91391</versionId>
+          <value>TYxwUhoLPF7AgfG9GaXFEp8CQi8K8KG1m3</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="94323" action="add">
+          <type featureTypeId="826">Target Type</type>
+          <versionId>91902</versionId>
+          <value>Financial Institution</value>
+          <valueRefId>92036</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+    </entity>
+    <entity id="44541" action="remove">
+      <generalInfo>
+        <identityId>36165</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="47018" refId="1550" datePublished="2023-08-09">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="47785" refId="92069">BELARUS-EO14038</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="37079" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="34320" refId="92070">Executive Order 14038 (Belarus)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="68838">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="66447">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>OPEN JOINT STOCK COMPANY BELAVIA BELARUSIAN AIRLINES</formattedLastName>
+              <formattedFullName>OPEN JOINT STOCK COMPANY BELAVIA BELARUSIAN AIRLINES</formattedFullName>
+              <nameParts>
+                <namePart id="117760">
+                  <type refId="1525">Entity Name</type>
+                  <value>Open Joint Stock Company Belavia Belarusian Airlines</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="68839">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="66448">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>BELAVIA BELARUSIAN AIRLINES</formattedLastName>
+              <formattedFullName>BELAVIA BELARUSIAN AIRLINES</formattedFullName>
+              <nameParts>
+                <namePart id="117761">
+                  <type refId="1525">Entity Name</type>
+                  <value>Belavia Belarusian Airlines</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="68840">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="66449">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>JOINT STOCK COMPANY AVIACOMPANY BELAVIA</formattedLastName>
+              <formattedFullName>JOINT STOCK COMPANY AVIACOMPANY BELAVIA</formattedFullName>
+              <nameParts>
+                <namePart id="117762">
+                  <type refId="1525">Entity Name</type>
+                  <value>Joint Stock Company Aviacompany Belavia</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="68841">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="66450">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>OAO AVIAKOMPANIYA BELAVIA</formattedLastName>
+              <formattedFullName>OAO AVIAKOMPANIYA BELAVIA</formattedFullName>
+              <nameParts>
+                <namePart id="117763">
+                  <type refId="1525">Entity Name</type>
+                  <value>OAO Aviakompaniya Belavia</value>
+                </namePart>
+              </nameParts>
+            </translation>
+            <translation id="66454">
+              <isPrimary>false</isPrimary>
+              <script refId="20107">Cyrillic</script>
+              <formattedLastName>ОАО АВИАКОМПАНИЯ БЕЛАВИА</formattedLastName>
+              <formattedFullName>ОАО АВИАКОМПАНИЯ БЕЛАВИА</formattedFullName>
+              <nameParts>
+                <namePart id="117767">
+                  <type refId="1525">Entity Name</type>
+                  <value>ОАО Авиакомпания Белавиа</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="66311">
+          <country refId="11044">Belarus</country>
+          <translations>
+            <translation id="54982">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="87027">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>14A, Nemiga str.</value>
+                </addressPart>
+                <addressPart id="87028">
+                  <type refId="1454">CITY</type>
+                  <value>Minsk</value>
+                </addressPart>
+                <addressPart id="87029">
+                  <type refId="1456">POSTAL CODE</type>
+                  <value>220004</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <identityDocuments>
+        <identityDocument id="34060">
+          <type refId="1636">Government Gazette Number</type>
+          <name nameId="68838" nameTranslationId="66447">OPEN JOINT STOCK COMPANY BELAVIA BELARUSIAN AIRLINES</name>
+          <documentNumber>011286185000</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11044">Belarus</issuingCountry>
+        </identityDocument>
+        <identityDocument id="34059">
+          <type refId="1596">Tax ID No.</type>
+          <name nameId="68838" nameTranslationId="66447">OPEN JOINT STOCK COMPANY BELAVIA BELARUSIAN AIRLINES</name>
+          <documentNumber>600390798</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11044">Belarus</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="44580" action="remove">
+      <generalInfo>
+        <identityId>36204</identityId>
+        <entityType refId="91120">Aircraft</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="47057" refId="1550" datePublished="2023-08-09">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="47824" refId="92069">BELARUS-EO14038</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="37118" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="34379" refId="92070">Executive Order 14038 (Belarus)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="68873">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="66502">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>EW-301PJ</formattedLastName>
+              <formattedFullName>EW-301PJ</formattedFullName>
+              <nameParts>
+                <namePart id="117820">
+                  <type refId="1524">Aircraft Name</type>
+                  <value>EW-301PJ</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="66352" />
+      </addresses>
+      <features>
+        <feature id="64563">
+          <type featureTypeId="50">Aircraft Manufacturer’s Serial Number (MSN)</type>
+          <versionId>62242</versionId>
+          <value>8057</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="64562">
+          <type featureTypeId="47">Aircraft Model</type>
+          <versionId>62241</versionId>
+          <value>CRJ-200ER</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="64564">
+          <type featureTypeId="64">Aircraft Tail Number</type>
+          <versionId>62243</versionId>
+          <value>EW-301PJ</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <relationships>
+        <relationship id="17075">
+          <type refId="15003">Owned or Controlled By</type>
+          <relatedEntity entityId="44541">OPEN JOINT STOCK COMPANY BELAVIA BELARUSIAN AIRLINES</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="55183" action="add">
+      <generalInfo>
+        <identityId>46570</identityId>
+        <entityType refId="600">Individual</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="57606" refId="1550" datePublished="2025-11-04">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="59698" refId="92825">CYBER4</sanctionsProgram>
+        <sanctionsProgram id="60480" refId="91744">DPRK4</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="47786" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="46946" refId="91745">Executive Order 13810 (North Korea)</legalAuthority>
+        <legalAuthority id="46227" refId="92824">Executive Order 14306 (Cyber)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="85894">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="85972">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Kuk Chol</formattedFirstName>
+              <formattedLastName>JANG</formattedLastName>
+              <formattedFullName>JANG, Kuk Chol</formattedFullName>
+              <nameParts>
+                <namePart id="143994">
+                  <type refId="1521">First Name</type>
+                  <value>Kuk Chol</value>
+                </namePart>
+                <namePart id="143993">
+                  <type refId="1520">Last Name</type>
+                  <value>Jang</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="85921">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="85999">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Kuk Ch'o'l</formattedFirstName>
+              <formattedLastName>CHANG</formattedLastName>
+              <formattedFullName>CHANG, Kuk Ch'o'l</formattedFullName>
+              <nameParts>
+                <namePart id="144030">
+                  <type refId="1521">First Name</type>
+                  <value>Kuk Ch'o'l</value>
+                </namePart>
+                <namePart id="144029">
+                  <type refId="1520">Last Name</type>
+                  <value>Chang</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="84422">
+          <country refId="11171">Russia</country>
+          <translations>
+            <translation id="65612">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="116545">
+                  <type refId="1454">CITY</type>
+                  <value>Vladivostok</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="92374">
+          <type featureTypeId="8">Birthdate</type>
+          <versionId>89979</versionId>
+          <value>03 Jul 1987</value>
+          <valueDate id="141947">
+            <fromDateBegin>1987-07-03</fromDateBegin>
+            <fromDateEnd>1987-07-03</fromDateEnd>
+            <toDateBegin>1987-07-03</toDateBegin>
+            <toDateEnd>1987-07-03</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="92375">
+          <type featureTypeId="224">Gender</type>
+          <versionId>89980</versionId>
+          <value>Male</value>
+          <valueRefId>91526</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="92376">
+          <type featureTypeId="10">Nationality Country</type>
+          <versionId>89981</versionId>
+          <value>Korea, North</value>
+          <valueRefId>11120</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94254">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>91833</versionId>
+          <value>North Korea Sanctions Regulations, sections 510.201 and 510.210</value>
+          <valueRefId>91762</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94255">
+          <type featureTypeId="626">Transactions Prohibited For Persons Owned or Controlled By U.S. Financial Institutions:</type>
+          <versionId>91834</versionId>
+          <value>North Korea Sanctions Regulations section 510.214</value>
+          <valueRefId>91905</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="50039">
+          <type refId="1571">Passport</type>
+          <name nameId="85894" nameTranslationId="85972">JANG, Kuk Chol</name>
+          <documentNumber>754420443</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11120">Korea, North</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="55197" action="add">
+      <generalInfo>
+        <identityId>46584</identityId>
+        <entityType refId="600">Individual</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="57620" refId="1550" datePublished="2025-11-04">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="59712" refId="92825">CYBER4</sanctionsProgram>
+        <sanctionsProgram id="60481" refId="91744">DPRK4</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="47800" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="46947" refId="91745">Executive Order 13810 (North Korea)</legalAuthority>
+        <legalAuthority id="46241" refId="92824">Executive Order 14306 (Cyber)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="85922">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="86000">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Jong Son</formattedFirstName>
+              <formattedLastName>HO</formattedLastName>
+              <formattedFullName>HO, Jong Son</formattedFullName>
+              <nameParts>
+                <namePart id="144032">
+                  <type refId="1521">First Name</type>
+                  <value>Jong Son</value>
+                </namePart>
+                <namePart id="144031">
+                  <type refId="1520">Last Name</type>
+                  <value>Ho</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="85923">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="86001">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Cho'ng So'n</formattedFirstName>
+              <formattedLastName>HO'</formattedLastName>
+              <formattedFullName>HO', Cho'ng So'n</formattedFullName>
+              <nameParts>
+                <namePart id="144034">
+                  <type refId="1521">First Name</type>
+                  <value>Cho'ng So'n</value>
+                </namePart>
+                <namePart id="144033">
+                  <type refId="1520">Last Name</type>
+                  <value>Ho'</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="84424">
+          <country refId="11120">Korea, North</country>
+          <translations>
+            <translation id="65613">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="92377">
+          <type featureTypeId="8">Birthdate</type>
+          <versionId>89982</versionId>
+          <value>21 Nov 1964</value>
+          <valueDate id="141952">
+            <fromDateBegin>1964-11-21</fromDateBegin>
+            <fromDateEnd>1964-11-21</fromDateEnd>
+            <toDateBegin>1964-11-21</toDateBegin>
+            <toDateEnd>1964-11-21</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="92379">
+          <type featureTypeId="224">Gender</type>
+          <versionId>89984</versionId>
+          <value>Male</value>
+          <valueRefId>91526</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="92380">
+          <type featureTypeId="10">Nationality Country</type>
+          <versionId>89985</versionId>
+          <value>Korea, North</value>
+          <valueRefId>11120</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="92378">
+          <type featureTypeId="9">Place of Birth</type>
+          <versionId>89983</versionId>
+          <value>Japan</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94256">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>91835</versionId>
+          <value>North Korea Sanctions Regulations, sections 510.201 and 510.210</value>
+          <valueRefId>91762</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94257">
+          <type featureTypeId="626">Transactions Prohibited For Persons Owned or Controlled By U.S. Financial Institutions:</type>
+          <versionId>91836</versionId>
+          <value>North Korea Sanctions Regulations section 510.214</value>
+          <valueRefId>91905</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="49196">
+          <type refId="1571">Passport</type>
+          <name nameId="85922" nameTranslationId="86000">HO, Jong Son</name>
+          <documentNumber>754120050</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11120">Korea, North</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="56037" action="add">
+      <generalInfo>
+        <identityId>47444</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="58480" refId="1550" datePublished="2025-11-04">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="60661" refId="91744">DPRK4</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="48630" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="47086" refId="91745">Executive Order 13810 (North Korea)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="87037">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="87295">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>RYUJONG CREDIT BANK</formattedLastName>
+              <formattedFullName>RYUJONG CREDIT BANK</formattedFullName>
+              <nameParts>
+                <namePart id="145578">
+                  <type refId="1525">Entity Name</type>
+                  <value>Ryujong Credit Bank</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="85821">
+          <country refId="11120">Korea, North</country>
+          <translations>
+            <translation id="66430">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="118689">
+                  <type refId="1454">CITY</type>
+                  <value>Pyongyang</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="94175">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>91754</versionId>
+          <value>North Korea Sanctions Regulations, sections 510.201 and 510.210</value>
+          <valueRefId>91762</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94174">
+          <type featureTypeId="826">Target Type</type>
+          <versionId>91753</versionId>
+          <value>Financial Institution</value>
+          <valueRefId>92036</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94176">
+          <type featureTypeId="626">Transactions Prohibited For Persons Owned or Controlled By U.S. Financial Institutions:</type>
+          <versionId>91755</versionId>
+          <value>North Korea Sanctions Regulations section 510.214</value>
+          <valueRefId>91905</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+    </entity>
+    <entity id="56038" action="add">
+      <generalInfo>
+        <identityId>47445</identityId>
+        <entityType refId="600">Individual</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="58481" refId="1550" datePublished="2025-11-04">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="60679" refId="91168">DPRK</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="48631" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="47104" refId="91245">Executive Order 13551 (North Korea)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="87038">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="87296">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Yong Chol</formattedFirstName>
+              <formattedLastName>HO</formattedLastName>
+              <formattedFullName>HO, Yong Chol</formattedFullName>
+              <nameParts>
+                <namePart id="145580">
+                  <type refId="1521">First Name</type>
+                  <value>Yong</value>
+                </namePart>
+                <namePart id="145579">
+                  <type refId="1520">Last Name</type>
+                  <value>Ho</value>
+                </namePart>
+                <namePart id="145581">
+                  <type refId="1522">Middle Name</type>
+                  <value>Chol</value>
+                </namePart>
+              </nameParts>
+            </translation>
+            <translation id="87298">
+              <isPrimary>false</isPrimary>
+              <script refId="20140">Korean</script>
+              <formattedFirstName>용철</formattedFirstName>
+              <formattedLastName>허</formattedLastName>
+              <formattedFullName>허용철</formattedFullName>
+              <nameParts>
+                <namePart id="145585">
+                  <type refId="1521">First Name</type>
+                  <value>용</value>
+                </namePart>
+                <namePart id="145584">
+                  <type refId="1520">Last Name</type>
+                  <value>허</value>
+                </namePart>
+                <namePart id="145586">
+                  <type refId="1522">Middle Name</type>
+                  <value>철</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="87039">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="87297">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Yong-ch'o'l</formattedFirstName>
+              <formattedLastName>HO'</formattedLastName>
+              <formattedFullName>HO', Yong-ch'o'l</formattedFullName>
+              <nameParts>
+                <namePart id="145583">
+                  <type refId="1521">First Name</type>
+                  <value>Yong-ch'o'l</value>
+                </namePart>
+                <namePart id="145582">
+                  <type refId="1520">Last Name</type>
+                  <value>Ho'</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="85823">
+          <country refId="11065">China</country>
+          <translations>
+            <translation id="66431">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="118690">
+                  <type refId="1454">CITY</type>
+                  <value>Dandong</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="94290">
+          <type featureTypeId="8">Birthdate</type>
+          <versionId>91869</versionId>
+          <value>12 Dec 1968</value>
+          <valueDate id="145427">
+            <fromDateBegin>1968-12-12</fromDateBegin>
+            <fromDateEnd>1968-12-12</fromDateEnd>
+            <toDateBegin>1968-12-12</toDateBegin>
+            <toDateEnd>1968-12-12</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94177">
+          <type featureTypeId="224">Gender</type>
+          <versionId>91756</versionId>
+          <value>Male</value>
+          <valueRefId>91526</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94178">
+          <type featureTypeId="10">Nationality Country</type>
+          <versionId>91757</versionId>
+          <value>Korea, North</value>
+          <valueRefId>11120</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94191">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>91770</versionId>
+          <value>North Korea Sanctions Regulations, sections 510.201 and 510.210</value>
+          <valueRefId>91762</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94192">
+          <type featureTypeId="626">Transactions Prohibited For Persons Owned or Controlled By U.S. Financial Institutions:</type>
+          <versionId>91771</versionId>
+          <value>North Korea Sanctions Regulations section 510.214</value>
+          <valueRefId>91905</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <relationships>
+        <relationship id="23911">
+          <type refId="15002">Acting for or on behalf of</type>
+          <relatedEntity entityId="12312">KOREA DAESONG BANK</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="56039" action="add">
+      <generalInfo>
+        <identityId>47446</identityId>
+        <entityType refId="600">Individual</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="58482" refId="1550" datePublished="2025-11-04">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="60663" refId="91735">DPRK3</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="48632" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="47088" refId="91736">Executive Order 13722 (North Korea)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="87040">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="87299">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Chun Pom</formattedFirstName>
+              <formattedLastName>CHOE</formattedLastName>
+              <formattedFullName>CHOE, Chun Pom</formattedFullName>
+              <nameParts>
+                <namePart id="145588">
+                  <type refId="1521">First Name</type>
+                  <value>Chun</value>
+                </namePart>
+                <namePart id="145587">
+                  <type refId="1520">Last Name</type>
+                  <value>Choe</value>
+                </namePart>
+                <namePart id="145589">
+                  <type refId="1522">Middle Name</type>
+                  <value>Pom</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="87041">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="87300">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Ch'un-po'm</formattedFirstName>
+              <formattedLastName>CH'OE</formattedLastName>
+              <formattedFullName>CH'OE, Ch'un-po'm</formattedFullName>
+              <nameParts>
+                <namePart id="145591">
+                  <type refId="1521">First Name</type>
+                  <value>Ch'un-po'm</value>
+                </namePart>
+                <namePart id="145590">
+                  <type refId="1520">Last Name</type>
+                  <value>Ch'oe</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="85825">
+          <country refId="11065">China</country>
+          <translations>
+            <translation id="66432">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="118691">
+                  <type refId="1454">CITY</type>
+                  <value>Beijing</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="94253">
+          <type featureTypeId="8">Birthdate</type>
+          <versionId>91832</versionId>
+          <value>20 Feb 1975</value>
+          <valueDate id="145336">
+            <fromDateBegin>1975-02-20</fromDateBegin>
+            <fromDateEnd>1975-02-20</fromDateEnd>
+            <toDateBegin>1975-02-20</toDateBegin>
+            <toDateEnd>1975-02-20</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94180">
+          <type featureTypeId="224">Gender</type>
+          <versionId>91759</versionId>
+          <value>Male</value>
+          <valueRefId>91526</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94179">
+          <type featureTypeId="10">Nationality Country</type>
+          <versionId>91758</versionId>
+          <value>Korea, North</value>
+          <valueRefId>11120</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94181">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>91760</versionId>
+          <value>North Korea Sanctions Regulations, sections 510.201 and 510.210</value>
+          <valueRefId>91762</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94182">
+          <type featureTypeId="626">Transactions Prohibited For Persons Owned or Controlled By U.S. Financial Institutions:</type>
+          <versionId>91761</versionId>
+          <value>North Korea Sanctions Regulations section 510.214</value>
+          <valueRefId>91905</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="50267">
+          <type refId="1571">Passport</type>
+          <name nameId="87040" nameTranslationId="87299">CHOE, Chun Pom</name>
+          <documentNumber>199320353</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11120">Korea, North</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="23872">
+          <type refId="15002">Acting for or on behalf of</type>
+          <relatedEntity entityId="23015">CENTRAL BANK OF THE DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="56041" action="add">
+      <generalInfo>
+        <identityId>47448</identityId>
+        <entityType refId="600">Individual</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="58484" refId="1550" datePublished="2025-11-04">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="60665" refId="91735">DPRK3</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="48634" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="47090" refId="91736">Executive Order 13722 (North Korea)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="87044">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="87303">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Jin Hyok</formattedFirstName>
+              <formattedLastName>RI</formattedLastName>
+              <formattedFullName>RI, Jin Hyok</formattedFullName>
+              <nameParts>
+                <namePart id="145598">
+                  <type refId="1521">First Name</type>
+                  <value>Jin</value>
+                </namePart>
+                <namePart id="145597">
+                  <type refId="1520">Last Name</type>
+                  <value>Ri</value>
+                </namePart>
+                <namePart id="145599">
+                  <type refId="1522">Middle Name</type>
+                  <value>Hyok</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="87045">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="87304">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Chin-hyo'k</formattedFirstName>
+              <formattedLastName>RI</formattedLastName>
+              <formattedFullName>RI, Chin-hyo'k</formattedFullName>
+              <nameParts>
+                <namePart id="145601">
+                  <type refId="1521">First Name</type>
+                  <value>Chin-hyo'k</value>
+                </namePart>
+                <namePart id="145600">
+                  <type refId="1520">Last Name</type>
+                  <value>Ri</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="85829">
+          <country refId="11065">China</country>
+          <translations>
+            <translation id="66434">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="118693">
+                  <type refId="1454">CITY</type>
+                  <value>Zhuhai</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="94318">
+          <type featureTypeId="8">Birthdate</type>
+          <versionId>91897</versionId>
+          <value>20 Feb 1983</value>
+          <valueDate id="145573">
+            <fromDateBegin>1983-02-20</fromDateBegin>
+            <fromDateEnd>1983-02-20</fromDateEnd>
+            <toDateBegin>1983-02-20</toDateBegin>
+            <toDateEnd>1983-02-20</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94187">
+          <type featureTypeId="224">Gender</type>
+          <versionId>91766</versionId>
+          <value>Male</value>
+          <valueRefId>91526</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94188">
+          <type featureTypeId="10">Nationality Country</type>
+          <versionId>91767</versionId>
+          <value>Korea, North</value>
+          <valueRefId>11120</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94189">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>91768</versionId>
+          <value>North Korea Sanctions Regulations, sections 510.201 and 510.210</value>
+          <valueRefId>91762</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94190">
+          <type featureTypeId="626">Transactions Prohibited For Persons Owned or Controlled By U.S. Financial Institutions:</type>
+          <versionId>91769</versionId>
+          <value>North Korea Sanctions Regulations section 510.214</value>
+          <valueRefId>91905</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="50268">
+          <type refId="1571">Passport</type>
+          <name nameId="87044" nameTranslationId="87303">RI, Jin Hyok</name>
+          <documentNumber>563120232</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11120">Korea, North</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="23873">
+          <type refId="15002">Acting for or on behalf of</type>
+          <relatedEntity entityId="15603">FOREIGN TRADE BANK OF THE DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="56042" action="add">
+      <generalInfo>
+        <identityId>47449</identityId>
+        <entityType refId="600">Individual</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="58485" refId="1550" datePublished="2025-11-04">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="60666" refId="91735">DPRK3</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="48635" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="47091" refId="91736">Executive Order 13722 (North Korea)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="87046">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="87305">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Sung Hyok</formattedFirstName>
+              <formattedLastName>JONG</formattedLastName>
+              <formattedFullName>JONG, Sung Hyok</formattedFullName>
+              <nameParts>
+                <namePart id="145603">
+                  <type refId="1521">First Name</type>
+                  <value>Sung</value>
+                </namePart>
+                <namePart id="145602">
+                  <type refId="1520">Last Name</type>
+                  <value>Jong</value>
+                </namePart>
+                <namePart id="145604">
+                  <type refId="1522">Middle Name</type>
+                  <value>Hyok</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="87047">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="87306">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Sung-hyok</formattedFirstName>
+              <formattedLastName>CHONG</formattedLastName>
+              <formattedFullName>CHONG, Sung-hyok</formattedFullName>
+              <nameParts>
+                <namePart id="145606">
+                  <type refId="1521">First Name</type>
+                  <value>Sung-hyok</value>
+                </namePart>
+                <namePart id="145605">
+                  <type refId="1520">Last Name</type>
+                  <value>Chong</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="85831">
+          <country refId="11171">Russia</country>
+          <translations>
+            <translation id="66435">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="118694">
+                  <type refId="1454">CITY</type>
+                  <value>Vladivostok</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="94193">
+          <type featureTypeId="8">Birthdate</type>
+          <versionId>91772</versionId>
+          <value>19 Aug 1971</value>
+          <valueDate id="145258">
+            <fromDateBegin>1971-08-19</fromDateBegin>
+            <fromDateEnd>1971-08-19</fromDateEnd>
+            <toDateBegin>1971-08-19</toDateBegin>
+            <toDateEnd>1971-08-19</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94195">
+          <type featureTypeId="224">Gender</type>
+          <versionId>91774</versionId>
+          <value>Male</value>
+          <valueRefId>91526</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94194">
+          <type featureTypeId="10">Nationality Country</type>
+          <versionId>91773</versionId>
+          <value>Korea, North</value>
+          <valueRefId>11120</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94196">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>91775</versionId>
+          <value>North Korea Sanctions Regulations, sections 510.201 and 510.210</value>
+          <valueRefId>91762</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94197">
+          <type featureTypeId="626">Transactions Prohibited For Persons Owned or Controlled By U.S. Financial Institutions:</type>
+          <versionId>91776</versionId>
+          <value>North Korea Sanctions Regulations section 510.214</value>
+          <valueRefId>91905</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="50201">
+          <type refId="1571">Passport</type>
+          <name nameId="87046" nameTranslationId="87305">JONG, Sung Hyok</name>
+          <documentNumber>754420338</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11120">Korea, North</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="23875">
+          <type refId="15002">Acting for or on behalf of</type>
+          <relatedEntity entityId="15603">FOREIGN TRADE BANK OF THE DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="56043" action="add">
+      <generalInfo>
+        <identityId>47450</identityId>
+        <entityType refId="600">Individual</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="58486" refId="1550" datePublished="2025-11-04">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="60667" refId="91744">DPRK4</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="48636" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="47092" refId="91745">Executive Order 13810 (North Korea)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="87048">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="87307">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Hong Gil</formattedFirstName>
+              <formattedLastName>HAN</formattedLastName>
+              <formattedFullName>HAN, Hong Gil</formattedFullName>
+              <nameParts>
+                <namePart id="145608">
+                  <type refId="1521">First Name</type>
+                  <value>Hong</value>
+                </namePart>
+                <namePart id="145607">
+                  <type refId="1520">Last Name</type>
+                  <value>Han</value>
+                </namePart>
+                <namePart id="145609">
+                  <type refId="1522">Middle Name</type>
+                  <value>Gil</value>
+                </namePart>
+              </nameParts>
+            </translation>
+            <translation id="87308">
+              <isPrimary>false</isPrimary>
+              <script refId="20140">Korean</script>
+              <formattedFirstName>홍길</formattedFirstName>
+              <formattedLastName>한</formattedLastName>
+              <formattedFullName>한홍길</formattedFullName>
+              <nameParts>
+                <namePart id="145611">
+                  <type refId="1521">First Name</type>
+                  <value>홍</value>
+                </namePart>
+                <namePart id="145610">
+                  <type refId="1520">Last Name</type>
+                  <value>한</value>
+                </namePart>
+                <namePart id="145612">
+                  <type refId="1522">Middle Name</type>
+                  <value>길</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="87049">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="87309">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Hong Kil</formattedFirstName>
+              <formattedLastName>HAN</formattedLastName>
+              <formattedFullName>HAN, Hong Kil</formattedFullName>
+              <nameParts>
+                <namePart id="145614">
+                  <type refId="1521">First Name</type>
+                  <value>Hong</value>
+                </namePart>
+                <namePart id="145613">
+                  <type refId="1520">Last Name</type>
+                  <value>Han</value>
+                </namePart>
+                <namePart id="145615">
+                  <type refId="1522">Middle Name</type>
+                  <value>Kil</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="86056">
+          <country refId="11065">China</country>
+          <translations>
+            <translation id="66478">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="118746">
+                  <type refId="1454">CITY</type>
+                  <value>Dandong</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="94314">
+          <type featureTypeId="8">Birthdate</type>
+          <versionId>91893</versionId>
+          <value>20 Jan 1974</value>
+          <valueDate id="145572">
+            <fromDateBegin>1974-01-20</fromDateBegin>
+            <fromDateEnd>1974-01-20</fromDateEnd>
+            <toDateBegin>1974-01-20</toDateBegin>
+            <toDateEnd>1974-01-20</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94198">
+          <type featureTypeId="224">Gender</type>
+          <versionId>91777</versionId>
+          <value>Male</value>
+          <valueRefId>91526</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94315">
+          <type featureTypeId="10">Nationality Country</type>
+          <versionId>91894</versionId>
+          <value>Korea, North</value>
+          <valueRefId>11120</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94316">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>91895</versionId>
+          <value>North Korea Sanctions Regulations, sections 510.201 and 510.210</value>
+          <valueRefId>91762</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94317">
+          <type featureTypeId="626">Transactions Prohibited For Persons Owned or Controlled By U.S. Financial Institutions:</type>
+          <versionId>91896</versionId>
+          <value>North Korea Sanctions Regulations section 510.214</value>
+          <valueRefId>91905</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="50269">
+          <type refId="1571">Passport</type>
+          <name nameId="87048" nameTranslationId="87307">HAN, Hong Gil</name>
+          <documentNumber>381410151</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11120">Korea, North</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="23936">
+          <type refId="15001">Providing support to</type>
+          <relatedEntity entityId="23004">KORYO COMMERCIAL BANK LTD.</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="56044" action="add">
+      <generalInfo>
+        <identityId>47451</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="58487" refId="1550" datePublished="2025-11-04">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="60668" refId="91744">DPRK4</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="48637" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="47093" refId="91745">Executive Order 13810 (North Korea)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="87050">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="87310">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>KOREA MANGYONGDAE COMPUTER TECHNOLOGY CORPORATION</formattedLastName>
+              <formattedFullName>KOREA MANGYONGDAE COMPUTER TECHNOLOGY CORPORATION</formattedFullName>
+              <nameParts>
+                <namePart id="145616">
+                  <type refId="1525">Entity Name</type>
+                  <value>Korea Mangyongdae Computer Technology Corporation</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="87051">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="87311">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>MANGYONGDAE COMPUTER TECHNOLOGY</formattedLastName>
+              <formattedFullName>MANGYONGDAE COMPUTER TECHNOLOGY</formattedFullName>
+              <nameParts>
+                <namePart id="145617">
+                  <type refId="1525">Entity Name</type>
+                  <value>Mangyongdae Computer Technology</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="87052">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="87312">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>KOREA MANGYONGDAE COMPUTER TECHNOLOGY CORP.</formattedLastName>
+              <formattedFullName>KOREA MANGYONGDAE COMPUTER TECHNOLOGY CORP.</formattedFullName>
+              <nameParts>
+                <namePart id="145618">
+                  <type refId="1525">Entity Name</type>
+                  <value>Korea Mangyongdae Computer Technology Corp.</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="85834">
+          <country refId="11120">Korea, North</country>
+          <translations>
+            <translation id="66436">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="118695">
+                  <type refId="1454">CITY</type>
+                  <value>Songhung-dong</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="94199">
+          <type featureTypeId="647">Organization Type:</type>
+          <versionId>91778</versionId>
+          <value>Other information technology and computer service activities</value>
+          <valueRefId>92083</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94205">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>91784</versionId>
+          <value>North Korea Sanctions Regulations, sections 510.201 and 510.210</value>
+          <valueRefId>91762</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94206">
+          <type featureTypeId="626">Transactions Prohibited For Persons Owned or Controlled By U.S. Financial Institutions:</type>
+          <versionId>91785</versionId>
+          <value>North Korea Sanctions Regulations section 510.214</value>
+          <valueRefId>91905</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+    </entity>
+    <entity id="56045" action="add">
+      <generalInfo>
+        <identityId>47452</identityId>
+        <entityType refId="600">Individual</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="58488" refId="1550" datePublished="2025-11-04">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="60669" refId="91744">DPRK4</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="48638" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="47094" refId="91745">Executive Order 13810 (North Korea)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="87053">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="87313">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Yong Su</formattedFirstName>
+              <formattedLastName>U</formattedLastName>
+              <formattedFullName>U, Yong Su</formattedFullName>
+              <nameParts>
+                <namePart id="145620">
+                  <type refId="1521">First Name</type>
+                  <value>Yong</value>
+                </namePart>
+                <namePart id="145619">
+                  <type refId="1520">Last Name</type>
+                  <value>U</value>
+                </namePart>
+                <namePart id="145621">
+                  <type refId="1522">Middle Name</type>
+                  <value>Su</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="85836">
+          <country refId="11065">China</country>
+          <translations>
+            <translation id="66437">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="118696">
+                  <type refId="1454">CITY</type>
+                  <value>Dandong</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="94201">
+          <type featureTypeId="8">Birthdate</type>
+          <versionId>91780</versionId>
+          <value>19 Jun 1971</value>
+          <valueDate id="145268">
+            <fromDateBegin>1971-06-19</fromDateBegin>
+            <fromDateEnd>1971-06-19</fromDateEnd>
+            <toDateBegin>1971-06-19</toDateBegin>
+            <toDateEnd>1971-06-19</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94200">
+          <type featureTypeId="224">Gender</type>
+          <versionId>91779</versionId>
+          <value>Male</value>
+          <valueRefId>91526</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94202">
+          <type featureTypeId="10">Nationality Country</type>
+          <versionId>91781</versionId>
+          <value>Korea, North</value>
+          <valueRefId>11120</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94203">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>91782</versionId>
+          <value>North Korea Sanctions Regulations, sections 510.201 and 510.210</value>
+          <valueRefId>91762</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="94204">
+          <type featureTypeId="626">Transactions Prohibited For Persons Owned or Controlled By U.S. Financial Institutions:</type>
+          <versionId>91783</versionId>
+          <value>North Korea Sanctions Regulations section 510.214</value>
+          <valueRefId>91905</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="50232">
+          <type refId="1571">Passport</type>
+          <name nameId="87053" nameTranslationId="87313">U, Yong Su</name>
+          <documentNumber>481231176</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11120">Korea, North</issuingCountry>
+          <expirationDate id="145446">
+            <fromDateBegin>2026-05-17</fromDateBegin>
+            <fromDateEnd>2026-05-17</fromDateEnd>
+            <toDateBegin>2026-05-17</toDateBegin>
+            <toDateEnd>2026-05-17</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </expirationDate>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="23876">
+          <type refId="15002">Acting for or on behalf of</type>
+          <relatedEntity entityId="56044">KOREA MANGYONGDAE COMPUTER TECHNOLOGY CORPORATION</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+  </entities>
+</sanctionsData>

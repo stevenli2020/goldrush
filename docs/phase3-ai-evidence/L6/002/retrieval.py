@@ -60,6 +60,10 @@ def container_date(text):
     return date.fromisoformat(f'{match.group(3)}-{match.group(1)}-{match.group(2)}') if match else None
 
 
+def dated_recent_action_url(publication_date):
+    return f"https://ofac.treasury.gov/recent-actions/{date.fromisoformat(publication_date).strftime('%Y%m%d')}"
+
+
 def recent_action_links(html, names, publication_date):
     soup = BeautifulSoup(html, 'html.parser')
     names = [name.casefold() for name in names if name]
@@ -117,9 +121,18 @@ def retrieve_event(event, session=None):
     client = session or requests.Session()
     robots_cache = {}
     attempts = []
+    names = event_names(event)
+    dated_url = dated_recent_action_url(event['publication_date'])
+    page, attempt = fetch(dated_url, client, robots_cache)
+    attempts.append(attempt)
+    if page is not None:
+        text = BeautifulSoup(page.text, 'html.parser').get_text('\n', strip=True)
+        matched_name = matching_official_name(text, names)
+        if matched_name:
+            return evidence_record(event, 'FOUND', text, dated_url, attempts, matched_name)
+
     page, attempt = fetch(RECENT_ACTIONS_URL, client, robots_cache)
     attempts.append(attempt)
-    names = event_names(event)
     urls = recent_action_links(page.text, names, event['publication_date']) if page is not None else []
     for url in urls:
         response, attempt = fetch(url, client, robots_cache)

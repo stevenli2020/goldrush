@@ -24,13 +24,21 @@ def select_latest(entries):
         return (entry['publishDisplayDate'], sequence)
     return max(valid, key=sort_key)
 
+def select_entry(entries, filename=None):
+    if filename is None:
+        return select_latest(entries)
+    entry = next((item for item in entries if item.get('fileName') == filename and item.get('downloadLink')), None)
+    if entry is None:
+        raise ValueError(f'OFAC archive has no downloadable entry named {filename}')
+    return entry
+
 def archive_sequence(filename):
     match = re.search(r'_delta(?:_(\d+))?\.xml$', filename)
     if not match:
         raise ValueError('OFAC archive filename has no delta sequence')
     return int(match.group(1) or 1)
 
-def collect(raw_dir, manifest_dir, *, year=None, session=None):
+def collect(raw_dir, manifest_dir, *, year=None, archive_filename=None, session=None):
     year = year or datetime.now(timezone.utc).year
     s = session or requests.Session()
     h = {'User-Agent': 'GoldRush/0.2 personal research', 'Accept': 'application/json'}
@@ -38,7 +46,7 @@ def collect(raw_dir, manifest_dir, *, year=None, session=None):
     if a.status_code != 200:
         raise RuntimeError(f'OFAC archive HTTP status {a.status_code}')
     try:
-        entry = select_latest(a.json())
+        entry = select_entry(a.json(), archive_filename)
     except (ValueError, TypeError, json.JSONDecodeError) as exc:
         raise ValueError('invalid OFAC archive response') from exc
     filename = entry['downloadLink']
@@ -78,9 +86,10 @@ def main():
     root = Path(__file__).resolve().parent
     ap = argparse.ArgumentParser()
     ap.add_argument('--year', type=int)
+    ap.add_argument('--archive-filename', help='Collect one verified archive entry instead of the latest delta.')
     ap.add_argument('--raw-dir', type=Path, default=root / 'data/raw')
     ap.add_argument('--manifest-dir', type=Path, default=root / 'data/manifests')
     a = ap.parse_args()
-    print(json.dumps(collect(a.raw_dir, a.manifest_dir, year=a.year), indent=2))
+    print(json.dumps(collect(a.raw_dir, a.manifest_dir, year=a.year, archive_filename=a.archive_filename), indent=2))
 if __name__ == '__main__':
     main()

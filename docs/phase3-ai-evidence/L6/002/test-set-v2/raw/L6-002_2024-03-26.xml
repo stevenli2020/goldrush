@@ -1,0 +1,3053 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sanctionsData xmlns="https://www.treasury.gov/ofac/DeltaFile/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.treasury.gov/ofac/DeltaFile/1.0 https://www.treasury.gov/ofac/downloads/sanctions/1.0/DeltaFile.xsd">
+  <publicationInfo>
+    <datePublished>2024-03-26T00:00:00-04:00</datePublished>
+    <publicationType>Standard Action</publicationType>
+  </publicationInfo>
+  <referenceValues>
+    <referenceValue refId="1594" action="add">
+      <type>ID DOCUMENT TYPE</type>
+      <value>C.I.N.</value>
+    </referenceValue>
+  </referenceValues>
+  <featureTypes />
+  <entities>
+    <entity id="48257" action="add">
+      <generalInfo>
+        <identityId>39881</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50796" refId="1550" datePublished="2024-03-26">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="51615" refId="215">SYRIA</sanctionsProgram>
+        <sanctionsProgram id="51698" refId="91907">SYRIA-CAESAR</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40842" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="38099" refId="91937">Caesar Act</legalAuthority>
+        <legalAuthority id="38100" refId="91251">Executive Order 13582 (Syria)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="74963">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73620">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>MAYA EXCHANGE COMPANY</formattedLastName>
+              <formattedFullName>MAYA EXCHANGE COMPANY</formattedFullName>
+              <nameParts>
+                <namePart id="127563">
+                  <type refId="1525">Entity Name</type>
+                  <value>Maya Exchange Company</value>
+                </namePart>
+              </nameParts>
+            </translation>
+            <translation id="73746">
+              <isPrimary>false</isPrimary>
+              <script refId="20100">Arabic</script>
+              <formattedLastName>‫شركة مايا للصرافة‬</formattedLastName>
+              <formattedFullName>‫شركة مايا للصرافة‬</formattedFullName>
+              <nameParts>
+                <namePart id="127773">
+                  <type refId="1525">Entity Name</type>
+                  <value>شركة مايا للصرافة</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="74964">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73621">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>MAYA FOR EXCHANGE AND INTERNATIONAL HAWALAS</formattedLastName>
+              <formattedFullName>MAYA FOR EXCHANGE AND INTERNATIONAL HAWALAS</formattedFullName>
+              <nameParts>
+                <namePart id="127564">
+                  <type refId="1525">Entity Name</type>
+                  <value>Maya for Exchange and International Hawalas</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="72334">
+          <country refId="11197">Syria</country>
+          <translations>
+            <translation id="58872">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="96831">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Ground Floor</value>
+                </addressPart>
+                <addressPart id="96832">
+                  <type refId="1452">ADDRESS2</type>
+                  <value>Property Number 17/9/2230, Baqi Zadeh Building</value>
+                </addressPart>
+                <addressPart id="96833">
+                  <type refId="1453">ADDRESS3</type>
+                  <value>Fardus Street, Salhiyah</value>
+                </addressPart>
+                <addressPart id="96834">
+                  <type refId="1454">CITY</type>
+                  <value>Damascus</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+        <address id="72335">
+          <country refId="11197">Syria</country>
+          <translations>
+            <translation id="58873">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="96835">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>First Real Estate Zone, Property Number 936</value>
+                </addressPart>
+                <addressPart id="96836">
+                  <type refId="1452">ADDRESS2</type>
+                  <value>Section 2, Ground Floor</value>
+                </addressPart>
+                <addressPart id="96837">
+                  <type refId="1453">ADDRESS3</type>
+                  <value>Haju Building, Abd al-Hamid al-Durubi Street</value>
+                </addressPart>
+                <addressPart id="96838">
+                  <type refId="1454">CITY</type>
+                  <value>Homs</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+        <address id="72336">
+          <country refId="11197">Syria</country>
+          <translations>
+            <translation id="58874">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="97006">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Tartus Real Estate Zone, Section 8, Property Number 3881</value>
+                </addressPart>
+                <addressPart id="97007">
+                  <type refId="1452">ADDRESS2</type>
+                  <value>Revolution Street</value>
+                </addressPart>
+                <addressPart id="97008">
+                  <type refId="1453">ADDRESS3</type>
+                  <value>Al-Baraniyah</value>
+                </addressPart>
+                <addressPart id="97009">
+                  <type refId="1454">CITY</type>
+                  <value>Tartus</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+        <address id="72482">
+          <country refId="11197">Syria</country>
+          <translations>
+            <translation id="58958">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="97010">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Ground Floor, Second Real Estate Zone</value>
+                </addressPart>
+                <addressPart id="97011">
+                  <type refId="1452">ADDRESS2</type>
+                  <value>Sections 7-9, Property 2533</value>
+                </addressPart>
+                <addressPart id="97012">
+                  <type refId="1453">ADDRESS3</type>
+                  <value>Aziziyah Falls, Baghdad Station</value>
+                </addressPart>
+                <addressPart id="97013">
+                  <type refId="1454">CITY</type>
+                  <value>Aleppo</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="70526">
+          <type featureTypeId="647">Organization Type:</type>
+          <versionId>68205</versionId>
+          <value>Other monetary intermediation</value>
+          <valueRefId>92063</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <relationships>
+        <relationship id="19254">
+          <type refId="15001">Providing support to</type>
+          <relatedEntity entityId="30663">CENTRAL BANK OF SYRIA</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="48258" action="add">
+      <generalInfo>
+        <identityId>39882</identityId>
+        <entityType refId="600">Individual</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50797" refId="1550" datePublished="2024-03-26">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="51616" refId="215">SYRIA</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40843" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="38102" refId="91251">Executive Order 13582 (Syria)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="74965">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73622">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Muhammad 'Ali</formattedFirstName>
+              <formattedLastName>AL-MINALA</formattedLastName>
+              <formattedFullName>AL-MINALA, Muhammad 'Ali</formattedFullName>
+              <nameParts>
+                <namePart id="127566">
+                  <type refId="1521">First Name</type>
+                  <value>Muhammad 'Ali</value>
+                </namePart>
+                <namePart id="127565">
+                  <type refId="1520">Last Name</type>
+                  <value>Al-Minala</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="72338">
+          <country refId="11197">Syria</country>
+          <translations>
+            <translation id="58875">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="96843">
+                  <type refId="1454">CITY</type>
+                  <value>Damascus</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="70332">
+          <type featureTypeId="8">Birthdate</type>
+          <versionId>68011</versionId>
+          <value>03 Jun 1985</value>
+          <valueDate id="108476">
+            <fromDateBegin>1985-06-03</fromDateBegin>
+            <fromDateEnd>1985-06-03</fromDateEnd>
+            <toDateBegin>1985-06-03</toDateBegin>
+            <toDateEnd>1985-06-03</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70334">
+          <type featureTypeId="224">Gender</type>
+          <versionId>68013</versionId>
+          <value>Male</value>
+          <valueRefId>91526</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70333">
+          <type featureTypeId="10">Nationality Country</type>
+          <versionId>68012</versionId>
+          <value>Syria</value>
+          <valueRefId>11197</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70335">
+          <type featureTypeId="9">Place of Birth</type>
+          <versionId>68014</versionId>
+          <value>Damascus, Syria</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <relationships>
+        <relationship id="19255">
+          <type refId="15002">Acting for or on behalf of</type>
+          <relatedEntity entityId="30663">CENTRAL BANK OF SYRIA</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="48259" action="add">
+      <generalInfo>
+        <identityId>39883</identityId>
+        <entityType refId="600">Individual</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50798" refId="1550" datePublished="2024-03-26">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="51617" refId="215">SYRIA</sanctionsProgram>
+        <sanctionsProgram id="51700" refId="91907">SYRIA-CAESAR</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40844" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="38103" refId="91937">Caesar Act</legalAuthority>
+        <legalAuthority id="38104" refId="91251">Executive Order 13582 (Syria)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="74966">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73623">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Aleksey</formattedFirstName>
+              <formattedLastName>MAKAROV</formattedLastName>
+              <formattedFullName>MAKAROV, Aleksey</formattedFullName>
+              <nameParts>
+                <namePart id="127568">
+                  <type refId="1521">First Name</type>
+                  <value>Aleksey</value>
+                </namePart>
+                <namePart id="127567">
+                  <type refId="1520">Last Name</type>
+                  <value>Makarov</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="74967">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73624">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Alexey</formattedFirstName>
+              <formattedLastName>MAKAROV</formattedLastName>
+              <formattedFullName>MAKAROV, Alexey</formattedFullName>
+              <nameParts>
+                <namePart id="127570">
+                  <type refId="1521">First Name</type>
+                  <value>Alexey</value>
+                </namePart>
+                <namePart id="127569">
+                  <type refId="1520">Last Name</type>
+                  <value>Makarov</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="72340">
+          <country refId="11171">Russia</country>
+          <translations>
+            <translation id="58876">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="70337">
+          <type featureTypeId="8">Birthdate</type>
+          <versionId>68016</versionId>
+          <value>06 Aug 1974</value>
+          <valueDate id="108479">
+            <fromDateBegin>1974-08-06</fromDateBegin>
+            <fromDateEnd>1974-08-06</fromDateEnd>
+            <toDateBegin>1974-08-06</toDateBegin>
+            <toDateEnd>1974-08-06</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70336">
+          <type featureTypeId="224">Gender</type>
+          <versionId>68015</versionId>
+          <value>Male</value>
+          <valueRefId>91526</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70338">
+          <type featureTypeId="10">Nationality Country</type>
+          <versionId>68017</versionId>
+          <value>Russia</value>
+          <valueRefId>11171</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="39103">
+          <type refId="1571">Passport</type>
+          <name nameId="74966" nameTranslationId="73623">MAKAROV, Aleksey</name>
+          <documentNumber>753533725</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11171">Russia</issuingCountry>
+          <expirationDate id="108480">
+            <fromDateBegin>2026-08-03</fromDateBegin>
+            <fromDateEnd>2026-08-03</fromDateEnd>
+            <toDateBegin>2026-08-03</toDateBegin>
+            <toDateEnd>2026-08-03</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </expirationDate>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="19256">
+          <type refId="15001">Providing support to</type>
+          <relatedEntity entityId="30663">CENTRAL BANK OF SYRIA</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="48280" action="add">
+      <generalInfo>
+        <identityId>39904</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50819" refId="1550" datePublished="2024-03-26">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="51638" refId="211">SDGT</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40865" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="38125" refId="1828">Executive Order 13224 (Terrorism)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="74988">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73666">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>KNH SHIPPING PRIVATE LIMITED</formattedLastName>
+              <formattedFullName>KNH SHIPPING PRIVATE LIMITED</formattedFullName>
+              <nameParts>
+                <namePart id="127633">
+                  <type refId="1525">Entity Name</type>
+                  <value>KNH Shipping Private Limited</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="74989">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73667">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>KNH GLOBAL PRIVATE LIMITED</formattedLastName>
+              <formattedFullName>KNH GLOBAL PRIVATE LIMITED</formattedFullName>
+              <nameParts>
+                <namePart id="127634">
+                  <type refId="1525">Entity Name</type>
+                  <value>KNH Global Private Limited</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="74990">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73668">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>KNH SHIPPING LTD.</formattedLastName>
+              <formattedFullName>KNH SHIPPING LTD.</formattedFullName>
+              <nameParts>
+                <namePart id="127635">
+                  <type refId="1525">Entity Name</type>
+                  <value>KNH Shipping Ltd.</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="74991">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73669">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>KNH SHIPPING PVT LTD</formattedLastName>
+              <formattedFullName>KNH SHIPPING PVT LTD</formattedFullName>
+              <nameParts>
+                <namePart id="127636">
+                  <type refId="1525">Entity Name</type>
+                  <value>KNH Shipping Pvt Ltd</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="72383">
+          <country refId="11107">India</country>
+          <translations>
+            <translation id="58898">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="96906">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Shop No. 8, Mayur Complex, Faridi Nagar Cimap, Chandan Road, Indra Nagar</value>
+                </addressPart>
+                <addressPart id="96907">
+                  <type refId="1454">CITY</type>
+                  <value>Lucknow</value>
+                </addressPart>
+                <addressPart id="96909">
+                  <type refId="1456">POSTAL CODE</type>
+                  <value>226016</value>
+                </addressPart>
+                <addressPart id="96908">
+                  <type refId="1455">STATE/PROVINCE</type>
+                  <value>Uttar Pradesh</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="70517">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>68196</versionId>
+          <value>section 1(b) of Executive Order 13224, as amended by Executive Order 13886</value>
+          <valueRefId>92084</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="39124">
+          <type refId="1594">C.I.N.</type>
+          <name nameId="74988" nameTranslationId="73666">KNH SHIPPING PRIVATE LIMITED</name>
+          <documentNumber>U63090UP2019PTC117063</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11107">India</issuingCountry>
+        </identityDocument>
+        <identityDocument id="39125">
+          <type refId="91761">Registration Number</type>
+          <name nameId="74988" nameTranslationId="73666">KNH SHIPPING PRIVATE LIMITED</name>
+          <documentNumber>117603</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11107">India</issuingCountry>
+          <issueDate id="108569">
+            <fromDateBegin>2019-05-17</fromDateBegin>
+            <fromDateEnd>2019-05-17</fromDateEnd>
+            <toDateBegin>2019-05-17</toDateBegin>
+            <toDateEnd>2019-05-17</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </issueDate>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="19236">
+          <type refId="15001">Providing support to</type>
+          <relatedEntity entityId="32171">AL-JAMAL, Sa'id Ahmad Muhammad</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="48297" action="add">
+      <generalInfo>
+        <identityId>39921</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50836" refId="1550" datePublished="2024-03-26">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="51660" refId="211">SDGT</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40882" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="38142" refId="1828">Executive Order 13224 (Terrorism)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="75015">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73693">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>HASSALEH INTERNATIONAL COMPANY</formattedLastName>
+              <formattedFullName>HASSALEH INTERNATIONAL COMPANY</formattedFullName>
+              <nameParts>
+                <namePart id="127686">
+                  <type refId="1525">Entity Name</type>
+                  <value>Hassaleh International Company</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75016">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73694">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>HASSALEH INTERNATIONAL CO</formattedLastName>
+              <formattedFullName>HASSALEH INTERNATIONAL CO</formattedFullName>
+              <nameParts>
+                <namePart id="127687">
+                  <type refId="1525">Entity Name</type>
+                  <value>Hassaleh International Co</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="72419">
+          <country refId="11128">Liberia</country>
+          <translations>
+            <translation id="58917">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="96931">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>80 Broad Street</value>
+                </addressPart>
+                <addressPart id="96932">
+                  <type refId="1454">CITY</type>
+                  <value>Monrovia</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="70445">
+          <type featureTypeId="404">Registration Country</type>
+          <versionId>68124</versionId>
+          <value>Liberia</value>
+          <valueRefId>11128</valueRefId>
+          <isPrimary>true</isPrimary>
+          <reliability refId="1560">Confirmed</reliability>
+        </feature>
+        <feature id="70527">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>68206</versionId>
+          <value>section 1(b) of Executive Order 13224, as amended by Executive Order 13886</value>
+          <valueRefId>92084</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="39145">
+          <type refId="1608">Identification Number</type>
+          <name nameId="75015" nameTranslationId="73693">HASSALEH INTERNATIONAL COMPANY</name>
+          <documentNumber>IMO 6270941</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="19249">
+          <type refId="15001">Providing support to</type>
+          <relatedEntity entityId="32171">AL-JAMAL, Sa'id Ahmad Muhammad</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="48298" action="add">
+      <generalInfo>
+        <identityId>39922</identityId>
+        <entityType refId="602">Vessel</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50837" refId="1550" datePublished="2024-03-26">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="51661" refId="211">SDGT</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40883" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="38143" refId="1828">Executive Order 13224 (Terrorism)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="75017">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73695">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>DAWN II</formattedLastName>
+              <formattedFullName>DAWN II</formattedFullName>
+              <nameParts>
+                <namePart id="127688">
+                  <type refId="1526">Vessel Name</type>
+                  <value>DAWN II</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75018">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73696">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>SPAR</formattedLastName>
+              <formattedFullName>SPAR</formattedFullName>
+              <nameParts>
+                <namePart id="127689">
+                  <type refId="1526">Vessel Name</type>
+                  <value>Spar</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75019">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73697">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>AKIN I</formattedLastName>
+              <formattedFullName>AKIN I</formattedFullName>
+              <nameParts>
+                <namePart id="127690">
+                  <type refId="1526">Vessel Name</type>
+                  <value>Akin I</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="72420" />
+      </addresses>
+      <features>
+        <feature id="70520">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>68199</versionId>
+          <value>section 1(b) of Executive Order 13224, as amended by Executive Order 13886</value>
+          <valueRefId>92084</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70452">
+          <type featureTypeId="1">Vessel Call Sign</type>
+          <versionId>68131</versionId>
+          <value>3FHW2</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70450">
+          <type featureTypeId="3">Vessel Flag</type>
+          <versionId>68129</versionId>
+          <value>Panama</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70451">
+          <type featureTypeId="2">VESSEL TYPE</type>
+          <versionId>68130</versionId>
+          <value>Crude Oil Tanker</value>
+          <valueRefId>91274</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="39147">
+          <type refId="91264">MMSI</type>
+          <name nameId="75017" nameTranslationId="73695">DAWN II</name>
+          <documentNumber>374100000</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+        <identityDocument id="39146">
+          <type refId="1626">Vessel Registration Identification</type>
+          <name nameId="75017" nameTranslationId="73695">DAWN II</name>
+          <documentNumber>IMO 9185530</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="19250">
+          <type refId="15003">Owned or Controlled By</type>
+          <relatedEntity entityId="48297">HASSALEH INTERNATIONAL COMPANY</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="48302" action="add">
+      <generalInfo>
+        <identityId>39926</identityId>
+        <entityType refId="600">Individual</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50841" refId="1550" datePublished="2024-03-26">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="51666" refId="211">SDGT</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40887" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="38147" refId="1828">Executive Order 13224 (Terrorism)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="75024">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73702">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Tawfiq Muhammad Sa'id</formattedFirstName>
+              <formattedLastName>AL-LAW</formattedLastName>
+              <formattedFullName>AL-LAW, Tawfiq Muhammad Sa'id</formattedFullName>
+              <nameParts>
+                <namePart id="127698">
+                  <type refId="1521">First Name</type>
+                  <value>Tawfiq</value>
+                </namePart>
+                <namePart id="127697">
+                  <type refId="1520">Last Name</type>
+                  <value>AL-LAW</value>
+                </namePart>
+                <namePart id="127699">
+                  <type refId="1522">Middle Name</type>
+                  <value>Muhammad Sa'id</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75025">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73703">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Tawfik</formattedFirstName>
+              <formattedLastName>ALLOU</formattedLastName>
+              <formattedFullName>ALLOU, Tawfik</formattedFullName>
+              <nameParts>
+                <namePart id="127701">
+                  <type refId="1521">First Name</type>
+                  <value>Tawfik</value>
+                </namePart>
+                <namePart id="127700">
+                  <type refId="1520">Last Name</type>
+                  <value>ALLOU</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75026">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73704">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Tawfiq</formattedFirstName>
+              <formattedLastName>AL-LAW</formattedLastName>
+              <formattedFullName>AL-LAW, Tawfiq</formattedFullName>
+              <nameParts>
+                <namePart id="127703">
+                  <type refId="1521">First Name</type>
+                  <value>Tawfiq</value>
+                </namePart>
+                <namePart id="127702">
+                  <type refId="1520">Last Name</type>
+                  <value>AL-LAW</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="72427">
+          <country refId="11126">Lebanon</country>
+          <translations>
+            <translation id="58920">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="96940">
+                  <type refId="1454">CITY</type>
+                  <value>Beirut</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="70455">
+          <type featureTypeId="8">Birthdate</type>
+          <versionId>68134</versionId>
+          <value>04 May 1992</value>
+          <valueDate id="108687">
+            <fromDateBegin>1992-05-04</fromDateBegin>
+            <fromDateEnd>1992-05-04</fromDateEnd>
+            <toDateBegin>1992-05-04</toDateBegin>
+            <toDateEnd>1992-05-04</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70468">
+          <type featureTypeId="887">Digital Currency Address - USDT</type>
+          <versionId>68147</versionId>
+          <value>TWBAPzpPiZarfVsY2BLXeaLhNHurn4wkWG</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70456">
+          <type featureTypeId="224">Gender</type>
+          <versionId>68135</versionId>
+          <value>Male</value>
+          <valueRefId>91526</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70525">
+          <type featureTypeId="10">Nationality Country</type>
+          <versionId>68204</versionId>
+          <value>Syria</value>
+          <valueRefId>11197</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70469">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>68148</versionId>
+          <value>section 1(b) of Executive Order 13224, as amended by Executive Order 13886</value>
+          <valueRefId>92084</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="39150">
+          <type refId="1571">Passport</type>
+          <name nameId="75024" nameTranslationId="73702">AL-LAW, Tawfiq Muhammad Sa'id</name>
+          <documentNumber>N013053807</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11197">Syria</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="19260">
+          <type refId="15001">Providing support to</type>
+          <relatedEntity entityId="4697">HIZBALLAH</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="48303" action="add">
+      <generalInfo>
+        <identityId>39927</identityId>
+        <entityType refId="600">Individual</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50842" refId="1550" datePublished="2024-03-26">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="51667" refId="215">SYRIA</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40888" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="38148" refId="91251">Executive Order 13582 (Syria)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="75027">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73705">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Mahmoud Abdulilah</formattedFirstName>
+              <formattedLastName>AL-DJ</formattedLastName>
+              <formattedFullName>AL-DJ, Mahmoud Abdulilah</formattedFullName>
+              <nameParts>
+                <namePart id="127705">
+                  <type refId="1521">First Name</type>
+                  <value>Mahmoud</value>
+                </namePart>
+                <namePart id="127704">
+                  <type refId="1520">Last Name</type>
+                  <value>Al-Dj</value>
+                </namePart>
+                <namePart id="127706">
+                  <type refId="1522">Middle Name</type>
+                  <value>Abdulilah</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75028">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73706">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Mahmoud Abdul-ilah</formattedFirstName>
+              <formattedLastName>DAJ</formattedLastName>
+              <formattedFullName>DAJ, Mahmoud Abdul-ilah</formattedFullName>
+              <nameParts>
+                <namePart id="127708">
+                  <type refId="1521">First Name</type>
+                  <value>Mahmoud</value>
+                </namePart>
+                <namePart id="127707">
+                  <type refId="1520">Last Name</type>
+                  <value>Daj</value>
+                </namePart>
+                <namePart id="127709">
+                  <type refId="1522">Middle Name</type>
+                  <value>Abdul-ilah</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75029">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73707">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Mahmoud Abdul-ilah</formattedFirstName>
+              <formattedLastName>AL-DAJ</formattedLastName>
+              <formattedFullName>AL-DAJ, Mahmoud Abdul-ilah</formattedFullName>
+              <nameParts>
+                <namePart id="127711">
+                  <type refId="1521">First Name</type>
+                  <value>Mahmoud</value>
+                </namePart>
+                <namePart id="127710">
+                  <type refId="1520">Last Name</type>
+                  <value>Al-Daj</value>
+                </namePart>
+                <namePart id="127712">
+                  <type refId="1522">Middle Name</type>
+                  <value>Abdul-ilah</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75030">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73708">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Mahmud Abdulilah</formattedFirstName>
+              <formattedLastName>DAJJ</formattedLastName>
+              <formattedFullName>DAJJ, Mahmud Abdulilah</formattedFullName>
+              <nameParts>
+                <namePart id="127714">
+                  <type refId="1521">First Name</type>
+                  <value>Mahmud</value>
+                </namePart>
+                <namePart id="127713">
+                  <type refId="1520">Last Name</type>
+                  <value>Dajj</value>
+                </namePart>
+                <namePart id="127715">
+                  <type refId="1522">Middle Name</type>
+                  <value>Abdulilah</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75031">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73709">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Mahmoud</formattedFirstName>
+              <formattedLastName>AL-DJ</formattedLastName>
+              <formattedFullName>AL-DJ, Mahmoud</formattedFullName>
+              <nameParts>
+                <namePart id="127717">
+                  <type refId="1521">First Name</type>
+                  <value>Mahmoud</value>
+                </namePart>
+                <namePart id="127716">
+                  <type refId="1520">Last Name</type>
+                  <value>al-Dj</value>
+                </namePart>
+              </nameParts>
+            </translation>
+            <translation id="73749">
+              <isPrimary>false</isPrimary>
+              <script refId="20100">Arabic</script>
+              <formattedLastName>‫محمد الدج‬</formattedLastName>
+              <formattedFullName>‫محمد الدج‬</formattedFullName>
+              <nameParts>
+                <namePart id="127779">
+                  <type refId="1521">First Name</type>
+                  <value>محمد</value>
+                </namePart>
+                <namePart id="127778">
+                  <type refId="1520">Last Name</type>
+                  <value>الدج</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="72429">
+          <country refId="11197">Syria</country>
+          <translations>
+            <translation id="58921">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="70457">
+          <type featureTypeId="8">Birthdate</type>
+          <versionId>68136</versionId>
+          <value>26 Jul 1983</value>
+          <valueDate id="108698">
+            <fromDateBegin>1983-07-26</fromDateBegin>
+            <fromDateEnd>1983-07-26</fromDateEnd>
+            <toDateBegin>1983-07-26</toDateBegin>
+            <toDateEnd>1983-07-26</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70460">
+          <type featureTypeId="224">Gender</type>
+          <versionId>68139</versionId>
+          <value>Male</value>
+          <valueRefId>91526</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70458">
+          <type featureTypeId="10">Nationality Country</type>
+          <versionId>68137</versionId>
+          <value>Syria</value>
+          <valueRefId>11197</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70459">
+          <type featureTypeId="9">Place of Birth</type>
+          <versionId>68138</versionId>
+          <value>Tell Rifaat, Aleppo, Syria</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+    </entity>
+    <entity id="48304" action="add">
+      <generalInfo>
+        <identityId>39928</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50843" refId="1550" datePublished="2024-03-26">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="51668" refId="215">SYRIA</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40889" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="38149" refId="91251">Executive Order 13582 (Syria)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="75032">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73710">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>AL-TA'IR COMPANY</formattedLastName>
+              <formattedFullName>AL-TA'IR COMPANY</formattedFullName>
+              <nameParts>
+                <namePart id="127718">
+                  <type refId="1525">Entity Name</type>
+                  <value>Al-Ta'ir Company</value>
+                </namePart>
+              </nameParts>
+            </translation>
+            <translation id="73750">
+              <isPrimary>false</isPrimary>
+              <script refId="20100">Arabic</script>
+              <formattedLastName>‫شركة الطير‬</formattedLastName>
+              <formattedFullName>‫شركة الطير‬</formattedFullName>
+              <nameParts>
+                <namePart id="127780">
+                  <type refId="1525">Entity Name</type>
+                  <value>شركة الطير</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="72431">
+          <country refId="11197">Syria</country>
+          <translations>
+            <translation id="58922">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="96941">
+                  <type refId="1454">CITY</type>
+                  <value>Damascus</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="70461">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>68140</versionId>
+          <value>17 Dec 2012</value>
+          <valueDate id="108700">
+            <fromDateBegin>2012-12-17</fromDateBegin>
+            <fromDateEnd>2012-12-17</fromDateEnd>
+            <toDateBegin>2012-12-17</toDateBegin>
+            <toDateEnd>2012-12-17</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70528">
+          <type featureTypeId="647">Organization Type:</type>
+          <versionId>68207</versionId>
+          <value>Transportation and storage</value>
+          <valueRefId>92152</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <relationships>
+        <relationship id="19257">
+          <type refId="15003">Owned or Controlled By</type>
+          <relatedEntity entityId="48303">AL-DJ, Mahmoud Abdulilah</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="48305" action="add">
+      <generalInfo>
+        <identityId>39929</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50844" refId="1550" datePublished="2024-03-26">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="51669" refId="215">SYRIA</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40890" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="38150" refId="91251">Executive Order 13582 (Syria)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="75033">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73711">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>FREEBIRD TRAVEL AND TOURISM</formattedLastName>
+              <formattedFullName>FREEBIRD TRAVEL AND TOURISM</formattedFullName>
+              <nameParts>
+                <namePart id="127719">
+                  <type refId="1525">Entity Name</type>
+                  <value>Freebird Travel and Tourism</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75034">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73712">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>FREE BIRD COMPANY</formattedLastName>
+              <formattedFullName>FREE BIRD COMPANY</formattedFullName>
+              <nameParts>
+                <namePart id="127720">
+                  <type refId="1525">Entity Name</type>
+                  <value>Free Bird Company</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75035">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73713">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>AL-TAIR AL-HUR</formattedLastName>
+              <formattedFullName>AL-TAIR AL-HUR</formattedFullName>
+              <nameParts>
+                <namePart id="127721">
+                  <type refId="1525">Entity Name</type>
+                  <value>Al-Tair Al-Hur</value>
+                </namePart>
+              </nameParts>
+            </translation>
+            <translation id="73751">
+              <isPrimary>false</isPrimary>
+              <script refId="20100">Arabic</script>
+              <formattedLastName>‫الطير الحر‬</formattedLastName>
+              <formattedFullName>‫الطير الحر‬</formattedFullName>
+              <nameParts>
+                <namePart id="127781">
+                  <type refId="1525">Entity Name</type>
+                  <value>الطير الحر</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="72433">
+          <country refId="11197">Syria</country>
+          <translations>
+            <translation id="58923">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="96942">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Maysaloon Street</value>
+                </addressPart>
+                <addressPart id="96943">
+                  <type refId="1452">ADDRESS2</type>
+                  <value>Al Muhandiseen Building Floor No. 12</value>
+                </addressPart>
+                <addressPart id="96944">
+                  <type refId="1454">CITY</type>
+                  <value>Damascus</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+        <address id="72434">
+          <country refId="11210">United Arab Emirates</country>
+          <translations>
+            <translation id="58924">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="97020">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Hour al-Enz al-Mammzar Center</value>
+                </addressPart>
+                <addressPart id="97021">
+                  <type refId="1452">ADDRESS2</type>
+                  <value>Second Floor</value>
+                </addressPart>
+                <addressPart id="97022">
+                  <type refId="1453">ADDRESS3</type>
+                  <value>Office 12</value>
+                </addressPart>
+                <addressPart id="97023">
+                  <type refId="1454">CITY</type>
+                  <value>Dubai</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+        <address id="72435">
+          <country refId="11096">Greece</country>
+          <translations>
+            <translation id="58925">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="96949">
+                  <type refId="1454">CITY</type>
+                  <value>Athens</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="70462">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>68141</versionId>
+          <value>2022</value>
+          <valueDate id="108705">
+            <fromDateBegin>2022-01-01</fromDateBegin>
+            <fromDateEnd>2022-01-01</fromDateEnd>
+            <toDateBegin>2022-12-31</toDateBegin>
+            <toDateEnd>2022-12-31</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70529">
+          <type featureTypeId="647">Organization Type:</type>
+          <versionId>68208</versionId>
+          <value>Travel agency activities</value>
+          <valueRefId>91982</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <relationships>
+        <relationship id="19258">
+          <type refId="15003">Owned or Controlled By</type>
+          <relatedEntity entityId="48303">AL-DJ, Mahmoud Abdulilah</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="48306" action="add">
+      <generalInfo>
+        <identityId>39930</identityId>
+        <entityType refId="600">Individual</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50845" refId="1550" datePublished="2024-03-26">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="51670" refId="215">SYRIA</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40891" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="38151" refId="91251">Executive Order 13582 (Syria)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="75036">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73714">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Taher</formattedFirstName>
+              <formattedLastName>AL-KAYALI</formattedLastName>
+              <formattedFullName>AL-KAYALI, Taher</formattedFullName>
+              <nameParts>
+                <namePart id="127723">
+                  <type refId="1521">First Name</type>
+                  <value>Taher</value>
+                </namePart>
+                <namePart id="127722">
+                  <type refId="1520">Last Name</type>
+                  <value>Al-Kayali</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75037">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73715">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Taer</formattedFirstName>
+              <formattedLastName>CAIALI</formattedLastName>
+              <formattedFullName>CAIALI, Taer</formattedFullName>
+              <nameParts>
+                <namePart id="127725">
+                  <type refId="1521">First Name</type>
+                  <value>Taer</value>
+                </namePart>
+                <namePart id="127724">
+                  <type refId="1520">Last Name</type>
+                  <value>Caiali</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75038">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73716">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Taher Abdel Karim</formattedFirstName>
+              <formattedLastName>KAYALI</formattedLastName>
+              <formattedFullName>KAYALI, Taher Abdel Karim</formattedFullName>
+              <nameParts>
+                <namePart id="127727">
+                  <type refId="1521">First Name</type>
+                  <value>Taher</value>
+                </namePart>
+                <namePart id="127726">
+                  <type refId="1520">Last Name</type>
+                  <value>Kayali</value>
+                </namePart>
+                <namePart id="127728">
+                  <type refId="1522">Middle Name</type>
+                  <value>Abdel Karim</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75039">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73717">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Taher</formattedFirstName>
+              <formattedLastName>KAYALI</formattedLastName>
+              <formattedFullName>KAYALI, Taher</formattedFullName>
+              <nameParts>
+                <namePart id="127730">
+                  <type refId="1521">First Name</type>
+                  <value>Taher</value>
+                </namePart>
+                <namePart id="127729">
+                  <type refId="1520">Last Name</type>
+                  <value>Kayali</value>
+                </namePart>
+              </nameParts>
+            </translation>
+            <translation id="73747">
+              <isPrimary>false</isPrimary>
+              <script refId="20100">Arabic</script>
+              <formattedLastName>‫طاهر كيالي‬</formattedLastName>
+              <formattedFullName>‫طاهر كيالي‬</formattedFullName>
+              <nameParts>
+                <namePart id="127775">
+                  <type refId="1521">First Name</type>
+                  <value>طاهر</value>
+                </namePart>
+                <namePart id="127774">
+                  <type refId="1520">Last Name</type>
+                  <value>كيالي</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="72437">
+          <country refId="11197">Syria</country>
+          <translations>
+            <translation id="58926">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="70463">
+          <type featureTypeId="8">Birthdate</type>
+          <versionId>68142</versionId>
+          <value>11 Jul 1960</value>
+          <valueDate id="108711">
+            <fromDateBegin>1960-07-11</fromDateBegin>
+            <fromDateEnd>1960-07-11</fromDateEnd>
+            <toDateBegin>1960-07-11</toDateBegin>
+            <toDateEnd>1960-07-11</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70466">
+          <type featureTypeId="224">Gender</type>
+          <versionId>68145</versionId>
+          <value>Male</value>
+          <valueRefId>91526</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70464">
+          <type featureTypeId="10">Nationality Country</type>
+          <versionId>68143</versionId>
+          <value>Syria</value>
+          <valueRefId>11197</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70465">
+          <type featureTypeId="9">Place of Birth</type>
+          <versionId>68144</versionId>
+          <value>Aleppo, Syria</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="39151">
+          <type refId="1584">National ID No.</type>
+          <name nameId="75036" nameTranslationId="73714">AL-KAYALI, Taher</name>
+          <documentNumber>02010229257</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11197">Syria</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="48307" action="add">
+      <generalInfo>
+        <identityId>39931</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50846" refId="1550" datePublished="2024-03-26">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="51671" refId="215">SYRIA</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40892" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="38152" refId="91251">Executive Order 13582 (Syria)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="75040">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73718">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>NEPTUNUS LLC</formattedLastName>
+              <formattedFullName>NEPTUNUS LLC</formattedFullName>
+              <nameParts>
+                <namePart id="127731">
+                  <type refId="1525">Entity Name</type>
+                  <value>Neptunus LLC</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75041">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73719">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>NEPTUNUS CO LTD</formattedLastName>
+              <formattedFullName>NEPTUNUS CO LTD</formattedFullName>
+              <nameParts>
+                <namePart id="127732">
+                  <type refId="1525">Entity Name</type>
+                  <value>Neptunus Co Ltd</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="72439">
+          <country refId="11197">Syria</country>
+          <translations>
+            <translation id="58927">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="97014">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>653/38 Baghdad Street</value>
+                </addressPart>
+                <addressPart id="97015">
+                  <type refId="1454">CITY</type>
+                  <value>Lattakia</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="70467">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>68146</versionId>
+          <value>2017</value>
+          <valueDate id="108716">
+            <fromDateBegin>2017-01-01</fromDateBegin>
+            <fromDateEnd>2017-01-01</fromDateEnd>
+            <toDateBegin>2017-12-31</toDateBegin>
+            <toDateEnd>2017-12-31</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="39152">
+          <type refId="91760">Business Registration Number</type>
+          <name nameId="75040" nameTranslationId="73718">NEPTUNUS LLC</name>
+          <documentNumber>6068911</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11197">Syria</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="19259">
+          <type refId="15003">Owned or Controlled By</type>
+          <relatedEntity entityId="48306">AL-KAYALI, Taher</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="48309" action="add">
+      <generalInfo>
+        <identityId>39933</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50848" refId="1550" datePublished="2024-03-26">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="51673" refId="211">SDGT</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40894" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="38154" refId="1828">Executive Order 13224 (Terrorism)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="75043">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73721">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>ORCHIDIA REGIONAL FOR GENERAL TRADING AND CONTRACTING COMPANY</formattedLastName>
+              <formattedFullName>ORCHIDIA REGIONAL FOR GENERAL TRADING AND CONTRACTING COMPANY</formattedFullName>
+              <nameParts>
+                <namePart id="127736">
+                  <type refId="1525">Entity Name</type>
+                  <value>ORCHIDIA REGIONAL FOR GENERAL TRADING AND CONTRACTING COMPANY</value>
+                </namePart>
+              </nameParts>
+            </translation>
+            <translation id="73724">
+              <isPrimary>false</isPrimary>
+              <script refId="20100">Arabic</script>
+              <formattedLastName>‫شركه اوركيديا الاقليميه للتجاره العامه والمقاولات‬</formattedLastName>
+              <formattedFullName>‫شركه اوركيديا الاقليميه للتجاره العامه والمقاولات‬</formattedFullName>
+              <nameParts>
+                <namePart id="127739">
+                  <type refId="1525">Entity Name</type>
+                  <value>شركه اوركيديا الاقليميه للتجاره العامه والمقاولات</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75044">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73722">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>ORCHIDIA REGIONAL GEN. TRAD. &amp; CONT. CO.</formattedLastName>
+              <formattedFullName>ORCHIDIA REGIONAL GEN. TRAD. &amp; CONT. CO.</formattedFullName>
+              <nameParts>
+                <namePart id="127737">
+                  <type refId="1525">Entity Name</type>
+                  <value>Orchidia Regional Gen. Trad. &amp; Cont. Co.</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75045">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73723">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>ORCHID REGIONAL COMPANY FOR GENERAL TRADING AND CONTRACTING</formattedLastName>
+              <formattedFullName>ORCHID REGIONAL COMPANY FOR GENERAL TRADING AND CONTRACTING</formattedFullName>
+              <nameParts>
+                <namePart id="127738">
+                  <type refId="1525">Entity Name</type>
+                  <value>Orchid Regional Company for General Trading and Contracting</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="72442">
+          <country refId="11122">Kuwait</country>
+          <translations>
+            <translation id="58928">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="96954">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Al Farwaniyah- Jeleeb Al-Shuyoukh-'Abdullah Mutlaq al-Musaylim Street</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+        <address id="72443">
+          <country refId="11122">Kuwait</country>
+          <translations>
+            <translation id="58929">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="96955">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>1 Bullah Almusailam Av, Jeleeb Alshuokh</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="70470">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>68149</versionId>
+          <value>22 Jul 2006</value>
+          <valueDate id="108725">
+            <fromDateBegin>2006-07-22</fromDateBegin>
+            <fromDateEnd>2006-07-22</fromDateEnd>
+            <toDateBegin>2006-07-22</toDateBegin>
+            <toDateEnd>2006-07-22</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70471">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>68150</versionId>
+          <value>section 1(b) of Executive Order 13224, as amended by Executive Order 13886</value>
+          <valueRefId>92084</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="39153">
+          <type refId="91751">Chamber of Commerce Number</type>
+          <name nameId="75043" nameTranslationId="73721">ORCHIDIA REGIONAL FOR GENERAL TRADING AND CONTRACTING COMPANY</name>
+          <documentNumber>103054</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11122">Kuwait</issuingCountry>
+        </identityDocument>
+        <identityDocument id="39154">
+          <type refId="1615">Trade License No.</type>
+          <name nameId="75043" nameTranslationId="73721">ORCHIDIA REGIONAL FOR GENERAL TRADING AND CONTRACTING COMPANY</name>
+          <documentNumber>114367</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11122">Kuwait</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="48310" action="add">
+      <generalInfo>
+        <identityId>39934</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50849" refId="1550" datePublished="2024-03-26">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="51674" refId="211">SDGT</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40895" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="38155" refId="1828">Executive Order 13224 (Terrorism)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="75046">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73725">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>MASS COM GROUP GENERAL TRADING AND CONTRACTING COMPANY WLL</formattedLastName>
+              <formattedFullName>MASS COM GROUP GENERAL TRADING AND CONTRACTING COMPANY WLL</formattedFullName>
+              <nameParts>
+                <namePart id="127740">
+                  <type refId="1525">Entity Name</type>
+                  <value>MASS COM GROUP GENERAL TRADING AND CONTRACTING COMPANY WLL</value>
+                </namePart>
+              </nameParts>
+            </translation>
+            <translation id="73726">
+              <isPrimary>false</isPrimary>
+              <script refId="20100">Arabic</script>
+              <formattedLastName>‫شركه ماس كوم جروب للتجاره العامه والمقاولات‬</formattedLastName>
+              <formattedFullName>‫شركه ماس كوم جروب للتجاره العامه والمقاولات‬</formattedFullName>
+              <nameParts>
+                <namePart id="127741">
+                  <type refId="1525">Entity Name</type>
+                  <value>شركه ماس كوم جروب للتجاره العامه والمقاولات</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75047">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73727">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>MASS COM GROUP GEN. TRAD. &amp; CONT. CO. WLL</formattedLastName>
+              <formattedFullName>MASS COM GROUP GEN. TRAD. &amp; CONT. CO. WLL</formattedFullName>
+              <nameParts>
+                <namePart id="127742">
+                  <type refId="1525">Entity Name</type>
+                  <value>Mass Com Group Gen. Trad. &amp; Cont. Co. WLL</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75048">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73728">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>MASS COM GROUP FOR GENERAL TRADING AND CONTRACTING</formattedLastName>
+              <formattedFullName>MASS COM GROUP FOR GENERAL TRADING AND CONTRACTING</formattedFullName>
+              <nameParts>
+                <namePart id="127743">
+                  <type refId="1525">Entity Name</type>
+                  <value>Mass Com Group for General Trading and Contracting</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75049">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73729">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>MASS COM GROUP FOR GENERAL TRADING</formattedLastName>
+              <formattedFullName>MASS COM GROUP FOR GENERAL TRADING</formattedFullName>
+              <nameParts>
+                <namePart id="127744">
+                  <type refId="1525">Entity Name</type>
+                  <value>MASS COM GROUP FOR GENERAL TRADING</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="72445">
+          <country refId="11122">Kuwait</country>
+          <translations>
+            <translation id="58930">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="96956">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Capital - Jibla - Fahd al-Salim Street</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+        <address id="72446">
+          <country refId="11122">Kuwait</country>
+          <translations>
+            <translation id="58931">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="96957">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Apt. 11 Bid. 14614 St. Qutaiba Bl 146</value>
+                </addressPart>
+                <addressPart id="96958">
+                  <type refId="1454">CITY</type>
+                  <value>Hawally</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="70473">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>68152</versionId>
+          <value>04 May 2009</value>
+          <valueDate id="108734">
+            <fromDateBegin>2009-05-04</fromDateBegin>
+            <fromDateEnd>2009-05-04</fromDateEnd>
+            <toDateBegin>2009-05-04</toDateBegin>
+            <toDateEnd>2009-05-04</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70475">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>68154</versionId>
+          <value>section 1(b) of Executive Order 13224, as amended by Executive Order 13886</value>
+          <valueRefId>92084</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70472">
+          <type featureTypeId="14">Website</type>
+          <versionId>68151</versionId>
+          <value>https://masscom-kw.corn/</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="39155">
+          <type refId="91751">Chamber of Commerce Number</type>
+          <name nameId="75046" nameTranslationId="73725">MASS COM GROUP GENERAL TRADING AND CONTRACTING COMPANY WLL</name>
+          <documentNumber>119284</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11122">Kuwait</issuingCountry>
+        </identityDocument>
+        <identityDocument id="39156">
+          <type refId="1615">Trade License No.</type>
+          <name nameId="75046" nameTranslationId="73725">MASS COM GROUP GENERAL TRADING AND CONTRACTING COMPANY WLL</name>
+          <documentNumber>331174</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11122">Kuwait</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="48312" action="add">
+      <generalInfo>
+        <identityId>39936</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50851" refId="1550" datePublished="2024-03-26">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="51676" refId="211">SDGT</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40897" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="38157" refId="1828">Executive Order 13224 (Terrorism)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="75051">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73731">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>QUOC VIET MARINE TRANSPORT JSC</formattedLastName>
+              <formattedFullName>QUOC VIET MARINE TRANSPORT JSC</formattedFullName>
+              <nameParts>
+                <namePart id="127746">
+                  <type refId="1525">Entity Name</type>
+                  <value>QUOC VIET MARINE TRANSPORT JSC</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75053">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73733">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>CONG TY CO PHAN VAN TAI HANG HAI QUOC VIET</formattedLastName>
+              <formattedFullName>CONG TY CO PHAN VAN TAI HANG HAI QUOC VIET</formattedFullName>
+              <nameParts>
+                <namePart id="127748">
+                  <type refId="1525">Entity Name</type>
+                  <value>CONG TY CO PHAN VAN TAI HANG HAI QUOC VIET</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="72450">
+          <country refId="11217">Vietnam</country>
+          <translations>
+            <translation id="58932">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="97024">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>5, Road 7, Phu Huu Ward, District 9</value>
+                </addressPart>
+                <addressPart id="97025">
+                  <type refId="1454">CITY</type>
+                  <value>Ho Chi Minh City</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="70523">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>68202</versionId>
+          <value>section 1(b) of Executive Order 13224, as amended by Executive Order 13886</value>
+          <valueRefId>92084</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="39159">
+          <type refId="91761">Registration Number</type>
+          <name nameId="75051" nameTranslationId="73731">QUOC VIET MARINE TRANSPORT JSC</name>
+          <documentNumber>1701198159</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11217">Vietnam</issuingCountry>
+          <issueDate id="108759">
+            <fromDateBegin>2009-01-01</fromDateBegin>
+            <fromDateEnd>2009-01-01</fromDateEnd>
+            <toDateBegin>2009-12-31</toDateBegin>
+            <toDateEnd>2009-12-31</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </issueDate>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="19263">
+          <type refId="15001">Providing support to</type>
+          <relatedEntity entityId="32171">AL-JAMAL, Sa'id Ahmad Muhammad</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="48313" action="add">
+      <generalInfo>
+        <identityId>39937</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50852" refId="1550" datePublished="2024-03-26">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="51677" refId="215">SYRIA</sanctionsProgram>
+        <sanctionsProgram id="51678" refId="91907">SYRIA-CAESAR</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40898" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="38165" refId="91937">Caesar Act</legalAuthority>
+        <legalAuthority id="38158" refId="91251">Executive Order 13582 (Syria)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="75052">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73732">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>LIMITED LIABILITY COMPANY STG LOGISTIC</formattedLastName>
+              <formattedFullName>LIMITED LIABILITY COMPANY STG LOGISTIC</formattedFullName>
+              <nameParts>
+                <namePart id="127747">
+                  <type refId="1525">Entity Name</type>
+                  <value>LIMITED LIABILITY COMPANY STG LOGISTIC</value>
+                </namePart>
+              </nameParts>
+            </translation>
+            <translation id="73734">
+              <isPrimary>false</isPrimary>
+              <script refId="20107">Cyrillic</script>
+              <formattedLastName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ СТГ ЛОГИСТИК</formattedLastName>
+              <formattedFullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ СТГ ЛОГИСТИК</formattedFullName>
+              <nameParts>
+                <namePart id="127749">
+                  <type refId="1525">Entity Name</type>
+                  <value>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ СТГ ЛОГИСТИК</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75054">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73735">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>OOO STG LOGISTIK</formattedLastName>
+              <formattedFullName>OOO STG LOGISTIK</formattedFullName>
+              <nameParts>
+                <namePart id="127750">
+                  <type refId="1525">Entity Name</type>
+                  <value>OOO STG Logistik</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75055">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73736">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>STG STROYTRANSGAZ LOGISTIC</formattedLastName>
+              <formattedFullName>STG STROYTRANSGAZ LOGISTIC</formattedFullName>
+              <nameParts>
+                <namePart id="127751">
+                  <type refId="1525">Entity Name</type>
+                  <value>STG Stroytransgaz Logistic</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75056">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>true</isLowQuality>
+          <translations>
+            <translation id="73737">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>STG LOGISTIC</formattedLastName>
+              <formattedFullName>STG LOGISTIC</formattedFullName>
+              <nameParts>
+                <namePart id="127752">
+                  <type refId="1525">Entity Name</type>
+                  <value>STG Logistic</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="72451">
+          <country refId="11171">Russia</country>
+          <translations>
+            <translation id="58933">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="96961">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>12 Universitetsky Ave</value>
+                </addressPart>
+                <addressPart id="96962">
+                  <type refId="1454">CITY</type>
+                  <value>Moscow</value>
+                </addressPart>
+                <addressPart id="96963">
+                  <type refId="1456">POSTAL CODE</type>
+                  <value>119330</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+        <address id="72452">
+          <country refId="11197">Syria</country>
+          <translations>
+            <translation id="58934">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="96964">
+                  <type refId="1454">CITY</type>
+                  <value>Damascus</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="70495">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>68174</versionId>
+          <value>04 Sep 2009</value>
+          <valueDate id="108749">
+            <fromDateBegin>2009-09-04</fromDateBegin>
+            <fromDateEnd>2009-09-04</fromDateEnd>
+            <toDateBegin>2009-09-04</toDateBegin>
+            <toDateEnd>2009-09-04</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="39157">
+          <type refId="91761">Registration Number</type>
+          <name nameId="75052" nameTranslationId="73732">LIMITED LIABILITY COMPANY STG LOGISTIC</name>
+          <documentNumber>1095027004236</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11171">Russia</issuingCountry>
+        </identityDocument>
+        <identityDocument id="39158">
+          <type refId="1596">Tax ID No.</type>
+          <name nameId="75052" nameTranslationId="73732">LIMITED LIABILITY COMPANY STG LOGISTIC</name>
+          <documentNumber>5027148148</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11171">Russia</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="48314" action="add">
+      <generalInfo>
+        <identityId>39938</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50853" refId="1550" datePublished="2024-03-26">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="51679" refId="215">SYRIA</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40899" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="38159" refId="91251">Executive Order 13582 (Syria)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="75057">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73738">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>GRAINS MIDDLE EAST TRADING DWC-LLC</formattedLastName>
+              <formattedFullName>GRAINS MIDDLE EAST TRADING DWC-LLC</formattedFullName>
+              <nameParts>
+                <namePart id="127753">
+                  <type refId="1525">Entity Name</type>
+                  <value>GRAINS MIDDLE EAST TRADING DWC-LLC</value>
+                </namePart>
+              </nameParts>
+            </translation>
+            <translation id="73739">
+              <isPrimary>false</isPrimary>
+              <script refId="20100">Arabic</script>
+              <formattedLastName>‫جرينز الشرق الأوسط للتجارة دي دبليو سي ش.ذ.م.م‬</formattedLastName>
+              <formattedFullName>‫جرينز الشرق الأوسط للتجارة دي دبليو سي ش.ذ.م.م‬</formattedFullName>
+              <nameParts>
+                <namePart id="127754">
+                  <type refId="1525">Entity Name</type>
+                  <value>جرينز الشرق الأوسط للتجارة دي دبليو سي ش.ذ.م.م</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="72454">
+          <country refId="11210">United Arab Emirates</country>
+          <translations>
+            <translation id="58935">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="97026">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Building A3 Office 213 Dubai World Central Business Park</value>
+                </addressPart>
+                <addressPart id="97027">
+                  <type refId="1454">CITY</type>
+                  <value>Dubai</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+        <address id="72455">
+          <country refId="11210">United Arab Emirates</country>
+          <translations>
+            <translation id="58936">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="96967">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Office 1705, Lake Central Tower, Business Bay</value>
+                </addressPart>
+                <addressPart id="96968">
+                  <type refId="1454">CITY</type>
+                  <value>Dubai</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+        <address id="72456">
+          <country refId="11210">United Arab Emirates</country>
+          <translations>
+            <translation id="58937">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="97028">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Office 426, A5 Building, Dubai World Central</value>
+                </addressPart>
+                <addressPart id="97029">
+                  <type refId="1454">CITY</type>
+                  <value>Dubai</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+        <address id="72457">
+          <country refId="11196">Switzerland</country>
+          <translations>
+            <translation id="58938">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="96971">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Bahnhofstrasse 29</value>
+                </addressPart>
+                <addressPart id="96972">
+                  <type refId="1454">CITY</type>
+                  <value>Zug</value>
+                </addressPart>
+                <addressPart id="96973">
+                  <type refId="1456">POSTAL CODE</type>
+                  <value>6300</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+        <address id="72458">
+          <country refId="11196">Switzerland</country>
+          <translations>
+            <translation id="58939">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="96981">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Bahnhofstrasse 21</value>
+                </addressPart>
+                <addressPart id="96982">
+                  <type refId="1454">CITY</type>
+                  <value>Zug</value>
+                </addressPart>
+                <addressPart id="96983">
+                  <type refId="1456">POSTAL CODE</type>
+                  <value>6300</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="70496">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>68175</versionId>
+          <value>18 Jul 2019</value>
+          <valueDate id="108756">
+            <fromDateBegin>2019-07-18</fromDateBegin>
+            <fromDateEnd>2019-07-18</fromDateEnd>
+            <toDateBegin>2019-07-18</toDateBegin>
+            <toDateEnd>2019-07-18</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70497">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>68176</versionId>
+          <value>10 May 2022</value>
+          <valueDate id="108757">
+            <fromDateBegin>2022-05-10</fromDateBegin>
+            <fromDateEnd>2022-05-10</fromDateEnd>
+            <toDateBegin>2022-05-10</toDateBegin>
+            <toDateEnd>2022-05-10</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="70498">
+          <type featureTypeId="14">Website</type>
+          <versionId>68177</versionId>
+          <value>https://grains-middleeast.com</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="39161">
+          <type refId="91760">Business Registration Number</type>
+          <name nameId="75057" nameTranslationId="73738">GRAINS MIDDLE EAST TRADING DWC-LLC</name>
+          <documentNumber>9245</documentNumber>
+          <isValid>true</isValid>
+          <issuingLocation>Dubai</issuingLocation>
+          <issuingCountry refId="11210">United Arab Emirates</issuingCountry>
+        </identityDocument>
+        <identityDocument id="39185">
+          <type refId="91412">Company Number</type>
+          <name nameId="75057" nameTranslationId="73738">GRAINS MIDDLE EAST TRADING DWC-LLC</name>
+          <documentNumber>CHE-390.605.414</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11196">Switzerland</issuingCountry>
+        </identityDocument>
+        <identityDocument id="39160">
+          <type refId="92121">Economic Register Number (CBLS)</type>
+          <name nameId="75057" nameTranslationId="73738">GRAINS MIDDLE EAST TRADING DWC-LLC</name>
+          <documentNumber>11454986</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11210">United Arab Emirates</issuingCountry>
+        </identityDocument>
+        <identityDocument id="39162">
+          <type refId="91761">Registration Number</type>
+          <name nameId="75057" nameTranslationId="73738">GRAINS MIDDLE EAST TRADING DWC-LLC</name>
+          <documentNumber>CH-170.9.002.230-0</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11196">Switzerland</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="19264">
+          <type refId="15001">Providing support to</type>
+          <relatedEntity entityId="48313">LIMITED LIABILITY COMPANY STG LOGISTIC</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="48315" action="add">
+      <generalInfo>
+        <identityId>39939</identityId>
+        <entityType refId="602">Vessel</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50854" refId="1550" datePublished="2024-03-26">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="51680" refId="211">SDGT</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40900" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="38160" refId="1828">Executive Order 13224 (Terrorism)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="75058">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73740">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>ABYSS</formattedLastName>
+              <formattedFullName>ABYSS</formattedFullName>
+              <nameParts>
+                <namePart id="127755">
+                  <type refId="1526">Vessel Name</type>
+                  <value>Abyss</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="72459" />
+      </addresses>
+      <features>
+        <feature id="70521">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>68200</versionId>
+          <value>section 1(b) of Executive Order 13224, as amended by Executive Order 13886</value>
+          <valueRefId>92084</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70511">
+          <type featureTypeId="1">Vessel Call Sign</type>
+          <versionId>68190</versionId>
+          <value>T8A4595</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70510">
+          <type featureTypeId="3">Vessel Flag</type>
+          <versionId>68189</versionId>
+          <value>Palau</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="39165">
+          <type refId="91264">MMSI</type>
+          <name nameId="75058" nameTranslationId="73740">ABYSS</name>
+          <documentNumber>511101287</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+        <identityDocument id="39166">
+          <type refId="1626">Vessel Registration Identification</type>
+          <name nameId="75058" nameTranslationId="73740">ABYSS</name>
+          <documentNumber>IMO 9157765</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="19266">
+          <type refId="92122">Property in the interest of</type>
+          <relatedEntity entityId="48312">QUOC VIET MARINE TRANSPORT JSC</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="48316" action="add">
+      <generalInfo>
+        <identityId>39940</identityId>
+        <entityType refId="600">Individual</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50855" refId="1550" datePublished="2024-03-26">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="51681" refId="215">SYRIA</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40901" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="38161" refId="91251">Executive Order 13582 (Syria)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="75059">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73741">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Yafi</formattedFirstName>
+              <formattedLastName>DAVID</formattedLastName>
+              <formattedFullName>DAVID, Yafi</formattedFullName>
+              <nameParts>
+                <namePart id="127757">
+                  <type refId="1521">First Name</type>
+                  <value>Yafi</value>
+                </namePart>
+                <namePart id="127756">
+                  <type refId="1520">Last Name</type>
+                  <value>DAVID</value>
+                </namePart>
+              </nameParts>
+            </translation>
+            <translation id="73752">
+              <isPrimary>false</isPrimary>
+              <script refId="20100">Arabic</script>
+              <formattedLastName>‫يافي ديفيد‬</formattedLastName>
+              <formattedFullName>‫يافي ديفيد‬</formattedFullName>
+              <nameParts>
+                <namePart id="127783">
+                  <type refId="1521">First Name</type>
+                  <value>يافي</value>
+                </namePart>
+                <namePart id="127782">
+                  <type refId="1520">Last Name</type>
+                  <value>ديفيد</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75060">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73742">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedFirstName>Daoud</formattedFirstName>
+              <formattedLastName>YAFEE</formattedLastName>
+              <formattedFullName>YAFEE, Daoud</formattedFullName>
+              <nameParts>
+                <namePart id="127759">
+                  <type refId="1521">First Name</type>
+                  <value>Daoud</value>
+                </namePart>
+                <namePart id="127758">
+                  <type refId="1520">Last Name</type>
+                  <value>Yafee</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="72512">
+          <country refId="11210">United Arab Emirates</country>
+          <translations>
+            <translation id="58976">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="70504">
+          <type featureTypeId="8">Birthdate</type>
+          <versionId>68183</versionId>
+          <value>25 Aug 1969</value>
+          <valueDate id="108770">
+            <fromDateBegin>1969-08-25</fromDateBegin>
+            <fromDateEnd>1969-08-25</fromDateEnd>
+            <toDateBegin>1969-08-25</toDateBegin>
+            <toDateEnd>1969-08-25</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70506">
+          <type featureTypeId="224">Gender</type>
+          <versionId>68185</versionId>
+          <value>Male</value>
+          <valueRefId>91526</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70507">
+          <type featureTypeId="10">Nationality Country</type>
+          <versionId>68186</versionId>
+          <value>Ukraine</value>
+          <valueRefId>11209</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="70505">
+          <type featureTypeId="9">Place of Birth</type>
+          <versionId>68184</versionId>
+          <value>Syria</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="39163">
+          <type refId="1608">Identification Number</type>
+          <name nameId="75059" nameTranslationId="73741">DAVID, Yafi</name>
+          <documentNumber>121619695</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11159">Oman</issuingCountry>
+        </identityDocument>
+        <identityDocument id="39164">
+          <type refId="1571">Passport</type>
+          <name nameId="75059" nameTranslationId="73741">DAVID, Yafi</name>
+          <documentNumber>FE550041</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11209">Ukraine</issuingCountry>
+          <expirationDate id="108774">
+            <fromDateBegin>2026-06-01</fromDateBegin>
+            <fromDateEnd>2026-06-01</fromDateEnd>
+            <toDateBegin>2026-06-01</toDateBegin>
+            <toDateEnd>2026-06-01</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </expirationDate>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="19265">
+          <type refId="15002">Acting for or on behalf of</type>
+          <relatedEntity entityId="48314">GRAINS MIDDLE EAST TRADING DWC-LLC</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="48317" action="add">
+      <generalInfo>
+        <identityId>39941</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="50856" refId="1550" datePublished="2024-03-26">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="51682" refId="211">SDGT</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="40902" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="38162" refId="1828">Executive Order 13224 (Terrorism)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="75061">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73743">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>MELODY SHIPMANAGEMENT PVT LTD</formattedLastName>
+              <formattedFullName>MELODY SHIPMANAGEMENT PVT LTD</formattedFullName>
+              <nameParts>
+                <namePart id="127760">
+                  <type refId="1525">Entity Name</type>
+                  <value>MELODY SHIPMANAGEMENT PVT LTD</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="75062">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="73744">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>MELODY SHIPMANAGEMENT PRIVATE LIMITED</formattedLastName>
+              <formattedFullName>MELODY SHIPMANAGEMENT PRIVATE LIMITED</formattedFullName>
+              <nameParts>
+                <namePart id="127761">
+                  <type refId="1525">Entity Name</type>
+                  <value>Melody Shipmanagement Private Limited</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="72462">
+          <country refId="11107">India</country>
+          <translations>
+            <translation id="58940">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="96984">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Office 309, 3rd Floor, Space 912, ABV Brand Factory, Mira Bhayandar Road, Mira Road (E)</value>
+                </addressPart>
+                <addressPart id="96985">
+                  <type refId="1454">CITY</type>
+                  <value>Thane</value>
+                </addressPart>
+                <addressPart id="96987">
+                  <type refId="1456">POSTAL CODE</type>
+                  <value>401107</value>
+                </addressPart>
+                <addressPart id="96986">
+                  <type refId="1455">STATE/PROVINCE</type>
+                  <value>Maharashtra</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="70522">
+          <type featureTypeId="504">Secondary sanctions risk:</type>
+          <versionId>68201</versionId>
+          <value>section 1(b) of Executive Order 13224, as amended by Executive Order 13886</value>
+          <valueRefId>92084</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="39168">
+          <type refId="1608">Identification Number</type>
+          <name nameId="75061" nameTranslationId="73743">MELODY SHIPMANAGEMENT PVT LTD</name>
+          <documentNumber>U61200MH2018PTC311397</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11107">India</issuingCountry>
+          <issueDate id="108787">
+            <fromDateBegin>2018-07-02</fromDateBegin>
+            <fromDateEnd>2018-07-02</fromDateEnd>
+            <toDateBegin>2018-07-02</toDateBegin>
+            <toDateEnd>2018-07-02</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </issueDate>
+        </identityDocument>
+        <identityDocument id="39169">
+          <type refId="1608">Identification Number</type>
+          <name nameId="75061" nameTranslationId="73743">MELODY SHIPMANAGEMENT PVT LTD</name>
+          <documentNumber>IMO 6052641</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+        <identityDocument id="39167">
+          <type refId="91761">Registration Number</type>
+          <name nameId="75061" nameTranslationId="73743">MELODY SHIPMANAGEMENT PVT LTD</name>
+          <documentNumber>311397</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11107">India</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="19267">
+          <type refId="15001">Providing support to</type>
+          <relatedEntity entityId="48312">QUOC VIET MARINE TRANSPORT JSC</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+  </entities>
+</sanctionsData>

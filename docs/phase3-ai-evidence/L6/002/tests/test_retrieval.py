@@ -55,20 +55,24 @@ def test_recent_action_links_prioritise_dates_without_excluding_undated_matches(
     assert retrieval.recent_action_links(html, ['Central Bank of Example'], '2026-08-20') == ['https://ofac.treasury.gov/recent-actions/same', 'https://ofac.treasury.gov/recent-actions/old']
 
 
-def test_retrieve_uses_ofac_document_and_records_attempts():
+def test_dated_recent_action_url_uses_publication_date():
+    assert retrieval.dated_recent_action_url('2026-08-20') == 'https://ofac.treasury.gov/recent-actions/20260820'
+
+
+def test_retrieve_uses_dated_ofac_document_and_records_attempts():
     session = Session([
-        Response(retrieval.RECENT_ACTIONS_URL, text='<article><a href="/recent-actions/example">Central Bank of Example action</a></article>'),
-        Response('https://ofac.treasury.gov/recent-actions/example', text='<h1>Official notice</h1><p>Central Bank of Example</p>'),
+        Response(retrieval.dated_recent_action_url('2026-08-20'), text='<h1>Official notice</h1><p>Central Bank of Example</p>'),
     ])
     record = retrieval.retrieve_event(event(), session)
     assert record['retrieval_status'] == 'FOUND'
-    assert record['primary_document_url'].endswith('/recent-actions/example')
+    assert record['primary_document_url'].endswith('/20260820')
     assert 'Official notice' in record['primary_document_text']
-    assert len(record['retrieval_attempts']) == 2
+    assert len(record['retrieval_attempts']) == 1
 
 
 def test_retrieve_records_not_found_after_federal_register_fallback():
     session = Session([
+        Response(retrieval.dated_recent_action_url('2026-08-20'), status_code=404),
         Response(retrieval.RECENT_ACTIONS_URL, text='<article>no matching action</article>'),
         Response(retrieval.FEDERAL_REGISTER_API, content_type='application/json'),
         Response('https://www.federalregister.gov/documents/2026/example', status_code=404),

@@ -1,0 +1,3612 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sanctionsData xmlns="https://www.treasury.gov/ofac/DeltaFile/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.treasury.gov/ofac/DeltaFile/1.0 https://www.treasury.gov/ofac/downloads/sanctions/1.0/DeltaFile.xsd">
+  <publicationInfo>
+    <datePublished>2026-04-24T00:00:00-04:00</datePublished>
+    <publicationType>Standard Action</publicationType>
+  </publicationInfo>
+  <referenceValues />
+  <featureTypes />
+  <entities>
+    <entity id="4632">
+      <features>
+        <feature id="97667" action="add">
+          <type featureTypeId="992">Digital Currency Address - TRX</type>
+          <versionId>95242</versionId>
+          <value>TNiq9AXBp9EjUqhDhrwrfvAA8U3GUQZH81</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97668" action="add">
+          <type featureTypeId="992">Digital Currency Address - TRX</type>
+          <versionId>95243</versionId>
+          <value>TTiDLWE6fZK8okMJv6ijg42yrH6W2pjSr9</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+      </features>
+    </entity>
+    <entity id="57126" action="add">
+      <generalInfo>
+        <identityId>48545</identityId>
+        <entityType refId="602">Vessel</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59601" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62250" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="49719" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="48671" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88505">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="88886">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>MIRAAN</formattedLastName>
+              <formattedFullName>MIRAAN</formattedFullName>
+              <nameParts>
+                <namePart id="147894">
+                  <type refId="1526">Vessel Name</type>
+                  <value>Miraan</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="88506">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>true</isLowQuality>
+          <translations>
+            <translation id="88887">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>CHINTAMANI</formattedLastName>
+              <formattedFullName>CHINTAMANI</formattedFullName>
+              <nameParts>
+                <namePart id="147895">
+                  <type refId="1526">Vessel Name</type>
+                  <value>Chintamani</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="87483" />
+      </addresses>
+      <features>
+        <feature id="97630">
+          <type featureTypeId="1">Vessel Call Sign</type>
+          <versionId>95205</versionId>
+          <value>D6A4322</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="96747">
+          <type featureTypeId="3">Vessel Flag</type>
+          <versionId>94326</versionId>
+          <value>Comoros</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="96748">
+          <type featureTypeId="2">VESSEL TYPE</type>
+          <versionId>94327</versionId>
+          <value>Oil Products Tanker</value>
+          <valueRefId>91840</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97657">
+          <type featureTypeId="967">Vessel Year of Build</type>
+          <versionId>95232</versionId>
+          <value>2002</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51445">
+          <type refId="91264">MMSI</type>
+          <name nameId="88505" nameTranslationId="88886">MIRAAN</name>
+          <documentNumber>620800322</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+        <identityDocument id="51350">
+          <type refId="1626">Vessel Registration Identification</type>
+          <name nameId="88505" nameTranslationId="88886">MIRAAN</name>
+          <documentNumber>IMO 9242481</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="24613">
+          <type refId="15003">Owned or Controlled By</type>
+          <relatedEntity entityId="57135">MIHIR SHIPPING INC.</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="57127" action="add">
+      <generalInfo>
+        <identityId>48546</identityId>
+        <entityType refId="602">Vessel</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59602" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62251" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="49720" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="48672" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88507">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="88888">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>BANGUS</formattedLastName>
+              <formattedFullName>BANGUS</formattedFullName>
+              <nameParts>
+                <namePart id="147896">
+                  <type refId="1526">Vessel Name</type>
+                  <value>Bangus</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="87484" />
+      </addresses>
+      <features>
+        <feature id="97633">
+          <type featureTypeId="1">Vessel Call Sign</type>
+          <versionId>95208</versionId>
+          <value>8PRX</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="96750">
+          <type featureTypeId="3">Vessel Flag</type>
+          <versionId>94329</versionId>
+          <value>Barbados</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="96749">
+          <type featureTypeId="2">VESSEL TYPE</type>
+          <versionId>94328</versionId>
+          <value>Crude/Oil Products Tanker</value>
+          <valueRefId>91275</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97656">
+          <type featureTypeId="967">Vessel Year of Build</type>
+          <versionId>95231</versionId>
+          <value>2005</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51443">
+          <type refId="91264">MMSI</type>
+          <name nameId="88507" nameTranslationId="88888">BANGUS</name>
+          <documentNumber>314189000</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+        <identityDocument id="51351">
+          <type refId="1626">Vessel Registration Identification</type>
+          <name nameId="88507" nameTranslationId="88888">BANGUS</name>
+          <documentNumber>IMO 9308998</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="24611">
+          <type refId="15003">Owned or Controlled By</type>
+          <relatedEntity entityId="57134">COSTIN SHIPPING LIMITED</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="57128" action="add">
+      <generalInfo>
+        <identityId>48547</identityId>
+        <entityType refId="602">Vessel</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59603" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62252" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="49721" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="48673" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88508">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="88889">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>GALVIN</formattedLastName>
+              <formattedFullName>GALVIN</formattedFullName>
+              <nameParts>
+                <namePart id="147897">
+                  <type refId="1526">Vessel Name</type>
+                  <value>Galvin</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="87485" />
+      </addresses>
+      <features>
+        <feature id="97631">
+          <type featureTypeId="1">Vessel Call Sign</type>
+          <versionId>95206</versionId>
+          <value>3E2372</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="96752">
+          <type featureTypeId="3">Vessel Flag</type>
+          <versionId>94331</versionId>
+          <value>Panama</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="96751">
+          <type featureTypeId="2">VESSEL TYPE</type>
+          <versionId>94330</versionId>
+          <value>LPG Tanker</value>
+          <valueRefId>91277</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97658">
+          <type featureTypeId="967">Vessel Year of Build</type>
+          <versionId>95233</versionId>
+          <value>2009</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51442">
+          <type refId="91264">MMSI</type>
+          <name nameId="88508" nameTranslationId="88889">GALVIN</name>
+          <documentNumber>352002602</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+        <identityDocument id="51352">
+          <type refId="1626">Vessel Registration Identification</type>
+          <name nameId="88508" nameTranslationId="88889">GALVIN</name>
+          <documentNumber>IMO 9387762</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="24610">
+          <type refId="15003">Owned or Controlled By</type>
+          <relatedEntity entityId="57137">NAXOS MARITIME AND TRADING S.A.</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="57130" action="add">
+      <generalInfo>
+        <identityId>48549</identityId>
+        <entityType refId="602">Vessel</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59605" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62254" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="49723" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="48675" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88510">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="88891">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>HH GLORY</formattedLastName>
+              <formattedFullName>HH GLORY</formattedFullName>
+              <nameParts>
+                <namePart id="147899">
+                  <type refId="1526">Vessel Name</type>
+                  <value>HH Glory</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="87488" />
+      </addresses>
+      <features>
+        <feature id="97632">
+          <type featureTypeId="1">Vessel Call Sign</type>
+          <versionId>95207</versionId>
+          <value>3FCJ9</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="96753">
+          <type featureTypeId="3">Vessel Flag</type>
+          <versionId>94332</versionId>
+          <value>Panama</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="96754">
+          <type featureTypeId="2">VESSEL TYPE</type>
+          <versionId>94333</versionId>
+          <value>LPG Tanker</value>
+          <valueRefId>91277</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97659">
+          <type featureTypeId="967">Vessel Year of Build</type>
+          <versionId>95234</versionId>
+          <value>2011</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51444">
+          <type refId="91264">MMSI</type>
+          <name nameId="88510" nameTranslationId="88891">HH GLORY</name>
+          <documentNumber>352255000</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+        <identityDocument id="51353">
+          <type refId="1626">Vessel Registration Identification</type>
+          <name nameId="88510" nameTranslationId="88891">HH GLORY</name>
+          <documentNumber>IMO 9534614</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="24612">
+          <type refId="15003">Owned or Controlled By</type>
+          <relatedEntity entityId="57138">SKYROS MARITIME AND TRADING S.A.</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="57132" action="add">
+      <generalInfo>
+        <identityId>48551</identityId>
+        <entityType refId="602">Vessel</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59607" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62256" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="49725" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="48677" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88512">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="88893">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>LIN 9</formattedLastName>
+              <formattedFullName>LIN 9</formattedFullName>
+              <nameParts>
+                <namePart id="147901">
+                  <type refId="1526">Vessel Name</type>
+                  <value>Lin 9</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="87490" />
+      </addresses>
+      <features>
+        <feature id="97629">
+          <type featureTypeId="1">Vessel Call Sign</type>
+          <versionId>95204</versionId>
+          <value>V2YG8</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="96756">
+          <type featureTypeId="3">Vessel Flag</type>
+          <versionId>94335</versionId>
+          <value>Antigua &amp; Barbuda</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="96755">
+          <type featureTypeId="2">VESSEL TYPE</type>
+          <versionId>94334</versionId>
+          <value>LPG Tanker</value>
+          <valueRefId>91277</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97660">
+          <type featureTypeId="967">Vessel Year of Build</type>
+          <versionId>95235</versionId>
+          <value>2003</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51446">
+          <type refId="91264">MMSI</type>
+          <name nameId="88512" nameTranslationId="88893">LIN 9</name>
+          <documentNumber>305697000</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+        <identityDocument id="51354">
+          <type refId="1626">Vessel Registration Identification</type>
+          <name nameId="88512" nameTranslationId="88893">LIN 9</name>
+          <documentNumber>IMO 9240158</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="24614">
+          <type refId="15003">Owned or Controlled By</type>
+          <relatedEntity entityId="57139">PATRIOT INC.</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="57134" action="add">
+      <generalInfo>
+        <identityId>48553</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59609" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62258" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="49727" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="48679" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88518">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="88899">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>COSTIN SHIPPING LIMITED</formattedLastName>
+              <formattedFullName>COSTIN SHIPPING LIMITED</formattedFullName>
+              <nameParts>
+                <namePart id="147907">
+                  <type refId="1525">Entity Name</type>
+                  <value>Costin Shipping Limited</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="87495">
+          <country refId="11065">China</country>
+          <translations>
+            <translation id="67267">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="121481">
+                  <type refId="1454">CITY</type>
+                  <value>Hong Kong</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="96762">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>94341</versionId>
+          <value>12 Mar 2025</value>
+          <valueDate id="149606">
+            <fromDateBegin>2025-03-12</fromDateBegin>
+            <fromDateEnd>2025-03-12</fromDateEnd>
+            <toDateBegin>2025-03-12</toDateBegin>
+            <toDateEnd>2025-03-12</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51356">
+          <type refId="91760">Business Registration Number</type>
+          <name nameId="88518" nameTranslationId="88899">COSTIN SHIPPING LIMITED</name>
+          <documentNumber>77838200</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11247">Hong Kong</issuingCountry>
+        </identityDocument>
+        <identityDocument id="51357">
+          <type refId="1608">Identification Number</type>
+          <name nameId="88518" nameTranslationId="88899">COSTIN SHIPPING LIMITED</name>
+          <documentNumber>IMO 0191080</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="57135" action="add">
+      <generalInfo>
+        <identityId>48554</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59610" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62259" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="49728" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="48680" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88520">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="88901">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>MIHIR SHIPPING INC.</formattedLastName>
+              <formattedFullName>MIHIR SHIPPING INC.</formattedFullName>
+              <nameParts>
+                <namePart id="147909">
+                  <type refId="1525">Entity Name</type>
+                  <value>Mihir Shipping Inc.</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="87499">
+          <country refId="11140">Marshall Islands</country>
+          <translations>
+            <translation id="67269">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="121595">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Trust Company Complex</value>
+                </addressPart>
+                <addressPart id="121596">
+                  <type refId="1452">ADDRESS2</type>
+                  <value>Ajeltake Road</value>
+                </addressPart>
+                <addressPart id="121597">
+                  <type refId="1454">CITY</type>
+                  <value>Ajeltake Island</value>
+                </addressPart>
+                <addressPart id="121599">
+                  <type refId="1456">POSTAL CODE</type>
+                  <value>96960</value>
+                </addressPart>
+                <addressPart id="121598">
+                  <type refId="1455">STATE/PROVINCE</type>
+                  <value>Majuro</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="96771">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>94350</versionId>
+          <value>08 Dec 2025</value>
+          <valueDate id="149627">
+            <fromDateBegin>2025-12-08</fromDateBegin>
+            <fromDateEnd>2025-12-08</fromDateEnd>
+            <toDateBegin>2025-12-08</toDateBegin>
+            <toDateEnd>2025-12-08</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51359">
+          <type refId="91412">Company Number</type>
+          <name nameId="88520" nameTranslationId="88901">MIHIR SHIPPING INC.</name>
+          <documentNumber>135674</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11140">Marshall Islands</issuingCountry>
+        </identityDocument>
+        <identityDocument id="51360">
+          <type refId="1608">Identification Number</type>
+          <name nameId="88520" nameTranslationId="88901">MIHIR SHIPPING INC.</name>
+          <documentNumber>IMO 0404616</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="57137" action="add">
+      <generalInfo>
+        <identityId>48556</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59612" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62261" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="49730" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="48682" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88524">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="88906">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>NAXOS MARITIME AND TRADING S.A.</formattedLastName>
+              <formattedFullName>NAXOS MARITIME AND TRADING S.A.</formattedFullName>
+              <nameParts>
+                <namePart id="147914">
+                  <type refId="1525">Entity Name</type>
+                  <value>Naxos Maritime and Trading S.A.</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="87501">
+          <country refId="11162">Panama</country>
+          <translations>
+            <translation id="67270">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="97662">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>95237</versionId>
+          <value>2023</value>
+          <valueDate id="151101">
+            <fromDateBegin>2023-01-01</fromDateBegin>
+            <fromDateEnd>2023-01-01</fromDateEnd>
+            <toDateBegin>2023-12-31</toDateBegin>
+            <toDateEnd>2023-12-31</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51363">
+          <type refId="1608">Identification Number</type>
+          <name nameId="88524" nameTranslationId="88906">NAXOS MARITIME AND TRADING S.A.</name>
+          <documentNumber>IMO 6395865</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+        <identityDocument id="51827">
+          <type refId="1578">RUC #</type>
+          <name nameId="88524" nameTranslationId="88906">NAXOS MARITIME AND TRADING S.A.</name>
+          <documentNumber>155733535-2-2023</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11162">Panama</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="57138" action="add">
+      <generalInfo>
+        <identityId>48557</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59613" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62262" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="49731" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="48683" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88526">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="88908">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>SKYROS MARITIME AND TRADING S.A.</formattedLastName>
+              <formattedFullName>SKYROS MARITIME AND TRADING S.A.</formattedFullName>
+              <nameParts>
+                <namePart id="147916">
+                  <type refId="1525">Entity Name</type>
+                  <value>Skyros Maritime and Trading S.A.</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="87503">
+          <country refId="11162">Panama</country>
+          <translations>
+            <translation id="67271">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="97663">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>95238</versionId>
+          <value>2022</value>
+          <valueDate id="151104">
+            <fromDateBegin>2022-01-01</fromDateBegin>
+            <fromDateEnd>2022-01-01</fromDateEnd>
+            <toDateBegin>2022-12-31</toDateBegin>
+            <toDateEnd>2022-12-31</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51365">
+          <type refId="1608">Identification Number</type>
+          <name nameId="88526" nameTranslationId="88908">SKYROS MARITIME AND TRADING S.A.</name>
+          <documentNumber>IMO 6351601</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+        <identityDocument id="51828">
+          <type refId="1578">RUC #</type>
+          <name nameId="88526" nameTranslationId="88908">SKYROS MARITIME AND TRADING S.A.</name>
+          <documentNumber>155721609-2-2022</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11162">Panama</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="57139" action="add">
+      <generalInfo>
+        <identityId>48558</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59614" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62263" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="49732" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="48684" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88528">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="88910">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>PATRIOT INC.</formattedLastName>
+              <formattedFullName>PATRIOT INC.</formattedFullName>
+              <nameParts>
+                <namePart id="147918">
+                  <type refId="1525">Entity Name</type>
+                  <value>Patriot Inc.</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="87506">
+          <country refId="11140">Marshall Islands</country>
+          <translations>
+            <translation id="67272">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="121600">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Trust Company Complex</value>
+                </addressPart>
+                <addressPart id="121601">
+                  <type refId="1452">ADDRESS2</type>
+                  <value>Ajeltake Road</value>
+                </addressPart>
+                <addressPart id="121602">
+                  <type refId="1454">CITY</type>
+                  <value>Ajeltake Island</value>
+                </addressPart>
+                <addressPart id="121604">
+                  <type refId="1456">POSTAL CODE</type>
+                  <value>96960</value>
+                </addressPart>
+                <addressPart id="121603">
+                  <type refId="1455">STATE/PROVINCE</type>
+                  <value>Majuro</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="96785">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>94364</versionId>
+          <value>06 Dec 2024</value>
+          <valueDate id="149655">
+            <fromDateBegin>2024-12-06</fromDateBegin>
+            <fromDateEnd>2024-12-06</fromDateEnd>
+            <toDateBegin>2024-12-06</toDateBegin>
+            <toDateEnd>2024-12-06</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51371">
+          <type refId="91412">Company Number</type>
+          <name nameId="88528" nameTranslationId="88910">PATRIOT INC.</name>
+          <documentNumber>129142</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11140">Marshall Islands</issuingCountry>
+        </identityDocument>
+        <identityDocument id="51366">
+          <type refId="1608">Identification Number</type>
+          <name nameId="88528" nameTranslationId="88910">PATRIOT INC.</name>
+          <documentNumber>IMO 0237023</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="57397" action="add">
+      <generalInfo>
+        <identityId>48836</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59893" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62577" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="49990" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49086" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88881">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89322">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>LISBOA SHIPPING COMPANY LIMITED</formattedLastName>
+              <formattedFullName>LISBOA SHIPPING COMPANY LIMITED</formattedFullName>
+              <nameParts>
+                <namePart id="148591">
+                  <type refId="1525">Entity Name</type>
+                  <value>LISBOA SHIPPING COMPANY LIMITED</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="87962">
+          <country refId="11065">China</country>
+          <translations>
+            <translation id="67537">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="121584">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Room 1002, 10th Floor</value>
+                </addressPart>
+                <addressPart id="121585">
+                  <type refId="1452">ADDRESS2</type>
+                  <value>Easey Commercial Building 253-261, Hennessy Road</value>
+                </addressPart>
+                <addressPart id="121586">
+                  <type refId="1453">ADDRESS3</type>
+                  <value>Wan Chai</value>
+                </addressPart>
+                <addressPart id="121587">
+                  <type refId="1454">CITY</type>
+                  <value>Hong Kong</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <identityDocuments>
+        <identityDocument id="51824">
+          <type refId="91760">Business Registration Number</type>
+          <name nameId="88881" nameTranslationId="89322">LISBOA SHIPPING COMPANY LIMITED</name>
+          <documentNumber>75056094</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11247">Hong Kong</issuingCountry>
+        </identityDocument>
+        <identityDocument id="51713">
+          <type refId="1608">Identification Number</type>
+          <name nameId="88881" nameTranslationId="89322">LISBOA SHIPPING COMPANY LIMITED</name>
+          <documentNumber>IMO 6427261</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="57398" action="add">
+      <generalInfo>
+        <identityId>48837</identityId>
+        <entityType refId="602">Vessel</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59894" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62578" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="49991" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49087" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88882">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89323">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>LISBOA</formattedLastName>
+              <formattedFullName>LISBOA</formattedFullName>
+              <nameParts>
+                <namePart id="148592">
+                  <type refId="1526">Vessel Name</type>
+                  <value>LISBOA</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="87963" />
+      </addresses>
+      <features>
+        <feature id="97405">
+          <type featureTypeId="1">Vessel Call Sign</type>
+          <versionId>94984</versionId>
+          <value>HPQL</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97406">
+          <type featureTypeId="3">Vessel Flag</type>
+          <versionId>94985</versionId>
+          <value>Panama</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97404">
+          <type featureTypeId="2">VESSEL TYPE</type>
+          <versionId>94983</versionId>
+          <value>Chemical/Oil Tanker</value>
+          <valueRefId>91838</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97407">
+          <type featureTypeId="967">Vessel Year of Build</type>
+          <versionId>94986</versionId>
+          <value>2003</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51714">
+          <type refId="91264">MMSI</type>
+          <name nameId="88882" nameTranslationId="89323">LISBOA</name>
+          <documentNumber>353534000</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+        <identityDocument id="51715">
+          <type refId="1626">Vessel Registration Identification</type>
+          <name nameId="88882" nameTranslationId="89323">LISBOA</name>
+          <documentNumber>IMO 9257711</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="24758">
+          <type refId="92122">Property in the interest of</type>
+          <relatedEntity entityId="57397">LISBOA SHIPPING COMPANY LIMITED</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="57399" action="add">
+      <generalInfo>
+        <identityId>48838</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59895" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62579" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="49992" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49088" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88883">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89324">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>ANKA ENERGY AND LOGISTICS COMPANY</formattedLastName>
+              <formattedFullName>ANKA ENERGY AND LOGISTICS COMPANY</formattedFullName>
+              <nameParts>
+                <namePart id="148593">
+                  <type refId="1525">Entity Name</type>
+                  <value>Anka Energy and Logistics Company</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="87965">
+          <country refId="11210">United Arab Emirates</country>
+          <translations>
+            <translation id="67538">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="121306">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Office 3111</value>
+                </addressPart>
+                <addressPart id="121307">
+                  <type refId="1452">ADDRESS2</type>
+                  <value>Park Lane Tower</value>
+                </addressPart>
+                <addressPart id="121308">
+                  <type refId="1453">ADDRESS3</type>
+                  <value>Business Bay</value>
+                </addressPart>
+                <addressPart id="121309">
+                  <type refId="1454">CITY</type>
+                  <value>Dubai</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+        <address id="87966">
+          <country refId="11140">Marshall Islands</country>
+          <translations>
+            <translation id="67539">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="121579">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Trust Company Complex</value>
+                </addressPart>
+                <addressPart id="121580">
+                  <type refId="1452">ADDRESS2</type>
+                  <value>Ajeltake Road</value>
+                </addressPart>
+                <addressPart id="121581">
+                  <type refId="1454">CITY</type>
+                  <value>Ajeltake Island</value>
+                </addressPart>
+                <addressPart id="121583">
+                  <type refId="1456">POSTAL CODE</type>
+                  <value>96960</value>
+                </addressPart>
+                <addressPart id="121582">
+                  <type refId="1455">STATE/PROVINCE</type>
+                  <value>Majuro</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <identityDocuments>
+        <identityDocument id="51716">
+          <type refId="1608">Identification Number</type>
+          <name nameId="88883" nameTranslationId="89324">ANKA ENERGY AND LOGISTICS COMPANY</name>
+          <documentNumber>IMO 0295422</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="57400" action="add">
+      <generalInfo>
+        <identityId>48839</identityId>
+        <entityType refId="602">Vessel</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59896" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62580" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="49993" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49089" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88884">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89325">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>LPG SEVAN</formattedLastName>
+              <formattedFullName>LPG SEVAN</formattedFullName>
+              <nameParts>
+                <namePart id="148594">
+                  <type refId="1526">Vessel Name</type>
+                  <value>LPG Sevan</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="87967" />
+      </addresses>
+      <features>
+        <feature id="97409">
+          <type featureTypeId="1">Vessel Call Sign</type>
+          <versionId>94988</versionId>
+          <value>3E2818</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97410">
+          <type featureTypeId="3">Vessel Flag</type>
+          <versionId>94989</versionId>
+          <value>Panama</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97408">
+          <type featureTypeId="2">VESSEL TYPE</type>
+          <versionId>94987</versionId>
+          <value>LPG Tanker</value>
+          <valueRefId>91277</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97411">
+          <type featureTypeId="967">Vessel Year of Build</type>
+          <versionId>94990</versionId>
+          <value>1999</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51718">
+          <type refId="91264">MMSI</type>
+          <name nameId="88884" nameTranslationId="89325">LPG SEVAN</name>
+          <documentNumber>352001983</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+        <identityDocument id="51717">
+          <type refId="1626">Vessel Registration Identification</type>
+          <name nameId="88884" nameTranslationId="89325">LPG SEVAN</name>
+          <documentNumber>IMO 9177806</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="24759">
+          <type refId="92122">Property in the interest of</type>
+          <relatedEntity entityId="57399">ANKA ENERGY AND LOGISTICS COMPANY</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="57401" action="add">
+      <generalInfo>
+        <identityId>48840</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59898" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62582" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="49994" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49090" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88885">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89326">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>TING TAO COMPANY LIMITED</formattedLastName>
+              <formattedFullName>TING TAO COMPANY LIMITED</formattedFullName>
+              <nameParts>
+                <namePart id="148595">
+                  <type refId="1525">Entity Name</type>
+                  <value>Ting Tao Company Limited</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="87969">
+          <country refId="11065">China</country>
+          <translations>
+            <translation id="67540">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="121315">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Room 2101, Zhuyuan Building 10, Yangshupu Lu Hongkou Qu</value>
+                </addressPart>
+                <addressPart id="121316">
+                  <type refId="1454">CITY</type>
+                  <value>Shanghai</value>
+                </addressPart>
+                <addressPart id="121317">
+                  <type refId="1456">POSTAL CODE</type>
+                  <value>200082</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+        <address id="87970">
+          <country refId="11065">China</country>
+          <translations>
+            <translation id="67541">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="121318">
+                  <type refId="1454">CITY</type>
+                  <value>Hong Kong</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <identityDocuments>
+        <identityDocument id="51719">
+          <type refId="1608">Identification Number</type>
+          <name nameId="88885" nameTranslationId="89326">TING TAO COMPANY LIMITED</name>
+          <documentNumber>IMO 0198612</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="57402" action="add">
+      <generalInfo>
+        <identityId>48841</identityId>
+        <entityType refId="602">Vessel</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59899" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62583" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="49995" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49091" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88886">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89327">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>LYNN</formattedLastName>
+              <formattedFullName>LYNN</formattedFullName>
+              <nameParts>
+                <namePart id="148596">
+                  <type refId="1526">Vessel Name</type>
+                  <value>Lynn</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="87971" />
+      </addresses>
+      <features>
+        <feature id="97651">
+          <type featureTypeId="424">Other Vessel Flag</type>
+          <versionId>95226</versionId>
+          <value>China</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97413">
+          <type featureTypeId="1">Vessel Call Sign</type>
+          <versionId>94992</versionId>
+          <value>VRWZ6</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97414">
+          <type featureTypeId="3">Vessel Flag</type>
+          <versionId>94993</versionId>
+          <value>Hong Kong</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97412">
+          <type featureTypeId="2">VESSEL TYPE</type>
+          <versionId>94991</versionId>
+          <value>Crude Oil Tanker</value>
+          <valueRefId>91274</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97415">
+          <type featureTypeId="967">Vessel Year of Build</type>
+          <versionId>94994</versionId>
+          <value>2007</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51721">
+          <type refId="91264">MMSI</type>
+          <name nameId="88886" nameTranslationId="89327">LYNN</name>
+          <documentNumber>477156400</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+        <identityDocument id="51720">
+          <type refId="1626">Vessel Registration Identification</type>
+          <name nameId="88886" nameTranslationId="89327">LYNN</name>
+          <documentNumber>IMO 9352559</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="24760">
+          <type refId="92122">Property in the interest of</type>
+          <relatedEntity entityId="57401">TING TAO COMPANY LIMITED</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="57403" action="add">
+      <generalInfo>
+        <identityId>48842</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59900" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62588" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="49996" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49092" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88887">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89328">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>THIEN AN HOA BINH COMPANY LIMITED</formattedLastName>
+              <formattedFullName>THIEN AN HOA BINH COMPANY LIMITED</formattedFullName>
+              <nameParts>
+                <namePart id="148597">
+                  <type refId="1525">Entity Name</type>
+                  <value>Thien An Hoa Binh Company Limited</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="87973">
+          <country refId="11217">Vietnam</country>
+          <translations>
+            <translation id="67542">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="121319">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Xom Thia, Xa Yen Mong</value>
+                </addressPart>
+                <addressPart id="121320">
+                  <type refId="1454">CITY</type>
+                  <value>Hoa Binh</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <identityDocuments>
+        <identityDocument id="51722">
+          <type refId="1608">Identification Number</type>
+          <name nameId="88887" nameTranslationId="89328">THIEN AN HOA BINH COMPANY LIMITED</name>
+          <documentNumber>IMO 6266198</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="57404" action="add">
+      <generalInfo>
+        <identityId>48843</identityId>
+        <entityType refId="602">Vessel</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59901" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62589" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="49997" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49093" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88888">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89329">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>GLOBAL VIVIAN</formattedLastName>
+              <formattedFullName>GLOBAL VIVIAN</formattedFullName>
+              <nameParts>
+                <namePart id="148598">
+                  <type refId="1526">Vessel Name</type>
+                  <value>Global Vivian</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="87974" />
+      </addresses>
+      <features>
+        <feature id="97417">
+          <type featureTypeId="1">Vessel Call Sign</type>
+          <versionId>94996</versionId>
+          <value>HPLV</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97418">
+          <type featureTypeId="3">Vessel Flag</type>
+          <versionId>94997</versionId>
+          <value>Panama</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97416">
+          <type featureTypeId="2">VESSEL TYPE</type>
+          <versionId>94995</versionId>
+          <value>LPG Tanker</value>
+          <valueRefId>91277</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97419">
+          <type featureTypeId="967">Vessel Year of Build</type>
+          <versionId>94998</versionId>
+          <value>1992</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51724">
+          <type refId="91264">MMSI</type>
+          <name nameId="88888" nameTranslationId="89329">GLOBAL VIVIAN</name>
+          <documentNumber>373502000</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+        <identityDocument id="51723">
+          <type refId="1626">Vessel Registration Identification</type>
+          <name nameId="88888" nameTranslationId="89329">GLOBAL VIVIAN</name>
+          <documentNumber>IMO 9002908</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="24761">
+          <type refId="92122">Property in the interest of</type>
+          <relatedEntity entityId="57403">THIEN AN HOA BINH COMPANY LIMITED</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="57433" action="add">
+      <generalInfo>
+        <identityId>48865</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59923" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62639" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="50026" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49128" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88926">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89378">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>LAUREL SHIPPING LTD</formattedLastName>
+              <formattedFullName>LAUREL SHIPPING LTD</formattedFullName>
+              <nameParts>
+                <namePart id="148733">
+                  <type refId="1525">Entity Name</type>
+                  <value>Laurel Shipping Ltd</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="88030">
+          <country refId="11230">Cayman Islands</country>
+          <translations>
+            <translation id="67583">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="121482">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>5th Floor, Genesis Building, PO Box 446</value>
+                </addressPart>
+                <addressPart id="121483">
+                  <type refId="1452">ADDRESS2</type>
+                  <value>Genesis Close</value>
+                </addressPart>
+                <addressPart id="121484">
+                  <type refId="1454">CITY</type>
+                  <value>George Town</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="97550">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>95125</versionId>
+          <value>2020</value>
+          <valueDate id="150899">
+            <fromDateBegin>2020-01-01</fromDateBegin>
+            <fromDateEnd>2020-01-01</fromDateEnd>
+            <toDateBegin>2020-12-31</toDateBegin>
+            <toDateEnd>2020-12-31</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51769">
+          <type refId="1608">Identification Number</type>
+          <name nameId="88926" nameTranslationId="89378">LAUREL SHIPPING LTD</name>
+          <documentNumber>IMO 6210475</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="57434" action="add">
+      <generalInfo>
+        <identityId>48866</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59924" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62640" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="50027" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49129" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88927">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89379">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>LEPUS NAVIGATION LTD</formattedLastName>
+              <formattedFullName>LEPUS NAVIGATION LTD</formattedFullName>
+              <nameParts>
+                <namePart id="148734">
+                  <type refId="1525">Entity Name</type>
+                  <value>Lepus Navigation Ltd</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="88032">
+          <country refId="11210">United Arab Emirates</country>
+          <translations>
+            <translation id="67584">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="121485">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Office 2207, Prime Tower, Business Bay</value>
+                </addressPart>
+                <addressPart id="121486">
+                  <type refId="1454">CITY</type>
+                  <value>Dubai</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="97549">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>95124</versionId>
+          <value>2025</value>
+          <valueDate id="150898">
+            <fromDateBegin>2025-01-01</fromDateBegin>
+            <fromDateEnd>2025-01-01</fromDateEnd>
+            <toDateBegin>2025-12-31</toDateBegin>
+            <toDateEnd>2025-12-31</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51768">
+          <type refId="1608">Identification Number</type>
+          <name nameId="88927" nameTranslationId="89379">LEPUS NAVIGATION LTD</name>
+          <documentNumber>IMO 0212118</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="57435" action="add">
+      <generalInfo>
+        <identityId>48867</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59925" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62641" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="50028" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49130" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88928">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89380">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>DOFA SHIPPING LTD</formattedLastName>
+              <formattedFullName>DOFA SHIPPING LTD</formattedFullName>
+              <nameParts>
+                <namePart id="148735">
+                  <type refId="1525">Entity Name</type>
+                  <value>DOFA Shipping Ltd</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="88034">
+          <country refId="11065">China</country>
+          <translations>
+            <translation id="67585">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="121492">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Room 2604, 357, Songlin Lu, Pudong Qu</value>
+                </addressPart>
+                <addressPart id="121493">
+                  <type refId="1454">CITY</type>
+                  <value>Shanghai</value>
+                </addressPart>
+                <addressPart id="121494">
+                  <type refId="1456">POSTAL CODE</type>
+                  <value>200122</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="97551">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>95126</versionId>
+          <value>2025</value>
+          <valueDate id="150902">
+            <fromDateBegin>2025-01-01</fromDateBegin>
+            <fromDateEnd>2025-01-01</fromDateEnd>
+            <toDateBegin>2025-12-31</toDateBegin>
+            <toDateEnd>2025-12-31</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51770">
+          <type refId="1608">Identification Number</type>
+          <name nameId="88928" nameTranslationId="89380">DOFA SHIPPING LTD</name>
+          <documentNumber>IMO 0281591</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="57436" action="add">
+      <generalInfo>
+        <identityId>48868</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59926" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62642" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="50029" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49131" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88929">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89381">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>EVY BLUE LTD</formattedLastName>
+              <formattedFullName>EVY BLUE LTD</formattedFullName>
+              <nameParts>
+                <namePart id="148736">
+                  <type refId="1525">Entity Name</type>
+                  <value>Evy Blue Ltd</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="88036">
+          <country refId="11128">Liberia</country>
+          <translations>
+            <translation id="67586">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="121490">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>80 Broad Street</value>
+                </addressPart>
+                <addressPart id="121491">
+                  <type refId="1454">CITY</type>
+                  <value>Monrovia</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="97552">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>95127</versionId>
+          <value>2025</value>
+          <valueDate id="150905">
+            <fromDateBegin>2025-01-01</fromDateBegin>
+            <fromDateEnd>2025-01-01</fromDateEnd>
+            <toDateBegin>2025-12-31</toDateBegin>
+            <toDateEnd>2025-12-31</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51771">
+          <type refId="1608">Identification Number</type>
+          <name nameId="88929" nameTranslationId="89381">EVY BLUE LTD</name>
+          <documentNumber>IMO 0326041</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="57437" action="add">
+      <generalInfo>
+        <identityId>48869</identityId>
+        <entityType refId="602">Vessel</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59927" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62643" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="50030" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49132" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88930">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89382">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>ANSHUN II</formattedLastName>
+              <formattedFullName>ANSHUN II</formattedFullName>
+              <nameParts>
+                <namePart id="148737">
+                  <type refId="1526">Vessel Name</type>
+                  <value>Anshun II</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+        <name id="88970">
+          <isPrimary>false</isPrimary>
+          <aliasType refId="1400">A.K.A.</aliasType>
+          <isLowQuality>true</isLowQuality>
+          <translations>
+            <translation id="89433">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>AN SHUN II</formattedLastName>
+              <formattedFullName>AN SHUN II</formattedFullName>
+              <nameParts>
+                <namePart id="148792">
+                  <type refId="1526">Vessel Name</type>
+                  <value>An Shun II</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="88037" />
+      </addresses>
+      <features>
+        <feature id="97555">
+          <type featureTypeId="1">Vessel Call Sign</type>
+          <versionId>95130</versionId>
+          <value>3FWU9</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97556">
+          <type featureTypeId="3">Vessel Flag</type>
+          <versionId>95131</versionId>
+          <value>Panama</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97553">
+          <type featureTypeId="2">VESSEL TYPE</type>
+          <versionId>95128</versionId>
+          <value>Crude Oil Tanker</value>
+          <valueRefId>91274</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97554">
+          <type featureTypeId="967">Vessel Year of Build</type>
+          <versionId>95129</versionId>
+          <value>2003</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51767">
+          <type refId="1626">Vessel Registration Identification</type>
+          <name nameId="88930" nameTranslationId="89382">ANSHUN II</name>
+          <documentNumber>IMO 9253117</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="24809">
+          <type refId="92122">Property in the interest of</type>
+          <relatedEntity entityId="57433">LAUREL SHIPPING LTD</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="57438" action="add">
+      <generalInfo>
+        <identityId>48870</identityId>
+        <entityType refId="602">Vessel</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59928" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62644" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="50031" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49133" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88931">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89383">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>SMD WORLD</formattedLastName>
+              <formattedFullName>SMD WORLD</formattedFullName>
+              <nameParts>
+                <namePart id="148738">
+                  <type refId="1526">Vessel Name</type>
+                  <value>SMD World</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="88038" />
+      </addresses>
+      <features>
+        <feature id="97558">
+          <type featureTypeId="1">Vessel Call Sign</type>
+          <versionId>95133</versionId>
+          <value>3FRT9</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97559">
+          <type featureTypeId="3">Vessel Flag</type>
+          <versionId>95134</versionId>
+          <value>Panama</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97557">
+          <type featureTypeId="2">VESSEL TYPE</type>
+          <versionId>95132</versionId>
+          <value>Crude Oil Tanker</value>
+          <valueRefId>91274</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97560">
+          <type featureTypeId="967">Vessel Year of Build</type>
+          <versionId>95135</versionId>
+          <value>2005</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51773">
+          <type refId="91264">MMSI</type>
+          <name nameId="88931" nameTranslationId="89383">SMD WORLD</name>
+          <documentNumber>371386000</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+        <identityDocument id="51774">
+          <type refId="1626">Vessel Registration Identification</type>
+          <name nameId="88931" nameTranslationId="89383">SMD WORLD</name>
+          <documentNumber>IMO 9290086</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="24810">
+          <type refId="92122">Property in the interest of</type>
+          <relatedEntity entityId="57434">LEPUS NAVIGATION LTD</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="57439" action="add">
+      <generalInfo>
+        <identityId>48871</identityId>
+        <entityType refId="602">Vessel</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59929" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62645" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="50032" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49134" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88932">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89384">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>EDOR</formattedLastName>
+              <formattedFullName>EDOR</formattedFullName>
+              <nameParts>
+                <namePart id="148739">
+                  <type refId="1526">Vessel Name</type>
+                  <value>EDOR</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="88039" />
+      </addresses>
+      <features>
+        <feature id="97562">
+          <type featureTypeId="1">Vessel Call Sign</type>
+          <versionId>95137</versionId>
+          <value>V7A3569</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97563">
+          <type featureTypeId="3">Vessel Flag</type>
+          <versionId>95138</versionId>
+          <value>Marshall Islands</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97561">
+          <type featureTypeId="2">VESSEL TYPE</type>
+          <versionId>95136</versionId>
+          <value>Crude Oil Tanker</value>
+          <valueRefId>91274</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97564">
+          <type featureTypeId="967">Vessel Year of Build</type>
+          <versionId>95139</versionId>
+          <value>2003</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51776">
+          <type refId="91264">MMSI</type>
+          <name nameId="88932" nameTranslationId="89384">EDOR</name>
+          <documentNumber>538011855</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+        <identityDocument id="51775">
+          <type refId="1626">Vessel Registration Identification</type>
+          <name nameId="88932" nameTranslationId="89384">EDOR</name>
+          <documentNumber>IMO 9259317</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="24811">
+          <type refId="92122">Property in the interest of</type>
+          <relatedEntity entityId="57435">DOFA SHIPPING LTD</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="57440" action="add">
+      <generalInfo>
+        <identityId>48872</identityId>
+        <entityType refId="602">Vessel</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59930" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62646" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="50033" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49135" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88933">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89385">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>BENTLEY</formattedLastName>
+              <formattedFullName>BENTLEY</formattedFullName>
+              <nameParts>
+                <namePart id="148740">
+                  <type refId="1526">Vessel Name</type>
+                  <value>Bentley</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="88040" />
+      </addresses>
+      <features>
+        <feature id="97566">
+          <type featureTypeId="1">Vessel Call Sign</type>
+          <versionId>95141</versionId>
+          <value>E5U5228</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97567">
+          <type featureTypeId="3">Vessel Flag</type>
+          <versionId>95142</versionId>
+          <value>Cook Islands</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97565">
+          <type featureTypeId="2">VESSEL TYPE</type>
+          <versionId>95140</versionId>
+          <value>Chemical/Oil Tanker</value>
+          <valueRefId>91838</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97568">
+          <type featureTypeId="967">Vessel Year of Build</type>
+          <versionId>95143</versionId>
+          <value>2001</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51778">
+          <type refId="91264">MMSI</type>
+          <name nameId="88933" nameTranslationId="89385">BENTLEY</name>
+          <documentNumber>518999247</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+        <identityDocument id="51777">
+          <type refId="1626">Vessel Registration Identification</type>
+          <name nameId="88933" nameTranslationId="89385">BENTLEY</name>
+          <documentNumber>IMO 9220914</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="24812">
+          <type refId="92122">Property in the interest of</type>
+          <relatedEntity entityId="57436">EVY BLUE LTD</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="57441" action="add">
+      <generalInfo>
+        <identityId>48873</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59931" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62647" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="50034" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49136" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88934">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89386">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>EXTENSIVE SHIPPING LIMITED</formattedLastName>
+              <formattedFullName>EXTENSIVE SHIPPING LIMITED</formattedFullName>
+              <nameParts>
+                <namePart id="148741">
+                  <type refId="1525">Entity Name</type>
+                  <value>Extensive Shipping Limited</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="88042">
+          <country refId="11065">China</country>
+          <translations>
+            <translation id="67587">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="121495">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Room D07, 8th Floor, Kai Tak Factory Building 99, King Fuk Street</value>
+                </addressPart>
+                <addressPart id="121496">
+                  <type refId="1452">ADDRESS2</type>
+                  <value>San Po Kong</value>
+                </addressPart>
+                <addressPart id="121497">
+                  <type refId="1454">CITY</type>
+                  <value>Hong Kong</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="97569">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>95144</versionId>
+          <value>23 Apr 2025</value>
+          <valueDate id="150930">
+            <fromDateBegin>2025-04-23</fromDateBegin>
+            <fromDateEnd>2025-04-23</fromDateEnd>
+            <toDateBegin>2025-04-23</toDateBegin>
+            <toDateEnd>2025-04-23</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51780">
+          <type refId="91760">Business Registration Number</type>
+          <name nameId="88934" nameTranslationId="89386">EXTENSIVE SHIPPING LIMITED</name>
+          <documentNumber>78041557</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11247">Hong Kong</issuingCountry>
+        </identityDocument>
+        <identityDocument id="51779">
+          <type refId="1608">Identification Number</type>
+          <name nameId="88934" nameTranslationId="89386">EXTENSIVE SHIPPING LIMITED</name>
+          <documentNumber>IMO 0234236</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="57442" action="add">
+      <generalInfo>
+        <identityId>48874</identityId>
+        <entityType refId="602">Vessel</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59932" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62648" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="50035" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49137" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88935">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89387">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>COVENIO</formattedLastName>
+              <formattedFullName>COVENIO</formattedFullName>
+              <nameParts>
+                <namePart id="148742">
+                  <type refId="1526">Vessel Name</type>
+                  <value>Covenio</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="88043" />
+      </addresses>
+      <features>
+        <feature id="97571">
+          <type featureTypeId="1">Vessel Call Sign</type>
+          <versionId>95146</versionId>
+          <value>HOZX</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97572">
+          <type featureTypeId="3">Vessel Flag</type>
+          <versionId>95147</versionId>
+          <value>Panama</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97570">
+          <type featureTypeId="2">VESSEL TYPE</type>
+          <versionId>95145</versionId>
+          <value>Crude Oil Tanker</value>
+          <valueRefId>91274</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97573">
+          <type featureTypeId="967">Vessel Year of Build</type>
+          <versionId>95148</versionId>
+          <value>2003</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51781">
+          <type refId="91264">MMSI</type>
+          <name nameId="88935" nameTranslationId="89387">COVENIO</name>
+          <documentNumber>351165000</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+        <identityDocument id="51782">
+          <type refId="1626">Vessel Registration Identification</type>
+          <name nameId="88935" nameTranslationId="89387">COVENIO</name>
+          <documentNumber>IMO 9263227</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="24813">
+          <type refId="92122">Property in the interest of</type>
+          <relatedEntity entityId="57441">EXTENSIVE SHIPPING LIMITED</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="57443" action="add">
+      <generalInfo>
+        <identityId>48875</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59933" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62649" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="50036" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49138" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88936">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89388">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>XIFOIDES GROUP LIMITED</formattedLastName>
+              <formattedFullName>XIFOIDES GROUP LIMITED</formattedFullName>
+              <nameParts>
+                <namePart id="148743">
+                  <type refId="1525">Entity Name</type>
+                  <value>Xifoides Group Limited</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="88045">
+          <country refId="11065">China</country>
+          <translations>
+            <translation id="67588">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="121498">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Rm 20, Floor 7, Block B3, Tuen Mun Industrial Centre, 2</value>
+                </addressPart>
+                <addressPart id="121499">
+                  <type refId="1452">ADDRESS2</type>
+                  <value>San Ping Circuit</value>
+                </addressPart>
+                <addressPart id="121500">
+                  <type refId="1454">CITY</type>
+                  <value>Hong Kong</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+        <address id="88046">
+          <country refId="11065">China</country>
+          <translations>
+            <translation id="67589">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="121501">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Room 701, Unit 127, 7/F, Tower B, New Mandarin Plaza, 14 Science Museum Road, Tsim Sha Tsiu, Kowloon</value>
+                </addressPart>
+                <addressPart id="121502">
+                  <type refId="1454">CITY</type>
+                  <value>Hong Kong</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="97574">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>95149</versionId>
+          <value>24 Jul 2021</value>
+          <valueDate id="150946">
+            <fromDateBegin>2021-07-24</fromDateBegin>
+            <fromDateEnd>2021-07-24</fromDateEnd>
+            <toDateBegin>2021-07-24</toDateBegin>
+            <toDateEnd>2021-07-24</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51783">
+          <type refId="91760">Business Registration Number</type>
+          <name nameId="88936" nameTranslationId="89388">XIFOIDES GROUP LIMITED</name>
+          <documentNumber>73211117</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11247">Hong Kong</issuingCountry>
+        </identityDocument>
+        <identityDocument id="51784">
+          <type refId="1626">Vessel Registration Identification</type>
+          <name nameId="88936" nameTranslationId="89388">XIFOIDES GROUP LIMITED</name>
+          <documentNumber>IMO 6244565</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="57444" action="add">
+      <generalInfo>
+        <identityId>48876</identityId>
+        <entityType refId="602">Vessel</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59934" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62650" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="50037" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49139" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88937">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89389">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>GOLDEN SUNRISE</formattedLastName>
+              <formattedFullName>GOLDEN SUNRISE</formattedFullName>
+              <nameParts>
+                <namePart id="148744">
+                  <type refId="1526">Vessel Name</type>
+                  <value>Golden Sunrise</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="88047" />
+      </addresses>
+      <features>
+        <feature id="97576">
+          <type featureTypeId="1">Vessel Call Sign</type>
+          <versionId>95151</versionId>
+          <value>D6A4080</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97577">
+          <type featureTypeId="3">Vessel Flag</type>
+          <versionId>95152</versionId>
+          <value>Comoros</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97575">
+          <type featureTypeId="2">VESSEL TYPE</type>
+          <versionId>95150</versionId>
+          <value>Crude Oil Tanker</value>
+          <valueRefId>91274</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97578">
+          <type featureTypeId="967">Vessel Year of Build</type>
+          <versionId>95153</versionId>
+          <value>1999</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51786">
+          <type refId="91264">MMSI</type>
+          <name nameId="88937" nameTranslationId="89389">GOLDEN SUNRISE</name>
+          <documentNumber>620800080</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+        <identityDocument id="51785">
+          <type refId="1626">Vessel Registration Identification</type>
+          <name nameId="88937" nameTranslationId="89389">GOLDEN SUNRISE</name>
+          <documentNumber>IMO 9183362</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="24814">
+          <type refId="92122">Property in the interest of</type>
+          <relatedEntity entityId="57443">XIFOIDES GROUP LIMITED</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="57445" action="add">
+      <generalInfo>
+        <identityId>48877</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59935" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62651" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="50038" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49140" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88938">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89390">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>ZHOUSHAN YAOHAI SHIPPING CO., LTD.</formattedLastName>
+              <formattedFullName>ZHOUSHAN YAOHAI SHIPPING CO., LTD.</formattedFullName>
+              <nameParts>
+                <namePart id="148745">
+                  <type refId="1525">Entity Name</type>
+                  <value>Zhoushan Yaohai Shipping Co., Ltd.</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="88049">
+          <country refId="11065">China</country>
+          <translations>
+            <translation id="67590">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="121612">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Room 529, Building 2, 29, Wenhua Lu, Dinghai Qu</value>
+                </addressPart>
+                <addressPart id="121613">
+                  <type refId="1454">CITY</type>
+                  <value>Zhoushan</value>
+                </addressPart>
+                <addressPart id="121614">
+                  <type refId="1455">STATE/PROVINCE</type>
+                  <value>Zhejiang</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="97579">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>95154</versionId>
+          <value>03 Apr 2025</value>
+          <valueDate id="150954">
+            <fromDateBegin>2025-04-03</fromDateBegin>
+            <fromDateEnd>2025-04-03</fromDateEnd>
+            <toDateBegin>2025-04-03</toDateBegin>
+            <toDateEnd>2025-04-03</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51787">
+          <type refId="1608">Identification Number</type>
+          <name nameId="88938" nameTranslationId="89390">ZHOUSHAN YAOHAI SHIPPING CO., LTD.</name>
+          <documentNumber>IMO 0316659</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+        <identityDocument id="51788">
+          <type refId="92001">Unified Social Credit Code (USCC)</type>
+          <name nameId="88938" nameTranslationId="89390">ZHOUSHAN YAOHAI SHIPPING CO., LTD.</name>
+          <documentNumber>91330902MAEGMCML1T</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11065">China</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="57446" action="add">
+      <generalInfo>
+        <identityId>48878</identityId>
+        <entityType refId="602">Vessel</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59936" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62652" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="50039" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49141" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88939">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89391">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>ZHEN ZHU</formattedLastName>
+              <formattedFullName>ZHEN ZHU</formattedFullName>
+              <nameParts>
+                <namePart id="148746">
+                  <type refId="1526">Vessel Name</type>
+                  <value>Zhen Zhu</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="88050" />
+      </addresses>
+      <features>
+        <feature id="97581">
+          <type featureTypeId="1">Vessel Call Sign</type>
+          <versionId>95156</versionId>
+          <value>8POV</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97582">
+          <type featureTypeId="3">Vessel Flag</type>
+          <versionId>95157</versionId>
+          <value>Barbados</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97580">
+          <type featureTypeId="2">VESSEL TYPE</type>
+          <versionId>95155</versionId>
+          <value>Crude Oil Tanker</value>
+          <valueRefId>91274</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97583">
+          <type featureTypeId="967">Vessel Year of Build</type>
+          <versionId>95158</versionId>
+          <value>2005</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51790">
+          <type refId="91264">MMSI</type>
+          <name nameId="88939" nameTranslationId="89391">ZHEN ZHU</name>
+          <documentNumber>314100000</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+        <identityDocument id="51789">
+          <type refId="1626">Vessel Registration Identification</type>
+          <name nameId="88939" nameTranslationId="89391">ZHEN ZHU</name>
+          <documentNumber>IMO 9290359</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="24815">
+          <type refId="92122">Property in the interest of</type>
+          <relatedEntity entityId="57445">ZHOUSHAN YAOHAI SHIPPING CO., LTD.</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="57448" action="add">
+      <generalInfo>
+        <identityId>48880</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59938" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62654" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="50041" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49143" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88941">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89393">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>NICE GIFT LIMITED</formattedLastName>
+              <formattedFullName>NICE GIFT LIMITED</formattedFullName>
+              <nameParts>
+                <namePart id="148748">
+                  <type refId="1525">Entity Name</type>
+                  <value>Nice Gift Limited</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="88054">
+          <country refId="11065">China</country>
+          <translations>
+            <translation id="67592">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="121507">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Room D, 10/F, Tower A, Billion Centre, 1 Wang Kwong Road, Kowloon Bay</value>
+                </addressPart>
+                <addressPart id="121508">
+                  <type refId="1454">CITY</type>
+                  <value>Hong Kong</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+        <address id="88055">
+          <country refId="11278">Virgin Islands, British</country>
+          <translations>
+            <translation id="67593">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="121588">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Road Town</value>
+                </addressPart>
+                <addressPart id="121589">
+                  <type refId="1455">STATE/PROVINCE</type>
+                  <value>Tortola</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="97584">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>95159</versionId>
+          <value>28 Jul 2022</value>
+          <valueDate id="150967">
+            <fromDateBegin>2022-07-28</fromDateBegin>
+            <fromDateEnd>2022-07-28</fromDateEnd>
+            <toDateBegin>2022-07-28</toDateBegin>
+            <toDateEnd>2022-07-28</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51795">
+          <type refId="91760">Business Registration Number</type>
+          <name nameId="88941" nameTranslationId="89393">NICE GIFT LIMITED</name>
+          <documentNumber>74281486</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11278">Virgin Islands, British</issuingCountry>
+        </identityDocument>
+        <identityDocument id="51793">
+          <type refId="1608">Identification Number</type>
+          <name nameId="88941" nameTranslationId="89393">NICE GIFT LIMITED</name>
+          <documentNumber>IMO 6391672</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="57449" action="add">
+      <generalInfo>
+        <identityId>48881</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59939" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62655" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="50042" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49144" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88942">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89394">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>REAYOU COMPANY LIMITED</formattedLastName>
+              <formattedFullName>REAYOU COMPANY LIMITED</formattedFullName>
+              <nameParts>
+                <namePart id="148749">
+                  <type refId="1525">Entity Name</type>
+                  <value>REAYOU COMPANY LIMITED</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="88058">
+          <country refId="11140">Marshall Islands</country>
+          <translations>
+            <translation id="67595">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="121590">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Trust Company Complex</value>
+                </addressPart>
+                <addressPart id="121591">
+                  <type refId="1452">ADDRESS2</type>
+                  <value>Ajeltake Road</value>
+                </addressPart>
+                <addressPart id="121592">
+                  <type refId="1454">CITY</type>
+                  <value>Ajeltake Island</value>
+                </addressPart>
+                <addressPart id="121594">
+                  <type refId="1456">POSTAL CODE</type>
+                  <value>96960</value>
+                </addressPart>
+                <addressPart id="121593">
+                  <type refId="1455">STATE/PROVINCE</type>
+                  <value>Majuro</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="97587">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>95162</versionId>
+          <value>26 May 2022</value>
+          <valueDate id="150977">
+            <fromDateBegin>2022-05-26</fromDateBegin>
+            <fromDateEnd>2022-05-26</fromDateEnd>
+            <toDateBegin>2022-05-26</toDateBegin>
+            <toDateEnd>2022-05-26</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51794">
+          <type refId="91760">Business Registration Number</type>
+          <name nameId="88942" nameTranslationId="89394">REAYOU COMPANY LIMITED</name>
+          <documentNumber>114623</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11140">Marshall Islands</issuingCountry>
+        </identityDocument>
+        <identityDocument id="51796">
+          <type refId="1608">Identification Number</type>
+          <name nameId="88942" nameTranslationId="89394">REAYOU COMPANY LIMITED</name>
+          <documentNumber>IMO 6343147</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="57450" action="add">
+      <generalInfo>
+        <identityId>48882</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59940" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62656" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="50043" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49145" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88943">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89395">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>YEGUA TRADING LIMITED</formattedLastName>
+              <formattedFullName>YEGUA TRADING LIMITED</formattedFullName>
+              <nameParts>
+                <namePart id="148750">
+                  <type refId="1525">Entity Name</type>
+                  <value>YEGUA TRADING LIMITED</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="88060">
+          <country refId="11065">China</country>
+          <translations>
+            <translation id="67596">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="121521">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>Room 701, Unit 108, 7/F Tower B New Mandarin Plaza</value>
+                </addressPart>
+                <addressPart id="121522">
+                  <type refId="1452">ADDRESS2</type>
+                  <value>14 Science Museum Road</value>
+                </addressPart>
+                <addressPart id="121523">
+                  <type refId="1454">CITY</type>
+                  <value>Hong Kong</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="97588">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>95163</versionId>
+          <value>16 Jun 2021</value>
+          <valueDate id="150985">
+            <fromDateBegin>2021-06-16</fromDateBegin>
+            <fromDateEnd>2021-06-16</fromDateEnd>
+            <toDateBegin>2021-06-16</toDateBegin>
+            <toDateEnd>2021-06-16</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51798">
+          <type refId="91760">Business Registration Number</type>
+          <name nameId="88943" nameTranslationId="89395">YEGUA TRADING LIMITED</name>
+          <documentNumber>73090543</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11247">Hong Kong</issuingCountry>
+        </identityDocument>
+        <identityDocument id="51799">
+          <type refId="91412">Company Number</type>
+          <name nameId="88943" nameTranslationId="89395">YEGUA TRADING LIMITED</name>
+          <documentNumber>3058463</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11247">Hong Kong</issuingCountry>
+        </identityDocument>
+        <identityDocument id="51797">
+          <type refId="1608">Identification Number</type>
+          <name nameId="88943" nameTranslationId="89395">YEGUA TRADING LIMITED</name>
+          <documentNumber>IMO 6238337</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+    <entity id="57451" action="add">
+      <generalInfo>
+        <identityId>48883</identityId>
+        <entityType refId="602">Vessel</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59941" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62657" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="50044" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49146" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88944">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89396">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>MAGNOLIA</formattedLastName>
+              <formattedFullName>MAGNOLIA</formattedFullName>
+              <nameParts>
+                <namePart id="148751">
+                  <type refId="1526">Vessel Name</type>
+                  <value>MAGNOLIA</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="88061" />
+      </addresses>
+      <features>
+        <feature id="97652">
+          <type featureTypeId="424">Other Vessel Flag</type>
+          <versionId>95227</versionId>
+          <value>China</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97590">
+          <type featureTypeId="1">Vessel Call Sign</type>
+          <versionId>95165</versionId>
+          <value>VRSY6</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97591">
+          <type featureTypeId="3">Vessel Flag</type>
+          <versionId>95166</versionId>
+          <value>Hong Kong</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97589">
+          <type featureTypeId="2">VESSEL TYPE</type>
+          <versionId>95164</versionId>
+          <value>Crude Oil Tanker</value>
+          <valueRefId>91274</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97592">
+          <type featureTypeId="967">Vessel Year of Build</type>
+          <versionId>95167</versionId>
+          <value>2004</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51801">
+          <type refId="91264">MMSI</type>
+          <name nameId="88944" nameTranslationId="89396">MAGNOLIA</name>
+          <documentNumber>477401400</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+        <identityDocument id="51800">
+          <type refId="1626">Vessel Registration Identification</type>
+          <name nameId="88944" nameTranslationId="89396">MAGNOLIA</name>
+          <documentNumber>IMO 9258519</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="24816">
+          <type refId="92122">Property in the interest of</type>
+          <relatedEntity entityId="57448">NICE GIFT LIMITED</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="57452" action="add">
+      <generalInfo>
+        <identityId>48884</identityId>
+        <entityType refId="602">Vessel</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59942" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62658" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="50045" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49147" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88945">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89397">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>STELLAR BEVERLY</formattedLastName>
+              <formattedFullName>STELLAR BEVERLY</formattedFullName>
+              <nameParts>
+                <namePart id="148753">
+                  <type refId="1526">Vessel Name</type>
+                  <value>STELLAR BEVERLY</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="88062" />
+      </addresses>
+      <features>
+        <feature id="97654">
+          <type featureTypeId="24">Former Vessel Flag</type>
+          <versionId>95229</versionId>
+          <value>Gambia (False)</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97655">
+          <type featureTypeId="24">Former Vessel Flag</type>
+          <versionId>95230</versionId>
+          <value>Panama</value>
+          <isPrimary>false</isPrimary>
+        </feature>
+        <feature id="97595">
+          <type featureTypeId="3">Vessel Flag</type>
+          <versionId>95170</versionId>
+          <value>Mozambique (False)</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97593">
+          <type featureTypeId="2">VESSEL TYPE</type>
+          <versionId>95168</versionId>
+          <value>Crude Oil Tanker</value>
+          <valueRefId>91274</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97597">
+          <type featureTypeId="967">Vessel Year of Build</type>
+          <versionId>95172</versionId>
+          <value>2000</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51802">
+          <type refId="1626">Vessel Registration Identification</type>
+          <name nameId="88945" nameTranslationId="89397">STELLAR BEVERLY</name>
+          <documentNumber>IMO 9208069</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="24817">
+          <type refId="92122">Property in the interest of</type>
+          <relatedEntity entityId="57450">YEGUA TRADING LIMITED</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="57453" action="add">
+      <generalInfo>
+        <identityId>48885</identityId>
+        <entityType refId="602">Vessel</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59943" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62659" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="50046" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49148" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88946">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89398">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>SEEKER 8</formattedLastName>
+              <formattedFullName>SEEKER 8</formattedFullName>
+              <nameParts>
+                <namePart id="148754">
+                  <type refId="1526">Vessel Name</type>
+                  <value>SEEKER 8</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="88063" />
+      </addresses>
+      <features>
+        <feature id="97653">
+          <type featureTypeId="24">Former Vessel Flag</type>
+          <versionId>95228</versionId>
+          <value>Panama</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97599">
+          <type featureTypeId="1">Vessel Call Sign</type>
+          <versionId>95174</versionId>
+          <value>YJRQ9</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97600">
+          <type featureTypeId="3">Vessel Flag</type>
+          <versionId>95175</versionId>
+          <value>Vanuatu</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97598">
+          <type featureTypeId="2">VESSEL TYPE</type>
+          <versionId>95173</versionId>
+          <value>Crude Oil Tanker</value>
+          <valueRefId>91274</valueRefId>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97601">
+          <type featureTypeId="967">Vessel Year of Build</type>
+          <versionId>95176</versionId>
+          <value>2005</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51803">
+          <type refId="1626">Vessel Registration Identification</type>
+          <name nameId="88946" nameTranslationId="89398">SEEKER 8</name>
+          <documentNumber>IMO 9294329</documentNumber>
+          <isValid>true</isValid>
+        </identityDocument>
+      </identityDocuments>
+      <relationships>
+        <relationship id="24818">
+          <type refId="92122">Property in the interest of</type>
+          <relatedEntity entityId="57449">REAYOU COMPANY LIMITED</relatedEntity>
+        </relationship>
+      </relationships>
+    </entity>
+    <entity id="57454" action="add">
+      <generalInfo>
+        <identityId>48886</identityId>
+        <entityType refId="601">Entity</entityType>
+      </generalInfo>
+      <sanctionsLists>
+        <sanctionsList id="59944" refId="1550" datePublished="2026-04-24">SDN List</sanctionsList>
+      </sanctionsLists>
+      <sanctionsPrograms>
+        <sanctionsProgram id="62660" refId="91901">IRAN-EO13902</sanctionsProgram>
+      </sanctionsPrograms>
+      <sanctionsTypes>
+        <sanctionsType id="50047" refId="1705">Block</sanctionsType>
+      </sanctionsTypes>
+      <legalAuthorities>
+        <legalAuthority id="49149" refId="91902">Executive Order 13902 (Iran)</legalAuthority>
+      </legalAuthorities>
+      <names>
+        <name id="88947">
+          <isPrimary>true</isPrimary>
+          <isLowQuality>false</isLowQuality>
+          <translations>
+            <translation id="89399">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <formattedLastName>HENGLI PETROCHEMICAL DALIAN REFINERY CO., LTD.</formattedLastName>
+              <formattedFullName>HENGLI PETROCHEMICAL DALIAN REFINERY CO., LTD.</formattedFullName>
+              <nameParts>
+                <namePart id="148755">
+                  <type refId="1525">Entity Name</type>
+                  <value>Hengli Petrochemical Dalian Refinery Co., Ltd.</value>
+                </namePart>
+              </nameParts>
+            </translation>
+            <translation id="89430">
+              <isPrimary>false</isPrimary>
+              <script refId="20105">Chinese Simplified</script>
+              <formattedLastName>恒力石化 大连 炼化有限公司</formattedLastName>
+              <formattedFullName>恒力石化 大连 炼化有限公司</formattedFullName>
+              <nameParts>
+                <namePart id="148789">
+                  <type refId="1525">Entity Name</type>
+                  <value>恒力石化 大连 炼化有限公司</value>
+                </namePart>
+              </nameParts>
+            </translation>
+          </translations>
+        </name>
+      </names>
+      <addresses>
+        <address id="88065">
+          <country refId="11065">China</country>
+          <translations>
+            <translation id="67597">
+              <isPrimary>true</isPrimary>
+              <script refId="20122">Latin</script>
+              <addressParts>
+                <addressPart id="121528">
+                  <type refId="1451">ADDRESS1</type>
+                  <value>No. 298, Changsong Road</value>
+                </addressPart>
+                <addressPart id="121529">
+                  <type refId="1452">ADDRESS2</type>
+                  <value>Changxing Island Economic Region</value>
+                </addressPart>
+                <addressPart id="121530">
+                  <type refId="1453">ADDRESS3</type>
+                  <value>Zhangxing</value>
+                </addressPart>
+                <addressPart id="121531">
+                  <type refId="1454">CITY</type>
+                  <value>Dalian</value>
+                </addressPart>
+                <addressPart id="121533">
+                  <type refId="1456">POSTAL CODE</type>
+                  <value>116300</value>
+                </addressPart>
+                <addressPart id="121532">
+                  <type refId="1455">STATE/PROVINCE</type>
+                  <value>Liaoning</value>
+                </addressPart>
+              </addressParts>
+            </translation>
+          </translations>
+        </address>
+      </addresses>
+      <features>
+        <feature id="97603">
+          <type featureTypeId="646">Organization Established Date</type>
+          <versionId>95178</versionId>
+          <value>10 Mar 2014</value>
+          <valueDate id="151011">
+            <fromDateBegin>2014-03-10</fromDateBegin>
+            <fromDateEnd>2014-03-10</fromDateEnd>
+            <toDateBegin>2014-03-10</toDateBegin>
+            <toDateEnd>2014-03-10</toDateEnd>
+            <isApproximate>false</isApproximate>
+            <isDateRange>false</isDateRange>
+          </valueDate>
+          <isPrimary>true</isPrimary>
+        </feature>
+        <feature id="97602">
+          <type featureTypeId="14">Website</type>
+          <versionId>95177</versionId>
+          <value>www.henglipc.com</value>
+          <isPrimary>true</isPrimary>
+        </feature>
+      </features>
+      <identityDocuments>
+        <identityDocument id="51806">
+          <type refId="91761">Registration Number</type>
+          <name nameId="88947" nameTranslationId="89399">HENGLI PETROCHEMICAL DALIAN REFINERY CO., LTD.</name>
+          <documentNumber>210244000026548</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11065">China</issuingCountry>
+        </identityDocument>
+        <identityDocument id="51805">
+          <type refId="92001">Unified Social Credit Code (USCC)</type>
+          <name nameId="88947" nameTranslationId="89399">HENGLI PETROCHEMICAL DALIAN REFINERY CO., LTD.</name>
+          <documentNumber>91210244089087324F</documentNumber>
+          <isValid>true</isValid>
+          <issuingCountry refId="11065">China</issuingCountry>
+        </identityDocument>
+      </identityDocuments>
+    </entity>
+  </entities>
+</sanctionsData>
