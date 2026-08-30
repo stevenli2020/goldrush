@@ -5,7 +5,7 @@ import argparse
 import csv
 import json
 import re
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from io import BytesIO
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -46,36 +46,59 @@ def fetch(url, session, robots_cache):
     return response, attempt
 
 
-def recent_action_links(html, target_name):
+def event_names(event):
+    try:
+        records = json.loads(event.get('official_names') or '[]')
+    except json.JSONDecodeError:
+        records = []
+    names = [record['value'] for record in records if isinstance(record, dict) and record.get('value')]
+    return list(dict.fromkeys(names + ([event['target_name']] if event.get('target_name') else [])))
+
+
+def container_date(text):
+    match = re.search(r'\b(\d{2})/(\d{2})/(\d{4})\b', text)
+    return date.fromisoformat(f'{match.group(3)}-{match.group(1)}-{match.group(2)}') if match else None
+
+
+def recent_action_links(html, names, publication_date):
     soup = BeautifulSoup(html, 'html.parser')
-    needle = (target_name or '').casefold()
-    if not needle:
+    names = [name.casefold() for name in names if name]
+    if not names:
         return []
     links = []
     for anchor in soup.find_all('a', href=True):
-        context = ' '.join(anchor.parent.stripped_strings) if anchor.parent else anchor.get_text(' ', strip=True)
-        if needle in context.casefold():
-            links.append(urljoin(RECENT_ACTIONS_URL, anchor['href']))
-    return list(dict.fromkeys(links))
+        container = anchor.find_parent('article') or anchor.find_parent('li') or anchor.find_parent(class_='views-row') or anchor.parent
+        context = ' '.join(container.stripped_strings) if container else anchor.get_text(' ', strip=True)
+        if any(name in context.casefold() for name in names):
+            action_date = container_date(context)
+            expected = date.fromisoformat(publication_date)
+            distance = abs((action_date - expected).days) if action_date else 2
+            links.append((distance, urljoin(RECENT_ACTIONS_URL, anchor['href'])))
+    ranked = {}
+    for distance, url in links:
+        ranked[url] = min(distance, ranked.get(url, distance))
+    return [url for url, _ in sorted(ranked.items(), key=lambda item: item[1])]
 
 
 def legal_authority_query(value):
     match = re.search(r'(?i)\b(?:e\.?o\.?|executive\s+order)\s*(\d+)\b', value or '')
-    return f'E.O. {match.group(1)}' if match else (value or '')[:15].strip()
+    return f'E.O. {match.group(1)}' if match else None
 
 
-def is_matching_primary_document(text, target_name):
-    if not text or not target_name:
-        return False
+def matching_official_name(text, names):
+    if not text:
+        return None
     lowered = text.casefold()
-    return target_name.casefold() in lowered and 'federal register :: request access' not in lowered
+    if 'federal register :: request access' in lowered:
+        return None
+    return next((name for name in names if name.casefold() in lowered), None)
 
 
 def federal_register_urls(event, session, robots_cache):
     authority = legal_authority_query(event.get('legal_authorities_raw'))
     if not authority:
         return [], []
-    params = {'conditions[publication_date]': event['publication_date'], 'conditions[term]': authority, 'per_page': 20}
+    params = {'conditions[publication_date]': event['publication_date'], 'conditions[term]': authority, 'per_page': 100}
     if not robots_allowed(FEDERAL_REGISTER_API, session, robots_cache):
         return [], [{'url': FEDERAL_REGISTER_API, 'status': 'ROBOTS_DENIED', 'query': params}]
     response = session.get(FEDERAL_REGISTER_API, params=params, headers={'User-Agent': USER_AGENT, 'Accept': 'application/json'}, timeout=60)
@@ -96,11 +119,8 @@ def retrieve_event(event, session=None):
     attempts = []
     page, attempt = fetch(RECENT_ACTIONS_URL, client, robots_cache)
     attempts.append(attempt)
-    urls = recent_action_links(page.text, event.get('target_name')) if page is not None else []
-    if not urls:
-        fallback_urls, fallback_attempts = federal_register_urls(event, client, robots_cache)
-        attempts.extend(fallback_attempts)
-        urls = fallback_urls
+    names = event_names(event)
+    urls = recent_action_links(page.text, names, event['publication_date']) if page is not None else []
     for url in urls:
         response, attempt = fetch(url, client, robots_cache)
         attempts.append(attempt)
@@ -109,19 +129,31 @@ def retrieve_event(event, session=None):
         content_type = response.headers.get('content-type', '').lower()
         if 'text/html' in content_type:
             text = BeautifulSoup(response.text, 'html.parser').get_text('\n', strip=True)
-            if is_matching_primary_document(text, event.get('target_name')):
-                return evidence_record(event, 'FOUND', text, url, attempts)
+            matched_name = matching_official_name(text, names)
+            if matched_name:
+                return evidence_record(event, 'FOUND', text, url, attempts, matched_name)
         if 'application/pdf' in content_type:
             try:
                 text = '\n'.join(page.extract_text() or '' for page in PdfReader(BytesIO(response.content)).pages).strip()
             except Exception:
                 continue
-            if is_matching_primary_document(text, event.get('target_name')):
-                return evidence_record(event, 'FOUND', text, url, attempts)
-    return evidence_record(event, 'NOT_FOUND', None, None, attempts)
+            matched_name = matching_official_name(text, names)
+            if matched_name:
+                return evidence_record(event, 'FOUND', text, url, attempts, matched_name)
+    fallback_urls, fallback_attempts = federal_register_urls(event, client, robots_cache)
+    attempts.extend(fallback_attempts)
+    for url in fallback_urls:
+        response, attempt = fetch(url, client, robots_cache)
+        attempts.append(attempt)
+        if response is not None and 'text/html' in response.headers.get('content-type', '').lower():
+            text = BeautifulSoup(response.text, 'html.parser').get_text('\n', strip=True)
+            matched_name = matching_official_name(text, names)
+            if matched_name:
+                return evidence_record(event, 'FOUND', text, url, attempts, matched_name)
+    return evidence_record(event, 'NOT_FOUND', None, None, attempts, None)
 
 
-def evidence_record(event, status, text, source_url, attempts):
+def evidence_record(event, status, text, source_url, attempts, matched_name):
     return {
         'variable_id': 'L6-002',
         'ofac_entity_id': event['ofac_entity_id'],
@@ -130,6 +162,7 @@ def evidence_record(event, status, text, source_url, attempts):
         'retrieval_status': status,
         'primary_document_url': source_url,
         'primary_document_text': text,
+        'matched_official_name': matched_name,
         'retrieval_attempts': attempts,
         'retrieved_at': datetime.now(timezone.utc).isoformat(),
     }

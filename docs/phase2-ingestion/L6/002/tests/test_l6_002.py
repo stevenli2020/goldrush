@@ -7,7 +7,7 @@ spec.loader.exec_module(parser)
 spec2 = importlib.util.spec_from_file_location('l6_002_collector', Path(__file__).parents[1] / 'collector.py')
 collector = importlib.util.module_from_spec(spec2)
 spec2.loader.exec_module(collector)
-XML = '<?xml version="1.0"?><sanctionsData xmlns="https://www.treasury.gov/ofac/DeltaFile/1.0"><publicationInfo><datePublished>2026-08-20T00:00:00-04:00</datePublished></publicationInfo><entities><entity id="1" action="add"><generalInfo><entityType>Organization</entityType></generalInfo><names><name><translations><translation><formattedFullName>Central Bank of Example</formattedFullName></translation></translations></name></names><sanctionsTypes><sanctionsType>Block</sanctionsType></sanctionsTypes><legalAuthorities><legalAuthority>Executive Order 14024</legalAuthority></legalAuthorities></entity><entity id="2"><sanctionsPrograms><sanctionsProgram action="add">IRAN</sanctionsProgram></sanctionsPrograms></entity><entity id="3" action="remove"><generalInfo><entityType>Individual</entityType></generalInfo></entity></entities></sanctionsData>'
+XML = '<?xml version="1.0"?><sanctionsData xmlns="https://www.treasury.gov/ofac/DeltaFile/1.0"><publicationInfo><datePublished>2026-08-20T00:00:00-04:00</datePublished></publicationInfo><entities><entity id="1" action="add"><generalInfo><entityType>Organization</entityType></generalInfo><names><name><isPrimary>true</isPrimary><translations><translation><formattedFullName>Central Bank of Example</formattedFullName></translation></translations></name><name><isPrimary>false</isPrimary><aliasType>A.K.A.</aliasType><translations><translation><formattedFullName>Example Reserve Bank</formattedFullName></translation></translations></name></names><sanctionsTypes><sanctionsType>Block</sanctionsType></sanctionsTypes><legalAuthorities><legalAuthority>Executive Order 14024</legalAuthority></legalAuthorities></entity><entity id="2"><sanctionsPrograms><sanctionsProgram action="add">IRAN</sanctionsProgram></sanctionsPrograms></entity><entity id="3" action="remove"><generalInfo><entityType>Individual</entityType></generalInfo></entity></entities></sanctionsData>'
 
 def fixture(tmp_path):
     raw = tmp_path / 'delta.xml'
@@ -50,6 +50,7 @@ def test_api_url_and_namespace_fixture(tmp_path):
     assert row['ofac_entity_id'] == '1'
     assert row['sanctions_type'] == 'Block'
     assert row['legal_authorities_raw'] == 'Executive Order 14024'
+    assert json.loads(row['official_names']) == [{'value': 'Central Bank of Example', 'is_primary': True, 'alias_type': None}, {'value': 'Example Reserve Bank', 'is_primary': False, 'alias_type': 'A.K.A.'}]
     assert row['is_candidate'] is True
     assert row['matched_term'] == 'Central Bank'
 
@@ -57,6 +58,7 @@ def test_candidate_exclusions_are_metadata_only():
     assert parser.candidate_metadata('Central Bank of Example') == (True, 'Central Bank')
     assert parser.candidate_metadata('Central Bank Commercial PLC') == (False, None)
     assert parser.candidate_metadata(None) == (False, None)
+    assert parser.candidate_metadata(['Unrelated name', 'Banco Central de Example']) == (True, 'Banco Central')
 
 def test_archive_sequence():
     assert collector.archive_sequence('2026-05-28_delta.xml') == 1

@@ -6,9 +6,9 @@ from pathlib import Path
 from xml.etree import ElementTree as ET
 VARIABLE = 'L6-002'
 VERSION = '0.3.0'
-FIELDS = ['variable_id', 'event_date', 'publication_date', 'action_type', 'list_identifier', 'ofac_entity_id', 'target_name', 'target_type', 'program_tags', 'sanctions_type', 'legal_authorities_raw', 'is_candidate', 'matched_term', 'source_delta_path', 'source_url', 'manifest_path', 'retrieved_at', 'validation_status', 'availability_status', 'fallback_checked_at', 'parser_version']
-CANDIDATE_RE = re.compile(r'(?i)\b(central\s+bank|reserve\s+bank|monetary\s+authority|national\s+treasury|sovereign\s+wealth)\b')
-EXCLUSION_RE = re.compile(r'(?i)\b(commercial|plc|ltd|incorp(?:orated)?|private\s+bank)\b')
+FIELDS = ['variable_id', 'event_date', 'publication_date', 'action_type', 'list_identifier', 'ofac_entity_id', 'target_name', 'official_names', 'target_type', 'program_tags', 'sanctions_type', 'legal_authorities_raw', 'is_candidate', 'matched_term', 'source_delta_path', 'source_url', 'manifest_path', 'retrieved_at', 'validation_status', 'availability_status', 'fallback_checked_at', 'parser_version']
+CANDIDATE_RE = re.compile(r'(?i)\b(central\s+bank|banco\s+central|reserve\s+bank|monetary\s+authority|national\s+treasury|sovereign\s+wealth|da\s+afghanistan\s+bank|bank\s+markazi)\b')
+EXCLUSION_RE = re.compile(r'(?i)\b(commercial|plc|ltd|inc\.?|incorp(?:orated)?|private\s+bank)\b')
 
 def metadata(p):
     return None
@@ -25,11 +25,24 @@ def child_text(node, name):
 def child_texts(node, name):
     return [x.text.strip() for x in node.iter() if local(x.tag) == name and x.text and x.text.strip()]
 
-def candidate_metadata(target_name):
-    if not target_name or EXCLUSION_RE.search(target_name):
-        return False, None
-    match = CANDIDATE_RE.search(target_name)
-    return bool(match), match.group(1) if match else None
+def candidate_metadata(names):
+    if isinstance(names, str):
+        names = [names]
+    for name in names or []:
+        if EXCLUSION_RE.search(name):
+            continue
+        match = CANDIDATE_RE.search(name)
+        if match:
+            return True, match.group(1)
+    return False, None
+
+def official_names(entity):
+    names = []
+    for node in (x for x in entity.iter() if local(x.tag) == 'name'):
+        value = child_text(node, 'formattedFullName') or child_text(node, 'formattedLastName')
+        if value and value not in [name['value'] for name in names]:
+            names.append({'value': value, 'is_primary': node.findtext('./{*}isPrimary') == 'true', 'alias_type': child_text(node, 'aliasType') or None})
+    return names
 
 def manifest(mp, rp):
     m = json.loads(mp.read_text(encoding='utf-8'))
@@ -63,13 +76,15 @@ def parse_xml(path, publication):
                 action = 'UPDATE'
             else:
                 raise ValueError(f'OFAC entity {ident} has no supported action')
-        name = child_text(e, 'formattedFullName') or child_text(e, 'formattedLastName') or None
+        names = official_names(e)
+        primary = next((name['value'] for name in names if name['is_primary']), None)
+        name = primary or (names[0]['value'] if names else None)
         typ = child_text(e, 'entityType') or 'Entity'
         programs = child_texts(e, 'sanctionsProgram')
         sanctions_types = child_texts(e, 'sanctionsType')
         legal_authorities = child_texts(e, 'legalAuthority')
-        is_candidate, matched_term = candidate_metadata(name)
-        out.append({'event_date': event_date, 'action_type': action, 'list_identifier': ident, 'ofac_entity_id': ident, 'target_name': name, 'target_type': typ, 'program_tags': ';'.join(dict.fromkeys(programs)), 'sanctions_type': ';'.join(dict.fromkeys(sanctions_types)), 'legal_authorities_raw': ';'.join(dict.fromkeys(legal_authorities)), 'is_candidate': is_candidate, 'matched_term': matched_term})
+        is_candidate, matched_term = candidate_metadata([item['value'] for item in names])
+        out.append({'event_date': event_date, 'action_type': action, 'list_identifier': ident, 'ofac_entity_id': ident, 'target_name': name, 'official_names': json.dumps(names, ensure_ascii=False), 'target_type': typ, 'program_tags': ';'.join(dict.fromkeys(programs)), 'sanctions_type': ';'.join(dict.fromkeys(sanctions_types)), 'legal_authorities_raw': ';'.join(dict.fromkeys(legal_authorities)), 'is_candidate': is_candidate, 'matched_term': matched_term})
     return out
 
 def parse(raw, mp, as_of=None):

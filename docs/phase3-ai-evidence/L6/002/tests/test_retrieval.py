@@ -1,4 +1,5 @@
 import importlib.util
+import json
 from pathlib import Path
 
 
@@ -30,22 +31,28 @@ class Session:
 
 
 def event():
-    return {'ofac_entity_id': '1', 'publication_date': '2026-08-20', 'target_name': 'Central Bank of Example', 'legal_authorities_raw': 'Executive Order 14024'}
+    return {'ofac_entity_id': '1', 'publication_date': '2026-08-20', 'target_name': 'Central Bank of Example', 'official_names': json.dumps([{'value': 'Central Bank of Example'}, {'value': 'Example Reserve Bank'}]), 'legal_authorities_raw': 'Executive Order 14024'}
 
 
 def test_recent_action_link_matches_entity_name():
     html = '<article><a href="/recent-actions/example">Central Bank of Example action</a></article>'
-    assert retrieval.recent_action_links(html, 'Central Bank of Example') == ['https://ofac.treasury.gov/recent-actions/example']
+    assert retrieval.recent_action_links(html, ['Central Bank of Example'], '2026-08-20') == ['https://ofac.treasury.gov/recent-actions/example']
 
 
 def test_legal_authority_query_uses_executive_order_number_when_present():
     assert retrieval.legal_authority_query('Executive Order 14024 (Russia)') == 'E.O. 14024'
 
 
-def test_primary_document_must_identify_the_entity_and_not_be_an_access_page():
-    assert retrieval.is_matching_primary_document('Official notice for Central Bank of Example', 'Central Bank of Example')
-    assert not retrieval.is_matching_primary_document('Federal Register :: Request Access Central Bank of Example', 'Central Bank of Example')
-    assert not retrieval.is_matching_primary_document('Official notice for a different entity', 'Central Bank of Example')
+def test_primary_document_must_identify_an_official_name_and_not_be_an_access_page():
+    names = ['Central Bank of Example', 'Example Reserve Bank']
+    assert retrieval.matching_official_name('Official notice for Example Reserve Bank', names) == 'Example Reserve Bank'
+    assert retrieval.matching_official_name('Federal Register :: Request Access Central Bank of Example', names) is None
+    assert retrieval.matching_official_name('Official notice for a different entity', names) is None
+
+
+def test_recent_action_links_prioritise_dates_without_excluding_undated_matches():
+    html = '<li>08/19/2026 <a href="/recent-actions/old">Central Bank of Example</a></li><li>08/20/2026 <a href="/recent-actions/same">Central Bank of Example</a></li>'
+    assert retrieval.recent_action_links(html, ['Central Bank of Example'], '2026-08-20') == ['https://ofac.treasury.gov/recent-actions/same', 'https://ofac.treasury.gov/recent-actions/old']
 
 
 def test_retrieve_uses_ofac_document_and_records_attempts():
