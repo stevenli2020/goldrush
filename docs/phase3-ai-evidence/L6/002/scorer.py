@@ -61,6 +61,15 @@ def score_record(record: dict) -> dict:
         'asset_scope': scope,
         'legal_authority': authority,
     }
+    base['evidentiary_gaps'] = []
+    if not action:
+        base['evidentiary_gaps'].append('legal_action_not_explicit')
+    if not relevance:
+        base['evidentiary_gaps'].append('sovereign_relevance_not_explicit')
+    if scope == 0:
+        base['evidentiary_gaps'].append('asset_scope_not_explicit')
+    if authority == 0:
+        base['evidentiary_gaps'].append('legal_authority_not_explicit')
     base['score'] = sum(base['score_breakdown'].values())
     base['scoring_status'] = 'SCORABLE'
     base['action_state'] = 'ACTIVE'

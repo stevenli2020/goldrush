@@ -48,6 +48,7 @@ def test_designation_without_asset_scope_is_scored_without_inference():
     assert result['score'] == 30
     assert result['score_breakdown']['legal_action'] == 0
     assert result['score_breakdown']['asset_scope'] == 0
+    assert result['evidentiary_gaps'] == ['legal_action_not_explicit', 'asset_scope_not_explicit', 'legal_authority_not_explicit']
 
 
 def test_missing_retrieval_has_null_score_and_gap():
