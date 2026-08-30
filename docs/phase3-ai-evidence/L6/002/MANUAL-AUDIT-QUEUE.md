@@ -4,7 +4,7 @@ Phase 4 is active for internal research notifications. Candidate records remain 
 
 | Record | Source | Automated result | Human review |
 | --- | --- | --- | --- |
-| OFAC entity `30663`, 2025-06-30 | [OFAC dated action page](https://ofac.treasury.gov/recent-actions/20250630) | `REMOVE`; `REVERSED`; score `null` | Pending human confirmation |
+| OFAC entity `30663`, 2025-06-30 | [OFAC dated action page](https://ofac.treasury.gov/recent-actions/20250630) | `REMOVE`; `REVERSED`; score `null` | Confirmed by owner 2026-08-30 |
 
 Review checklist:
 
@@ -14,4 +14,4 @@ Review checklist:
 - Confirm no active score or notification was produced.
 - Record reviewer, date, decision, and any discrepancy below.
 
-Human review record: pending.
+Human review record: owner confirmed the email test was received on 2026-08-30. The Syria removal remains a reversal with no active score.
