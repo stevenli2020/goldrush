@@ -33,7 +33,7 @@ def run(monitor_dir: Path, year: int | None = None) -> dict:
     run_at = datetime.now(timezone.utc)
     manifest = collector.collect(raw_dir, manifest_dir, year=year)
     raw_path = Path(manifest['raw_path'])
-    manifest_path = next(manifest_dir.glob(f"L6-002_{manifest['publication_date']}*.manifest.json"))
+    manifest_path = Path(manifest['manifest_path'])
     events = parser.parse(raw_path, manifest_path)
     parser.write(events, phase2_csv)
     candidate_events = [event for event in events if event['is_candidate']]
