@@ -1,6 +1,6 @@
 # L6-002 Step 5 — Deterministic scoring specification
 
-Status: proposed specification; scoring is not implemented.
+Status: implemented and validated; Phase 4 internal handoff active.
 
 This specification applies only after the Phase 2 XML event has passed candidate triage and Phase 3 has retrieved a usable official primary document containing an exact official name from the XML (`target_name` or an official alias). The four narrative-only bootstrap files are not inputs to this score.
 

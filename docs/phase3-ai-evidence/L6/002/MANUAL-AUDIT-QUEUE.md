@@ -1,6 +1,6 @@
 # L6-002 manual audit queue
 
-Phase 4 remains inactive until a human reviews candidate records from silent monitoring.
+Phase 4 is active for internal research notifications. Candidate records remain reviewable by the research team; external alerts and trading are disabled.
 
 | Record | Source | Automated result | Human review |
 | --- | --- | --- | --- |

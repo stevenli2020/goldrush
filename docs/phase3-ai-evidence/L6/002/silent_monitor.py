@@ -25,12 +25,12 @@ def load(path: Path, name: str):
     return module
 
 
-def notify_research_team(records: list[dict], credentials_path: Path) -> None:
+def notify_research_team(records: list[dict], credentials_path: Path, *, subject_prefix: str = '') -> None:
     credentials = json.loads(credentials_path.read_text(encoding='utf-8'))
     sender = credentials['email']
     password = credentials['app-key'].replace(' ', '')
     message = EmailMessage()
-    message['Subject'] = 'GoldRush L6-002 Phase 4 review required'
+    message['Subject'] = f'{subject_prefix}GoldRush L6-002 Phase 4 research notification'
     message['From'] = sender
     message['To'] = ', '.join(RECIPIENTS)
     message.set_content(json.dumps({'variable_id': 'L6-002', 'records': records}, indent=2))
@@ -42,26 +42,31 @@ def notify_research_team(records: list[dict], credentials_path: Path) -> None:
         smtp.send_message(message)
 
 
-def publish_phase4(result: dict, monitor_dir: Path, credentials_path: Path) -> dict:
-    review_until_iso = (datetime.now(timezone.utc) + timedelta(days=7)).replace(microsecond=0).isoformat()
+def publish_phase4(result: dict, monitor_dir: Path, credentials_path: Path, *, human_review_required: bool = False, subject_prefix: str = '', event_type: str = 'LIVE') -> dict:
+    review_until_iso = None
+    if human_review_required:
+        review_until_iso = (datetime.now(timezone.utc) + timedelta(days=7)).replace(microsecond=0).isoformat()
     dashboard_record = {
         'phase4_status': 'ACTIVE',
-        'human_review_required': True,
+        'event_type': event_type,
+        'human_review_required': human_review_required,
         'human_review_required_until': review_until_iso,
         'run_at': result['run_at'],
         'variable_id': result['variable_id'],
         'records': result['records'],
         'notifications_sent': bool(result['records']),
+        'external_alerts_enabled': False,
+        'trading_enabled': False,
     }
     if result['records']:
-        notify_research_team(result['records'], credentials_path)
+        notify_research_team(result['records'], credentials_path, subject_prefix=subject_prefix)
     dashboard = monitor_dir / 'phase4-dashboard.jsonl'
     with dashboard.open('a', encoding='utf-8') as handle:
         handle.write(json.dumps(dashboard_record, ensure_ascii=False) + '\n')
     return dashboard_record
 
 
-def run(monitor_dir: Path, year: int | None = None, *, activate_phase4: bool = False, credentials_path: Path | None = None) -> dict:
+def run(monitor_dir: Path, year: int | None = None, *, activate_phase4: bool = False, human_review_required: bool = False, credentials_path: Path | None = None) -> dict:
     collector = load(COLLECTOR_PATH, 'l6_002_collector')
     parser = load(PARSER_PATH, 'l6_002_parser')
     retrieval = load(RETRIEVAL_PATH, 'l6_002_retrieval')
@@ -94,7 +99,7 @@ def run(monitor_dir: Path, year: int | None = None, *, activate_phase4: bool = F
     if activate_phase4:
         if credentials_path is None:
             raise ValueError('credentials_path is required when Phase 4 is active')
-        result['phase4'] = publish_phase4(result, monitor_dir, credentials_path)
+        result['phase4'] = publish_phase4(result, monitor_dir, credentials_path, human_review_required=human_review_required)
     output.write_text(json.dumps(result, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
     print(f'Wrote silent monitor snapshot to {output}')
     return result
@@ -105,9 +110,10 @@ def main() -> int:
     ap.add_argument('--monitor-dir', type=Path, required=True)
     ap.add_argument('--year', type=int)
     ap.add_argument('--activate-phase4', action='store_true')
+    ap.add_argument('--human-review-required', action='store_true')
     ap.add_argument('--credentials', type=Path, default=Path(__file__).parents[2] / 'credentials.json')
     args = ap.parse_args()
-    run(args.monitor_dir, args.year, activate_phase4=args.activate_phase4, credentials_path=args.credentials)
+    run(args.monitor_dir, args.year, activate_phase4=args.activate_phase4, human_review_required=args.human_review_required, credentials_path=args.credentials)
     return 0
 
 
