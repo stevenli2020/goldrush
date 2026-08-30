@@ -32,15 +32,14 @@ pytest -q docs/phase3-ai-evidence/L3/006
 
 The live L3-006 workflow is documented in [L3/006/README.md](L3/006/README.md).
 
-## Current limitations and next slice
+## Current status
 
 The L3-006 live workflow calls the configured AI scorer and retains raw
 responses, evidence, diagnostics, and run status for review.
 
-The next recommended admitted qualitative variable is **L6-001 — Active
-Conflict and Escalation Signal**. Its Phase 2 GPR observations are a news-based
-intensity proxy, while the registry requires structured assessment of actual
-conflict/escalation, safe-haven transmission, offsets, source agreement, and
-counter-evidence. L6-002 is complete and its internal Phase 4 notification path
-is active. Deterministic admitted variables should continue to bypass Phase 3
-qualitative assessment.
+L6-001 is complete and approved for Phase 4 integration. It uses only the
+approved `GPRD_ACT` series and the documented deterministic MA5/MA20/STD60
+calculation; no external news collection or qualitative classification is
+performed. L6-002 is complete and its internal Phase 4 notification path is
+active. Deterministic admitted variables continue to bypass qualitative
+assessment.

@@ -1,0 +1,10 @@
+variable_id: L6-001
+source: Caldara-Iacoviello Daily Recent Geopolitical Risk
+source_page: https://www.matteoiacoviello.com/gpr.htm
+file_pattern: data_gpr_daily_recent_YYYYMMDD.dta
+frequency: daily
+freshness:
+  stale_after_days: 10
+fallback: carry_forward_latest_valid
+no_prior_status: BLOCKED
+scope: news-based proxy; not a verified conflict-event database

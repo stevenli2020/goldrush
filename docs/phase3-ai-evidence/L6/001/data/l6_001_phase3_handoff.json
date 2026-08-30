@@ -1,0 +1,11 @@
+[
+  {
+    "variable_id": "L6-001",
+    "observation_timestamp": "2026-08-24T00:00:00Z",
+    "value": -0.21920153489517877,
+    "unit_or_scale": "standard_deviation_units_clamped_-1_to_1",
+    "availability_status": "AVAILABLE",
+    "source_reference": "/mnt/d/Projects/GoldRush/docs/phase3-ai-evidence/L6/001/data/manifests/gpr-20260824--20260830T084744394742Z.manifest.json",
+    "quality_flag": "PASS"
+  }
+]

@@ -1,0 +1,2 @@
+variable_id,observation_date,gpr_headline_index,gpr_threat_index,gpr_act_index,unit,source_name,source_url,source_vintage_date,raw_path,manifest_path,retrieved_at,validation_status,availability_status,fallback_checked_at,parser_version
+L6-001,2026-08-17,144.47335815429688,85.81008911132812,246.90625,published_index_points,Caldara-Iacoviello Daily Recent Geopolitical Risk,https://www.matteoiacoviello.com/gpr_files/data_gpr_daily_recent.dta,2026-08-23,data/raw/gpr.dta,data/manifests/gpr.json,2026-08-24T11:00:52+00:00,PASS,AVAILABLE,,0.1.0

@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "L6-001 GPR daily proxy",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "variable_id",
+    "observation_date",
+    "gpr_headline_index",
+    "gpr_threat_index",
+    "gpr_act_index",
+    "unit",
+    "source_name",
+    "source_url",
+    "source_vintage_date",
+    "raw_path",
+    "manifest_path",
+    "retrieved_at",
+    "validation_status",
+    "availability_status",
+    "fallback_checked_at",
+    "parser_version"
+  ],
+  "properties": {
+    "variable_id": {
+      "const": "L6-001"
+    },
+    "observation_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "gpr_headline_index": {
+      "type": "number",
+      "minimum": 0
+    },
+    "gpr_threat_index": {
+      "type": "number",
+      "minimum": 0
+    },
+    "gpr_act_index": {
+      "type": "number",
+      "minimum": 0
+    },
+    "unit": {
+      "const": "published_index_points"
+    },
+    "source_name": {
+      "const": "Caldara-Iacoviello Daily Recent Geopolitical Risk"
+    },
+    "source_url": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_vintage_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "raw_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "manifest_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "validation_status": {
+      "enum": [
+        "PASS",
+        "FLAG"
+      ]
+    },
+    "availability_status": {
+      "enum": [
+        "AVAILABLE",
+        "STALE"
+      ]
+    },
+    "fallback_checked_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "parser_version": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

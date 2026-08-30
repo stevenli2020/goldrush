@@ -1,0 +1,13 @@
+{
+  "variable_id": "L6-001",
+  "source_url": "https://www.matteoiacoviello.com/gpr_files/data_gpr_daily_recent.dta",
+  "source_page": "https://www.matteoiacoviello.com/gpr.htm",
+  "retrieved_at": "2026-08-24T11:29:42.667588+00:00",
+  "source_vintage_date": "2026-08-23",
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/L6/001/data/raw/gpr-daily-20260823.dta",
+  "size_bytes": 1589872,
+  "content_type": "application/octet-stream",
+  "http_status": 200,
+  "collector_version": "0.1.0",
+  "authors": "Dario Caldara and Matteo Iacoviello"
+}
