@@ -1,0 +1,7 @@
+{
+  "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SOFR90DAYAVG",
+  "source_series": "SOFR90DAYAVG",
+  "output_path": "docs/phase2-ingestion/L0/009/data/raw/sofr3m-refresh-20260830.csv",
+  "rows": 2037,
+  "retrieved_at": "2026-08-30T10:21:17.213588+00:00"
+}

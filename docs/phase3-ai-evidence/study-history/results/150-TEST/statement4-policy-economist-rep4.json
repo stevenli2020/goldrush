@@ -1,0 +1,24 @@
+{
+  "baseline_score": 45.2,
+  "coverage": 67,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "decided to lower the target range for the federal funds rate by 1/2 percentage point to 4-3/4 to 5 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities",
+    "inflation": "Inflation has made further progress toward the Committee's 2 percent objective but remains somewhat elevated",
+    "labour": "Job gains have slowed, and the unemployment rate has moved up but remains low",
+    "growth": "economic activity has continued to expand at a solid pace",
+    "guidance_diff": "carefully assess incoming data, the evolving outlook, and the balance of risks"
+  },
+  "jury_score": 38,
+  "supporting_statement": "As a central bank policy economist focused on the dual mandate, the 50-basis-point rate reduction reflects increased confidence in disinflation while addressing softening job gains. Although inflation remains somewhat elevated, the shift in policy stance and removal of prior restriction marks a decisive recalibration toward neutrality.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Liquidity operations subcomponent mapped from asset holdings reduction text."
+    ]
+  },
+  "error": null
+}

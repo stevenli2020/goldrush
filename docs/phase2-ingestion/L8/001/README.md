@@ -22,7 +22,7 @@ the L0-003 holdings parser and this L8-001 flow parser through `wgc_extract.py`.
 
 The parser extracts the workbook's monthly aggregate `Tonnes` column. Negative
 values are valid net outflows. The parser preserves source filename, dates,
-SHA-256, ingestion timestamp, and status fields. It does not use the GLD/IAU
+source metadata, ingestion timestamp, and status fields. It does not use the GLD/IAU
 Yahoo Finance activity proxy from the pretest folder.
 
 If WGC publication is delayed, carry forward the last observation as `STALE`

@@ -1,0 +1,13 @@
+variable_id: L9-004
+variable_name: India Physical Gold Imports and Consumer Demand
+source:
+  provider: World Gold Council Gold Demand Trends
+  workbook_target: gdt
+  sheets: [Jewellery, Bar and Coin, India Supply]
+  unit: metric_tonnes
+components: [jewellery_demand_tonnes, bar_and_coin_demand_tonnes, gross_bullion_imports_tonnes, net_bullion_imports_tonnes]
+period_identity: [component, observation_period_type, observation_period]
+limitation: WGC India Supply is an institutional estimate, not an independently reconciled customs series; components are not combined.
+fallback:
+  method: carry_forward_stale
+  no_prior: BLOCKED

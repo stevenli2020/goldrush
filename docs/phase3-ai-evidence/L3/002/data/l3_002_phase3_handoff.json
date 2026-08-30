@@ -1,0 +1,192 @@
+[
+  {
+    "variable_id": "L3-002",
+    "observation_timestamp": "2026-08-30T00:00:00Z",
+    "value": 3.63,
+    "unit_or_scale": "percent_per_annum",
+    "contract": "ZQQ26",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/cme/manifests/section10-20260830T102041Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-002",
+    "observation_timestamp": "2026-08-30T00:00:00Z",
+    "value": 3.695,
+    "unit_or_scale": "percent_per_annum",
+    "contract": "ZQU26",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/cme/manifests/section10-20260830T102041Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-002",
+    "observation_timestamp": "2026-08-30T00:00:00Z",
+    "value": 3.78,
+    "unit_or_scale": "percent_per_annum",
+    "contract": "ZQV26",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/cme/manifests/section10-20260830T102041Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-002",
+    "observation_timestamp": "2026-08-30T00:00:00Z",
+    "value": 3.85,
+    "unit_or_scale": "percent_per_annum",
+    "contract": "ZQX26",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/cme/manifests/section10-20260830T102041Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-002",
+    "observation_timestamp": "2026-08-30T00:00:00Z",
+    "value": 3.965,
+    "unit_or_scale": "percent_per_annum",
+    "contract": "ZQZ26",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/cme/manifests/section10-20260830T102041Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-002",
+    "observation_timestamp": "2026-08-30T00:00:00Z",
+    "value": 4.015,
+    "unit_or_scale": "percent_per_annum",
+    "contract": "ZQF27",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/cme/manifests/section10-20260830T102041Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-002",
+    "observation_timestamp": "2026-08-30T00:00:00Z",
+    "value": 4.075,
+    "unit_or_scale": "percent_per_annum",
+    "contract": "ZQG27",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/cme/manifests/section10-20260830T102041Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-002",
+    "observation_timestamp": "2026-08-30T00:00:00Z",
+    "value": 4.12,
+    "unit_or_scale": "percent_per_annum",
+    "contract": "ZQH27",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/cme/manifests/section10-20260830T102041Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-002",
+    "observation_timestamp": "2026-08-30T00:00:00Z",
+    "value": 4.17,
+    "unit_or_scale": "percent_per_annum",
+    "contract": "ZQJ27",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/cme/manifests/section10-20260830T102041Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-002",
+    "observation_timestamp": "2026-08-30T00:00:00Z",
+    "value": 4.2,
+    "unit_or_scale": "percent_per_annum",
+    "contract": "ZQK27",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/cme/manifests/section10-20260830T102041Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-002",
+    "observation_timestamp": "2026-08-30T00:00:00Z",
+    "value": 4.22,
+    "unit_or_scale": "percent_per_annum",
+    "contract": "ZQM27",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/cme/manifests/section10-20260830T102041Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-002",
+    "observation_timestamp": "2026-08-30T00:00:00Z",
+    "value": 4.23,
+    "unit_or_scale": "percent_per_annum",
+    "contract": "ZQN27",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/cme/manifests/section10-20260830T102041Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-002",
+    "observation_timestamp": "2026-08-30T00:00:00Z",
+    "value": 4.23,
+    "unit_or_scale": "percent_per_annum",
+    "contract": "ZQQ27",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/cme/manifests/section10-20260830T102041Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-002",
+    "observation_timestamp": "2026-08-30T00:00:00Z",
+    "value": 4.23,
+    "unit_or_scale": "percent_per_annum",
+    "contract": "ZQU27",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/cme/manifests/section10-20260830T102041Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-002",
+    "observation_timestamp": "2026-08-30T00:00:00Z",
+    "value": 4.225,
+    "unit_or_scale": "percent_per_annum",
+    "contract": "ZQV27",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/cme/manifests/section10-20260830T102041Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-002",
+    "observation_timestamp": "2026-08-30T00:00:00Z",
+    "value": 4.21,
+    "unit_or_scale": "percent_per_annum",
+    "contract": "ZQX27",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/cme/manifests/section10-20260830T102041Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-002",
+    "observation_timestamp": "2026-08-30T00:00:00Z",
+    "value": 4.19,
+    "unit_or_scale": "percent_per_annum",
+    "contract": "ZQZ27",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/cme/manifests/section10-20260830T102041Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-002",
+    "observation_timestamp": "2026-08-30T00:00:00Z",
+    "value": 4.185,
+    "unit_or_scale": "percent_per_annum",
+    "contract": "ZQF28",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/cme/manifests/section10-20260830T102041Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-002",
+    "observation_timestamp": "2026-08-30T00:00:00Z",
+    "value": 4.165,
+    "unit_or_scale": "percent_per_annum",
+    "contract": "ZQG28",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/cme/manifests/section10-20260830T102041Z.json",
+    "quality_flag": "PASS"
+  }
+]

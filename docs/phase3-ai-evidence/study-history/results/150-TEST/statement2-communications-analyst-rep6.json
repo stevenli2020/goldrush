@@ -1,0 +1,22 @@
+{
+  "baseline_score": 71.2,
+  "coverage": 84.3,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "decided to raise the target range for the federal funds rate to 1‑1/2 to 1-3/4 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities",
+    "inflation": "Inflation remains elevated",
+    "labour": "the unemployment rate has remained low",
+    "growth": "Overall economic activity appears to have picked up",
+    "guidance_diff": "anticipates that ongoing increases in the target range will be appropriate"
+  },
+  "jury_score": 75,
+  "supporting_statement": "As a financial communications analyst, the June 2022 statement marks a notable upward shift in both action and tone by accelerating the rate hike to 75 basis points and reaffirming ongoing increases. The communications successfully project resolute tightening resolve despite acknowledging global economic headwinds.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

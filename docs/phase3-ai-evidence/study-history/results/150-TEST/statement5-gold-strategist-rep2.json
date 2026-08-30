@@ -1,0 +1,22 @@
+{
+  "baseline_score": 55.3,
+  "coverage": 73.3,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "In support of its goals, the Committee decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent.",
+    "balance_sheet": "The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.",
+    "inflation": "Inflation remains somewhat elevated.",
+    "labour": "The unemployment rate has stabilized at a low level in recent months, and labor market conditions remain solid.",
+    "growth": "Recent indicators suggest that economic activity has continued to expand at a solid pace.",
+    "guidance_diff": "MISSING"
+  },
+  "jury_score": 58,
+  "supporting_statement": "As a cross-asset strategist, the steady policy rate at 4.375%, combined with ongoing quantitative tightening and resilient growth, maintains upward pressure on real yields and supports a firm dollar, while tempering overly aggressive rate-cut pricing.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

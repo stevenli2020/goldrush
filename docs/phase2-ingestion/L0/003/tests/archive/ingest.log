@@ -1,0 +1,4 @@
+{"timestamp": "2026-08-24T12:46:32Z", "row_index": 4, "raw_data": "{'observation_date': '2026-08-02', 'region': 'GLOBAL', 'holdings_tonnes': '3102.10'}", "reason": "Duplicate date: 2026-08-02", "action": "SKIPPED"}
+{"timestamp": "2026-08-24T12:46:32Z", "row_index": 5, "raw_data": "{'observation_date': '2026-08-03', 'region': 'GLOBAL', 'holdings_tonnes': '-500.00'}", "reason": "Negative value: -500.0", "action": "REJECTED"}
+{"timestamp": "2026-08-24T12:46:32Z", "row_index": 6, "raw_data": "{'observation_date': '2026-08-04', 'region': 'GLOBAL', 'holdings_tonnes': 'invalid'}", "reason": "Non-numeric value: invalid", "action": "REJECTED"}
+{"timestamp": "2026-08-24T12:46:32Z", "row_index": 8, "raw_data": "{'observation_date': 'INVALID-DATE', 'region': 'GLOBAL', 'holdings_tonnes': '3100.0'}", "reason": "Invalid date: INVALID-DATE", "action": "REJECTED"}

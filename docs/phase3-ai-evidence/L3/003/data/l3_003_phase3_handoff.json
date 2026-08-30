@@ -1,0 +1,12 @@
+[
+  {
+    "variable_id": "L3-003",
+    "observation_timestamp": "2026-08-30T00:00:00Z",
+    "value": 4.23,
+    "unit_or_scale": "percent_per_annum",
+    "selected_contract": "ZQN27",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/cme/manifests/section10-20260830T102041Z.json",
+    "quality_flag": "PASS"
+  }
+]

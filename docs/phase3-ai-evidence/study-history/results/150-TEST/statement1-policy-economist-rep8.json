@@ -1,0 +1,22 @@
+{
+  "baseline_score": 16.2,
+  "coverage": 91.3,
+  "status": "PASS",
+  "confidence": "High",
+  "evidence": {
+    "policy": "the Committee decided to lower the target range for the federal funds rate to 0 to 1/4 percent.",
+    "balance_sheet": "the Committee will increase its holdings of Treasury securities by at least $500 billion and its holdings of agency mortgage-backed securities by at least $200 billion.",
+    "inflation": "overall inflation and inflation for items other than food and energy are running below 2 percent.",
+    "labour": "the unemployment rate has remained low.",
+    "growth": "The effects of the coronavirus will weigh on economic activity in the near term and pose risks to the economic outlook.",
+    "guidance_diff": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events"
+  },
+  "jury_score": 12,
+  "supporting_statement": "As a central bank policy economist, the aggressive 150 bps emergency rate cut to the 0-0.25% lower bound alongside massive large-scale asset purchases represents a strongly dovish reaction function to the severe downside risks posed by the coronavirus pandemic. Despite lingering labor market strength, inflation running below target and looming economic contraction necessitate an aggressive dual-mandate defense.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

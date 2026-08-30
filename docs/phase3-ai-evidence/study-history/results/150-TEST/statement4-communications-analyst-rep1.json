@@ -1,0 +1,22 @@
+{
+  "baseline_score": 42.5,
+  "coverage": 86.25,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "decided to lower the target range for the federal funds rate by 1/2 percentage point to 4-3/4 to 5 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities",
+    "inflation": "Inflation has made further progress toward the Committee's 2 percent objective but remains somewhat elevated",
+    "labour": "Job gains have slowed, and the unemployment rate has moved up but remains low",
+    "growth": "economic activity has continued to expand at a solid pace",
+    "guidance_diff": "Removal of prior condition not to reduce rates until greater confidence gained, replaced by lowering rates and acknowledging greater confidence"
+  },
+  "jury_score": 35,
+  "supporting_statement": "From a communications perspective, the September statement marks a pivotal shift: the removal of the explicit pre-condition against rate cuts, the delivery of an outsized 50 bps reduction, and the acknowledgment of greater confidence on inflation highlight a clear dovish pivot, tempered only by a single hawkish dissent favoring a smaller 25 bps step.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

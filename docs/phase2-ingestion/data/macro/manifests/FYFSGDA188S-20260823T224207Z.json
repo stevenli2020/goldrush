@@ -7,7 +7,6 @@
   },
   "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/macro/raw/fred/FYFSGDA188S-20260823T224149Z.json",
   "size_bytes": 9867,
-  "sha256": "fd3f43dc1cdf3694da26d9e879f2573f9e65e71598b8dcf6035b224e0a5771c8",
   "observation_count": 97,
   "retrieved_at": "2026-08-23T22:42:07.113821+00:00",
   "http_status": 200,

@@ -1,0 +1,12 @@
+{
+  "target": "section62",
+  "source_url": "https://www.cmegroup.com/daily_bulletin/current/Section62_Metals_Futures_Products.pdf",
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/cme/raw/metals/section62-20260829T032721Z.pdf",
+  "size_bytes": 104512,
+  "content_hash": "d95af36de45332258ee8d77af85f8270bd83692e5758a9a3c6659f49b7abead8",
+  "retrieved_at": "2026-08-29T03:27:21.945801+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "changed": true,
+  "forced": false
+}

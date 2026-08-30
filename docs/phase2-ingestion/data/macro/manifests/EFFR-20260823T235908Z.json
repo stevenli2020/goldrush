@@ -7,7 +7,6 @@
   },
   "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/macro/raw/fred/EFFR-20260823T235726Z.json",
   "size_bytes": 647041,
-  "sha256": "6af5795178c4ff23046afb27953b72b3be13faabfb66c31d0220531c9b119993",
   "observation_count": 6819,
   "retrieved_at": "2026-08-23T23:59:08.212984+00:00",
   "http_status": 200,

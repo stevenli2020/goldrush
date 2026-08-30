@@ -1,0 +1,25 @@
+{
+  "baseline_score": 54.7,
+  "coverage": 76.3,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities",
+    "inflation": "Inflation remains somewhat elevated.",
+    "labour": "The unemployment rate has stabilized at a low level in recent months, and labor market conditions remain solid.",
+    "growth": "economic activity has continued to expand at a solid pace",
+    "guidance_diff": "lower the target range for the federal funds rate by 1/4 percentage point"
+  },
+  "jury_score": 55,
+  "supporting_statement": "As a central bank policy economist, the decision to pause rate cuts and maintain the federal funds rate at 4-1/4 to 4-1/2 percent reflects a prudent risk-management approach. With economic activity expanding at a solid pace and the labor market remaining resilient, policy makers have the luxury of patience while inflation continues to hover somewhat above the 2 percent objective. The data-dependent reaction function remains appropriately balanced against dual-mandate risks.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Mapping of 'somewhat elevated' inflation to discrete level rules",
+      "Exact classification of forward uncertainty risk adjustment in growth"
+    ]
+  },
+  "error": null
+}

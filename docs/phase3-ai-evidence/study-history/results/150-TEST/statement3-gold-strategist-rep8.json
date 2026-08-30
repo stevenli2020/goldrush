@@ -1,0 +1,22 @@
+{
+  "baseline_score": 60.7,
+  "coverage": 84.3,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "raise the target range for the federal funds rate to 5-1/4 to 5-1/2 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities",
+    "inflation": "Inflation remains elevated.",
+    "labour": "Job gains have been robust in recent months, and the unemployment rate has remained low.",
+    "growth": "Recent indicators suggest that economic activity has been expanding at a moderate pace.",
+    "guidance_diff": "MISSING"
+  },
+  "jury_score": 55,
+  "supporting_statement": "As a cross-asset strategist, the 25bp rate hike was well-signaled, but the continued commitment to quantitative tightening and data dependency keeps real yields elevated. Tighter credit conditions provide a moderating cross-current for risk appetite, maintaining a balanced yet restrictive macro backdrop.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

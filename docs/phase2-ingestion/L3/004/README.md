@@ -35,10 +35,10 @@ the unchanged official CSVs, and `data/raw/` plus `data/manifests/`.
 
 The canonical CSV contains one row per observation date, meeting date, and
 target range. It keeps the CME settlement date separate from retrieval time and
-preserves detailed source paths, SHA-256 hashes, EFFR date/value, versions,
+preserves detailed source paths, source metadata, EFFR date/value, versions,
 validation, availability, and revision state.
 
-Revision detection compares canonical probabilities. Hash-only changes are not
+Revision detection compares canonical probabilities. source metadata-only changes are not
 revisions. Failure returns the latest complete prior distribution as `STALE`;
 without prior data it writes `BLOCKED`. Successful recovery removes that
 artifact. An expiring schedule produces `FLAG`; an expired schedule produces

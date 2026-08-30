@@ -1,0 +1,17 @@
+{
+  "series_id": "CPIAUCSL",
+  "request_url": "https://api.stlouisfed.org/fred/series/observations",
+  "request_params": {
+    "series_id": "CPIAUCSL",
+    "file_type": "json"
+  },
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/macro/raw/fred/CPIAUCSL-20260829T065138Z.json",
+  "size_bytes": 92295,
+  "sha256": "8b1d9ff258fc08f6a3eece38636373f2ca579d7ab79e3bc6e0cbf54c3e489937",
+  "observation_count": 955,
+  "retrieved_at": "2026-08-29T06:51:38.788539+00:00",
+  "http_status": 200,
+  "changed": true,
+  "forced": false,
+  "client_version": "0.1.0"
+}

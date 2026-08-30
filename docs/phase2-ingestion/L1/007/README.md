@@ -22,6 +22,6 @@ python parser.py \
   --output data/processed/L1_007_observations.csv
 ```
 
-Each output row preserves both input paths, hashes, series IDs, retrieval
+Each output row preserves both input paths, source metadata, series IDs, retrieval
 timestamps, formula version, and parser version. Values outside `-10%` to `20%`
 are marked `FLAG`; aligned observations older than seven days are `STALE`.

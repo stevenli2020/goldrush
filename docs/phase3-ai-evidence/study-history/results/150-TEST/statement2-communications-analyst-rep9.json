@@ -1,0 +1,22 @@
+{
+  "baseline_score": 71.7,
+  "coverage": 84.3,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "decided to raise the target range for the federal funds rate to 1‑1/2 to 1-3/4 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities",
+    "inflation": "Inflation remains elevated",
+    "labour": "Job gains have been robust in recent months, and the unemployment rate has remained low.",
+    "growth": "Overall economic activity appears to have picked up after edging down in the first quarter.",
+    "guidance_diff": "anticipates that ongoing increases in the target range will be appropriate."
+  },
+  "jury_score": 78,
+  "supporting_statement": "The communications shift from May's 'appropriate firming' to explicit 'ongoing increases' paired with a 75 bps hike signals a decisive acceleration in tightening resolve, despite acknowledging headwinds from Ukraine and China.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

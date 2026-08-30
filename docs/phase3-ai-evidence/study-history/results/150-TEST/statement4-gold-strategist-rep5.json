@@ -1,0 +1,24 @@
+{
+  "baseline_score": 50.9,
+  "coverage": 81.25,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "lower the target range for the federal funds rate by 1/2 percentage point to 4-3/4 to 5 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities",
+    "inflation": "Inflation has made further progress toward the Committee's 2 percent objective but remains somewhat elevated",
+    "labour": "Job gains have slowed, and the unemployment rate has moved up but remains low",
+    "growth": "economic activity has continued to expand at a solid pace",
+    "guidance_diff": "Removal of restriction on reducing the target range"
+  },
+  "jury_score": 35,
+  "supporting_statement": "As a gold and cross-asset strategist, the 50 bps rate cut alongside an explicit acknowledgment of cooling labor market dynamics signals the onset of a classic Fed easing cycle. Lower front-end yields, downward pressure on the US dollar, and declining real yields provide a highly supportive backdrop for risk assets and precious metals.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Inflation trend and expectations subcomponents mapped via level description due to absence of explicit rate figures."
+    ]
+  },
+  "error": null
+}

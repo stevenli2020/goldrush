@@ -1,126 +1,120 @@
-# Phase 2 — Data Ingestion Implementation
+# Phase 2 — Data Ingestion
 
-## Overview
+## Purpose and scope
 
-This folder contains the complete Phase 2 data-ingestion implementation: shared collection libraries, per-variable configurations, operational manuals, and execution tracking.
+This directory contains the approved Phase 2 collectors, variable-specific
+parsers, schemas, raw-data evidence, tests, and operational documentation for
+the 44 variables admitted by the frozen Phase 1 registry.
 
-**Scope:** 44 admitted variables from Phase 1 registry, organized by layer and variable ID.
+The 30 Phase 1 variables marked `CONDITIONAL / RESEARCH ONLY` are outside
+production ingestion and are not promoted by Phase 2.
 
----
+Phase 2 is complete and formally handed off. See
+[phase2-handoff.md](phase2-handoff.md) for the closure record.
 
-## Folder Structure
+## Current layout
 
-```
+```text
 docs/phase2-ingestion/
-├── collectors/                          # Shared collection libraries
-│   ├── wgc_scraper.py                  # WGC GoldHub HTML/JSON parser
-│   ├── treasury_api_client.py           # Treasury/FRED API client
-│   ├── usgs_fetch.py                    # USGS report retrieval
-│   └── README.md                        # Collector library documentation
-│
-├── L0/ L1/ L2/ ... L10/                 # Layer folders
-│   └── NNN/                             # Variable folder (e.g., 001, 002, 003)
-│       ├── variable-name.md             # Implementation proposal
-│       └── data/
-│           ├── config.yaml              # Variable-specific configuration
-│           ├── README.md                # Operational manual
-│           ├── schema.json              # Data validation schema
-│           ├── samples/                 # Example raw and processed data
-│           └── archive/                 # Change history and notes
-│
-├── SOURCE-IMPLEMENTATION-TRACKER.md     # Admission gate status + source-lock order
-├── phase2-handoff.md                    # Phase 2 completion checkpoint
-└── README.md                            # This file
+├── collectors/                         # Reusable source transports/extractors
+│   ├── cme/                             # CME bulletin download/extraction
+│   ├── fomc/                            # Federal Reserve publication download
+│   ├── macro/                           # FRED and SOFR/FRED transport
+│   ├── treasury/                        # U.S. Treasury Fiscal Data API client
+│   └── wgc/                             # WGC download, manifests, extraction
+├── data/wgc/                            # Shared WGC raw files, manifests, logs
+├── L0/ ... L10/                         # Variable packages by Phase 1 layer
+│   └── NNN/
+│       ├── parser/collector scripts     # Package-specific implementation
+│       ├── config.yaml                  # Where used; package configuration
+│       ├── schema.json                  # Where used; output validation schema
+│       ├── README.md                    # Operational instructions
+│       ├── tests/                       # Focused regression tests
+│       ├── raw/                         # Where used; preserved source files
+│       ├── processed/                   # Normalized variable output
+│       └── archive/                     # Changelog and ingest evidence
+├── pretests/                            # Historical exploratory checks
+├── PHASE2-WORKFLOW.md                   # Review and closure rules
+├── SOURCE-IMPLEMENTATION-TRACKER.md     # Authoritative variable status record
+├── phase2-handoff.md                    # Final approval and handoff
+└── README.md                            # This guide
 ```
 
----
+Variable packages are not required to have an identical internal layout. Their
+README, configuration, schema, parser, raw evidence, and processed-output
+locations are authoritative for that variable. Do not infer a `data/` folder
+where the package does not contain one.
 
-## Key Files
+## Shared collectors
 
-| File | Purpose |
-|---|---|
-| `collectors/README.md` | How each shared collector works; dependencies; usage patterns |
-| `L*/NNN/variable-name.md` | **Implementation proposal**: sources, frequency, fields, units, validation, reuse checks |
-| `L*/NNN/data/config.yaml` | **Configuration**: which collector to use, endpoints, parsing rules, validation bounds |
-| `L*/NNN/data/README.md` | **Operational manual**: how to run, dependencies, logs, troubleshooting, maintenance |
-| `L*/NNN/data/schema.json` | **Validation spec**: field definitions, types, units, required/optional, allowable bounds |
-| `SOURCE-IMPLEMENTATION-TRACKER.md` | Status of each variable (PENDING / DRAFT / REVIEWED / LOCKED); execution order |
-| `phase2-handoff.md` | Final freeze point: all 44 implementations approved and ready for ingestion |
+Shared collectors handle transport, source preservation, manifests, source metadata, and
+common retrieval concerns. Variable parsers remain separate and own extraction,
+validation, revisions, units, freshness, fallback, and output schemas.
 
----
+- `collectors/wgc/` — World Gold Council downloads and dispatch
+- `collectors/cme/` — CME PDF download and settlement extraction
+- `collectors/macro/` — FRED JSON/raw retrieval and SOFR support
+- `collectors/treasury/` — paginated Treasury Fiscal Data API retrieval
+- `collectors/fomc/` — official FOMC HTML/PDF preservation
 
-## Workflow
+Completed variable implementations reuse these collectors where appropriate;
+they do not use one universal parser.
 
-### 1. Implementation
-- Create `L*/*NN*/variable-name.md` with sources, collection method, fields, validation, reuse check (see L0-001 as template)
-- Create `data/config.yaml` pointing to shared collector
-- Create `data/schema.json` with field specs
-- Create `data/README.md` with operational steps
+## Operational workflow
 
-### 2. Review
-- Grace reviews `variable-name.md`
-- Feedback → iterate
-- Update SOURCE-IMPLEMENTATION-TRACKER.md status
+For a routine run:
 
-### 3. Lock
-- Approved implementation → status = "LOCKED"
-- Config finalized; ready for Phase 2 execution
+1. Open the variable package README and configuration.
+2. Retrieve or place the documented primary source; preserve the raw file or
+   response unchanged when the package requires it.
+3. Run the package collector/parser or the documented shared-collector command.
+4. Validate output against the package schema and review validation and
+   availability statuses.
+5. Retain the raw source, manifest/source metadata, processed output, and ingest evidence.
+6. Record meaningful source or parser changes in the package changelog.
 
-### 4. Execution (Phase 2 operations team)
-- Read variable `README.md` and `config.yaml`
-- Run collector with config
-- Validate against `schema.json`
-- Store observations in `/data/L*/L*_***/processed/`
-- Update `archive/changelog.md` on changes
+Fallback behavior is variable-specific. Carry-forward observations are marked
+`STALE`; an unavailable series with no valid prior observation is represented by
+the documented `BLOCKED` status. Synthetic observations are not silently added.
 
----
+## Review and status rules
 
-## Shared Collectors
+The workflow is defined in [PHASE2-WORKFLOW.md](PHASE2-WORKFLOW.md). The
+authoritative status source is
+[SOURCE-IMPLEMENTATION-TRACKER.md](SOURCE-IMPLEMENTATION-TRACKER.md).
 
-If multiple variables use the same source (e.g., WGC for L0-001, L0-002, L0-003), they share one collector script but maintain separate per-variable `config.yaml`.
+The permitted lifecycle is:
 
-**Example:**
-- L0-001, L0-002, L0-003 all use `collectors/wgc_scraper.py`
-- Each has its own `data/config.yaml` specifying which fields to extract
-- One code fix in `wgc_scraper.py` benefits all three
+```text
+Not done → Complete
+Not done → Deferred
+```
 
----
+`Complete` requires a named accessible source, reproducible collection,
+defined fields/units/timestamps, documented freshness and fallback behavior,
+preserved raw observations, validation, and operational instructions.
+
+`Deferred` is reserved for an unresolved source, methodology, access,
+historical-coverage, or reproducibility blocker, and must state its reopening
+condition.
+
+## Verification
+
+Run the full Phase 2 test suite from the repository root:
+
+```bash
+source .venv/bin/activate
+pytest -q docs/phase2-ingestion
+```
+
+The final closure run passed **310 tests** and **9 subtests**, with no failures.
+Third-party OpenBB/Pydantic deprecation warnings are non-blocking environment
+warnings.
 
 ## Navigation
 
-**By layer:** `L0/`, `L1/`, `L2/`, etc.
-
-**By variable:** `L*/001/`, `L*/002/`, etc.
-
-**By status:** See `SOURCE-IMPLEMENTATION-TRACKER.md` for overview of all 44 variables
-
-**By collector dependency:** See `collectors/README.md` for which variables use each collector
-
----
-
-## Key Handoff Points
-
-1. **Phase 1 → Phase 2:** Variable registry frozen (44 admitted). Phase 2 implements ingestion for each.
-2. **Implementation → Execution:** SOURCE-IMPLEMENTATION-TRACKER status = "LOCKED" means ready to ingest.
-3. **Phase 2 → Phase 3:** `phase2-handoff.md` signed off; all 44 variables in production ingestion; raw observations archived.
-
----
-
-## Acceptance Gates (per SOURCE-IMPLEMENTATION-TRACKER)
-
-Before a variable moves to "LOCKED":
-- ✓ Named, stable source and endpoint
-- ✓ Programmatic collection method documented
-- ✓ Fields, units, timestamps defined
-- ✓ Validation rules and missing-data behavior explicit
-- ✓ Reuse check against existing adapters completed
-- ✓ Fallback source named (if applicable)
-- ✓ Operational manual written
-
----
-
-## Contact / Escalation
-
-See individual `L*/NNN/data/README.md` for collector-specific issues.
-
-See `SOURCE-IMPLEMENTATION-TRACKER.md` for ownership and review assignment.
+- By layer: `L0/`, `L1/`, … `L10/`
+- By variable: `L*/NNN/`
+- By source transport: `collectors/<source>/`
+- By status and ownership: `SOURCE-IMPLEMENTATION-TRACKER.md`
+- By final decision: `phase2-handoff.md`

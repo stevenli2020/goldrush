@@ -1,0 +1,25 @@
+{
+  "baseline_score": 38.5,
+  "coverage": 73.25,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "lower the target range for the federal funds rate by 1/2 percentage point to 4-3/4 to 5 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities",
+    "inflation": "remains somewhat elevated",
+    "labour": "Job gains have slowed, and the unemployment rate has moved up but remains low",
+    "growth": "economic activity has continued to expand at a solid pace",
+    "guidance_diff": "The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence"
+  },
+  "jury_score": 28,
+  "supporting_statement": "As a financial communications analyst, the September statement marks a definitive shift in tone and action. The 50 basis point reduction is paired with the omission of the prior restrictive guidance constraint regarding rate cuts, signaling increased policy confidence and a clear pivot toward a more neutral-to-dovish reaction function.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Inflation level 'somewhat elevated' mapped to rule-based equivalent.",
+      "Job gains 'slowed' mapped to 'moderated'."
+    ]
+  },
+  "error": null
+}

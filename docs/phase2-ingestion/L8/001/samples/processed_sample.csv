@@ -1,3 +1,3 @@
-variable_id,observation_date,etf_flow_tonnes,unit,source_file,source_publication_date,download_date,workbook_sha256,validation_status,availability_status,parser_version
-L8-001,2003-03-31,8.22831781,metric_tonnes,ETF_Flows_2026-08-04_1202.xlsx,2026-08-04,2026-08-20,fixture_hash_not_live,PASS,AVAILABLE,1.0.0
-L8-001,2026-07-31,-120.5,metric_tonnes,ETF_Flows_2026-08-04_1202.xlsx,2026-08-04,2026-08-20,fixture_hash_not_live,PASS,AVAILABLE,1.0.0
+variable_id,observation_date,etf_flow_tonnes,unit,source_file,source_publication_date,download_date,validation_status,availability_status,parser_version
+L8-001,2003-03-31,8.22831781,metric_tonnes,ETF_Flows_2026-08-04_1202.xlsx,2026-08-04,2026-08-20,PASS,AVAILABLE,1.0.0
+L8-001,2026-07-31,-120.5,metric_tonnes,ETF_Flows_2026-08-04_1202.xlsx,2026-08-04,2026-08-20,PASS,AVAILABLE,1.0.0

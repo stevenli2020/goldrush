@@ -11,7 +11,7 @@
 
 - Parser tests: **3 passed**.
 - Live CME Section 10 download attempted with browser-like headers; endpoint returned HTTP 403 in the current environment.
-- No live raw PDF, hash, or processed production output is claimed. Manual browser download remains the documented fallback.
+- No live raw PDF, source metadata, or processed production output is claimed. Manual browser download remains the documented fallback.
 
 ## Deferred revisit — 2026-08-21
 
@@ -37,7 +37,7 @@
 ## Live evidence — 2026-08-21
 
 - Preserved manual CME Section 10 PDF: `data/raw/section10-manual-20260820.pdf`.
-- SHA-256: `2c76b70858a372f30df1e6a374d4bb372d62475fe7e28841d5a4a3930bc69f88`.
+- source metadata: ``.
 - Normalized 17 ZQ rows; parser selected `ZQQ26` for observation date `2026-08-20`.
 - Parsed output: `3.63%` per annum; validation `PASS`; availability `AVAILABLE`.
 - Processed output: `data/processed/L1_006_observations.csv`.
@@ -49,10 +49,20 @@
 - `cme_extract.py` now inspects every preserved section for the required marker before selecting a source.
 - A marker-free section is logged as `INSPECTED_UNUSED`; both raw PDFs remain preserved.
 - Added a normalized shared-manifest record for the manual Section 10 artifact so `cme_extract.py` can discover it when no newer automated manifest exists.
-- The routine path is now download → preserve/hash → extract → parse; manual normalization remains fallback only.
+- The routine path is now download → preserve/source metadata → extract → parse; manual normalization remains fallback only.
 
 ## Closure — 2026-08-21
 
 - Final approver approved L1-006 as **Complete**.
 - Variable-level live evidence and shared CME orchestration integration are accepted for the approved personal trade-advisor scope.
 - Future improvement: make `cme_extract.py --force` control reruns consistently with the downloader; non-blocking.
+
+## 2026-08-29 — Phase 3 live verification and downloader approval
+
+- Refreshed CME cookies restored live access.
+- Live downloader returned `PASS` for Sections 09, 10, 62, and 02B.
+- L1-006 selected Section 10, extracted 19 contracts, and selected nearest active contract `ZQQ26`.
+- Settlement `96.37` produced `3.63%` per annum using `100 - settlement_price`; validation `PASS`, availability `AVAILABLE`.
+- Downloader now uses bounded retries, a 30-second timeout, CME HTTPS-domain validation, PDF validation, atomic raw writes, and non-zero failure for missing targets.
+- Unchanged PDFs are detected through direct byte comparison; no hash is calculated or stored.
+- Focused downloader tests: **3 passed**. Final approver approved the downloader revision.

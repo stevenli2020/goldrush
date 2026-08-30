@@ -1,8 +1,7 @@
 {
   "target": "section62",
   "source_url": "https://www.cmegroup.com/daily_bulletin/current/Section62_Metals_Futures_Products.pdf",
-  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/cme/raw/interest-rates/section62-20260821T120040Z.pdf",
-  "sha256": "02ed054c2c9bb6fffca2b5fd4cd28c1cb2097408a588fc24f686f5fe1eebb0ad",
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/cme/raw/metals/section62-20260821T120040Z.pdf",
   "size_bytes": 107440,
   "retrieved_at": "2026-08-21T12:00:40.987875+00:00",
   "observation_date": "2026-08-20",

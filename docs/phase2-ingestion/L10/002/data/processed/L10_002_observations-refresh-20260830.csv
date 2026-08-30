@@ -1,0 +1,2 @@
+variable_id,observation_date,product,open_interest_contracts,unit,source_series_id,source_manifest,validation_status,availability_status
+L10-002,2026-08-28,COMEX GOLD,423793,contracts,COMEX_GOLD,docs/phase2-ingestion/data/cme/manifests/section02b-20260830T102042Z.json,PASS,AVAILABLE

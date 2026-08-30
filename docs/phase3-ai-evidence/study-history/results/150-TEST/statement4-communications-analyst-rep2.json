@@ -1,0 +1,22 @@
+{
+  "baseline_score": 48.5,
+  "coverage": 77.5,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "decided to lower the target range for the federal funds rate by 1/2 percentage point to 4-3/4 to 5 percent",
+    "balance_sheet": "The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities",
+    "inflation": "Inflation has made further progress toward the Committee's 2 percent objective but remains somewhat elevated",
+    "labour": "Job gains have slowed, and the unemployment rate has moved up but remains low",
+    "growth": "economic activity has continued to expand at a solid pace",
+    "guidance_diff": "The Committee has gained greater confidence that inflation is moving sustainably toward 2 percent"
+  },
+  "jury_score": 40,
+  "supporting_statement": "As a financial communications analyst, the September 2024 statement marks a clear pivot in narrative tone with the 50-basis-point rate reduction and the removal of the prior strict precondition on confidence in inflation. The messaging successfully signals an easing cycle while maintaining data dependence, though the dissent from Governor Bowman highlights emerging internal communication friction regarding the pace of calibration.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

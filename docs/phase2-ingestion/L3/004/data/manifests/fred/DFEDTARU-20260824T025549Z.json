@@ -9,7 +9,6 @@
   },
   "raw_path": "docs/phase2-ingestion/L3/004/data/raw/fred/DFEDTARU-20260824T025549Z.json",
   "size_bytes": 1820,
-  "sha256": "e957259c34dafbff6b090923d04367aadeda8cd194be8a954bdc85fd280ca988",
   "observation_count": 15,
   "retrieved_at": "2026-08-24T02:55:49.458810+00:00",
   "http_status": 200,

@@ -1,0 +1,218 @@
+[
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2024-08-31T00:00:00Z",
+    "value": 33.3739981082436,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2024-09-30T00:00:00Z",
+    "value": 32.735087430427484,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2024-10-31T00:00:00Z",
+    "value": 33.11838075079773,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2024-11-30T00:00:00Z",
+    "value": 33.51428299985002,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2024-12-31T00:00:00Z",
+    "value": 32.747594117712524,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2025-01-31T00:00:00Z",
+    "value": 33.229566581647084,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2025-02-28T00:00:00Z",
+    "value": 33.09031454810414,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2025-03-31T00:00:00Z",
+    "value": 32.44957693823052,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2025-04-30T00:00:00Z",
+    "value": 32.274224023536036,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2025-05-31T00:00:00Z",
+    "value": 32.1110121481136,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2025-06-30T00:00:00Z",
+    "value": 31.371433380725,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2025-07-31T00:00:00Z",
+    "value": 31.926706821874067,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2025-08-31T00:00:00Z",
+    "value": 32.835647185957676,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2025-09-30T00:00:00Z",
+    "value": 32.717566583533085,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2025-10-31T00:00:00Z",
+    "value": 33.244640556413835,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2025-11-30T00:00:00Z",
+    "value": 33.57860241659839,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2025-12-31T00:00:00Z",
+    "value": 32.922938591829805,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2026-01-31T00:00:00Z",
+    "value": 33.05599715653735,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2026-02-28T00:00:00Z",
+    "value": 33.48974155119074,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2026-03-31T00:00:00Z",
+    "value": 33.29713963834969,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2026-04-30T00:00:00Z",
+    "value": 32.74279312641123,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2026-05-31T00:00:00Z",
+    "value": 33.03030133569663,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2026-06-30T00:00:00Z",
+    "value": 32.640170484504104,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-009",
+    "observation_timestamp": "2026-07-31T00:00:00Z",
+    "value": 33.32364222661862,
+    "unit_or_scale": "percent_of_marketable_treasury_debt",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MSPD-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101519Z.manifest.json",
+    "quality_flag": "PASS"
+  }
+]

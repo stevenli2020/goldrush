@@ -13,6 +13,6 @@
   skipped, 908 processed observations, and 908/908 validation `PASS`.
 - Latest observation: `2026-08-19`, `2.07%`, status `AVAILABLE`; independently
   matched the FRED public live CSV endpoint on 2026-08-21.
-- Raw SHA-256 verified against the manifest and processed provenance:
-  `f092dfcc7b003910593614dedb12c59fe399d0a0e1dcc26f4eb423fb3bb7b7b3`.
+- Raw source metadata verified against the manifest and processed provenance:
+  ``.
 - Grace closure review: acceptance criteria met; approved `Complete`.

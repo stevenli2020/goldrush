@@ -2,27 +2,105 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "L4-009 Treasury Maturity Structure Observation",
   "type": "object",
-  "required": ["variable_id", "observation_date", "maturing_within_1y_mil_usd", "total_marketable_outstanding_mil_usd", "dated_detail_outstanding_mil_usd", "classification_coverage_pct", "marketable_debt_maturing_within_1y_pct", "unit", "measure_definition", "source_name", "endpoint", "query", "raw_file_paths", "manifest_path", "page_count", "source_sha256", "retrieved_at", "validation_status", "availability_status", "parser_version"],
+  "required": [
+    "variable_id",
+    "observation_date",
+    "maturing_within_1y_mil_usd",
+    "total_marketable_outstanding_mil_usd",
+    "dated_detail_outstanding_mil_usd",
+    "classification_coverage_pct",
+    "marketable_debt_maturing_within_1y_pct",
+    "unit",
+    "measure_definition",
+    "source_name",
+    "endpoint",
+    "query",
+    "raw_file_paths",
+    "manifest_path",
+    "page_count",
+    "retrieved_at",
+    "validation_status",
+    "availability_status",
+    "parser_version"
+  ],
   "properties": {
-    "variable_id": {"const": "L4-009"},
-    "observation_date": {"type": "string", "format": "date"},
-    "maturing_within_1y_mil_usd": {"type": "number", "minimum": 0},
-    "total_marketable_outstanding_mil_usd": {"type": "number", "exclusiveMinimum": 0},
-    "dated_detail_outstanding_mil_usd": {"type": "number", "minimum": 0},
-    "classification_coverage_pct": {"type": "number", "minimum": 0},
-    "marketable_debt_maturing_within_1y_pct": {"type": "number", "minimum": 0, "maximum": 100},
-    "unit": {"const": "percent_of_marketable_treasury_debt"},
-    "measure_definition": {"type": "string", "minLength": 1},
-    "source_name": {"const": "U.S. Treasury Fiscal Data — Monthly Statement of the Public Debt Table 3"},
-    "endpoint": {"const": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/debt/mspd/mspd_table_3_market"},
-    "query": {"type": "string", "minLength": 1},
-    "raw_file_paths": {"type": "string", "minLength": 1},
-    "manifest_path": {"type": "string", "minLength": 1},
-    "page_count": {"type": "integer", "minimum": 1},
-    "source_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
-    "retrieved_at": {"type": "string", "format": "date-time"},
-    "validation_status": {"enum": ["PASS", "FLAG", "FAIL"]},
-    "availability_status": {"enum": ["AVAILABLE", "STALE", "BLOCKED"]},
-    "parser_version": {"type": "string"}
+    "variable_id": {
+      "const": "L4-009"
+    },
+    "observation_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "maturing_within_1y_mil_usd": {
+      "type": "number",
+      "minimum": 0
+    },
+    "total_marketable_outstanding_mil_usd": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "dated_detail_outstanding_mil_usd": {
+      "type": "number",
+      "minimum": 0
+    },
+    "classification_coverage_pct": {
+      "type": "number",
+      "minimum": 0
+    },
+    "marketable_debt_maturing_within_1y_pct": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "unit": {
+      "const": "percent_of_marketable_treasury_debt"
+    },
+    "measure_definition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_name": {
+      "const": "U.S. Treasury Fiscal Data — Monthly Statement of the Public Debt Table 3"
+    },
+    "endpoint": {
+      "const": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/debt/mspd/mspd_table_3_market"
+    },
+    "query": {
+      "type": "string",
+      "minLength": 1
+    },
+    "raw_file_paths": {
+      "type": "string",
+      "minLength": 1
+    },
+    "manifest_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "page_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "validation_status": {
+      "enum": [
+        "PASS",
+        "FLAG",
+        "FAIL"
+      ]
+    },
+    "availability_status": {
+      "enum": [
+        "AVAILABLE",
+        "STALE",
+        "BLOCKED"
+      ]
+    },
+    "parser_version": {
+      "type": "string"
+    }
   }
 }

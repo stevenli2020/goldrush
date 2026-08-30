@@ -2,25 +2,92 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "L4-008 Interest Expense to Government Revenue Observation",
   "type": "object",
-  "required": ["variable_id", "observation_date", "fiscal_year", "gross_interest_expense_usd", "total_receipts_usd", "interest_expense_to_revenue_pct", "unit", "accounting_convention", "source_name", "endpoint", "query", "raw_file_paths", "manifest_path", "source_sha256", "retrieved_at", "validation_status", "availability_status", "parser_version"],
+  "required": [
+    "variable_id",
+    "observation_date",
+    "fiscal_year",
+    "gross_interest_expense_usd",
+    "total_receipts_usd",
+    "interest_expense_to_revenue_pct",
+    "unit",
+    "accounting_convention",
+    "source_name",
+    "endpoint",
+    "query",
+    "raw_file_paths",
+    "manifest_path",
+    "retrieved_at",
+    "validation_status",
+    "availability_status",
+    "parser_version"
+  ],
   "properties": {
-    "variable_id": {"const": "L4-008"},
-    "observation_date": {"type": "string", "format": "date"},
-    "fiscal_year": {"type": "integer", "minimum": 1900},
-    "gross_interest_expense_usd": {"type": "number", "minimum": 0},
-    "total_receipts_usd": {"type": "number", "exclusiveMinimum": 0},
-    "interest_expense_to_revenue_pct": {"type": "number", "minimum": 0},
-    "unit": {"const": "percent_of_federal_receipts"},
-    "accounting_convention": {"type": "string"},
-    "source_name": {"const": "U.S. Treasury Fiscal Data — Monthly Treasury Statement Table 3"},
-    "endpoint": {"const": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/mts/mts_table_3"},
-    "query": {"type": "string"},
-    "raw_file_paths": {"type": "string", "minLength": 1},
-    "manifest_path": {"type": "string", "minLength": 1},
-    "source_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
-    "retrieved_at": {"type": "string", "format": "date-time"},
-    "validation_status": {"enum": ["PASS", "FLAG", "FAIL"]},
-    "availability_status": {"enum": ["AVAILABLE", "STALE", "BLOCKED"]},
-    "parser_version": {"type": "string"}
+    "variable_id": {
+      "const": "L4-008"
+    },
+    "observation_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "fiscal_year": {
+      "type": "integer",
+      "minimum": 1900
+    },
+    "gross_interest_expense_usd": {
+      "type": "number",
+      "minimum": 0
+    },
+    "total_receipts_usd": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "interest_expense_to_revenue_pct": {
+      "type": "number",
+      "minimum": 0
+    },
+    "unit": {
+      "const": "percent_of_federal_receipts"
+    },
+    "accounting_convention": {
+      "type": "string"
+    },
+    "source_name": {
+      "const": "U.S. Treasury Fiscal Data — Monthly Treasury Statement Table 3"
+    },
+    "endpoint": {
+      "const": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/mts/mts_table_3"
+    },
+    "query": {
+      "type": "string"
+    },
+    "raw_file_paths": {
+      "type": "string",
+      "minLength": 1
+    },
+    "manifest_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "validation_status": {
+      "enum": [
+        "PASS",
+        "FLAG",
+        "FAIL"
+      ]
+    },
+    "availability_status": {
+      "enum": [
+        "AVAILABLE",
+        "STALE",
+        "BLOCKED"
+      ]
+    },
+    "parser_version": {
+      "type": "string"
+    }
   }
 }

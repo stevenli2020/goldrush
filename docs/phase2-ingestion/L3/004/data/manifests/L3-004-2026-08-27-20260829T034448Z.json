@@ -1,0 +1,82 @@
+{
+  "variable_id": "L3-004",
+  "collector_version": "0.1.0",
+  "requested_trade_date": "2026-08-28",
+  "observation_date": "2026-08-27",
+  "retrieved_at": "2026-08-29T03:44:48.135097+00:00",
+  "cme": {
+    "source_url": "https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/305/FUT?tradeDate=08/27/2026",
+    "product_id": "305/FUT",
+    "raw_path": "docs/phase2-ingestion/L3/004/data/raw/cme-zq-2026-08-27-20260829T034448Z.json",
+    "trade_date": "2026-08-27",
+    "report_type": "Final",
+    "update_time": "Thursday, 27 Aug 2026 11:55 PM"
+  },
+  "fred": {
+    "EFFR": {
+      "series_id": "EFFR",
+      "request_url": "https://api.stlouisfed.org/fred/series/observations",
+      "request_params": {
+        "series_id": "EFFR",
+        "file_type": "json",
+        "observation_start": "2026-08-13",
+        "observation_end": "2026-08-27"
+      },
+      "raw_path": "docs/phase2-ingestion/L3/004/data/raw/fred/EFFR-20260829T034449Z.json",
+      "size_bytes": 1320,
+      "observation_count": 11,
+      "retrieved_at": "2026-08-29T03:44:49.641489+00:00",
+      "http_status": 200,
+      "changed": true,
+      "forced": true,
+      "client_version": "0.1.0"
+    },
+    "DFEDTARL": {
+      "series_id": "DFEDTARL",
+      "request_url": "https://api.stlouisfed.org/fred/series/observations",
+      "request_params": {
+        "series_id": "DFEDTARL",
+        "file_type": "json",
+        "observation_start": "2026-08-13",
+        "observation_end": "2026-08-27"
+      },
+      "raw_path": "docs/phase2-ingestion/L3/004/data/raw/fred/DFEDTARL-20260829T034450Z.json",
+      "size_bytes": 1685,
+      "observation_count": 15,
+      "retrieved_at": "2026-08-29T03:44:50.289757+00:00",
+      "http_status": 200,
+      "changed": true,
+      "forced": true,
+      "client_version": "0.1.0"
+    },
+    "DFEDTARU": {
+      "series_id": "DFEDTARU",
+      "request_url": "https://api.stlouisfed.org/fred/series/observations",
+      "request_params": {
+        "series_id": "DFEDTARU",
+        "file_type": "json",
+        "observation_start": "2026-08-13",
+        "observation_end": "2026-08-27"
+      },
+      "raw_path": "docs/phase2-ingestion/L3/004/data/raw/fred/DFEDTARU-20260829T034450Z.json",
+      "size_bytes": 1700,
+      "observation_count": 15,
+      "retrieved_at": "2026-08-29T03:44:50.927061+00:00",
+      "http_status": 200,
+      "changed": true,
+      "forced": true,
+      "client_version": "0.1.0"
+    }
+  },
+  "schedule": {
+    "raw_path": "docs/phase2-ingestion/L3/004/data/raw/fomc-schedule-20260829T034448Z.json",
+    "schedule_status": {
+      "state": "ok",
+      "remaining": 12,
+      "last_known": "2028-01-26"
+    },
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  "package_name": "cme-fedwatch",
+  "package_version": "0.1.3"
+}

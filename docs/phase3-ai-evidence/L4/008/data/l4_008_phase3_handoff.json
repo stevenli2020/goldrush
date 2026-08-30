@@ -1,0 +1,101 @@
+[
+  {
+    "variable_id": "L4-008",
+    "observation_timestamp": "2015-09-30T00:00:00Z",
+    "value": 12.379761920824304,
+    "unit_or_scale": "percent_of_federal_receipts",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MTS-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101505Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-008",
+    "observation_timestamp": "2016-09-30T00:00:00Z",
+    "value": 13.162031444614883,
+    "unit_or_scale": "percent_of_federal_receipts",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MTS-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101505Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-008",
+    "observation_timestamp": "2017-09-30T00:00:00Z",
+    "value": 13.784913560251677,
+    "unit_or_scale": "percent_of_federal_receipts",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MTS-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101505Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-008",
+    "observation_timestamp": "2018-09-30T00:00:00Z",
+    "value": 15.66816991633173,
+    "unit_or_scale": "percent_of_federal_receipts",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MTS-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101505Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-008",
+    "observation_timestamp": "2019-09-30T00:00:00Z",
+    "value": 16.547681365995114,
+    "unit_or_scale": "percent_of_federal_receipts",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MTS-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101505Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-008",
+    "observation_timestamp": "2020-09-30T00:00:00Z",
+    "value": 15.282414642315377,
+    "unit_or_scale": "percent_of_federal_receipts",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MTS-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101505Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-008",
+    "observation_timestamp": "2021-09-30T00:00:00Z",
+    "value": 13.89993008661096,
+    "unit_or_scale": "percent_of_federal_receipts",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MTS-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101505Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-008",
+    "observation_timestamp": "2022-09-30T00:00:00Z",
+    "value": 14.656733346176557,
+    "unit_or_scale": "percent_of_federal_receipts",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MTS-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101505Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-008",
+    "observation_timestamp": "2023-09-30T00:00:00Z",
+    "value": 19.80739708624772,
+    "unit_or_scale": "percent_of_federal_receipts",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MTS-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101505Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-008",
+    "observation_timestamp": "2024-09-30T00:00:00Z",
+    "value": 23.03512471464513,
+    "unit_or_scale": "percent_of_federal_receipts",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MTS-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101505Z.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L4-008",
+    "observation_timestamp": "2025-09-30T00:00:00Z",
+    "value": 23.222596271472774,
+    "unit_or_scale": "percent_of_federal_receipts",
+    "availability_status": "AVAILABLE",
+    "source_reference": "Treasury-MTS-Table-3:docs/phase2-ingestion/data/treasury/manifests/treasury-20260830T101505Z.manifest.json",
+    "quality_flag": "PASS"
+  }
+]

@@ -24,11 +24,11 @@ python docs/phase2-ingestion/L5/003/parser.py \
   --manifest docs/phase2-ingestion/L5/003/data/manifests/<file>.manifest.json
 ```
 
-If API access fails, download the official CSV manually, place it unchanged in `data/raw/`, and create a matching manifest with the dataset ID, source URL, timezone-aware retrieval time, raw path, byte size, SHA-256, HTTP status, and collector version. The parser validates these fields and verifies the path, size, and raw hash before extraction.
+If API access fails, download the official CSV manually, place it unchanged in `data/raw/`, and create a matching manifest with the dataset ID, source URL, timezone-aware retrieval time, raw path, byte size, source metadata, HTTP status, and collector version. The parser validates these fields and verifies the path, size, and raw source metadata before extraction.
 
 The calculation is `current published USD share - immediately previous calendar quarter's published USD share`. The first valid observation, and any observation whose immediately preceding quarter is missing, has a null change. Shares outside 0–100 are rejected; finite changes above 5 percentage points in absolute value are retained as `FLAG`. Quarterly data older than 200 days is `STALE`, allowing normal IMF publication lag. A failed collection carries forward only the latest prior valid row as `STALE`; without prior data the CLI writes a machine-readable `.status.json` with `BLOCKED`. A later successful parse removes that artifact.
 
-Raw snapshots are timestamped and hash-named, never overwritten. Manifests and each output row retain the source and hash chain. Carry-forward accepts only prior rows whose variable/source identity, units, dates, values, statuses, timestamps, hashes, and provenance fields remain valid.
+Raw snapshots are timestamped and source metadata-named, never overwritten. Manifests and each output row retain the source and source metadata chain. Carry-forward accepts only prior rows whose variable/source identity, units, dates, values, statuses, timestamps, source metadata, and provenance fields remain valid.
 
 ## Limitations
 

@@ -1,0 +1,18 @@
+{
+  "series_id": "DFEDTARL",
+  "request_url": "https://api.stlouisfed.org/fred/series/observations",
+  "request_params": {
+    "series_id": "DFEDTARL",
+    "file_type": "json",
+    "observation_start": "2026-08-13",
+    "observation_end": "2026-08-27"
+  },
+  "raw_path": "\\/fred/DFEDTARL-20260829T034123Z.json",
+  "size_bytes": 1685,
+  "observation_count": 15,
+  "retrieved_at": "2026-08-29T03:41:23.207919+00:00",
+  "http_status": 200,
+  "changed": true,
+  "forced": true,
+  "client_version": "0.1.0"
+}

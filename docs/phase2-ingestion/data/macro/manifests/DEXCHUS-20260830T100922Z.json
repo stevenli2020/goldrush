@@ -1,0 +1,17 @@
+{
+  "series_id": "DEXCHUS",
+  "request_url": "https://api.stlouisfed.org/fred/series/observations",
+  "request_params": {
+    "series_id": "DEXCHUS",
+    "file_type": "json"
+  },
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/macro/raw/fred/DEXCHUS-20260830T100922Z.json",
+  "size_bytes": 1152243,
+  "sha256": "933ba7c0f7f6f75ef8d8a904e0cc28b2f1e6b3ceb133cb3ddb00aa53e0a81d79",
+  "observation_count": 11906,
+  "retrieved_at": "2026-08-30T10:09:22.993107+00:00",
+  "http_status": 200,
+  "changed": true,
+  "forced": true,
+  "client_version": "0.1.0"
+}

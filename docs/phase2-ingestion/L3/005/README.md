@@ -11,7 +11,7 @@ These dots are individual FOMC participants' assessments of appropriate monetary
 policy. They are not a Committee decision, promise, or market forecast.
 
 The parser validates non-negative integer counts, unique bins, plausible rates,
-participant totals, published medians, manifests, and raw hashes. A horizon may
+participant totals, published medians, manifests, and raw source metadata. A horizon may
 contain one fewer participant where the SEP explicitly permits an omitted
 projection. Output remains `AVAILABLE` for 120 days and then becomes `STALE`.
 No observations are synthesized between SEP releases. If live parsing fails, the

@@ -1,0 +1,24 @@
+{
+  "baseline_score": 12.8,
+  "coverage": 95,
+  "status": "PASS",
+  "confidence": "High",
+  "evidence": {
+    "policy": "lower the target range for the federal funds rate to 0 to 1/4 percent",
+    "balance_sheet": "increase its holdings of Treasury securities by at least $500 billion and its holdings of agency mortgage-backed securities by at least $200 billion",
+    "inflation": "overall inflation and inflation for items other than food and energy are running below 2 percent",
+    "labour": "the unemployment rate has remained low",
+    "growth": "economic activity rose at a moderate rate",
+    "guidance_diff": "expects to maintain this target range until it is confident that the economy has weathered recent events"
+  },
+  "jury_score": 5,
+  "supporting_statement": "As a cross-asset strategist, the emergency inter-meeting pivot is overwhelmingly dovish: slashing the policy rate to the 0-0.25% zero bound, committing to massive quantitative easing ($500B Treasuries, $200B MBS), expanding repo operations, and deploying global dollar liquidity swap lines to combat severe financial stress.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Inflation trend subcomponent mapped via level and expectations due to lack of standard explicit trend wording."
+    ]
+  },
+  "error": null
+}

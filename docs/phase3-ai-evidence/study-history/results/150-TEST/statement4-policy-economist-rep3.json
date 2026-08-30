@@ -1,0 +1,25 @@
+{
+  "baseline_score": 46.1,
+  "coverage": 73.25,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "lower the target range for the federal funds rate by 1/2 percentage point to 4-3/4 to 5 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities",
+    "inflation": "Inflation has made further progress toward the Committee's 2 percent objective but remains somewhat elevated",
+    "labour": "Job gains have slowed, and the unemployment rate has moved up but remains low",
+    "growth": "economic activity has continued to expand at a solid pace",
+    "guidance_diff": "-5"
+  },
+  "jury_score": 42,
+  "supporting_statement": "As a central bank policy economist evaluating the dual mandate, the 50 basis point reduction reflects a necessary recalibration of policy as inflation makes sustainable progress toward the 2 percent target and labor market conditions normalize with slowing job gains and a slightly higher yet low unemployment rate. The removal of prior restrictive guidance signals a shift toward a more neutral stance while remaining data-dependent.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Liquidity operations not explicitly detailed outside of standard runoff reference.",
+      "Inflation trend and expectations subcomponents map partially via general progress wording."
+    ]
+  },
+  "error": null
+}

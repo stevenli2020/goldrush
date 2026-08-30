@@ -1,0 +1,24 @@
+{
+  "baseline_score": 72.2,
+  "coverage": 81.25,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "decided to raise the target range for the federal funds rate to 1‑1/2 to 1-3/4 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities",
+    "inflation": "Inflation remains elevated",
+    "labour": "the unemployment rate has remained low",
+    "growth": "Overall economic activity appears to have picked up",
+    "guidance_diff": "anticipates that ongoing increases in the target range will be appropriate"
+  },
+  "jury_score": 78,
+  "supporting_statement": "The aggressive 75 basis point hike and continued balance sheet runoff signal an unyielding FOMC resolve to combat inflation, driving upward pressure on real yields and supporting dollar strength while tightening financial conditions.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Liquidity operations lack explicit normalization wording in statement text."
+    ]
+  },
+  "error": null
+}

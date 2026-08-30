@@ -22,7 +22,7 @@ L0-005 ingests quarterly and annual bar-and-coin demand figures from the WGC Gol
 
 ### Prerequisites
 - Python 3.8+
-- Libraries: `openpyxl`, `pandas`, `pyyaml`, `jsonschema`, `hashlib` (stdlib)
+- Libraries: `openpyxl`, `pandas`, `pyyaml`, `jsonschema`, `` (stdlib)
 - Read access to `docs/phase2-ingestion/L0/005/data/gold-demand-trends/`
 - Write access to `docs/phase2-ingestion/L0/005/data/processed/`
 
@@ -107,7 +107,7 @@ tail -30 archive/ingest.log
 Expected summary:
 ```
 2026-08-18 10:30:00 UTC | INFO | Workbook: GDT_Tables_Q2'26_EN.xlsx
-2026-08-18 10:30:00 UTC | INFO | SHA-256: a3f1c2...
+2026-08-18 10:30:00 UTC | INFO | source metadata: a3f1c2...
 2026-08-18 10:30:00 UTC | INFO | Annual records extracted: 16
 2026-08-18 10:30:00 UTC | INFO | Quarterly records extracted: 66
 2026-08-18 10:30:00 UTC | INFO | Validation: 82 PASS, 0 FLAG, 0 FAIL
@@ -124,7 +124,7 @@ Confirm `Q2'26` quarterly record present with `validation_status=PASS` and `avai
 ### 6. Revision check
 Parser automatically compares extracted values against previously stored records for the same `observation_period`. If any value differs:
 - Sets `is_revised: true`
-- Records prior SHA-256 and prior value
+- Records prior source metadata and prior value
 - Prompts operator to supply `revision_reason`
 - Logs revision event in `archive/ingest.log`
 
@@ -160,11 +160,11 @@ After successful `PASS` run, update L0-005 row in `docs/phase2-ingestion/SOURCE-
 ### Column detection
 Parser must detect column positions dynamically from header row — do not hardcode column indices. WGC adds columns as new periods are published.
 
-### SHA-256 computation
+### source metadata computation
 ```python
-import hashlib
+import 
 with open(workbook_path, "rb") as f:
-    sha256 = hashlib.sha256(f.read()).hexdigest()
+    source metadata = .source metadata(f.read()).()
 ```
 
 ---
@@ -181,7 +181,7 @@ with open(workbook_path, "rb") as f:
 | QoQ change | > 200t | FLAG with note |
 | Country-level negatives | Allowed; do not flag | — |
 | Period label format | Annual `^[0-9]{4}$`; Quarterly `^Q[1-4]'[0-9]{2}$` | FAIL |
-| SHA-256 format | 64-char hex | FAIL |
+| source metadata format | 64-char hex | FAIL |
 | Revision fields | All required if `is_revised=true` | FAIL |
 
 **FLAG records:** Archived and staged; must not enter scoring without operator approval.

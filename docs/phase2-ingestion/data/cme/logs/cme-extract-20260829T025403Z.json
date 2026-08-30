@@ -1,0 +1,49 @@
+{
+  "run_at": "2026-08-29T02:54:03.399961+00:00",
+  "results": [
+    {
+      "target": "section02b",
+      "status": "INSPECTED_UNUSED",
+      "reason": "required marker not present; raw file retained"
+    },
+    {
+      "target": "section09",
+      "status": "INSPECTED_UNUSED",
+      "reason": "required marker not present; raw file retained"
+    },
+    {
+      "target": "section10",
+      "status": "FAIL",
+      "stage": "parse",
+      "selected": true,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/mnt/d/Projects/GoldRush/docs/phase2-ingestion/L1/006/parser.py\", line 52, in <module>\n    p.add_argument('--', default='')\n    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.14/argparse.py\", line 1535, in add_argument\n    kwargs = self._get_optional_kwargs(*args, **kwargs)\n  File \"/usr/lib/python3.14/argparse.py\", line 1699, in _get_optional_kwargs\n    raise TypeError(msg)\nTypeError: dest= is required for options like '--'\n"
+    },
+    {
+      "target": "section62",
+      "status": "INSPECTED_UNUSED",
+      "reason": "another section selected (section10); raw file retained"
+    },
+    {
+      "target": "l0_009",
+      "status": "PASS",
+      "stage": "parse",
+      "stdout": "Wrote 1 observations to /mnt/d/Projects/GoldRush/docs/phase2-ingestion/L0/009/data/processed/L0_009_observations.csv\n",
+      "stderr": ""
+    },
+    {
+      "target": "l10_002",
+      "status": "PASS",
+      "stage": "parse",
+      "stdout": "Wrote 1 observations to /mnt/d/Projects/GoldRush/docs/phase2-ingestion/L10/002/data/processed/L10_002_observations.csv\n",
+      "stderr": ""
+    },
+    {
+      "target": "l3_001",
+      "status": "FAIL",
+      "stage": "parse",
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/mnt/d/Projects/GoldRush/docs/phase2-ingestion/L3/001/parser.py\", line 39, in <module>\n    with args.output.open('w', newline='', encoding='utf-8') as f:\n         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.14/pathlib/__init__.py\", line 772, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nOSError: [Errno 22] Invalid argument: '/mnt/d/Projects/GoldRush/docs/phase2-ingestion/L3/001/data/processed/L3_001_observations.csv'\n"
+    }
+  ]
+}

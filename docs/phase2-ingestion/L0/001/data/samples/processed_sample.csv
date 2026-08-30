@@ -1,2 +1,2 @@
-observation_year,observation_date,jewellery_tonnes,private_investment_tonnes,bars_and_coins_tonnes,etfs_tonnes,central_banks_tonnes,other_tonnes,total_above_ground_tonnes,source_citation,workbook_sha256,ingested_at,download_date,source_publication_date,parser_version
-2025,2025-12-31,97644.925136,50978.116313,46952.704766,4025.411547,38665.820187,32602.282677,219891.144312,"Metals Focus, Refinitiv GFMS, World Gold Council",<sha256>,<UTC timestamp>,<download date>,<publication date>,1.0.0
+observation_year,observation_date,jewellery_tonnes,private_investment_tonnes,bars_and_coins_tonnes,etfs_tonnes,central_banks_tonnes,other_tonnes,total_above_ground_tonnes,source_citation,ingested_at,download_date,source_publication_date,parser_version
+2025,2025-12-31,97644.925136,50978.116313,46952.704766,4025.411547,38665.820187,32602.282677,219891.144312,"Metals Focus, Refinitiv GFMS, World Gold Council",<UTC timestamp>,<download date>,<publication date>,1.0.0

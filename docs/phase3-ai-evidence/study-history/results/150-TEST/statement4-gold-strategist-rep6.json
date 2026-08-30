@@ -1,0 +1,24 @@
+{
+  "baseline_score": 46.6,
+  "coverage": 81.25,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "lower the target range for the federal funds rate by 1/2 percentage point to 4-3/4 to 5 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities",
+    "inflation": "Inflation has made further progress toward the Committee's 2 percent objective but remains somewhat elevated",
+    "labour": "Job gains have slowed, and the unemployment rate has moved up but remains low",
+    "growth": "Recent indicators suggest that economic activity has continued to expand at a solid pace",
+    "guidance_diff": "hawkish removal of prior restriction on rate reductions"
+  },
+  "jury_score": 35,
+  "supporting_statement": "The 50 basis point rate cut marks a decisive pivot toward easing financial conditions, pressuring front-end yields and the US dollar lower while boosting broad risk appetite and supporting gold prices.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Inflation trend and expectations subcomponents not explicitly quantified in the text."
+    ]
+  },
+  "error": null
+}

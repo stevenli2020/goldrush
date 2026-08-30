@@ -17,8 +17,7 @@ checks that the category totals reconcile within the configured tolerance.
 ## Collection timing
 
 Aiproxy manually downloads the annual WGC workbook in mid-February. The parser
-records the download date, source publication date when available, workbook SHA-256
-hash, and ingestion timestamp. The original workbook is retained under the raw
+records the download date, source publication date when available, workbook source metadata, and ingestion timestamp. The original workbook is retained under the raw
 source directory for reproducibility.
 
 ## Archive note

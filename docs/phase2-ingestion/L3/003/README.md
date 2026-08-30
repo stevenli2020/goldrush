@@ -8,7 +8,7 @@ below the nearest, it selects the minimum; if above, it selects the maximum; if
 equal, it selects the farthest rate.
 
 The result is a transparent futures-curve endpoint proxy, not an official
-forecast. Source PDF, manifest, URL, hash, publication date, and retrieval time
+forecast. Source PDF, manifest, URL, source metadata, publication date, and retrieval time
 are inherited from L3-002. Fallback returns the latest valid observation as
 `STALE`; no prior observation produces a machine-readable `BLOCKED` artifact.
 Successful recovery clears the artifact. No dates are synthesized.

@@ -1,0 +1,2774 @@
+[
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2010-03-31T00:00:00Z",
+    "value": 78.55400183,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2010-03-31T00:00:00Z",
+    "value": 190.86518726,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2010-06-30T00:00:00Z",
+    "value": 59.85231051,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2010-06-30T00:00:00Z",
+    "value": 117.27024531,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2010-09-30T00:00:00Z",
+    "value": 92.80481116,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2010-09-30T00:00:00Z",
+    "value": 166.612321,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2010-12-31T00:00:00Z",
+    "value": 340.0552651,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2010-12-31T00:00:00Z",
+    "value": 108.8441416,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2010-12-31T00:00:00Z",
+    "value": 661.65670655,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2010-12-31T00:00:00Z",
+    "value": 186.90895298,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2011-03-31T00:00:00Z",
+    "value": 100.0589695,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2011-03-31T00:00:00Z",
+    "value": 198.75967694,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2011-06-30T00:00:00Z",
+    "value": 111.05959019,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2011-06-30T00:00:00Z",
+    "value": 179.78178543,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2011-09-30T00:00:00Z",
+    "value": 74.88193659,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2011-09-30T00:00:00Z",
+    "value": 127.03223099,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2011-12-31T00:00:00Z",
+    "value": 354.71111071,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2011-12-31T00:00:00Z",
+    "value": 68.71061443,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2011-12-31T00:00:00Z",
+    "value": 619.31126176,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2011-12-31T00:00:00Z",
+    "value": 113.7375684,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2012-03-31T00:00:00Z",
+    "value": 64.95962009,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2012-03-31T00:00:00Z",
+    "value": 271.27020000000005,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2012-03-31T00:00:00Z",
+    "value": 147.52604276,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2012-03-31T00:00:00Z",
+    "value": 228.14062030000005,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2012-06-30T00:00:00Z",
+    "value": 57.64104033,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2012-06-30T00:00:00Z",
+    "value": 178.3662,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2012-06-30T00:00:00Z",
+    "value": 133.83567875,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2012-06-30T00:00:00Z",
+    "value": 147.29484929999998,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2012-09-30T00:00:00Z",
+    "value": 84.84384038,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2012-09-30T00:00:00Z",
+    "value": 207.4668,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2012-09-30T00:00:00Z",
+    "value": 147.19689776,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2012-09-30T00:00:00Z",
+    "value": 176.4290119,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2012-12-31T00:00:00Z",
+    "value": 318.9836362,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2012-12-31T00:00:00Z",
+    "value": 111.5391354,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2012-12-31T00:00:00Z",
+    "value": 974.4516000000001,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2012-12-31T00:00:00Z",
+    "value": 317.3484,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2012-12-31T00:00:00Z",
+    "value": 595.1675327,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2012-12-31T00:00:00Z",
+    "value": 166.60891343,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2012-12-31T00:00:00Z",
+    "value": 842.8033924,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2012-12-31T00:00:00Z",
+    "value": 290.9389109,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2013-03-31T00:00:00Z",
+    "value": 90.63516564,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2013-03-31T00:00:00Z",
+    "value": 334.50630000000007,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2013-03-31T00:00:00Z",
+    "value": 144.65041022,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2013-03-31T00:00:00Z",
+    "value": 307.98909340000006,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2013-06-30T00:00:00Z",
+    "value": 133.13957511,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2013-06-30T00:00:00Z",
+    "value": 416.4226,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2013-06-30T00:00:00Z",
+    "value": 187.78910017,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2013-06-30T00:00:00Z",
+    "value": 395.7260983,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2013-09-30T00:00:00Z",
+    "value": 51.48225032,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2013-09-30T00:00:00Z",
+    "value": 149.93650000000002,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2013-09-30T00:00:00Z",
+    "value": 145.44823928,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2013-09-30T00:00:00Z",
+    "value": 126.30827740000002,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2013-12-31T00:00:00Z",
+    "value": 341.15168241,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2013-12-31T00:00:00Z",
+    "value": 65.89469134,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2013-12-31T00:00:00Z",
+    "value": 1040.3728,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2013-12-31T00:00:00Z",
+    "value": 139.50740000000002,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2013-12-31T00:00:00Z",
+    "value": 615.52712473,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2013-12-31T00:00:00Z",
+    "value": 137.63937506,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2013-12-31T00:00:00Z",
+    "value": 957.4229492000002,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2013-12-31T00:00:00Z",
+    "value": 127.39948010000002,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2014-03-31T00:00:00Z",
+    "value": 42.68908247,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2014-03-31T00:00:00Z",
+    "value": 197.99360000000001,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2014-03-31T00:00:00Z",
+    "value": 123.53429766,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2014-03-31T00:00:00Z",
+    "value": 184.70451670000003,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2014-06-30T00:00:00Z",
+    "value": 52.34952005,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2014-06-30T00:00:00Z",
+    "value": 231.4443,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2014-06-30T00:00:00Z",
+    "value": 152.54662977,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2014-06-30T00:00:00Z",
+    "value": 213.47837785,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2014-09-30T00:00:00Z",
+    "value": 53.97672438,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2014-09-30T00:00:00Z",
+    "value": 244.97920000000002,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2014-09-30T00:00:00Z",
+    "value": 181.29527301,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2014-09-30T00:00:00Z",
+    "value": 227.07920000000001,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2014-12-31T00:00:00Z",
+    "value": 205.96237174,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2014-12-31T00:00:00Z",
+    "value": 56.94704484,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2014-12-31T00:00:00Z",
+    "value": 1016.1471,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2014-12-31T00:00:00Z",
+    "value": 341.73,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2014-12-31T00:00:00Z",
+    "value": 626.54880591,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2014-12-31T00:00:00Z",
+    "value": 169.17260547,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2014-12-31T00:00:00Z",
+    "value": 919.99209455,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2014-12-31T00:00:00Z",
+    "value": 294.73,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2015-03-31T00:00:00Z",
+    "value": 40.04235936,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2015-03-31T00:00:00Z",
+    "value": 252.341,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2015-03-31T00:00:00Z",
+    "value": 150.70482133,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2015-03-31T00:00:00Z",
+    "value": 223.341,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2015-06-30T00:00:00Z",
+    "value": 37.69445452,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2015-06-30T00:00:00Z",
+    "value": 237.798,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2015-06-30T00:00:00Z",
+    "value": 121.47024535,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2015-06-30T00:00:00Z",
+    "value": 204.798,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2015-09-30T00:00:00Z",
+    "value": 57.03871991,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2015-09-30T00:00:00Z",
+    "value": 310.33500000000004,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2015-09-30T00:00:00Z",
+    "value": 214.13879867,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2015-09-30T00:00:00Z",
+    "value": 268.43500000000006,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2015-12-31T00:00:00Z",
+    "value": 194.94163296,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2015-12-31T00:00:00Z",
+    "value": 60.16609917,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2015-12-31T00:00:00Z",
+    "value": 1084.367,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2015-12-31T00:00:00Z",
+    "value": 283.893,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2015-12-31T00:00:00Z",
+    "value": 662.29770971,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2015-12-31T00:00:00Z",
+    "value": 175.98384436,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2015-12-31T00:00:00Z",
+    "value": 932.9670000000001,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2015-12-31T00:00:00Z",
+    "value": 236.39299999999997,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2016-03-31T00:00:00Z",
+    "value": 27.46188675,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2016-03-31T00:00:00Z",
+    "value": 176.505,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2016-03-31T00:00:00Z",
+    "value": 79.77711713,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2016-03-31T00:00:00Z",
+    "value": 152.505,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2016-06-30T00:00:00Z",
+    "value": 32.25669965,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2016-06-30T00:00:00Z",
+    "value": 138.973,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2016-06-30T00:00:00Z",
+    "value": 89.8385801,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2016-06-30T00:00:00Z",
+    "value": 116.40160400000002,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2016-09-30T00:00:00Z",
+    "value": 40.08439782,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2016-09-30T00:00:00Z",
+    "value": 126.02400000000002,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2016-09-30T00:00:00Z",
+    "value": 152.69484303,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2016-09-30T00:00:00Z",
+    "value": 107.52400000000002,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2016-12-31T00:00:00Z",
+    "value": 161.57631542,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2016-12-31T00:00:00Z",
+    "value": 61.7733312,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2016-12-31T00:00:00Z",
+    "value": 701.043,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2016-12-31T00:00:00Z",
+    "value": 259.541,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2016-12-31T00:00:00Z",
+    "value": 504.50925983,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2016-12-31T00:00:00Z",
+    "value": 182.19871957,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2016-12-31T00:00:00Z",
+    "value": 610.4716040000001,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2016-12-31T00:00:00Z",
+    "value": 234.041,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2017-03-31T00:00:00Z",
+    "value": 37.07354711,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2017-03-31T00:00:00Z",
+    "value": 285.53099999999995,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2017-03-31T00:00:00Z",
+    "value": 123.7251102,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2017-03-31T00:00:00Z",
+    "value": 264.631,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2017-06-30T00:00:00Z",
+    "value": 41.55715039,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2017-06-30T00:00:00Z",
+    "value": 312.71099999999996,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2017-06-30T00:00:00Z",
+    "value": 160.95015694,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2017-06-30T00:00:00Z",
+    "value": 283.91099999999994,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2017-09-30T00:00:00Z",
+    "value": 31.03684958,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2017-09-30T00:00:00Z",
+    "value": 202.6755,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2017-09-30T00:00:00Z",
+    "value": 134.79864247,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2017-09-30T00:00:00Z",
+    "value": 178.07643688,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2017-12-31T00:00:00Z",
+    "value": 169.3158718,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2017-12-31T00:00:00Z",
+    "value": 59.64832472,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2017-12-31T00:00:00Z",
+    "value": 1052.3515,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2017-12-31T00:00:00Z",
+    "value": 251.43400000000003,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2017-12-31T00:00:00Z",
+    "value": 601.90228055,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2017-12-31T00:00:00Z",
+    "value": 182.42837094,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2017-12-31T00:00:00Z",
+    "value": 956.0235165199999,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2017-12-31T00:00:00Z",
+    "value": 229.40507964000003,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2018-03-31T00:00:00Z",
+    "value": 32.32377624,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2018-03-31T00:00:00Z",
+    "value": 194.848,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2018-03-31T00:00:00Z",
+    "value": 119.2095931,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2018-03-31T00:00:00Z",
+    "value": 176.038,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2018-06-30T00:00:00Z",
+    "value": 39.30095364,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2018-06-30T00:00:00Z",
+    "value": 230.42350000000002,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2018-06-30T00:00:00Z",
+    "value": 149.94365132,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2018-06-30T00:00:00Z",
+    "value": 194.2835,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2018-09-30T00:00:00Z",
+    "value": 34.36862367,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2018-09-30T00:00:00Z",
+    "value": 271.763875,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2018-09-30T00:00:00Z",
+    "value": 148.78823626,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2018-09-30T00:00:00Z",
+    "value": 240.12518663199998,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2018-12-31T00:00:00Z",
+    "value": 162.40178702,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2018-12-31T00:00:00Z",
+    "value": 56.40843347,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2018-12-31T00:00:00Z",
+    "value": 898.6163750000001,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2018-12-31T00:00:00Z",
+    "value": 201.581,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2018-12-31T00:00:00Z",
+    "value": 598.01204807,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2018-12-31T00:00:00Z",
+    "value": 180.07056739,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2018-12-31T00:00:00Z",
+    "value": 782.587198128,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2018-12-31T00:00:00Z",
+    "value": 172.140511496,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2019-03-31T00:00:00Z",
+    "value": 33.61672729,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2019-03-31T00:00:00Z",
+    "value": 219.323,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2019-03-31T00:00:00Z",
+    "value": 125.42837833,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2019-03-31T00:00:00Z",
+    "value": 183.584,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2019-06-30T00:00:00Z",
+    "value": 44.5239491,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2019-06-30T00:00:00Z",
+    "value": 299.44124999999997,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2019-06-30T00:00:00Z",
+    "value": 168.6432355,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2019-06-30T00:00:00Z",
+    "value": 248.84524999999996,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2019-09-30T00:00:00Z",
+    "value": 22.33960539,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2019-09-30T00:00:00Z",
+    "value": 138.42362500000002,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2019-09-30T00:00:00Z",
+    "value": 101.5666243,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2019-09-30T00:00:00Z",
+    "value": 86.21978919280002,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2019-12-31T00:00:00Z",
+    "value": 145.76975251,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2019-12-31T00:00:00Z",
+    "value": 45.28947073,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2019-12-31T00:00:00Z",
+    "value": 840.822875,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2019-12-31T00:00:00Z",
+    "value": 183.635,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2019-12-31T00:00:00Z",
+    "value": 544.63708143,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2019-12-31T00:00:00Z",
+    "value": 148.9988433,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2019-12-31T00:00:00Z",
+    "value": 660.1840391928,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2019-12-31T00:00:00Z",
+    "value": 141.535,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2020-03-31T00:00:00Z",
+    "value": 28.0588031,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2020-03-31T00:00:00Z",
+    "value": 118.496,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2020-03-31T00:00:00Z",
+    "value": 73.86100833,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2020-03-31T00:00:00Z",
+    "value": 83.496,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2020-06-30T00:00:00Z",
+    "value": 19.75678207,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2020-06-30T00:00:00Z",
+    "value": 13.5793125,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2020-06-30T00:00:00Z",
+    "value": 43.97484219,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2020-06-30T00:00:00Z",
+    "value": 11.0793125,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2020-09-30T00:00:00Z",
+    "value": 33.76618096,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2020-09-30T00:00:00Z",
+    "value": 100.57225,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2020-09-30T00:00:00Z",
+    "value": 60.79586077,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2020-09-30T00:00:00Z",
+    "value": 90.07225,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2020-12-31T00:00:00Z",
+    "value": 130.43691901,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2020-12-31T00:00:00Z",
+    "value": 48.85515288,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2020-12-31T00:00:00Z",
+    "value": 401.68956249999997,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2020-12-31T00:00:00Z",
+    "value": 169.042,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2020-12-31T00:00:00Z",
+    "value": 315.93323466,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2020-12-31T00:00:00Z",
+    "value": 137.30152337,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2020-12-31T00:00:00Z",
+    "value": 351.5845625,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2020-12-31T00:00:00Z",
+    "value": 166.937,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2021-03-31T00:00:00Z",
+    "value": 39.29841318,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2021-03-31T00:00:00Z",
+    "value": 326.50079999999997,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2021-03-31T00:00:00Z",
+    "value": 126.52267742,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2021-03-31T00:00:00Z",
+    "value": 314.00079999999997,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2021-06-30T00:00:00Z",
+    "value": 25.37269242,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2021-06-30T00:00:00Z",
+    "value": 140.23696,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2021-06-30T00:00:00Z",
+    "value": 94.26520661,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2021-06-30T00:00:00Z",
+    "value": 131.73696,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2021-09-30T00:00:00Z",
+    "value": 42.91343401,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2021-09-30T00:00:00Z",
+    "value": 279.3240625,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2021-09-30T00:00:00Z",
+    "value": 125.08794362,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2021-09-30T00:00:00Z",
+    "value": 263.5740625,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2021-12-31T00:00:00Z",
+    "value": 186.47771943,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2021-12-31T00:00:00Z",
+    "value": 78.89317982,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2021-12-31T00:00:00Z",
+    "value": 993.9688225,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2021-12-31T00:00:00Z",
+    "value": 247.90699999999998,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2021-12-31T00:00:00Z",
+    "value": 610.86486872,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2021-12-31T00:00:00Z",
+    "value": 264.98904107,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2021-12-31T00:00:00Z",
+    "value": 915.1188225000001,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2021-12-31T00:00:00Z",
+    "value": 205.807,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2022-03-31T00:00:00Z",
+    "value": 41.26333384,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2022-03-31T00:00:00Z",
+    "value": 148.08676,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2022-03-31T00:00:00Z",
+    "value": 94.19622134,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2022-03-31T00:00:00Z",
+    "value": 133.08676,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2022-06-30T00:00:00Z",
+    "value": 30.44723091,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2022-06-30T00:00:00Z",
+    "value": 190.50165875223996,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2022-06-30T00:00:00Z",
+    "value": 140.28577901,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2022-06-30T00:00:00Z",
+    "value": 180.30165875223997,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2022-09-30T00:00:00Z",
+    "value": 45.42607377,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2022-09-30T00:00:00Z",
+    "value": 202.33610702,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2022-09-30T00:00:00Z",
+    "value": 146.22494947,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2022-09-30T00:00:00Z",
+    "value": 183.43610701999998,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2022-12-31T00:00:00Z",
+    "value": 173.55800748,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2022-12-31T00:00:00Z",
+    "value": 56.42136896,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2022-12-31T00:00:00Z",
+    "value": 739.3582714022399,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2022-12-31T00:00:00Z",
+    "value": 198.43374563,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2022-12-31T00:00:00Z",
+    "value": 600.56520946,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2022-12-31T00:00:00Z",
+    "value": 219.85825964,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2022-12-31T00:00:00Z",
+    "value": 651.05327140224,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2022-12-31T00:00:00Z",
+    "value": 154.22874563,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2023-03-31T00:00:00Z",
+    "value": 34.44605819,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2023-03-31T00:00:00Z",
+    "value": 163.83611882,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2023-03-31T00:00:00Z",
+    "value": 91.8796978,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2023-03-31T00:00:00Z",
+    "value": 145.08611882,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2023-06-30T00:00:00Z",
+    "value": 29.53381398,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2023-06-30T00:00:00Z",
+    "value": 188.6605075,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2023-06-30T00:00:00Z",
+    "value": 128.60125752,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2023-06-30T00:00:00Z",
+    "value": 182.6605075,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2023-09-30T00:00:00Z",
+    "value": 54.51128852,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2023-09-30T00:00:00Z",
+    "value": 203.1401875,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2023-09-30T00:00:00Z",
+    "value": 155.73265412,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2023-09-30T00:00:00Z",
+    "value": 192.7451875,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2023-12-31T00:00:00Z",
+    "value": 185.16994963,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2023-12-31T00:00:00Z",
+    "value": 66.67878894,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2023-12-31T00:00:00Z",
+    "value": 806.1697438200001,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2023-12-31T00:00:00Z",
+    "value": 250.53293000000002,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2023-12-31T00:00:00Z",
+    "value": 575.78271036,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2023-12-31T00:00:00Z",
+    "value": 199.56910092,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2023-12-31T00:00:00Z",
+    "value": 746.7119938200001,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2023-12-31T00:00:00Z",
+    "value": 226.22018000000003,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2024-03-31T00:00:00Z",
+    "value": 43.5597932,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2024-03-31T00:00:00Z",
+    "value": 170.55038226899998,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2024-03-31T00:00:00Z",
+    "value": 95.48471285,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2024-03-31T00:00:00Z",
+    "value": 155.55038226899998,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2024-06-30T00:00:00Z",
+    "value": 43.1372006,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2024-06-30T00:00:00Z",
+    "value": 160.75719536,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2024-06-30T00:00:00Z",
+    "value": 106.54931913,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2024-06-30T00:00:00Z",
+    "value": 155.35719536,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2024-09-30T00:00:00Z",
+    "value": 76.68543343,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2024-09-30T00:00:00Z",
+    "value": 267.62403655,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2024-09-30T00:00:00Z",
+    "value": 171.58233803,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2024-09-30T00:00:00Z",
+    "value": 263.46603655,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2024-12-31T00:00:00Z",
+    "value": 239.40833182,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2024-12-31T00:00:00Z",
+    "value": 76.02590459,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2024-12-31T00:00:00Z",
+    "value": 830.564190449,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2024-12-31T00:00:00Z",
+    "value": 231.63257627,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2024-12-31T00:00:00Z",
+    "value": 563.37637295,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2024-12-31T00:00:00Z",
+    "value": 189.76000294,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2024-12-31T00:00:00Z",
+    "value": 801.706190449,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2024-12-31T00:00:00Z",
+    "value": 227.33257626999998,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2025-03-31T00:00:00Z",
+    "value": 46.65284469,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2025-03-31T00:00:00Z",
+    "value": 177.7618225,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2025-03-31T00:00:00Z",
+    "value": 81.61924156,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2025-03-31T00:00:00Z",
+    "value": 167.0618225,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "STALE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2025-06-30T00:00:00Z",
+    "value": 46.12468456,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2025-06-30T00:00:00Z",
+    "value": 128.65824375,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2025-06-30T00:00:00Z",
+    "value": 88.75150729,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2025-06-30T00:00:00Z",
+    "value": 127.37824375,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2025-09-30T00:00:00Z",
+    "value": 91.6479215,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2025-09-30T00:00:00Z",
+    "value": 212.703125,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2025-09-30T00:00:00Z",
+    "value": 125.00184986,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2025-09-30T00:00:00Z",
+    "value": 211.871525,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2025-12-31T00:00:00Z",
+    "value": 280.41537533,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2025-12-31T00:00:00Z",
+    "value": 95.98992458,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2025-12-31T00:00:00Z",
+    "value": 751.4163912500001,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2025-12-31T00:00:00Z",
+    "value": 232.2932,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2025-12-31T00:00:00Z",
+    "value": 440.7215013,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2025-12-31T00:00:00Z",
+    "value": 145.34890259,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2025-12-31T00:00:00Z",
+    "value": 737.76879125,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2025-12-31T00:00:00Z",
+    "value": 231.4572,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2026-03-31T00:00:00Z",
+    "value": 62.2958094,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2026-03-31T00:00:00Z",
+    "value": 209.360045,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2026-03-31T00:00:00Z",
+    "value": 66.12635533,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2026-03-31T00:00:00Z",
+    "value": 209.02704500000002,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2026-06-30T00:00:00Z",
+    "value": 50.25048632,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2026-06-30T00:00:00Z",
+    "value": 98.39269437499999,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2026-06-30T00:00:00Z",
+    "value": 75.09821782,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L9-004",
+    "observation_timestamp": "2026-06-30T00:00:00Z",
+    "value": 98.05969437499999,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "quality_flag": "PASS"
+  }
+]

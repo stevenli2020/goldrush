@@ -32,7 +32,7 @@ python docs/phase2-ingestion/L4/008/parser.py \
   --output docs/phase2-ingestion/L4/008/data/processed/L4_008_observations.csv
 ```
 
-The shared client preserves exact raw pages, per-page hashes, an aggregate hash,
+The shared client preserves exact raw pages, per-page source metadata, an aggregate source metadata,
 query metadata, and retrieval time. The parser verifies that provenance, validates
 the exact line descriptions, pairs rows by date and fiscal year, and writes only
 annual September observations.

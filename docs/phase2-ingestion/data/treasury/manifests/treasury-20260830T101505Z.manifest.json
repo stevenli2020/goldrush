@@ -1,0 +1,17 @@
+{
+  "endpoint": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/mts/mts_table_3",
+  "query": {
+    "filter": "line_code_nbr:in:(130,360)",
+    "sort": "record_date",
+    "page[size]": 1000,
+    "fields": "record_date,record_fiscal_year,line_code_nbr,classification_desc,current_fytd_rcpt_outly_amt"
+  },
+  "retrieved_at": "2026-08-30T10:15:05.819663+00:00",
+  "raw_paths": [
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260830T101505Z-page001.json"
+  ],
+  "page_count": 1,
+  "record_count": 274,
+  "byte_size": 50496,
+  "client_version": "0.1.0"
+}

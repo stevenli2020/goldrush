@@ -1,0 +1,24 @@
+{
+  "baseline_score": 49.5,
+  "coverage": 76.3,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities",
+    "inflation": "Inflation remains somewhat elevated",
+    "labour": "The unemployment rate has stabilized at a low level in recent months, and labor market conditions remain solid",
+    "growth": "economic activity has continued to expand at a solid pace",
+    "guidance_diff": "carefully assess incoming data, the evolving outlook, and the balance of risks"
+  },
+  "jury_score": 48,
+  "supporting_statement": "The statement preserves a highly consistent communications framework from the prior meeting, maintaining data-dependent conditional phrasing while pausing the rate reduction cycle at 4.25-4.50%. The lack of substantive changes in forward guidance signals policy stability and caution.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Inflation trend and expectations are implicit rather than explicitly quantified."
+    ]
+  },
+  "error": null
+}

@@ -1,0 +1,24 @@
+{
+  "baseline_score": 50.8,
+  "coverage": 73.3,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "In support of its goals, the Committee decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent.",
+    "balance_sheet": "The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.",
+    "inflation": "Inflation remains somewhat elevated.",
+    "labour": "The unemployment rate has stabilized at a low level in recent months, and labor market conditions remain solid.",
+    "growth": "Recent indicators suggest that economic activity has continued to expand at a solid pace.",
+    "guidance_diff": "The Committee shifted from lowering the rate in the prior statement to maintaining the rate and dropping the previous dissent."
+  },
+  "jury_score": 52,
+  "supporting_statement": "As a financial communications analyst, the notable shift from a rate cut with a dissent in December to a unanimous pause in January highlights a deliberate effort to signal policy stabilization. The guidance remains data-dependent while communicating steady balance sheet runoff and a balanced risk assessment.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Inflation trend and expectations subcomponents inferred from qualitative descriptions."
+    ]
+  },
+  "error": null
+}

@@ -19,8 +19,10 @@ python parser.py --cme data/raw/cme_gc_settlement.csv \
   --output data/processed/L0_009_observations.csv
 ```
 
-The shared CME collector preserves Section 62 and its SHA-256 manifest. SOFR3M
-is preserved separately. If either input is unavailable, carry forward the last
-observation with `STALE` for up to five trading days; do not substitute a policy
-rate. This proxy is intentionally distinct from L1-006 policy expectations and
-L10-002 open interest.
+The shared CME collector preserves Section 62 and its source metadata manifest. SOFR3M
+is preserved separately. The parser joins the completed inputs by observation date
+and emits the most recent common date; it does not pair different dates. If no
+overlap exists, carry forward the last valid observation with `STALE` for up to
+five trading days, or record `BLOCKED` when no prior is available; do not
+substitute a policy rate. This proxy is intentionally distinct from L1-006
+policy expectations and L10-002 open interest.

@@ -7,17 +7,17 @@ Establish a robust, automated pipeline to ingest monthly physical monetary gold 
 
 ## 2. Primary Source & Architecture Pivot
 * **Initial Evaluation:** Federal Reserve Economic Data (FRED) was initially tested via mnemonics (`GOLDREPUSM`, etc.), but rejected due to lack of continuous foreign central bank physical reserve series (FRED primarily hosts foreign *Reserves excluding Gold*).
-* **Final Primary Source:** **IMF International Financial Statistics (IFS)** accessed via the OpenBB Platform SDK (`openbb-imf`). 
-* **Series Identifier:** `IL::RGV_REVS` (Monetary Gold holdings in troy ounces).
+* **Final Primary Source:** **World Gold Council official-holdings workbook**, downloaded through the shared WGC collector.
+* **Source basis:** WGC-compiled official holdings, based primarily on IMF IFS statistics and identified with WGC source metadata.
 
 ## 3. Scope & Panel Definition
 * **Entities Tracked:** `US` (USA), `EA` (EZB - European Central Bank), `CN` (China), `JP` (Japan), `CH` (Switzerland), and `IMF`.
 * **Exclusions:** Rest of World (RoW) aggregates are intentionally excluded to keep the personal trade-advisor model focused on tier-one sovereign holders.
 
 ## 4. Fallback & Stale Policy
-If the primary IMF API query fails or is delayed:
-1. The collector flags the observation record as `STALE`.
-2. The pipeline carries forward the last successfully ingested valid monthly observation for up to 3 periods before throwing a hard operational alert.
+If the WGC workbook cannot be retrieved or parsed:
+1. The pipeline returns `BLOCKED`, or carries forward a valid prior observation as `STALE` according to the shared WGC fallback policy.
+2. Mock data is not an approved fallback.
 
 ## 5. Unit Conversion
 * **Raw Unit:** Fine Troy Ounces ($1\text{ oz} = 31.1034768\text{ grams}$).

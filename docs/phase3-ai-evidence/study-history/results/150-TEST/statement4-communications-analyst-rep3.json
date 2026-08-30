@@ -1,0 +1,24 @@
+{
+  "baseline_score": 42.5,
+  "coverage": 76.25,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "the Committee decided to lower the target range for the federal funds rate by 1/2 percentage point to 4-3/4 to 5 percent",
+    "balance_sheet": "The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities",
+    "inflation": "Inflation has made further progress toward the Committee's 2 percent objective but remains somewhat elevated",
+    "labour": "Job gains have slowed, and the unemployment rate has moved up but remains low",
+    "growth": "Recent indicators suggest that economic activity has continued to expand at a solid pace",
+    "guidance_diff": "The Committee has gained greater confidence that inflation is moving sustainably toward 2 percent"
+  },
+  "jury_score": 32,
+  "supporting_statement": "As a financial communications analyst, the September statement marks a pivotal shift in FOMC signaling. The Committee explicitly dropped its prior restrictive guidance ('does not expect it will be appropriate to reduce the target range...') and introduced language reflecting newfound confidence in inflation progress, validating a 50 bps pivot while maintaining standard data-dependent optionality.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Inflation level 'somewhat elevated' mapped to above target rule with minor ambiguity."
+    ]
+  },
+  "error": null
+}

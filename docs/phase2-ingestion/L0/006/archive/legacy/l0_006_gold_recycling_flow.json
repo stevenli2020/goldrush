@@ -4,8 +4,7 @@
   "ingestion_metadata": {
     "publication_date": "2026-08-01",
     "retrieved_at": "2026-08-21T00:56:54Z",
-    "source_file": "data/raw/seeds/l0_006_recycling_seed.csv",
-    "cached_file_hash": "625e4b5f3cdeb5ed44ba5d34609a0004e15e65a505a2f59243ce181c5de10fe0"
+    "source_file": "data/raw/seeds/l0_006_recycling_seed.csv"
   },
   "observations": [
     {

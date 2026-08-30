@@ -1,0 +1,11 @@
+[
+  {
+    "variable_id": "L3-001",
+    "observation_timestamp": "2026-08-29T00:00:00Z",
+    "value": 3.8954166666666663,
+    "unit_or_scale": "percent_per_annum",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/cme/manifests/section10-20260830T102041Z.json",
+    "quality_flag": "PASS"
+  }
+]

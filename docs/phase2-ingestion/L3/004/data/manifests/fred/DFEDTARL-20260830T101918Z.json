@@ -1,0 +1,19 @@
+{
+  "series_id": "DFEDTARL",
+  "request_url": "https://api.stlouisfed.org/fred/series/observations",
+  "request_params": {
+    "series_id": "DFEDTARL",
+    "file_type": "json",
+    "observation_start": "2026-08-14",
+    "observation_end": "2026-08-28"
+  },
+  "raw_path": "docs/phase2-ingestion/L3/004/data/raw/fred/DFEDTARL-20260830T101918Z.json",
+  "size_bytes": 1685,
+  "sha256": "bd9adb2b659d72c9887d7ed4db3738ce2df05da952deb7a12cee731d769371cc",
+  "observation_count": 15,
+  "retrieved_at": "2026-08-30T10:19:18.473207+00:00",
+  "http_status": 200,
+  "changed": true,
+  "forced": true,
+  "client_version": "0.1.0"
+}

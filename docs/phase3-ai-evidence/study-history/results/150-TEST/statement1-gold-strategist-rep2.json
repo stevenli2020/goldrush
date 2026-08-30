@@ -1,0 +1,22 @@
+{
+  "baseline_score": 12.7,
+  "coverage": 91.25,
+  "status": "PASS",
+  "confidence": "High",
+  "evidence": {
+    "policy": "lower the target range for the federal funds rate to 0 to 1/4 percent",
+    "balance_sheet": "increase its holdings of Treasury securities by at least $500 billion and its holdings of agency mortgage-backed securities by at least $200 billion",
+    "inflation": "overall inflation and inflation for items other than food and energy are running below 2 percent",
+    "labour": "the unemployment rate has remained low",
+    "growth": "Available economic data show that the U.S. economy came into this challenging period on a strong footing.",
+    "guidance_diff": "expects to maintain this target range until it is confident that the economy has weathered recent events"
+  },
+  "jury_score": 5,
+  "supporting_statement": "The Committee's aggressive emergency easing—slashing the policy rate by 150 bps to the 0–0.25% lower bound, deploying a massive $700 billion asset purchase program, and expanding repo and global dollar liquidity swap lines—delivers an overwhelming monetary shock. From a cross-asset perspective, this unprecedented liquidity injection aggressively compresses real yields, flattens the front end, and underpins safe-haven demand for gold, even as initial funding stress temporarily boosts the dollar.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

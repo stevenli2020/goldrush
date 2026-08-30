@@ -1,0 +1,22 @@
+{
+  "baseline_score": 12.7,
+  "coverage": 91.25,
+  "status": "PASS",
+  "confidence": "High",
+  "evidence": {
+    "policy": "decided to lower the target range for the federal funds rate to 0 to 1/4 percent",
+    "balance_sheet": "increase its holdings of Treasury securities by at least $500 billion and its holdings of agency mortgage-backed securities by at least $200 billion",
+    "inflation": "overall inflation and inflation for items other than food and energy are running below 2 percent",
+    "labour": "the unemployment rate has remained low",
+    "growth": "The effects of the coronavirus will weigh on economic activity in the near term and pose risks to the economic outlook",
+    "guidance_diff": "expects to maintain this target range until it is confident that the economy has weathered recent events"
+  },
+  "jury_score": 10,
+  "supporting_statement": "As a central bank policy economist, the aggressive emergency rate cut to the zero lower bound, paired with substantial large-scale asset purchases and a highly conditional forward guidance commitment, represents an extreme dovish policy pivot designed to protect the dual mandate against unprecedented pandemic shocks.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

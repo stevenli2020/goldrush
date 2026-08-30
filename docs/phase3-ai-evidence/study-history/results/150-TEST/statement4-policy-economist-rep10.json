@@ -1,0 +1,22 @@
+{
+  "baseline_score": 51.6,
+  "coverage": 73.3,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "lower the target range for the federal funds rate by 1/2 percentage point to 4-3/4 to 5 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities",
+    "inflation": "Inflation has made further progress toward the Committee's 2 percent objective but remains somewhat elevated",
+    "labour": "Job gains have slowed, and the unemployment rate has moved up but remains low",
+    "growth": "economic activity has continued to expand at a solid pace",
+    "guidance_diff": "The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence"
+  },
+  "jury_score": 45,
+  "supporting_statement": "As a central bank policy economist, the 50 basis point reduction marks a recalibration of policy to reflect sustained progress toward the 2 percent inflation target and a cooling yet resilient labor market, balancing the dual mandate amidst an uncertain economic outlook.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

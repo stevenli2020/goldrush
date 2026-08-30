@@ -1,0 +1,22 @@
+{
+  "baseline_score": 50.8,
+  "coverage": 73.3,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities",
+    "inflation": "Inflation remains somewhat elevated.",
+    "labour": "The unemployment rate has stabilized at a low level in recent months, and labor market conditions remain solid.",
+    "growth": "economic activity has continued to expand at a solid pace",
+    "guidance_diff": "MISSING"
+  },
+  "jury_score": 48,
+  "supporting_statement": "As a central bank policy economist, I note the Committee has paused its rate-cutting cycle following December's 25 bps reduction, maintaining the federal funds rate at 4-1/4 to 4-1/2 percent. The dual mandate assessment highlights robust economic momentum and a stable, low unemployment rate, balanced against inflation that remains somewhat elevated. The reaction function remains strictly data-dependent, preserving flexibility as risks are judged to be in balance.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

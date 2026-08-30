@@ -2,20 +2,74 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "L5-002 Gold Share of Official Reserves",
   "type": "object",
-  "required": ["variable_id", "country", "panel", "gold_share_of_reserves", "holdings_as_of", "unit", "workbook_sha256", "validation_status", "availability_status"],
+  "required": [
+    "variable_id",
+    "country",
+    "panel",
+    "gold_share_of_reserves",
+    "holdings_as_of",
+    "unit",
+    "validation_status",
+    "availability_status"
+  ],
   "properties": {
-    "variable_id": {"const": "L5-002"},
-    "country": {"type": "string"},
-    "panel": {"enum": ["left", "right"]},
-    "gold_share_of_reserves": {"type": "number", "minimum": 0, "maximum": 1},
-    "holdings_tonnes": {"type": ["number", "null"], "minimum": 0},
-    "holdings_as_of": {"type": ["string", "null"]},
-    "unit": {"const": "fraction"},
-    "source_file": {"type": "string"},
-    "source_publication_date": {"type": "string", "format": "date"},
-    "download_date": {"type": "string", "format": "date"},
-    "workbook_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
-    "validation_status": {"enum": ["PASS", "FLAG", "FAIL"]},
-    "availability_status": {"enum": ["AVAILABLE", "STALE", "BLOCKED"]}
+    "variable_id": {
+      "const": "L5-002"
+    },
+    "country": {
+      "type": "string"
+    },
+    "panel": {
+      "enum": [
+        "left",
+        "right"
+      ]
+    },
+    "gold_share_of_reserves": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "holdings_tonnes": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "holdings_as_of": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "unit": {
+      "const": "fraction"
+    },
+    "source_file": {
+      "type": "string"
+    },
+    "source_publication_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "download_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "validation_status": {
+      "enum": [
+        "PASS",
+        "FLAG",
+        "FAIL"
+      ]
+    },
+    "availability_status": {
+      "enum": [
+        "AVAILABLE",
+        "STALE",
+        "BLOCKED"
+      ]
+    }
   }
 }

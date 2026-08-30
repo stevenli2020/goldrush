@@ -5,7 +5,7 @@ This package preserves and parses the Federal Reserve Board Gürkaynak-Sack-Wrig
 may be delayed, revised, or changed methodologically without advance notice.
 
 The CSV contains daily estimates but is generally refreshed approximately weekly.
-`download.py` preserves the raw CSV and writes a SHA-256 manifest. `parser.py`
+`download.py` preserves the raw CSV and writes a source metadata manifest. `parser.py`
 requires all six inputs and calculates five component forwards:
 
 ```text
@@ -18,8 +18,13 @@ L1-003 = mean(all five components)
 ```
 
 The source yields are continuously compounded percent per annum; outputs use the
-same unit. Missing inputs are not interpolated and produce no record. The latest
-aligned observation becomes `STALE` after seven days without a refreshed source.
+same unit. Missing inputs are not interpolated and produce no record. Freshness
+is measured from the latest observation date, not the download date. Because
+the GS&W staff series is generally refreshed weekly and may be delayed, a
+successful download can still produce `STALE` when the newest published
+observation is more than seven calendar days old. In that case the source-backed
+observation is retained and marked `STALE`; no interpolation or invented current
+value is used.
 
 ## Run
 

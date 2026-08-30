@@ -1,0 +1,196 @@
+{
+  "run_at": "2026-08-24T08:04:21.435698+00:00",
+  "results": [
+    {
+      "parsers": [
+        {
+          "command": [
+            "/mnt/d/Projects/GoldRush/.venv/bin/python",
+            "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/L0/001/scripts/parse_above_ground.py",
+            "--input",
+            "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/raw/above-ground/above-ground-gold-stocks.xlsx",
+            "--output-dir",
+            "docs/phase2-ingestion/L0/001/data/processed"
+          ],
+          "returncode": 0,
+          "stdout": "Processing complete. Output written to 'docs/phase2-ingestion/L0/001/data/processed'.\n",
+          "stderr": ""
+        }
+      ],
+      "returncode": 0,
+      "target": "above_ground",
+      "status": "PASS"
+    },
+    {
+      "parsers": [
+        {
+          "command": [
+            "/mnt/d/Projects/GoldRush/.venv/bin/python",
+            "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/collectors/wgc/run_etf_holdings.py",
+            "--input",
+            "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/raw/etf/ETF_Flows_2026-08-04_1202.xlsx",
+            "--output",
+            "docs/phase2-ingestion/L0/003/processed/L0_003_observations.csv",
+            "--log",
+            "docs/phase2-ingestion/L0/003/archive/ingest.log",
+            "--publication-date",
+            "2026-08-04",
+            "--download-date",
+            "2026-08-20"
+          ],
+          "returncode": 0,
+          "stdout": "ETF holdings parsed: 281 records; output=docs/phase2-ingestion/L0/003/processed/L0_003_observations.csv\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "/mnt/d/Projects/GoldRush/.venv/bin/python",
+            "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/L8/001/parse_etf_flows.py",
+            "--input",
+            "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/raw/etf/ETF_Flows_2026-08-04_1202.xlsx",
+            "--output",
+            "docs/phase2-ingestion/L8/001/processed/L8_001_observations.csv",
+            "--publication-date",
+            "2026-08-04",
+            "--download-date",
+            "2026-08-20"
+          ],
+          "returncode": 0,
+          "stdout": "ETF flow records parsed: 281\n",
+          "stderr": ""
+        }
+      ],
+      "returncode": 0,
+      "target": "etf",
+      "status": "PASS"
+    },
+    {
+      "parsers": [
+        {
+          "command": [
+            "/mnt/d/Projects/GoldRush/.venv/bin/python",
+            "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/L0/005/parse_bar_and_coin.py",
+            "--workbook",
+            "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/raw/gdt/GDT_Tables_Q2'26_EN.xlsx",
+            "--config",
+            "config.yaml",
+            "--publication-date",
+            "2026-08-07",
+            "--download-date",
+            "2026-08-20"
+          ],
+          "returncode": 0,
+          "stdout": "2026-08-24 08:03:59,405 UTC | INFO | Workbook: GDT_Tables_Q2'26_EN.xlsx\n2026-08-24 08:03:59,409 UTC | INFO | source metadata: \n2026-08-24 08:03:59,448 UTC | INFO | Existing periods in processed store: 82\n2026-08-24 08:03:59,473 UTC | INFO | Extracting Gold Balance sheet...\n2026-08-24 08:03:59,503 UTC | INFO | Gold Balance: 16 annual, 66 quarterly periods\n2026-08-24 08:03:59,504 UTC | INFO | Extracting Bar and Coin sheet...\n2026-08-24 08:03:59,541 UTC | INFO | Records assembled: 82 total (16 annual, 66 quarterly)\n2026-08-24 08:03:59,541 UTC | INFO | Validation: 82 PASS, 0 FLAG, 0 FAIL\n2026-08-24 08:03:59,542 UTC | INFO | Revisions detected: 0\n2026-08-24 08:03:59,547 UTC | INFO | Appended 82 records to /mnt/d/Projects/GoldRush/docs/phase2-ingestion/L0/005/processed/L0_005_observations.csv\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "/mnt/d/Projects/GoldRush/.venv/bin/python",
+            "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/collectors/wgc/run_gold_recycling.py",
+            "--input",
+            "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/raw/gdt/GDT_Tables_Q2'26_EN.xlsx",
+            "--output",
+            "docs/phase2-ingestion/L0/006/processed/L0_006_observations.json",
+            "--publication-date",
+            "2026-08-07",
+            "--download-date",
+            "2026-08-20"
+          ],
+          "returncode": 0,
+          "stdout": "Recycling observations parsed: 66\n",
+          "stderr": ""
+        }
+      ],
+      "returncode": 0,
+      "target": "gdt",
+      "status": "PASS"
+    },
+    {
+      "parsers": [
+        {
+          "command": [
+            "/mnt/d/Projects/GoldRush/.venv/bin/python",
+            "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/L9/001/parser.py",
+            "--workbook",
+            "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/raw/premiums/gold-premiums.xlsx",
+            "--manifest",
+            "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/manifests/gold_premiums-20260824T075918Z.json",
+            "--output",
+            "docs/phase2-ingestion/L9/001/data/processed/L9_001_observations.csv"
+          ],
+          "returncode": 0,
+          "stdout": "Wrote 6088 observations to docs/phase2-ingestion/L9/001/data/processed/L9_001_observations.csv\n",
+          "stderr": ""
+        }
+      ],
+      "returncode": 0,
+      "target": "gold_premiums",
+      "status": "PASS"
+    },
+    {
+      "parsers": [
+        {
+          "command": [
+            "/mnt/d/Projects/GoldRush/.venv/bin/python",
+            "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/L5/001/parse_official_purchases.py",
+            "--input",
+            "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/raw/central-bank/Changes_latest_as_of_Aug2026_IFS.xlsx",
+            "--output",
+            "docs/phase2-ingestion/L5/001/processed/L5_001_observations.csv",
+            "--publication-date",
+            "2026-08-20",
+            "--download-date",
+            "2026-08-20"
+          ],
+          "returncode": 0,
+          "stdout": "Official purchase records parsed: 294\n",
+          "stderr": ""
+        }
+      ],
+      "returncode": 0,
+      "target": "official_changes",
+      "status": "PASS"
+    },
+    {
+      "parsers": [
+        {
+          "command": [
+            "/mnt/d/Projects/GoldRush/.venv/bin/python",
+            "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/L0/002/parse_official_holdings.py",
+            "--input",
+            "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/raw/central-bank/World_official_gold_holdings_as_of_Aug2026_IFS.xlsx",
+            "--output",
+            "docs/phase2-ingestion/L0/002/processed/L0_002_observations.csv",
+            "--publication-date",
+            "2026-08-20",
+            "--download-date",
+            "2026-08-20"
+          ],
+          "returncode": 0,
+          "stdout": "Parsed 52 holdings records\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "/mnt/d/Projects/GoldRush/.venv/bin/python",
+            "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/L5/002/parse_gold_reserve_share.py",
+            "--input",
+            "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/raw/central-bank/World_official_gold_holdings_as_of_Aug2026_IFS.xlsx",
+            "--output",
+            "docs/phase2-ingestion/L5/002/processed/L5_002_observations.csv",
+            "--publication-date",
+            "2026-08-20",
+            "--download-date",
+            "2026-08-20"
+          ],
+          "returncode": 0,
+          "stdout": "Reserve-share records parsed: 97\n",
+          "stderr": ""
+        }
+      ],
+      "returncode": 0,
+      "target": "official_holdings",
+      "status": "PASS"
+    }
+  ]
+}

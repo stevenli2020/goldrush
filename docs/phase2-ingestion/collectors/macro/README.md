@@ -1,7 +1,7 @@
 # Shared FRED transport client
 
 `fred_client.py` fetches one FRED observations series, validates the JSON shape,
-preserves the raw response, calculates SHA-256, and writes a manifest. It does
+preserves the raw response, calculates source metadata, and writes a manifest. It does
 not calculate proxies or produce variable-specific output.
 
 The client first reads `FRED_API_KEY` from the environment. If it is not set,
@@ -26,7 +26,7 @@ The key file is protected by a local `.gitignore` and is never written to
 manifests, logs, or request metadata. Use `--api-key-file PATH` only when a
 different local path is needed.
 
-Repeated runs preserve the existing raw response when the SHA-256 is unchanged.
+Repeated runs preserve the existing raw response when the source metadata is unchanged.
 Use `--force` only for deliberate regression testing. Variable parsers under
 `L1/` and `L4/` consume the preserved raw response and own their schemas,
 validation, and transformations.

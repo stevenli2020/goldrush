@@ -1,6 +1,27 @@
 {
-  "_fixture_note": "Static development fixture; hash is intentionally not live.",
+  "_fixture_note": "Static development fixture; source metadata is intentionally not live.",
   "sheet": "Fund flows by month",
-  "header": ["Date", "Gold, US$/oz", "Ounces", "Tonnes", "Value (USD)"],
-  "rows": [["2003-03-31", 340.55, 264546.560854, 8.22831781, 88583415.870309], ["2026-07-31", null, null, -120.5, null]]
+  "header": [
+    "Date",
+    "Gold, US$/oz",
+    "Ounces",
+    "Tonnes",
+    "Value (USD)"
+  ],
+  "rows": [
+    [
+      "2003-03-31",
+      340.55,
+      264546.560854,
+      8.22831781,
+      88583415.870309
+    ],
+    [
+      "2026-07-31",
+      null,
+      null,
+      -120.5,
+      null
+    ]
+  ]
 }

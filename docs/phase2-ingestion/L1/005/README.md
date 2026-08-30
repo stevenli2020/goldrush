@@ -14,5 +14,9 @@ python parser.py \
 ```
 
 Values are percentage points. Values outside `-10%` to `10%` are marked `FLAG`.
-Observations older than seven days are marked `STALE`; carry-forward requires
-explicit operator approval.
+Freshness is measured from the observation date, not the download date. FRED's
+underlying model-derived series may publish with a delay, so a successful
+same-day fetch can still yield a latest observation older than seven days and
+therefore `STALE`. The source-backed observation is retained; no interpolation
+or invented current value is used. Carry-forward requires explicit operator
+approval.

@@ -179,7 +179,7 @@ Before naming a new collector, check:
 | CME Group | (not yet created) | L10-002 |
 | FOMC / Federal Reserve | `collectors/fomc/fomc_download.py` | L3-005, L3-006 |
 | ACLED / GPR | (not yet created) | L6-001 |
-| SGE | (not yet created) | L9-001 |
+| World Gold Council GoldHub shared WGC collector | `collectors/wgc/wgc_download.py` + `wgc_extract.py` | L9-001 |
 
 **If your variable shares a source with an existing collector:** reference it in `config.yaml` as `collector: <existing_script>`. Do not create a duplicate.
 

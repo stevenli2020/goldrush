@@ -1,0 +1,25 @@
+{
+  "baseline_score": 62.8,
+  "coverage": 84.25,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "decided to raise the target range for the federal funds rate to 5-1/4 to 5-1/2 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities",
+    "inflation": "Inflation remains elevated",
+    "labour": "Job gains have been robust in recent months, and the unemployment rate has remained low",
+    "growth": "economic activity has been expanding at a moderate pace",
+    "guidance_diff": "MISSING"
+  },
+  "jury_score": 62,
+  "supporting_statement": "As a financial communications analyst, the July 2023 statement marks a clear resumption of tightening via a 25 bps rate hike following the June pause. Communication around future path remains strictly data-dependent and conditional ('determining the extent of additional policy firming that may be appropriate'), preserving optionality while acknowledging tighter credit headwinds.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Inflation trend and expectations subcomponents not explicitly quantified in text.",
+      "Specific sectors subcomponent in growth not explicitly referenced."
+    ]
+  },
+  "error": null
+}

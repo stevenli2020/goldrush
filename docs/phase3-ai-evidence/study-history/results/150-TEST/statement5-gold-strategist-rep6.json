@@ -1,0 +1,24 @@
+{
+  "baseline_score": 52.9,
+  "coverage": 76.25,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities",
+    "inflation": "Inflation remains somewhat elevated",
+    "labour": "The unemployment rate has stabilized at a low level in recent months",
+    "growth": "economic activity has continued to expand at a solid pace",
+    "guidance_diff": "MISSING"
+  },
+  "jury_score": 54,
+  "supporting_statement": "As a cross-asset strategist, the removal of the December hawkish dissent and the unanimous decision to hold rates steady at 4.25-4.50% signal a temporary pause in the easing cycle, providing a stable liquidity backdrop for risk assets while keeping real yield expectations anchored.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Inflation trend and expectations subcomponents are not explicitly quantified in the text."
+    ]
+  },
+  "error": null
+}

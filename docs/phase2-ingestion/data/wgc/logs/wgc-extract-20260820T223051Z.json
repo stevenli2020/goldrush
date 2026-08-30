@@ -14,8 +14,7 @@
       "stdout": "Processing complete. Output written to 'docs/phase2-ingestion/L0/001/data/processed'.\n",
       "stderr": "",
       "target": "above_ground",
-      "status": "PASS",
-      "sha256": "f843a8e49e37b46512e45704ae74e6e8e92dc9ba15defdfcb098c3ca81b55a09"
+      "status": "PASS"
     },
     {
       "target": "etf",
@@ -39,8 +38,7 @@
       "stdout": "",
       "stderr": "Traceback (most recent call last):\n  File \"/mnt/d/Projects/GoldRush/docs/phase2-ingestion/L0/005/parse_bar_and_coin.py\", line 436, in <module>\n    main()\n    ~~~~^^\n  File \"/mnt/d/Projects/GoldRush/docs/phase2-ingestion/L0/005/parse_bar_and_coin.py\", line 366, in main\n    with open(config_path, encoding=\"utf-8\") as f:\n         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/mnt/d/Projects/GoldRush/docs/phase2-ingestion/L0/005/docs/phase2-ingestion/L0/005/data/config.yaml'\n",
       "target": "gdt",
-      "status": "FAIL",
-      "sha256": "32f3c7c795b3ce83be9e3bbd53b27da97218d446d40d63b4ecdce7d214a1a687"
+      "status": "FAIL"
     },
     {
       "target": "official_changes",

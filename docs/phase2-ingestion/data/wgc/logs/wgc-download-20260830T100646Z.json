@@ -1,0 +1,82 @@
+{
+  "results": [
+    {
+      "target": "official_changes",
+      "page_url": "https://www.gold.org/goldhub/data/gold-reserves-by-country",
+      "download_url": "https://www.gold.org/download/file/7741/Changes_latest_as_of_Aug2026_IFS.xlsx",
+      "filename": "Changes_latest_as_of_Aug2026_IFS.xlsx",
+      "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/raw/central-bank/Changes_latest_as_of_Aug2026_IFS.xlsx",
+      "size_bytes": 464245,
+      "downloaded_at": "2026-08-30T10:06:39.699017+00:00",
+      "http_status": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "changed": false,
+      "manifest_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json"
+    },
+    {
+      "target": "official_holdings",
+      "page_url": "https://www.gold.org/goldhub/data/gold-reserves-by-country",
+      "download_url": "https://www.gold.org/download/file/7739/World_official_gold_holdings_as_of_Aug2026_IFS.xlsx",
+      "filename": "World_official_gold_holdings_as_of_Aug2026_IFS.xlsx",
+      "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/raw/central-bank/World_official_gold_holdings_as_of_Aug2026_IFS.xlsx",
+      "size_bytes": 42353,
+      "downloaded_at": "2026-08-30T10:06:40.888603+00:00",
+      "http_status": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "changed": false,
+      "manifest_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json"
+    },
+    {
+      "target": "etf",
+      "page_url": "https://www.gold.org/goldhub/data/gold-etfs-holdings-and-flows",
+      "download_url": "https://www.gold.org/download/file/21037/ETF_Flows_2026-08-04_1202.xlsx",
+      "filename": "ETF_Flows_2026-08-04_1202.xlsx",
+      "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/raw/etf/ETF_Flows_2026-08-04_1202.xlsx",
+      "size_bytes": 1471791,
+      "downloaded_at": "2026-08-30T10:06:41.496773+00:00",
+      "http_status": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "changed": false,
+      "manifest_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/manifests/etf-20260830T100641Z.json"
+    },
+    {
+      "target": "gdt",
+      "page_url": "https://www.gold.org/goldhub/data/gold-demand-by-country",
+      "download_url": "https://www.gold.org/download/file/20975/GDT_Tables_Q2&#039;26_EN.xlsx",
+      "filename": "GDT_Tables_Q2'26_EN.xlsx",
+      "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/raw/gdt/GDT_Tables_Q2'26_EN.xlsx",
+      "size_bytes": 258338,
+      "downloaded_at": "2026-08-30T10:06:43.725035+00:00",
+      "http_status": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "changed": false,
+      "manifest_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json"
+    },
+    {
+      "target": "above_ground",
+      "page_url": "https://www.gold.org/goldhub/data/how-much-gold",
+      "download_url": "https://www.gold.org/download/file/7588/above-ground-gold-stocks.xlsx",
+      "filename": "above-ground-gold-stocks.xlsx",
+      "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/raw/above-ground/above-ground-gold-stocks.xlsx",
+      "size_bytes": 105748,
+      "downloaded_at": "2026-08-30T10:06:44.633998+00:00",
+      "http_status": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "changed": false,
+      "manifest_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/manifests/above_ground-20260830T100644Z.json"
+    },
+    {
+      "target": "gold_premiums",
+      "page_url": "https://www.gold.org/goldhub/data/gold-premium",
+      "download_url": "https://www.gold.org/download/file/11657/gold-premiums.xlsx",
+      "filename": "gold-premiums.xlsx",
+      "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/raw/premiums/gold-premiums.xlsx",
+      "size_bytes": 319907,
+      "downloaded_at": "2026-08-30T10:06:45.351315+00:00",
+      "http_status": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "changed": false,
+      "manifest_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/manifests/gold_premiums-20260830T100645Z.json"
+    }
+  ]
+}

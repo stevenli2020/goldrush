@@ -1,0 +1,22 @@
+{
+  "baseline_score": 15.5,
+  "coverage": 88,
+  "status": "PASS",
+  "confidence": "High",
+  "evidence": {
+    "policy": "the Committee decided to lower the target range for the federal funds rate to 0 to 1/4 percent.",
+    "balance_sheet": "increase its holdings of Treasury securities by at least $500 billion and its holdings of agency mortgage-backed securities by at least $200 billion.",
+    "inflation": "On a 12‑month basis, overall inflation and inflation for items other than food and energy are running below 2 percent.",
+    "labour": "the unemployment rate has remained low.",
+    "growth": "The effects of the coronavirus will weigh on economic activity in the near term and pose risks to the economic outlook.",
+    "guidance_diff": "Committee expects to maintain this target range until it is confident that the economy has weathered recent events"
+  },
+  "jury_score": 10,
+  "supporting_statement": "As a financial communications analyst, the stark shift from a 'current stance is appropriate' framework to an emergency rate cut, massive balance sheet expansion, and strong conditionality guidance highlights an unprecedented dovish pivot driven by pandemic shocks.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

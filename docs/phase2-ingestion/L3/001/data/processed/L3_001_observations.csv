@@ -1,2 +1,2 @@
-variable_id,observation_date,path_average_percent,contracts_used,horizon_months,source_pdf_sha256,source_manifest,unit,source_series_id,validation_status,availability_status
-L3-001,2026-08-20,3.859583333333333,12,12,2c76b70858a372f30df1e6a374d4bb372d62475fe7e28841d5a4a3930bc69f88,docs/phase2-ingestion/data/cme/manifests/section10-20260821T120040Z.json,percent_per_annum,CME_FED_FUNDS_FUTURES_STRIP,PASS,AVAILABLE
+variable_id,observation_date,path_average_percent,contracts_used,horizon_months,source_manifest,unit,source_series_id,validation_status,availability_status
+L3-001,2026-08-29,3.8954166666666663,12,12,docs/phase2-ingestion/data/cme/manifests/section10-20260829T055926Z.json,percent_per_annum,CME_FED_FUNDS_FUTURES_STRIP,PASS,AVAILABLE

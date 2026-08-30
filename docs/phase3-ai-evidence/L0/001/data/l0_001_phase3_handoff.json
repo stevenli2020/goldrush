@@ -1,0 +1,146 @@
+[
+  {
+    "variable_id": "L0-001",
+    "observation_timestamp": "2010-12-31T00:00:00Z",
+    "value": 168400.0,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/above_ground-20260830T100644Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L0-001",
+    "observation_timestamp": "2011-12-31T00:00:00Z",
+    "value": 171200.0,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/above_ground-20260830T100644Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L0-001",
+    "observation_timestamp": "2012-12-31T00:00:00Z",
+    "value": 174200.0,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/above_ground-20260830T100644Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L0-001",
+    "observation_timestamp": "2013-12-31T00:00:00Z",
+    "value": 177400.0,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/above_ground-20260830T100644Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L0-001",
+    "observation_timestamp": "2014-12-31T00:00:00Z",
+    "value": 180700.0,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/above_ground-20260830T100644Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L0-001",
+    "observation_timestamp": "2015-12-31T00:00:00Z",
+    "value": 184000.0,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/above_ground-20260830T100644Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L0-001",
+    "observation_timestamp": "2016-12-31T00:00:00Z",
+    "value": 187600.0,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/above_ground-20260830T100644Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L0-001",
+    "observation_timestamp": "2017-12-31T00:00:00Z",
+    "value": 191200.0,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/above_ground-20260830T100644Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L0-001",
+    "observation_timestamp": "2018-12-31T00:00:00Z",
+    "value": 195000.0,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/above_ground-20260830T100644Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L0-001",
+    "observation_timestamp": "2019-12-31T00:00:00Z",
+    "value": 198600.0,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/above_ground-20260830T100644Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L0-001",
+    "observation_timestamp": "2020-12-31T00:00:00Z",
+    "value": 202100.0,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/above_ground-20260830T100644Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L0-001",
+    "observation_timestamp": "2021-12-31T00:00:00Z",
+    "value": 205800.0,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/above_ground-20260830T100644Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L0-001",
+    "observation_timestamp": "2022-12-31T00:00:00Z",
+    "value": 209500.0,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/above_ground-20260830T100644Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L0-001",
+    "observation_timestamp": "2023-12-31T00:00:00Z",
+    "value": 213200.0,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/above_ground-20260830T100644Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L0-001",
+    "observation_timestamp": "2024-12-31T00:00:00Z",
+    "value": 216900.0,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/above_ground-20260830T100644Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L0-001",
+    "observation_timestamp": "2025-12-31T00:00:00Z",
+    "value": 220700.0,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/above_ground-20260830T100644Z.json",
+    "quality_flag": "PASS"
+  }
+]

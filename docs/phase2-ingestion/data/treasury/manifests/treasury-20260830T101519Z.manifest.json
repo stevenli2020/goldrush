@@ -1,0 +1,37 @@
+{
+  "endpoint": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/debt/mspd/mspd_table_3_market",
+  "query": {
+    "filter": "record_date:gte:2024-08-30",
+    "sort": "record_date,src_line_nbr",
+    "page[size]": 1000,
+    "fields": "record_date,security_type_desc,security_class1_desc,maturity_date,outstanding_amt,src_line_nbr"
+  },
+  "retrieved_at": "2026-08-30T10:15:19.364246+00:00",
+  "raw_paths": [
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260830T101519Z-page001.json",
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260830T101519Z-page002.json",
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260830T101519Z-page003.json",
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260830T101519Z-page004.json",
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260830T101519Z-page005.json",
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260830T101519Z-page006.json",
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260830T101519Z-page007.json",
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260830T101519Z-page008.json",
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260830T101519Z-page009.json",
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260830T101519Z-page010.json",
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260830T101519Z-page011.json",
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260830T101519Z-page012.json",
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260830T101519Z-page013.json",
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260830T101519Z-page014.json",
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260830T101519Z-page015.json",
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260830T101519Z-page016.json",
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260830T101519Z-page017.json",
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260830T101519Z-page018.json",
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260830T101519Z-page019.json",
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260830T101519Z-page020.json",
+    "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/treasury/raw/treasury-20260830T101519Z-page021.json"
+  ],
+  "page_count": 21,
+  "record_count": 20790,
+  "byte_size": 3722628,
+  "client_version": "0.1.0"
+}

@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20260128a1.pdf",
+  "document_type": "statement_pdf",
+  "release_date": "2026-01-28",
+  "meeting_date": "2026-01-28",
+  "retrieved_at": "2026-08-30T10:21:39.292880+00:00",
+  "size_bytes": 239594,
+  "content_type": "application/pdf",
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/fomc/raw/2026-01-28-statement_pdf-.pdf",
+  "changed": true,
+  "collector_version": "0.1.0"
+}

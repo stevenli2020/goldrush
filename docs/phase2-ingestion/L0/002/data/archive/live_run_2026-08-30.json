@@ -1,0 +1,12 @@
+{
+  "run_id": "2026-08-30T10:17:13.462949+00:00",
+  "source": "IMF IFS via OpenBB",
+  "query": "IL::RGV_REVS",
+  "collector_version": "1.2.0",
+  "raw_file": "data/raw/imf_ifs_2026-08-30.json",
+  "processed_file": "data/processed/gold_holdings_panel_2026-08-30.csv",
+  "entity_count": 6,
+  "unit": "metric_tonnes",
+  "validation_status": "PASS",
+  "notes": "Execution completed successfully with robust 150-day freshness threshold"
+}

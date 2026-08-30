@@ -1,0 +1,11 @@
+[
+  {
+    "variable_id": "L10-001",
+    "observation_timestamp": "2026-08-25T00:00:00Z",
+    "value": 144747,
+    "unit_or_scale": "contracts",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/L10/001/data/manifests/f_disagg_2026-08-25__20260830T101824Z.manifest.json",
+    "quality_flag": "PASS"
+  }
+]

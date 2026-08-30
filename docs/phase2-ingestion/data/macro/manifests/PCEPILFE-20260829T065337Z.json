@@ -1,0 +1,17 @@
+{
+  "series_id": "PCEPILFE",
+  "request_url": "https://api.stlouisfed.org/fred/series/observations",
+  "request_params": {
+    "series_id": "PCEPILFE",
+    "file_type": "json"
+  },
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/macro/raw/fred/PCEPILFE-20260829T065337Z.json",
+  "size_bytes": 78959,
+  "sha256": "8e0e2b3887339b376cfe16dce3607f78229c4f01f2850709eeb78c7f1a10f0f3",
+  "observation_count": 811,
+  "retrieved_at": "2026-08-29T06:53:37.026921+00:00",
+  "http_status": 200,
+  "changed": true,
+  "forced": false,
+  "client_version": "0.1.0"
+}

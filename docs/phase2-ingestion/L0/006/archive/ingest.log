@@ -1,12 +1,12 @@
 2026-08-19T10:43:35Z [INFO] [L0-006] Initializing GoldRecyclingCollector...
 2026-08-19T10:43:35Z [INFO] [L0-006] Target variable: L0-006 (Gold Recycling Flow)
 2026-08-19T10:43:35Z [INFO] [L0-006] Reading input source: data/raw/seeds/l0_006_recycling_seed.csv
-2026-08-19T10:43:35Z [INFO] [L0-006] Calculating source SHA-256 hash...
-2026-08-19T10:43:35Z [INFO] [L0-006] Source SHA-256 hash: c1a064db9f2b87431e5f03d5236b2f7681d431ba8019e34a6210f13e73111812
+2026-08-19T10:43:35Z [INFO] [L0-006] Calculating source source metadata...
+2026-08-19T10:43:35Z [INFO] [L0-006] Source source metadata: 
 2026-08-19T10:43:35Z [INFO] [L0-006] Seed fallback active -> setting availability_status: STALE
 2026-08-19T10:43:35Z [INFO] [L0-006] Executing parse_seed_csv and validate_and_apply_revisions...
 2026-08-19T10:43:35Z [INFO] [L0-006] Successfully parsed 8 quarterly records (unit: tonnes, frequency: quarterly).
 2026-08-19T10:43:35Z [INFO] [L0-006] Payload validated against schema.json.
 2026-08-19T10:43:35Z [INFO] [L0-006] Writing JSON artifact to processed/l0_006_gold_recycling_flow.json
-2026-08-19T10:43:35Z [SUCCESS] [L0-006] Pipeline run complete. Status: STALE (Seed Fallback) | Records: 8 | Hash: c1a064db9f2b87431e5f03d5236b2f7681d431ba8019e34a6210f13e73111812
-2026-08-19T11:06:34Z [LIVE PASS] [L0-006] WGC GDT workbook parsed successfully. Status: AVAILABLE | Records: 66 | Workbook: GDT_Tables_Q2'26_EN.xlsx | SHA-256: 32f3c7c795b3ce83be9e3bbd53b27da97218d446d40d63b4ecdce7d214a1a687 | Schema: PASS | Tests: 8/8
+2026-08-19T10:43:35Z [SUCCESS] [L0-006] Pipeline run complete. Status: STALE (Seed Fallback) | Records: 8 | source metadata: 
+2026-08-19T11:06:34Z [LIVE PASS] [L0-006] WGC GDT workbook parsed successfully. Status: AVAILABLE | Records: 66 | Workbook: GDT_Tables_Q2'26_EN.xlsx | source metadata:  | Schema: PASS | Tests: 8/8

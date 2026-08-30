@@ -1,0 +1,22 @@
+{
+  "baseline_score": 73.2,
+  "coverage": 84.25,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "raise the target range for the federal funds rate to 1‑1/2 to 1-3/4 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities",
+    "inflation": "Inflation remains elevated",
+    "labour": "the unemployment rate has remained low",
+    "growth": "Overall economic activity appears to have picked up after edging down in the first quarter.",
+    "guidance_diff": "anticipates that ongoing increases in the target range will be appropriate"
+  },
+  "jury_score": 80,
+  "supporting_statement": "As a central bank policy economist, the aggressive 75-basis-point rate hike and commitment to ongoing increases reflect a resolute reaction function to combat elevated inflation, supported by a robust labor market, despite mounting growth headwinds.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

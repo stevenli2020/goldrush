@@ -2,24 +2,99 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "L0-001-above-ground-stock",
   "type": "object",
-  "required": ["observation_year", "observation_date", "jewellery_tonnes", "private_investment_tonnes", "bars_and_coins_tonnes", "etfs_tonnes", "central_banks_tonnes", "other_tonnes", "total_above_ground_tonnes", "source_citation", "workbook_sha256", "ingested_at", "validation_status", "availability_status", "parser_version"],
+  "required": [
+    "observation_year",
+    "observation_date",
+    "jewellery_tonnes",
+    "private_investment_tonnes",
+    "bars_and_coins_tonnes",
+    "etfs_tonnes",
+    "central_banks_tonnes",
+    "other_tonnes",
+    "total_above_ground_tonnes",
+    "source_citation",
+    "ingested_at",
+    "validation_status",
+    "availability_status",
+    "parser_version"
+  ],
   "properties": {
-    "observation_year": {"type": "integer", "minimum": 1900},
-    "observation_date": {"type": "string", "format": "date"},
-    "jewellery_tonnes": {"type": "number", "minimum": 0},
-    "private_investment_tonnes": {"type": "number", "minimum": 0},
-    "bars_and_coins_tonnes": {"type": "number", "minimum": 0},
-    "etfs_tonnes": {"type": "number", "minimum": 0},
-    "central_banks_tonnes": {"type": "number", "minimum": 0},
-    "other_tonnes": {"type": "number", "minimum": 0},
-    "total_above_ground_tonnes": {"type": "number", "minimum": 0},
-    "source_citation": {"type": "string", "minLength": 1},
-    "workbook_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
-    "ingested_at": {"type": "string", "format": "date-time"},
-    "download_date": {"type": ["string", "null"]},
-    "source_publication_date": {"type": ["string", "null"]},
-    "validation_status": {"type": "string", "enum": ["PASS", "FLAG", "FAIL"]},
-    "availability_status": {"type": "string", "enum": ["AVAILABLE", "STALE", "BLOCKED", "INCOMPLETE"]},
-    "parser_version": {"type": "string", "minLength": 1}
+    "observation_year": {
+      "type": "integer",
+      "minimum": 1900
+    },
+    "observation_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "jewellery_tonnes": {
+      "type": "number",
+      "minimum": 0
+    },
+    "private_investment_tonnes": {
+      "type": "number",
+      "minimum": 0
+    },
+    "bars_and_coins_tonnes": {
+      "type": "number",
+      "minimum": 0
+    },
+    "etfs_tonnes": {
+      "type": "number",
+      "minimum": 0
+    },
+    "central_banks_tonnes": {
+      "type": "number",
+      "minimum": 0
+    },
+    "other_tonnes": {
+      "type": "number",
+      "minimum": 0
+    },
+    "total_above_ground_tonnes": {
+      "type": "number",
+      "minimum": 0
+    },
+    "source_citation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "ingested_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "download_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_publication_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "validation_status": {
+      "type": "string",
+      "enum": [
+        "PASS",
+        "FLAG",
+        "FAIL"
+      ]
+    },
+    "availability_status": {
+      "type": "string",
+      "enum": [
+        "AVAILABLE",
+        "STALE",
+        "BLOCKED",
+        "INCOMPLETE"
+      ]
+    },
+    "parser_version": {
+      "type": "string",
+      "minLength": 1
+    }
   }
 }

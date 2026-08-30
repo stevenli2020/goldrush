@@ -5,7 +5,7 @@ This package parses FRED `DEXCHUS`, the Federal Reserve Board H.10 series
 adjusted CNY-per-USD noon buying rate in New York for cable transfers. It is
 distinct from offshore CNH pricing and is not the PBoC central-parity fixing.
 
-The shared FRED client preserves the raw response and SHA-256 manifest. This
+The shared FRED client preserves the raw response and source metadata manifest. This
 package owns parsing, validation, provenance fields, and fallback output.
 
 ## Run

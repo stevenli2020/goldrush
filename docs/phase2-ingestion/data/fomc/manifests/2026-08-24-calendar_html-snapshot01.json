@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+  "document_type": "calendar_html",
+  "release_date": "2026-08-24",
+  "meeting_date": "2026-08-24",
+  "retrieved_at": "2026-08-24T04:30:40.615233+00:00",
+  "size_bytes": 164831,
+  "content_type": "text/html",
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/fomc/raw/2026-08-24-calendar_html-snapshot01.html",
+  "changed": true,
+  "collector_version": "0.1.0"
+}

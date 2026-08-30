@@ -2,7 +2,7 @@
 
 `treasury_api_client.py` is a minimal public-API transport. It performs paginated
 HTTPS GET requests with a descriptive user agent, limited retry handling, content
-validation, exact raw-page preservation, SHA-256 calculation, and manifest output.
+validation, exact raw-page preservation, source metadata calculation, and manifest output.
 
 It performs no accounting transformations. Variable packages own row selection,
 calculation, validation, and fallback behavior.

@@ -8,7 +8,6 @@
   },
   "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/macro/raw/fred/DFII10-20260821T015235Z.json",
   "size_bytes": 90330,
-  "sha256": "dbaf1dee142b5509e1bf9302fb5280656ce6c577224707f82b80f876b57e2ee8",
   "observation_count": 948,
   "retrieved_at": "2026-08-21T09:40:30.492139+00:00",
   "http_status": 200,

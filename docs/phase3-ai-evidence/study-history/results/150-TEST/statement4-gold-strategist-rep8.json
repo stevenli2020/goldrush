@@ -1,0 +1,24 @@
+{
+  "baseline_score": 42.5,
+  "coverage": 66.25,
+  "status": "PASS",
+  "confidence": "Low",
+  "evidence": {
+    "policy": "decided to lower the target range for the federal funds rate by 1/2 percentage point to 4-3/4 to 5 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities",
+    "inflation": "MISSING",
+    "labour": "Job gains have slowed, and the unemployment rate has moved up but remains low",
+    "growth": "Recent indicators suggest that economic activity has continued to expand at a solid pace",
+    "guidance_diff": "hawkish removal of conditionality regarding rate reductions"
+  },
+  "jury_score": 45,
+  "supporting_statement": "The 50 basis point rate cut provides meaningful easing to front-end rate pressures and bolsters risk sentiment, yet the continuation of balance sheet runoff ensures underlying liquidity contraction, creating a complex backdrop for real yields and foreign exchange markets.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Inflation level and trend phrasing 'somewhat elevated' and 'made further progress' do not map cleanly to exact rule definitions."
+    ]
+  },
+  "error": null
+}

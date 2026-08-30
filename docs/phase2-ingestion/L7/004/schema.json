@@ -2,23 +2,80 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "L7-004 Credit-Spread Financial Stress Observation",
   "type": "object",
-  "required": ["variable_id", "observation_date", "high_yield_oas_pct", "unit", "observation_definition", "source_name", "source_series_id", "source_release", "source_attribution", "raw_file_path", "manifest_file_path", "raw_sha256", "retrieved_at", "validation_status", "availability_status", "parser_version"],
+  "required": [
+    "variable_id",
+    "observation_date",
+    "high_yield_oas_pct",
+    "unit",
+    "observation_definition",
+    "source_name",
+    "source_series_id",
+    "source_release",
+    "source_attribution",
+    "raw_file_path",
+    "manifest_file_path",
+    "retrieved_at",
+    "validation_status",
+    "availability_status",
+    "parser_version"
+  ],
   "properties": {
-    "variable_id": {"const": "L7-004"},
-    "observation_date": {"type": "string", "format": "date"},
-    "high_yield_oas_pct": {"type": "number"},
-    "unit": {"const": "percentage_points"},
-    "observation_definition": {"const": "ICE BofA US High Yield Index option-adjusted spread at daily close"},
-    "source_name": {"const": "FRED"},
-    "source_series_id": {"const": "BAMLH0A0HYM2"},
-    "source_release": {"const": "ICE BofA Indices"},
-    "source_attribution": {"const": "ICE Data Indices, LLC via FRED"},
-    "raw_file_path": {"type": "string", "minLength": 1},
-    "manifest_file_path": {"type": "string", "minLength": 1},
-    "raw_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
-    "retrieved_at": {"type": "string", "format": "date-time"},
-    "validation_status": {"enum": ["PASS", "FLAG", "FAIL"]},
-    "availability_status": {"enum": ["AVAILABLE", "STALE", "BLOCKED"]},
-    "parser_version": {"type": "string"}
+    "variable_id": {
+      "const": "L7-004"
+    },
+    "observation_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "high_yield_oas_pct": {
+      "type": "number"
+    },
+    "unit": {
+      "const": "percentage_points"
+    },
+    "observation_definition": {
+      "const": "ICE BofA US High Yield Index option-adjusted spread at daily close"
+    },
+    "source_name": {
+      "const": "FRED"
+    },
+    "source_series_id": {
+      "const": "BAMLH0A0HYM2"
+    },
+    "source_release": {
+      "const": "ICE BofA Indices"
+    },
+    "source_attribution": {
+      "const": "ICE Data Indices, LLC via FRED"
+    },
+    "raw_file_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "manifest_file_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "validation_status": {
+      "enum": [
+        "PASS",
+        "FLAG",
+        "FAIL"
+      ]
+    },
+    "availability_status": {
+      "enum": [
+        "AVAILABLE",
+        "STALE",
+        "BLOCKED"
+      ]
+    },
+    "parser_version": {
+      "type": "string"
+    }
   }
 }

@@ -63,7 +63,7 @@ The same script will serve L0-002, L0-003, L0-005, L0-006, L5-001, L5-002, and L
 
 **Schedule:**
 - Annual: trigger on WGC Gold Demand Trends report release detection (typically Q1 of the following year)
-- Monthly: checksum check on the `.xlsx` download; if checksum changes, treat as a revision event and re-collect
+- Monthly: source metadata check on the `.xlsx` download; if source metadata changes, treat as a revision event and re-collect
 
 ---
 

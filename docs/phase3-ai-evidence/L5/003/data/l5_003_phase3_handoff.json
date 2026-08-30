@@ -1,0 +1,983 @@
+[
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "1999-03-31T00:00:00Z",
+    "value": null,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "1999-06-30T00:00:00Z",
+    "value": 0.9370628169892967,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "1999-09-30T00:00:00Z",
+    "value": -1.4411755698871929,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "1999-12-31T00:00:00Z",
+    "value": 0.3291752391932903,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2000-03-31T00:00:00Z",
+    "value": -0.21737861294789695,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2000-06-30T00:00:00Z",
+    "value": -0.12087853123540526,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2000-09-30T00:00:00Z",
+    "value": -0.03249152680619716,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2000-12-31T00:00:00Z",
+    "value": -0.9028556633360978,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2001-03-31T00:00:00Z",
+    "value": 0.9097538907498972,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2001-06-30T00:00:00Z",
+    "value": 0.7502297764656021,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2001-09-30T00:00:00Z",
+    "value": -0.6369496843873037,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2001-12-31T00:00:00Z",
+    "value": 0.02030373206670788,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2002-03-31T00:00:00Z",
+    "value": -0.26986454199359855,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2002-06-30T00:00:00Z",
+    "value": -2.7081810900865975,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2002-09-30T00:00:00Z",
+    "value": -1.1119659336399081,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2002-12-31T00:00:00Z",
+    "value": -1.7544663291441935,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2003-03-31T00:00:00Z",
+    "value": -0.32302989037521,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2003-06-30T00:00:00Z",
+    "value": 0.035731385771910595,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2003-09-30T00:00:00Z",
+    "value": 0.25630527947609494,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2003-12-31T00:00:00Z",
+    "value": -1.3732766767353013,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2004-03-31T00:00:00Z",
+    "value": 1.1323105776025955,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2004-06-30T00:00:00Z",
+    "value": 0.1877191891820047,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2004-09-30T00:00:00Z",
+    "value": -0.4146002229388017,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2004-12-31T00:00:00Z",
+    "value": -1.1174319975968956,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2005-03-31T00:00:00Z",
+    "value": 0.8823262264521929,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2005-06-30T00:00:00Z",
+    "value": 0.4776381798059077,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2005-09-30T00:00:00Z",
+    "value": 0.3286408990585983,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2005-12-31T00:00:00Z",
+    "value": -0.12349566286360414,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2006-03-31T00:00:00Z",
+    "value": -0.0043884523503976425,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2006-06-30T00:00:00Z",
+    "value": -0.7725100650588956,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2006-09-30T00:00:00Z",
+    "value": 0.4790608042341944,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2006-12-31T00:00:00Z",
+    "value": -0.9229247124935966,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2007-03-31T00:00:00Z",
+    "value": -0.011032785350899132,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2007-06-30T00:00:00Z",
+    "value": -0.2575952199035001,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2007-09-30T00:00:00Z",
+    "value": -0.6855244127601026,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2007-12-31T00:00:00Z",
+    "value": -0.11147726646670009,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2008-03-31T00:00:00Z",
+    "value": 0.45442764812369774,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2008-06-30T00:00:00Z",
+    "value": -0.36008706270209956,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2008-09-30T00:00:00Z",
+    "value": 1.2389711845789009,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2008-12-31T00:00:00Z",
+    "value": -1.0668231687868968,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2009-03-31T00:00:00Z",
+    "value": 0.9343789961692011,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2009-06-30T00:00:00Z",
+    "value": -1.4501516316946024,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2009-09-30T00:00:00Z",
+    "value": -1.0325923871845006,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2009-12-31T00:00:00Z",
+    "value": 0.8680641753224023,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2010-03-31T00:00:00Z",
+    "value": -0.40120204394680314,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2010-06-30T00:00:00Z",
+    "value": 0.7763248090012027,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2010-09-30T00:00:00Z",
+    "value": -0.7412778018164019,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2010-12-31T00:00:00Z",
+    "value": 0.11426653116460272,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2011-03-31T00:00:00Z",
+    "value": -0.12009847597500567,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2011-06-30T00:00:00Z",
+    "value": -0.26476915281619995,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2011-09-30T00:00:00Z",
+    "value": 0.6940499362840029,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2011-12-31T00:00:00Z",
+    "value": 0.2695302365387988,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2012-03-31T00:00:00Z",
+    "value": -0.6420039169883012,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2012-06-30T00:00:00Z",
+    "value": 0.27764275988080556,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2012-09-30T00:00:00Z",
+    "value": -0.34530631293420555,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2012-12-31T00:00:00Z",
+    "value": 0.03926560211360197,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2013-03-31T00:00:00Z",
+    "value": 0.2351506773249028,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2013-06-30T00:00:00Z",
+    "value": -0.04185221473920109,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2013-09-30T00:00:00Z",
+    "value": -0.29540365547330083,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2013-12-31T00:00:00Z",
+    "value": -0.02575530390600278,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2014-03-31T00:00:00Z",
+    "value": -0.3992528891620992,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2014-06-30T00:00:00Z",
+    "value": 0.028127740780199417,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2014-09-30T00:00:00Z",
+    "value": 1.0404679882779035,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2014-12-31T00:00:00Z",
+    "value": 0.29614234767630165,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2015-03-31T00:00:00Z",
+    "value": 0.8675428346113989,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2015-06-30T00:00:00Z",
+    "value": -0.07738018551340531,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2015-09-30T00:00:00Z",
+    "value": 0.7650542000000087,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2015-12-31T00:00:00Z",
+    "value": -0.08304660000000297,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2016-03-31T00:00:00Z",
+    "value": -0.22483940000000047,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2016-06-30T00:00:00Z",
+    "value": 0.07609860000000168,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2016-09-30T00:00:00Z",
+    "value": -0.21241710000000324,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2016-12-31T00:00:00Z",
+    "value": 0.887091599999998,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2017-03-31T00:00:00Z",
+    "value": -0.4604611000000034,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2017-06-30T00:00:00Z",
+    "value": -0.705181599999996,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2017-09-30T00:00:00Z",
+    "value": -0.20385749999999803,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2017-12-31T00:00:00Z",
+    "value": -0.6031736999999993,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2018-03-31T00:00:00Z",
+    "value": 0.190312899999995,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2018-06-30T00:00:00Z",
+    "value": -0.28239559999999386,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2018-09-30T00:00:00Z",
+    "value": -0.2661741314227015,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2018-12-31T00:00:00Z",
+    "value": -0.2840170855357016,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2019-03-31T00:00:00Z",
+    "value": 0.14159514816520158,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2019-06-30T00:00:00Z",
+    "value": -0.47494751836000404,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2019-09-30T00:00:00Z",
+    "value": 0.3183994990857997,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2019-12-31T00:00:00Z",
+    "value": -0.7298149437291954,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2020-03-31T00:00:00Z",
+    "value": 1.0009471217977008,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2020-06-30T00:00:00Z",
+    "value": -0.4458961926081031,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2020-09-30T00:00:00Z",
+    "value": -0.8686722404513958,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2020-12-31T00:00:00Z",
+    "value": -1.478357605316802,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2021-03-31T00:00:00Z",
+    "value": 0.5345941112501009,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2021-06-30T00:00:00Z",
+    "value": -0.21684136714060287,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2021-09-30T00:00:00Z",
+    "value": 0.0254316593395032,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2021-12-31T00:00:00Z",
+    "value": -0.46893012124860434,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2022-03-31T00:00:00Z",
+    "value": 0.01497292310840237,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2022-06-30T00:00:00Z",
+    "value": 0.5776672363280966,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2022-09-30T00:00:00Z",
+    "value": 0.438270568847706,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2022-12-31T00:00:00Z",
+    "value": -1.4816741943360014,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2023-03-31T00:00:00Z",
+    "value": 1.1713333129882955,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2023-06-30T00:00:00Z",
+    "value": -0.30503082275389914,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2023-09-30T00:00:00Z",
+    "value": -0.12826156616209516,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2023-12-31T00:00:00Z",
+    "value": -0.710189819335902,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2024-03-31T00:00:00Z",
+    "value": 0.5317573547362997,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2024-06-30T00:00:00Z",
+    "value": -0.6474113464355042,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2024-09-30T00:00:00Z",
+    "value": -1.0198135375976989,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2024-12-31T00:00:00Z",
+    "value": 0.5640869140625,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2025-03-31T00:00:00Z",
+    "value": -0.024314880371100855,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2025-06-30T00:00:00Z",
+    "value": -1.441188812255895,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2025-09-30T00:00:00Z",
+    "value": -0.3404083251953054,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2025-12-31T00:00:00Z",
+    "value": -0.18505477905269885,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "STALE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-003",
+    "observation_timestamp": "2026-03-31T00:00:00Z",
+    "value": 0.7135162353516051,
+    "unit_or_scale": "percentage_points_qoq",
+    "availability_status": "AVAILABLE",
+    "source_reference": "IMF-COFER:docs/phase2-ingestion/L5/003/data/manifests/cofer-20260830T101922Z-.manifest.json",
+    "quality_flag": "PASS"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "variable_id": "L6-002",
+  "source_url": "https://sanctionslistservice.ofac.treas.gov/api/download/delta?filename=DeltaArchive%2F2026-08-28_delta.xml",
+  "archive_api": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/GetDeltaFileArchive?year=2026",
+  "retrieved_at": "2026-08-30T05:17:42.916157+00:00",
+  "publication_date": "2026-08-28",
+  "publication_datetime": "2026-08-28T00:00:00",
+  "archive_sequence": 1,
+  "raw_path": "docs/phase3-ai-evidence/L6/002/live-monitor/raw/L6-002_2026-08-28.xml",
+  "size_bytes": 11559,
+  "content_type": "text/xml",
+  "http_status": 200,
+  "collector_version": "0.2.0",
+  "archive_entry": {
+    "fileType": null,
+    "fileName": "2026-08-28_delta.xml",
+    "description": null,
+    "size": 11281,
+    "sizeFormatted": "11.02 KB",
+    "downloadLink": "DeltaArchive/2026-08-28_delta.xml",
+    "isExternalLink": false,
+    "lastUpdated": null,
+    "datePublished": null,
+    "publishDisplayDate": "2026-08-28T00:00:00",
+    "displayOrder": 0,
+    "hashCodes": null
+  }
+}

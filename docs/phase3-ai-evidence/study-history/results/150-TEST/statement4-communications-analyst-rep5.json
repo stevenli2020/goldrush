@@ -1,0 +1,25 @@
+{
+  "baseline_score": 48.9,
+  "coverage": 81.25,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "decided to lower the target range for the federal funds rate by 1/2 percentage point to 4-3/4 to 5 percent.",
+    "balance_sheet": "The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.",
+    "inflation": "Inflation has made further progress toward the Committee's 2 percent objective but remains somewhat elevated.",
+    "labour": "Job gains have slowed, and the unemployment rate has moved up but remains low.",
+    "growth": "Recent indicators suggest that economic activity has continued to expand at a solid pace.",
+    "guidance_diff": "The Committee has gained greater confidence that inflation is moving sustainably toward 2 percent"
+  },
+  "jury_score": 35,
+  "supporting_statement": "The communications pivot is marked by the transition from a strict hurdle for easing to a 50 basis point reduction, justified by newfound confidence on inflation and emerging downside risks to employment.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Somewhat elevated mapped to slightly above 2% level score.",
+      "Job gains slowed mapped to moderated."
+    ]
+  },
+  "error": null
+}

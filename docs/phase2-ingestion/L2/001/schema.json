@@ -1,0 +1,119 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "L2-001 DXY Observation",
+  "type": "object",
+  "required": [
+    "variable_id",
+    "observation_date",
+    "dxy_close",
+    "canonical_field",
+    "unit",
+    "source_name",
+    "provider",
+    "symbol",
+    "raw_file_path",
+    "manifest_path",
+    "retrieved_at",
+    "validation_status",
+    "availability_status",
+    "is_revised",
+    "parser_version"
+  ],
+  "properties": {
+    "variable_id": {
+      "const": "L2-001"
+    },
+    "observation_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "dxy_open": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "dxy_high": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "dxy_low": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "dxy_close": {
+      "type": "number",
+      "minimum": 0
+    },
+    "volume": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "canonical_field": {
+      "const": "dxy_close"
+    },
+    "unit": {
+      "const": "index"
+    },
+    "source_name": {
+      "const": "Yahoo Finance via OpenBB"
+    },
+    "provider": {
+      "const": "yfinance"
+    },
+    "symbol": {
+      "const": "DX-Y.NYB"
+    },
+    "raw_file_path": {
+      "type": "string"
+    },
+    "manifest_path": {
+      "type": "string"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "_fixture_note": {
+      "type": "string"
+    },
+    "validation_status": {
+      "enum": [
+        "PASS",
+        "FLAG",
+        "FAIL"
+      ]
+    },
+    "availability_status": {
+      "enum": [
+        "AVAILABLE",
+        "STALE",
+        "BLOCKED"
+      ]
+    },
+    "is_revised": {
+      "type": "boolean"
+    },
+    "prior_dxy_close": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "revision_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "parser_version": {
+      "type": "string"
+    }
+  }
+}

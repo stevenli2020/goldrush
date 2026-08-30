@@ -10,7 +10,7 @@ adjusted percentages. The output is the deliberately narrow proxy:
 Positive values mean secured repo funding is above unsecured federal funds;
 negative values are valid. This is not a complete repo stress index.
 
-The parser verifies both series IDs, raw-file SHA-256 hashes, retrieval metadata,
+The parser verifies both series IDs, raw-file source metadata, retrieval metadata,
 dates, finite numeric values, and conflicting duplicate dates. It skips FRED `.`
 markers and intersects dates only; it never carries one rate across a missing
 date. Rates and spreads outside broad configured bounds are retained with

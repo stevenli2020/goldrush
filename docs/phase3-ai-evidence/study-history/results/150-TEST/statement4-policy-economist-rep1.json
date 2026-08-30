@@ -1,0 +1,24 @@
+{
+  "baseline_score": 45.1,
+  "coverage": 76.25,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "In light of the progress on inflation and the balance of risks, the Committee decided to lower the target range for the federal funds rate by 1/2 percentage point to 4-3/4 to 5 percent.",
+    "balance_sheet": "The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.",
+    "inflation": "Inflation has made further progress toward the Committee's 2 percent objective but remains somewhat elevated.",
+    "labour": "Job gains have slowed, and the unemployment rate has moved up but remains low.",
+    "growth": "Recent indicators suggest that economic activity has continued to expand at a solid pace.",
+    "guidance_diff": "-5"
+  },
+  "jury_score": 38,
+  "supporting_statement": "As a central bank policy economist focused on the dual mandate, the initiation of the easing cycle with a 50-basis-point reduction reflects a decisive re-balancing toward labor market support as job gains slow and unemployment ticks up. While inflation remains somewhat elevated, greater confidence in a sustainable path to 2% warrants calibration, though a lone dissent preferring a smaller 25 bps cut highlights ongoing caution.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Forward risks phrasing 'uncertain' mapped to downside risk adjustment."
+    ]
+  },
+  "error": null
+}

@@ -24,7 +24,7 @@ The supplied development workbook is under `data/above-ground-gold-stocks/2026/`
 - `processed/validation_warnings.log`: non-fatal year-over-year warnings.
 - `processed/revision_log.json`: changes relative to a previous processed file when supplied with `--previous`.
 
-Each observation includes its year-end reference date, source citation, workbook SHA-256, UTC ingestion timestamp, manual download/publication dates, validation status, availability status, and parser version.
+Each observation includes its year-end reference date, source citation, workbook source metadata, UTC ingestion timestamp, manual download/publication dates, validation status, availability status, and parser version.
 
 ## Validation
 
@@ -40,7 +40,7 @@ Missing or malformed source values fail the run. For a manually downloaded file,
 
 ## Provenance and revisions
 
-Archive each source workbook in `data/raw/YYYY/`. Do not edit archived files. The parser records the workbook hash and source citation. If a prior CSV or Parquet file is passed with `--previous`, changed historical values are written to `revision_log.json`.
+Archive each source workbook in `data/raw/YYYY/`. Do not edit archived files. The parser records the workbook source metadata and source citation. If a prior CSV or Parquet file is passed with `--previous`, changed historical values are written to `revision_log.json`.
 
 ## Development files
 

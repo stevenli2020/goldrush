@@ -1,0 +1,875 @@
+[
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.814218619472411,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-04-30 00:00:00T00:00:00Z",
+    "value": 0.8099314199229325,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-05-31 00:00:00T00:00:00Z",
+    "value": 0.770075174398121,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-04-30 00:00:00T00:00:00Z",
+    "value": 0.7853353728748101,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.0802208982959057,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.4137116732416058,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-05-31 00:00:00T00:00:00Z",
+    "value": 0.1270442072484183,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.1680135895605478,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.0850533400820115,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.27870010383598,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-04-30 00:00:00T00:00:00Z",
+    "value": 0.7001177576198159,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.5636700334017497,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-01-31 00:00:00T00:00:00Z",
+    "value": 0.5002258967496649,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.8747649839749384,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-04-30 00:00:00T00:00:00Z",
+    "value": 0.0834775555760369,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-04-30 00:00:00T00:00:00Z",
+    "value": 0.7574437838967853,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.7656197991876508,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-05-31 00:00:00T00:00:00Z",
+    "value": 0.0789439926153186,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.1862119242972728,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "Mar 2025T00:00:00Z",
+    "value": 0.7907830950942667,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-04-30 00:00:00T00:00:00Z",
+    "value": 0.2947319629528082,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.7133366324440776,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.1086788056977743,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.5499202723358226,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.0590137400521412,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.317563267014647,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2025-11-30 00:00:00T00:00:00Z",
+    "value": 0.2313899243524501,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-05-31 00:00:00T00:00:00Z",
+    "value": 0.3357770347648294,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.0607315903615042,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "Jun 2018T00:00:00Z",
+    "value": 0.9153055952412938,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-04-30 00:00:00T00:00:00Z",
+    "value": 0.1861255809023935,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.164858646170443,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.3201801157342029,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.2222834754329588,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.2192830359644184,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.0572738637115608,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-05-31 00:00:00T00:00:00Z",
+    "value": 0.2749871518643192,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-04-30 00:00:00T00:00:00Z",
+    "value": 0.6515476813963926,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.2071113007033256,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.0310902629554619,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.1563706676826666,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.0774343598755381,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.0594310206067657,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.152082159683766,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-05-31 00:00:00T00:00:00Z",
+    "value": 0.2095592088962131,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.3788491139603344,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-04-30 00:00:00T00:00:00Z",
+    "value": 0.0352088254157384,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.0679785137363358,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.2988200079124011,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.1789029731247137,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.2941005594170204,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.2094123124562049,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-05-31 00:00:00T00:00:00Z",
+    "value": 0.4937173863197012,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-05-31 00:00:00T00:00:00Z",
+    "value": 0.7877392469375353,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-04-30 00:00:00T00:00:00Z",
+    "value": 0.2579000490645007,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.0428733013950725,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.6410022086814995,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "Mar 2025T00:00:00Z",
+    "value": 0.1866631194257179,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-01-31 00:00:00T00:00:00Z",
+    "value": 0.0475562943256556,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-04-30 00:00:00T00:00:00Z",
+    "value": 0.2335408223719675,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.0691227082285973,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-05-31 00:00:00T00:00:00Z",
+    "value": 0.2819538089210035,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "Jun 2011T00:00:00Z",
+    "value": 0.166916220507699,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "Jun 2026T00:00:00Z",
+    "value": 0.3636193981683717,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "Jun 2026T00:00:00Z",
+    "value": 0.8327089053432486,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-05-31 00:00:00T00:00:00Z",
+    "value": 0.0539183996521243,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "May 2021T00:00:00Z",
+    "value": 0.2551913738640561,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.0539863219909482,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.0612232433205012,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.0561229980230345,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.6440787272738736,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2025-09-30 00:00:00T00:00:00Z",
+    "value": 0.5195218692767544,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "Sep 2010T00:00:00Z",
+    "value": 0.6082650674960368,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.1460565352113722,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-04-30 00:00:00T00:00:00Z",
+    "value": 0.1162766261168116,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2025-12-31 00:00:00T00:00:00Z",
+    "value": 0.3484203474758156,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-03-31 00:00:00T00:00:00Z",
+    "value": 0.0215279745050225,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2025-11-30 00:00:00T00:00:00Z",
+    "value": 0.1056613223891539,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2025-12-31 00:00:00T00:00:00Z",
+    "value": 0.0492059492822739,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-01-31 00:00:00T00:00:00Z",
+    "value": 0.1582100042261942,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.1423946684846601,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "Feb 2023T00:00:00Z",
+    "value": 0.1821391882661731,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.1584221893350462,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2025-10-31 00:00:00T00:00:00Z",
+    "value": 0.0939241361617143,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "Mar 2025T00:00:00Z",
+    "value": 0.0454583894444323,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-04-30 00:00:00T00:00:00Z",
+    "value": 0.1409173723939641,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-05-31 00:00:00T00:00:00Z",
+    "value": 0.1046358658422223,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-01-31 00:00:00T00:00:00Z",
+    "value": 0.0091483465500735,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-03-31 00:00:00T00:00:00Z",
+    "value": 0.0917766682696271,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-02-28 00:00:00T00:00:00Z",
+    "value": 0.1154506243794706,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-03-31 00:00:00T00:00:00Z",
+    "value": 0.4292761077201532,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-06-30 00:00:00T00:00:00Z",
+    "value": 0.1551170522416662,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2025-07-31 00:00:00T00:00:00Z",
+    "value": 0.1215658427328498,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-02-28 00:00:00T00:00:00Z",
+    "value": 0.0563759738741192,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "Mar 2025T00:00:00Z",
+    "value": 0.0477847689330901,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-05-31 00:00:00T00:00:00Z",
+    "value": 0.1529053526672015,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-002",
+    "observation_timestamp": "2026-04-30 00:00:00T00:00:00Z",
+    "value": 0.0954837456701422,
+    "unit_or_scale": "fraction",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json",
+    "quality_flag": "PASS"
+  }
+]

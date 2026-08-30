@@ -1,0 +1,22 @@
+{
+  "baseline_score": 16.2,
+  "coverage": 91.25,
+  "status": "PASS",
+  "confidence": "High",
+  "evidence": {
+    "policy": "lower the target range for the federal funds rate to 0 to 1/4 percent",
+    "balance_sheet": "increase its holdings of Treasury securities by at least $500 billion and its holdings of agency mortgage-backed securities by at least $200 billion",
+    "inflation": "overall inflation and inflation for items other than food and energy are running below 2 percent",
+    "labour": "the unemployment rate has remained low",
+    "growth": "economic activity rose at a moderate rate",
+    "guidance_diff": "expects to maintain this target range until it is confident that the economy has weathered recent events"
+  },
+  "jury_score": 15,
+  "supporting_statement": "From a financial communications perspective, the inter-meeting emergency pivot to the zero lower bound paired with a $700 billion quantitative easing program represents an extreme dovish escalation in response to the coronavirus shock, anchored by strict outcome-based conditionality.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

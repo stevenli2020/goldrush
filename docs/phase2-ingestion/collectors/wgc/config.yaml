@@ -28,6 +28,10 @@ targets:
     directory: above-ground
     page_url: https://www.gold.org/goldhub/data/how-much-gold
     link_pattern: 'href=["''](.*?/download/file/.*?above-ground-gold.*?\.xlsx?)\s*["'']'
+  gold_premiums:
+    directory: premiums
+    page_url: https://www.gold.org/goldhub/data/gold-premium
+    link_pattern: 'href=["''](.*?/download/file/.*?gold-premiums\.xlsx)\s*["'']'
 
 security:
   never_commit_cookies: true
@@ -36,9 +40,12 @@ security:
 # Explicit parser dispatch. Add a target only after its parser CLI is verified.
 extractors:
   official_changes:
-    script: docs/phase2-ingestion/L5/001/parse_official_purchases.py
-    publication_date: "2026-08-20"
-    args: [--input, "{input}", --output, docs/phase2-ingestion/L5/001/processed/L5_001_observations.csv, --publication-date, "{publication_date}", --download-date, "{download_date}"]
+    - script: docs/phase2-ingestion/L5/001/parse_official_purchases.py
+      publication_date: "2026-08-20"
+      args: [--input, "{input}", --output, docs/phase2-ingestion/L5/001/processed/L5_001_observations.csv, --publication-date, "{publication_date}", --download-date, "{download_date}"]
+    - script: docs/phase2-ingestion/L5/006/parser.py
+      publication_date: "2026-08-20"
+      args: [--input, "{input}", --manifest, "{manifest}", --prior, docs/phase2-ingestion/L5/006/data/processed/L5_006_observations.csv, --output, docs/phase2-ingestion/L5/006/data/processed/L5_006_observations.csv, --publication-date, "{publication_date}", --download-date, "{download_date}"]
   official_holdings:
     - script: docs/phase2-ingestion/L0/002/parse_official_holdings.py
       publication_date: "2026-08-20"
@@ -62,4 +69,11 @@ extractors:
       args: [--workbook, "{input}", --config, config.yaml, --publication-date, "{publication_date}", --download-date, "{download_date}"]
     - script: docs/phase2-ingestion/collectors/wgc/run_gold_recycling.py
       publication_date: "2026-08-07"
-      args: [--input, "{input}", --output, docs/phase2-ingestion/L0/006/processed/L0_006_observations.json, --publication-date, "{publication_date}", --download-date, "{download_date}"]
+      args: [--input, "{input}", --output, docs/phase2-ingestion/L0/006/processed/L0_006_observations.json, --publication-date, "{publication_date}", --download-date, "{download_date}", --source-manifest, "{manifest}"]
+    - script: docs/phase2-ingestion/L9/004/parser.py
+      publication_date: "2026-08-07"
+      args: [--input, "{input}", --manifest, "{manifest}", --prior, docs/phase2-ingestion/L9/004/data/processed/L9_004_observations.csv, --output, docs/phase2-ingestion/L9/004/data/processed/L9_004_observations.csv, --publication-date, "{publication_date}", --download-date, "{download_date}"]
+  gold_premiums:
+    script: docs/phase2-ingestion/L9/001/parser.py
+    args: [--workbook, "{input}", --manifest, "{manifest}", --prior, docs/phase2-ingestion/L9/001/data/processed/L9_001_observations.csv, --output, docs/phase2-ingestion/L9/001/data/processed/L9_001_observations.csv]
+    unchanged_args: [--refresh-status, --output, docs/phase2-ingestion/L9/001/data/processed/L9_001_observations.csv]

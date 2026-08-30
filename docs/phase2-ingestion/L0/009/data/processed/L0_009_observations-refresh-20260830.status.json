@@ -1,0 +1,12 @@
+{
+  "variable_id": "L0-009",
+  "status": "BLOCKED",
+  "availability_status": "BLOCKED",
+  "validation_status": "FAIL",
+  "reason": "NO_OVERLAPPING_OBSERVATION_DATE",
+  "checked_at": "2026-08-30T10:21:17Z",
+  "inputs": {
+    "cme": "docs/phase2-ingestion/data/cme/processed/section62_normalized.csv",
+    "sofr": "docs/phase2-ai-evidence/L0/009/data/raw/sofr3m-refresh-20260830.csv"
+  }
+}

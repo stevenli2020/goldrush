@@ -1,8 +1,17 @@
 {
   "observations": [
-    {"date": "2026-08-18", "value": "2.75"},
-    {"date": "2026-08-19", "value": "2.73"},
-    {"date": "2026-08-20", "value": "2.75"}
+    {
+      "date": "2026-08-18",
+      "value": "2.75"
+    },
+    {
+      "date": "2026-08-19",
+      "value": "2.73"
+    },
+    {
+      "date": "2026-08-20",
+      "value": "2.75"
+    }
   ],
   "_fixture_note": "Static parser fixture; live raw response and manifest are preserved in shared FRED storage."
 }

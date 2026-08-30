@@ -13,9 +13,9 @@ For each contract:
 implied_policy_rate_pct = 100 - settlement_price
 ```
 
-It validates the selected Section 09 or Section 10 PDF against its manifest SHA-256 and
+It validates the selected Section 09 or Section 10 PDF against its manifest source metadata and
 retains PDF, manifest, URL, publication date, and retrieval timestamp provenance.
-Changed settlement values are revisions; a hash-only retrieval change is not.
+Changed settlement values are revisions; a source metadata-only retrieval change is not.
 On source failure, the latest valid curve is returned as `STALE`. Without prior
 data, a machine-readable `BLOCKED` status is written. Successful recovery clears
 that status. No dates or curve points are synthesized.

@@ -1,1 +1,48 @@
-{"$schema":"http://json-schema.org/draft-07/schema#","title":"L0-009 Gold Forward Proxy","type":"object","required":["variable_id","observation_date","value","unit","forward_rate_percent","sofr3m_percent","validation_status","availability_status"],"properties":{"variable_id":{"const":"L0-009"},"observation_date":{"type":"string","format":"date"},"value":{"type":"number"},"unit":{"const":"percent_per_annum"},"forward_rate_percent":{"type":"number"},"sofr3m_percent":{"type":"number"},"validation_status":{"enum":["PASS","FLAG"]},"availability_status":{"enum":["AVAILABLE","STALE"]}}}
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "L0-009 Gold Forward Proxy",
+  "type": "object",
+  "required": [
+    "variable_id",
+    "observation_date",
+    "value",
+    "unit",
+    "forward_rate_percent",
+    "sofr3m_percent",
+    "validation_status",
+    "availability_status"
+  ],
+  "properties": {
+    "variable_id": {
+      "const": "L0-009"
+    },
+    "observation_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "value": {
+      "type": "number"
+    },
+    "unit": {
+      "const": "percent_per_annum"
+    },
+    "forward_rate_percent": {
+      "type": "number"
+    },
+    "sofr3m_percent": {
+      "type": "number"
+    },
+    "validation_status": {
+      "enum": [
+        "PASS",
+        "FLAG"
+      ]
+    },
+    "availability_status": {
+      "enum": [
+        "AVAILABLE",
+        "STALE"
+      ]
+    }
+  }
+}

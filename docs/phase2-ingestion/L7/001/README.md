@@ -1,13 +1,15 @@
-# L7-001 — Major Central-Bank Balance-Sheet Liquidity
+# L7-001 — Federal Reserve Liquidity Proxy
 
 This baseline uses FRED `WALCL` as a transparent Federal Reserve balance-sheet
-proxy for realized major-central-bank liquidity. It collects the Federal Reserve's
-total assets, in millions of U.S. dollars, not seasonally adjusted, weekly as of
-Wednesday. H.4.1 is normally released Thursday at about 4:30 p.m. ET.
+proxy. It collects the Federal Reserve's total assets, in millions of U.S.
+dollars, not seasonally adjusted, weekly as of Wednesday. H.4.1 is normally
+released Thursday at about 4:30 p.m. ET.
 
-This is deliberately narrower than the Phase 1 concept. It is not a multi-central-
-bank composite and performs no currency conversion. ECB, BoJ, PBoC, and broader
-aggregation are optional future enhancements, not baseline blockers.
+This is deliberately narrower than the frozen Phase 1 concept. It is not a
+multi-central-bank composite and performs no currency conversion. ECB, BoJ, PBoC,
+and broader aggregation are outside the Phase 3 baseline and are not blockers.
+Phase 4 must interpret this variable as Federal Reserve liquidity, not global
+major-central-bank liquidity.
 
 ## Run
 
@@ -21,7 +23,7 @@ python docs/phase2-ingestion/L7/001/parser.py \
 
 The parser retains weekly observation dates and creates no daily observations.
 FRED `.` markers are skipped. Malformed dates, non-finite/non-positive values,
-wrong-series manifests, hash mismatches, and conflicting duplicate dates fail.
+wrong-series manifests, source metadata mismatches, and conflicting duplicate dates fail.
 Values outside 100,000–50,000,000 million USD are flagged rather than rejected.
 
 Observations older than ten calendar days are `STALE`, allowing normal weekly

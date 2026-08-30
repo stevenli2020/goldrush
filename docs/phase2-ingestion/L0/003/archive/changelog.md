@@ -4,7 +4,7 @@
 
 - Confirmed WGC workbook source: `ETF_Flows_2026-08-04_1202.xlsx`.
 - Implemented XLSX parsing in `parse_etf_holding.py`.
-- Added provenance fields, SHA-256 hashing, validation statuses, revision metadata, and stale fallback support.
+- Added provenance fields, source metadata, validation statuses, revision metadata, and stale fallback support.
 - Corrected configuration and documentation paths to the L0-003 source and output locations.
 - Aligned `schema.json` with the generated CSV, including `aum_usd_bn` as an optional nullable field.
 - Live run produced 281 records: 237 `PASS`, 44 `FLAG`, 0 `FAIL`.

@@ -1,0 +1,22 @@
+{
+  "baseline_score": 51.3,
+  "coverage": 81.3,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "In support of its goals, the Committee decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent.",
+    "balance_sheet": "The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.",
+    "inflation": "Inflation remains somewhat elevated.",
+    "labour": "The unemployment rate has stabilized at a low level in recent months",
+    "growth": "Recent indicators suggest that economic activity has continued to expand at a solid pace.",
+    "guidance_diff": "The Committee will continue to monitor the implications of incoming information for the economic outlook."
+  },
+  "jury_score": 52,
+  "supporting_statement": "The FOMC paused its easing cycle by maintaining the target range and achieving a unanimous vote following December's dissenting rate cut. Communications maintain a data-dependent posture, signaling a deliberate pause to assess cumulative policy easing without preemptive easing bias.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

@@ -6,10 +6,9 @@ source:
   provider: Board of Governors of the Federal Reserve System
   primary: official FOMC statement HTML
   supporting: matching official statement PDF
-annotation:
-  mode: operator_reviewed_only
-  binding: normalized_statement_text_sha256
-  allowed_signals: [DOVISH, NEUTRAL, HAWKISH, MIXED, UNCLASSIFIED]
+classification:
+  mode: disabled
+  output: UNCLASSIFIED
 parser:
   script: parser.py
   version: "0.2.0"

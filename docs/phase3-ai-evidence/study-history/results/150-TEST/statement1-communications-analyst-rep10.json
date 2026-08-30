@@ -1,0 +1,22 @@
+{
+  "baseline_score": 17.3,
+  "coverage": 95,
+  "status": "PASS",
+  "confidence": "High",
+  "evidence": {
+    "policy": "The Committee decided to lower the target range for the federal funds rate to 0 to 1/4 percent.",
+    "balance_sheet": "the Committee will increase its holdings of Treasury securities by at least $500 billion and its holdings of agency mortgage-backed securities by at least $200 billion.",
+    "inflation": "On a 12‑month basis, overall inflation and inflation for items other than food and energy are running below 2 percent.",
+    "labour": "Job gains have been solid, on average, in recent months, and the unemployment rate has remained low.",
+    "growth": "The effects of the coronavirus will weigh on economic activity in the near term and pose risks to the economic outlook.",
+    "guidance_diff": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events"
+  },
+  "jury_score": 10,
+  "supporting_statement": "As a financial communications analyst, the March 15, 2020 emergency statement represents an exceptionally aggressive pivot in tone and policy. The communication introduces an inter-meeting 150 basis point rate cut, massive balance sheet expansion ($700 billion minimum in Treasuries and MBS), and a strong state-contingent forward guidance commitment tied to weathering the COVID-19 shock. The unprecedented speed and scope of these measures signal acute concern over downside risks, fully reflected in the dovish shift.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

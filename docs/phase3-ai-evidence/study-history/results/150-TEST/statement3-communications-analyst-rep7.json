@@ -1,0 +1,22 @@
+{
+  "baseline_score": 61.2,
+  "coverage": 84.3,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "In support of these goals, the Committee decided to raise the target range for the federal funds rate to 5-1/4 to 5-1/2 percent.",
+    "balance_sheet": "In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in its previously announced plans.",
+    "inflation": "Inflation remains elevated.",
+    "labour": "Job gains have been robust in recent months, and the unemployment rate has remained low.",
+    "growth": "Recent indicators suggest that economic activity has been expanding at a moderate pace.",
+    "guidance_diff": "The Committee will continue to assess additional information and its implications for monetary policy."
+  },
+  "jury_score": 60,
+  "supporting_statement": "As a financial communications analyst, the key textual upgrade is shifting economic activity from a 'modest pace' to a 'moderate pace' alongside a 25 bps rate hike. However, the forward guidance and risk framing ('tighter credit conditions... are likely to weigh') remain tightly coupled to incoming data and conditional caution.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

@@ -1,0 +1,136 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "L9-001 Shanghai Gold Exchange Premium/Discount Observation",
+  "type": "object",
+  "required": [
+    "variable_id",
+    "observation_date",
+    "premium_discount_usd_per_oz",
+    "unit",
+    "value_definition",
+    "smoothing_method",
+    "source_name",
+    "source_workbook",
+    "raw_file_path",
+    "manifest_path",
+    "retrieved_at",
+    "collection_target",
+    "page_url",
+    "download_url",
+    "source_filename",
+    "raw_size_bytes",
+    "http_status",
+    "content_type",
+    "validation_status",
+    "availability_status",
+    "is_revised",
+    "parser_version"
+  ],
+  "properties": {
+    "variable_id": {
+      "const": "L9-001"
+    },
+    "observation_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "premium_discount_usd_per_oz": {
+      "type": "number"
+    },
+    "unit": {
+      "const": "usd_per_troy_ounce"
+    },
+    "value_definition": {
+      "type": "string"
+    },
+    "smoothing_method": {
+      "const": "5-day moving average as published by WGC"
+    },
+    "source_name": {
+      "const": "World Gold Council"
+    },
+    "source_workbook": {
+      "type": "string"
+    },
+    "raw_file_path": {
+      "type": "string"
+    },
+    "manifest_path": {
+      "type": "string"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "collection_target": {
+      "const": "gold_premiums"
+    },
+    "page_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "download_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "source_filename": {
+      "const": "gold-premiums.xlsx"
+    },
+    "raw_size_bytes": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "http_status": {
+      "anyOf": [
+        {
+          "type": "integer",
+          "const": 200
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "content_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "validation_status": {
+      "enum": [
+        "PASS",
+        "FLAG",
+        "FAIL"
+      ]
+    },
+    "availability_status": {
+      "enum": [
+        "AVAILABLE",
+        "STALE",
+        "BLOCKED"
+      ]
+    },
+    "is_revised": {
+      "type": "boolean"
+    },
+    "prior_value": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "revision_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "parser_version": {
+      "type": "string"
+    },
+    "_fixture_note": {
+      "type": "string"
+    }
+  }
+}

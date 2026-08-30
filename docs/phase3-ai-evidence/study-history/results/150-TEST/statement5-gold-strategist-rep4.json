@@ -1,0 +1,22 @@
+{
+  "baseline_score": 53.75,
+  "coverage": 100,
+  "status": "PASS",
+  "confidence": "High",
+  "evidence": {
+    "policy": "maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities",
+    "inflation": "Inflation remains somewhat elevated.",
+    "labour": "The unemployment rate has stabilized at a low level in recent months",
+    "growth": "economic activity has continued to expand at a solid pace",
+    "guidance_diff": "dovish removal"
+  },
+  "jury_score": 55,
+  "supporting_statement": "As a gold and cross-asset strategist, the pause in rate cuts coupled with ongoing quantitative tightening (balance sheet runoff) and persistent slightly elevated inflation points to a mildly hawkish shift relative to the prior rate cut, supporting real yields and keeping a balanced outlook on liquidity and risk appetite.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "series_id": "SOFR90DAYAVG",
+  "request_url": "https://api.stlouisfed.org/fred/series/observations",
+  "request_params": {
+    "series_id": "SOFR90DAYAVG",
+    "file_type": "json"
+  },
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/macro/raw/fred/SOFR90DAYAVG-20260830T100952Z.json",
+  "size_bytes": 211594,
+  "sha256": "b3cc2c75a50900ab883cb92bd4917f0f13c310726318c2f9c62bce758bae0308",
+  "observation_count": 2130,
+  "retrieved_at": "2026-08-30T10:09:52.105608+00:00",
+  "http_status": 200,
+  "changed": true,
+  "forced": true,
+  "client_version": "0.1.0"
+}

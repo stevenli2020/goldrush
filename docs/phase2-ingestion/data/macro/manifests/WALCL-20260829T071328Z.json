@@ -1,0 +1,17 @@
+{
+  "series_id": "WALCL",
+  "request_url": "https://api.stlouisfed.org/fred/series/observations",
+  "request_params": {
+    "series_id": "WALCL",
+    "file_type": "json"
+  },
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/macro/raw/fred/WALCL-20260829T071328Z.json",
+  "size_bytes": 121972,
+  "sha256": "157dce1c7ce5adf8a544c4d080e687d601d53418363b7ab35d923ef3f2bb4504",
+  "observation_count": 1237,
+  "retrieved_at": "2026-08-29T07:13:28.016922+00:00",
+  "http_status": 200,
+  "changed": true,
+  "forced": false,
+  "client_version": "0.1.0"
+}

@@ -8,7 +8,6 @@
     "source_url": "https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/305/FUT?tradeDate=08/20/2026",
     "product_id": "305/FUT",
     "raw_path": "docs/phase2-ingestion/L3/004/data/raw/cme-zq-2026-08-20-20260824T025550Z.json",
-    "sha256": "c3ee3e86a3157d9f2c4cfc1417519f460aff547f2a512c72edddb271811652d0",
     "trade_date": "2026-08-20",
     "report_type": "Final",
     "update_time": "Thursday, 20 Aug 2026 11:55 PM"
@@ -25,7 +24,6 @@
       },
       "raw_path": "docs/phase2-ingestion/L3/004/data/raw/fred/EFFR-20260824T025551Z.json",
       "size_bytes": 1320,
-      "sha256": "512dc99f954529239e86168ce763e019000f0c453f79e2eb63ff1378e27daaca",
       "observation_count": 11,
       "retrieved_at": "2026-08-24T02:55:51.811019+00:00",
       "http_status": 200,
@@ -44,7 +42,6 @@
       },
       "raw_path": "docs/phase2-ingestion/L3/004/data/raw/fred/DFEDTARL-20260824T025552Z.json",
       "size_bytes": 1820,
-      "sha256": "981a06c4ca1808de3f1351021beda08f4fac7f34ac406316320e24cb85278520",
       "observation_count": 15,
       "retrieved_at": "2026-08-24T02:55:52.217718+00:00",
       "http_status": 200,
@@ -63,7 +60,6 @@
       },
       "raw_path": "docs/phase2-ingestion/L3/004/data/raw/fred/DFEDTARU-20260824T025552Z.json",
       "size_bytes": 1820,
-      "sha256": "eaefef237bf2a10b7e6969e7dd30cc7cc1c661f6b6ee331764537d56470413df",
       "observation_count": 15,
       "retrieved_at": "2026-08-24T02:55:52.644266+00:00",
       "http_status": 200,
@@ -74,7 +70,6 @@
   },
   "schedule": {
     "raw_path": "docs/phase2-ingestion/L3/004/data/raw/fomc-schedule-20260824T025550Z.json",
-    "sha256": "dcac96b90e460985dfd8358bf373f4dd2e37e82e05518aed91287cc6766b34fc",
     "schedule_status": {
       "state": "ok",
       "remaining": 12,

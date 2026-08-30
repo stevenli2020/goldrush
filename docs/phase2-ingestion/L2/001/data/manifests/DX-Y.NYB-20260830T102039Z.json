@@ -1,0 +1,15 @@
+{
+  "symbol": "DX-Y.NYB",
+  "provider": "yfinance",
+  "client": "OpenBB",
+  "raw_path": "data/raw/DX-Y.NYB-20260830T102039Z.csv",
+  "size_bytes": 1613,
+  "sha256": "39c50a4a9fd3d79d8f509ea784b0e1835fa46d06321439af407ffe723d24f9d8",
+  "observation_count": 19,
+  "retrieved_at": "2026-08-30T10:20:39.390293+00:00",
+  "start_date": "2026-08-01",
+  "end_date": "2026-08-30",
+  "changed": true,
+  "forced": false,
+  "collector_version": "0.1.0"
+}

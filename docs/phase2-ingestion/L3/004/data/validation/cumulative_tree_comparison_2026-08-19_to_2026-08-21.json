@@ -21,9 +21,7 @@
         "1": 0.3428571428571576
       },
       "official_file_path": "docs/phase2-ingestion/L3/004/data/validation/official/FedMeeting_20260916_downloaded_2026-08-24.csv",
-      "official_file_sha256": "50103925a8dab7721cc08e8cbdf4af3f0ec8c7dd82c832b7180eac39f948c789",
       "source_manifest_path": "docs/phase2-ingestion/L3/004/data/manifests/L3-004-2026-08-19-20260824T025547Z.json",
-      "source_manifest_sha256": "0467d5980775b192aa0032fa821c41520951f9caec009e1a52e53f4512e65f07",
       "official_distribution": {
         "(225-250)": 0.0,
         "(250-275)": 0.0,
@@ -99,9 +97,7 @@
         "1": 0.19714285714284507
       },
       "official_file_path": "docs/phase2-ingestion/L3/004/data/validation/official/FedMeeting_20261028_downloaded_2026-08-24.csv",
-      "official_file_sha256": "f465dd43cfd9c6940a9fff10a1ed32b5f9a4025e3f5089dc6fb8e616d79f25a4",
       "source_manifest_path": "docs/phase2-ingestion/L3/004/data/manifests/L3-004-2026-08-19-20260824T025547Z.json",
-      "source_manifest_sha256": "0467d5980775b192aa0032fa821c41520951f9caec009e1a52e53f4512e65f07",
       "official_distribution": {
         "(100-125)": 0.0,
         "(125-150)": 0.0,
@@ -209,9 +205,7 @@
         "1": 0.39454545454541545
       },
       "official_file_path": "docs/phase2-ingestion/L3/004/data/validation/official/FedMeeting_20261209_downloaded_2026-08-24.csv",
-      "official_file_sha256": "27b5966988700c8210c1158a211958aef6a4efae89c30b507600922e71cfc474",
       "source_manifest_path": "docs/phase2-ingestion/L3/004/data/manifests/L3-004-2026-08-19-20260824T025547Z.json",
-      "source_manifest_sha256": "0467d5980775b192aa0032fa821c41520951f9caec009e1a52e53f4512e65f07",
       "official_distribution": {
         "(0-25)": 0.0,
         "(25-50)": 0.0,
@@ -348,9 +342,7 @@
         "1": 0.3428571428571576
       },
       "official_file_path": "docs/phase2-ingestion/L3/004/data/validation/official/FedMeeting_20260916_downloaded_2026-08-24.csv",
-      "official_file_sha256": "50103925a8dab7721cc08e8cbdf4af3f0ec8c7dd82c832b7180eac39f948c789",
       "source_manifest_path": "docs/phase2-ingestion/L3/004/data/manifests/L3-004-2026-08-20-20260824T025550Z.json",
-      "source_manifest_sha256": "2d564cdfb409f263f062408180e35f3ab341bcba388f06c46549d881b1e61af1",
       "official_distribution": {
         "(225-250)": 0.0,
         "(250-275)": 0.0,
@@ -426,9 +418,7 @@
         "1": 0.21714285714282688
       },
       "official_file_path": "docs/phase2-ingestion/L3/004/data/validation/official/FedMeeting_20261028_downloaded_2026-08-24.csv",
-      "official_file_sha256": "f465dd43cfd9c6940a9fff10a1ed32b5f9a4025e3f5089dc6fb8e616d79f25a4",
       "source_manifest_path": "docs/phase2-ingestion/L3/004/data/manifests/L3-004-2026-08-20-20260824T025550Z.json",
-      "source_manifest_sha256": "2d564cdfb409f263f062408180e35f3ab341bcba388f06c46549d881b1e61af1",
       "official_distribution": {
         "(100-125)": 0.0,
         "(125-150)": 0.0,
@@ -536,9 +526,7 @@
         "1": 0.3663636363636229
       },
       "official_file_path": "docs/phase2-ingestion/L3/004/data/validation/official/FedMeeting_20261209_downloaded_2026-08-24.csv",
-      "official_file_sha256": "27b5966988700c8210c1158a211958aef6a4efae89c30b507600922e71cfc474",
       "source_manifest_path": "docs/phase2-ingestion/L3/004/data/manifests/L3-004-2026-08-20-20260824T025550Z.json",
-      "source_manifest_sha256": "2d564cdfb409f263f062408180e35f3ab341bcba388f06c46549d881b1e61af1",
       "official_distribution": {
         "(0-25)": 0.0,
         "(25-50)": 0.0,
@@ -675,9 +663,7 @@
         "1": 0.385714285714263
       },
       "official_file_path": "docs/phase2-ingestion/L3/004/data/validation/official/FedMeeting_20260916_downloaded_2026-08-24.csv",
-      "official_file_sha256": "50103925a8dab7721cc08e8cbdf4af3f0ec8c7dd82c832b7180eac39f948c789",
       "source_manifest_path": "docs/phase2-ingestion/L3/004/data/manifests/L3-004-2026-08-21-20260824T025554Z.json",
-      "source_manifest_sha256": "0963a4dad7f0c8bbe07d82a2b96c871a9ecfa6776230c3ba0f1ac193e4a84e73",
       "official_distribution": {
         "(225-250)": 0.0,
         "(250-275)": 0.0,
@@ -753,9 +739,7 @@
         "1": 0.23428571428572376
       },
       "official_file_path": "docs/phase2-ingestion/L3/004/data/validation/official/FedMeeting_20261028_downloaded_2026-08-24.csv",
-      "official_file_sha256": "f465dd43cfd9c6940a9fff10a1ed32b5f9a4025e3f5089dc6fb8e616d79f25a4",
       "source_manifest_path": "docs/phase2-ingestion/L3/004/data/manifests/L3-004-2026-08-21-20260824T025554Z.json",
-      "source_manifest_sha256": "0963a4dad7f0c8bbe07d82a2b96c871a9ecfa6776230c3ba0f1ac193e4a84e73",
       "official_distribution": {
         "(100-125)": 0.0,
         "(125-150)": 0.0,
@@ -863,9 +847,7 @@
         "1": 0.42272727272728794
       },
       "official_file_path": "docs/phase2-ingestion/L3/004/data/validation/official/FedMeeting_20261209_downloaded_2026-08-24.csv",
-      "official_file_sha256": "27b5966988700c8210c1158a211958aef6a4efae89c30b507600922e71cfc474",
       "source_manifest_path": "docs/phase2-ingestion/L3/004/data/manifests/L3-004-2026-08-21-20260824T025554Z.json",
-      "source_manifest_sha256": "0963a4dad7f0c8bbe07d82a2b96c871a9ecfa6776230c3ba0f1ac193e4a84e73",
       "official_distribution": {
         "(0-25)": 0.0,
         "(25-50)": 0.0,

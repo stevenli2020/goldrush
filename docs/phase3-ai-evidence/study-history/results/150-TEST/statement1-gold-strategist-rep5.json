@@ -1,0 +1,22 @@
+{
+  "baseline_score": 18.8,
+  "coverage": 91.3,
+  "status": "PASS",
+  "confidence": "High",
+  "evidence": {
+    "policy": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals.",
+    "balance_sheet": "over coming months the Committee will increase its holdings of Treasury securities by at least $500 billion and its holdings of agency mortgage-backed securities by at least $200 billion.",
+    "inflation": "On a 12‑month basis, overall inflation and inflation for items other than food and energy are running below 2 percent.",
+    "labour": "the unemployment rate has remained low.",
+    "growth": "business fixed investment and exports remained weak.",
+    "guidance_diff": "expects to maintain this target range until it is confident that the economy has weathered recent events"
+  },
+  "jury_score": 10,
+  "supporting_statement": "As a gold and cross-asset strategist, the emergency rate cut to the zero bound, massive $700B+ QE announcement, and aggressive repo liquidity expansion signal an extraordinary monetary panic response. This overwhelming policy easing crushes real yields and floods the financial system with liquidity, creating an exceptionally bullish environment for gold and risk assets amidst extreme economic disruption.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

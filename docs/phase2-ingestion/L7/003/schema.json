@@ -3,26 +3,91 @@
   "title": "L7-003 Global Private Non-Financial Credit Growth",
   "type": "object",
   "additionalProperties": false,
-  "required": ["variable_id", "observation_date", "private_nonfinancial_credit_usd_billions", "credit_growth_yoy_pct", "unit", "aggregate_id", "source_name", "source_dataset_id", "source_series_key", "raw_path", "raw_sha256", "manifest_path", "manifest_sha256", "retrieved_at", "validation_status", "availability_status", "fallback_checked_at", "parser_version"],
+  "required": [
+    "variable_id",
+    "observation_date",
+    "private_nonfinancial_credit_usd_billions",
+    "credit_growth_yoy_pct",
+    "unit",
+    "aggregate_id",
+    "source_name",
+    "source_dataset_id",
+    "source_series_key",
+    "raw_path",
+    "manifest_path",
+    "retrieved_at",
+    "validation_status",
+    "availability_status",
+    "fallback_checked_at",
+    "parser_version"
+  ],
   "properties": {
-    "variable_id": {"const": "L7-003"},
-    "observation_date": {"type": "string", "format": "date"},
-    "private_nonfinancial_credit_usd_billions": {"type": "number", "exclusiveMinimum": 0},
-    "credit_growth_yoy_pct": {"type": ["number", "null"]},
-    "unit": {"const": "USD_billions"},
-    "aggregate_id": {"const": "5A_ALL_REPORTING_COUNTRIES"},
-    "source_name": {"const": "BIS Credit to the non-financial sector"},
-    "source_dataset_id": {"const": "BIS:WS_TC(2.0)"},
-    "source_series_key": {"const": "Q.5A.P.A.M.USD.A"},
-    "raw_path": {"type": "string", "minLength": 1},
-    "raw_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
-    "manifest_path": {"type": "string", "minLength": 1},
-    "manifest_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
-    "retrieved_at": {"type": "string", "format": "date-time"},
-    "validation_status": {"enum": ["PASS", "FLAG"]},
-    "availability_status": {"enum": ["AVAILABLE", "STALE"]},
-    "fallback_checked_at": {"type": ["string", "null"], "format": "date-time"},
-    "parser_version": {"type": "string", "minLength": 1}
+    "variable_id": {
+      "const": "L7-003"
+    },
+    "observation_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "private_nonfinancial_credit_usd_billions": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "credit_growth_yoy_pct": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "unit": {
+      "const": "USD_billions"
+    },
+    "aggregate_id": {
+      "const": "5A_ALL_REPORTING_COUNTRIES"
+    },
+    "source_name": {
+      "const": "BIS Credit to the non-financial sector"
+    },
+    "source_dataset_id": {
+      "const": "BIS:WS_TC(2.0)"
+    },
+    "source_series_key": {
+      "const": "Q.5A.P.A.M.USD.A"
+    },
+    "raw_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "manifest_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "validation_status": {
+      "enum": [
+        "PASS",
+        "FLAG"
+      ]
+    },
+    "availability_status": {
+      "enum": [
+        "AVAILABLE",
+        "STALE"
+      ]
+    },
+    "fallback_checked_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "parser_version": {
+      "type": "string",
+      "minLength": 1
+    }
   }
 }
-

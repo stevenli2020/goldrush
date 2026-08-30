@@ -26,9 +26,11 @@ one-year numerator is required not to exceed the denominator.
 ## Collection
 
 ```bash
+START_DATE=$(date -u -d '24 months ago' +%F)
+
 python docs/phase2-ingestion/collectors/treasury/treasury_api_client.py \
   'https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/debt/mspd/mspd_table_3_market' \
-  --filter 'record_date:gte:1900-01-01' \
+  --filter "record_date:gte:${START_DATE}" \
   --sort 'record_date,src_line_nbr' \
   --fields 'record_date,security_type_desc,security_class1_desc,maturity_date,outstanding_amt,src_line_nbr'
 
@@ -38,7 +40,7 @@ python docs/phase2-ingestion/L4/009/parser.py \
 ```
 
 The shared client preserves every raw page unchanged and records per-page and
-aggregate SHA-256 values. The parser validates those hashes before calculation.
+aggregate source metadata values. The parser validates those source metadata before calculation.
 No daily observations, maturity estimates, or synthetic carry-forward months are
 created. Values outside broad 5–80% ratio or 95% coverage bounds are retained as
 `FLAG`. The latest monthly observation becomes `STALE` after 62 days.
@@ -50,3 +52,13 @@ recovery removes an obsolete blocked artifact.
 The files under `data/samples/` are a compact deterministic fixture for parser
 and schema inspection. Live raw pages remain in the shared Treasury data area;
 the full processed history is under `data/processed/`.
+
+## Daily collection range
+
+The daily operational collector must request a rolling window beginning 24
+months before the current date, for example `record_date:gte:2024-08-29` on
+2026-08-29. It must not request the full history from 1900 on every run. Full
+history is optional archival/backfill work and is kept separate from the daily
+path. A recent window is sufficient for the current maturity calculation and
+captures recent source revisions without repeatedly downloading 100+ years of
+detailed records.

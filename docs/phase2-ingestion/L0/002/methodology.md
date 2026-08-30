@@ -2,6 +2,10 @@
 
 ## Version History
 
+### v1.2.0 (2026-08-29)
+* **Canonical source decision:** WGC official-holdings workbook is the approved Phase 3 source and is downloaded through the shared WGC collector.
+* **Legacy path:** IMF/OpenBB collector and mock mode are retained only as historical evidence and are not part of the approved production route.
+
 ### v1.1.0 (2026-08-19)
 * **Architecture Update:** Migrated ingestion pipeline from FRED API to **IMF International Financial Statistics (IFS)** via OpenBB SDK (`openbb-imf`).
 * **Entity Correction:** Updated Euro Area identifier from `EMU`/`ECB` to the official IMF IFS institutional code `EZB`.
@@ -12,8 +16,8 @@
 
 ## Operational Conventions
 
-* IMF/OpenBB is the canonical source; the former FRED design is historical
-  background only.
+* WGC official-holdings workbook is the canonical source; the workbook is
+  WGC-compiled and based primarily on IMF IFS statistics.
 * Entity observations are monthly end-of-period quantities in metric tonnes.
 * Observations older than 150 days are marked `STALE`; existing values may be
   carried forward for up to three periods.

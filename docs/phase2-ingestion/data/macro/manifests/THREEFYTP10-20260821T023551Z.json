@@ -8,7 +8,6 @@
   },
   "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/macro/raw/fred/THREEFYTP10-20260821T023551Z.json",
   "size_bytes": 168079,
-  "sha256": "c2ceeb401070c2762eacf24ccfb0c55c1959bd371d9633599639d9af51dc57ce",
   "observation_count": 1728,
   "retrieved_at": "2026-08-21T02:35:51.162546+00:00",
   "http_status": 200,

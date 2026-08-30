@@ -1,0 +1,2648 @@
+[
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2002-01-01T00:00:00Z",
+    "value": -50.63418527982342,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2002-02-01T00:00:00Z",
+    "value": -35.23076602128883,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2002-03-01T00:00:00Z",
+    "value": -48.250123015314074,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2002-04-01T00:00:00Z",
+    "value": -94.81880317180892,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2002-05-01T00:00:00Z",
+    "value": -92.94465989738434,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2002-06-01T00:00:00Z",
+    "value": -33.654077483315604,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2002-07-01T00:00:00Z",
+    "value": -31.737535811239624,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2002-08-01T00:00:00Z",
+    "value": -25.824689308996888,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2002-09-01T00:00:00Z",
+    "value": -19.345020477058746,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2002-10-01T00:00:00Z",
+    "value": -26.09109167070392,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2002-11-01T00:00:00Z",
+    "value": -33.49283511518282,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2002-12-01T00:00:00Z",
+    "value": 29.357966725116192,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2003-01-01T00:00:00Z",
+    "value": -70.25478033773578,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2003-02-01T00:00:00Z",
+    "value": -98.49818654971875,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2003-03-01T00:00:00Z",
+    "value": -1.6323894662843266,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2003-04-01T00:00:00Z",
+    "value": -106.40091019091903,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2003-05-01T00:00:00Z",
+    "value": -24.375147661253745,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2003-06-01T00:00:00Z",
+    "value": -52.944786544318504,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2003-07-01T00:00:00Z",
+    "value": -36.401510390065845,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2003-08-01T00:00:00Z",
+    "value": -74.5348324222499,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2003-09-01T00:00:00Z",
+    "value": -69.96138979987664,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2003-10-01T00:00:00Z",
+    "value": -15.263788697340559,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2003-11-01T00:00:00Z",
+    "value": -101.75366725795368,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2003-12-01T00:00:00Z",
+    "value": -72.10838112333268,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2004-01-01T00:00:00Z",
+    "value": -39.776024379181365,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2004-02-01T00:00:00Z",
+    "value": -21.40922035059028,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2004-03-01T00:00:00Z",
+    "value": -43.786772472543774,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2004-04-01T00:00:00Z",
+    "value": -16.793284117843115,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2004-05-01T00:00:00Z",
+    "value": -65.30096305446574,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2004-06-01T00:00:00Z",
+    "value": 5.908449156129952,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2004-07-01T00:00:00Z",
+    "value": -36.77520906298293,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2004-08-01T00:00:00Z",
+    "value": -40.035551460903875,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2004-09-01T00:00:00Z",
+    "value": -6.923399573224065,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2004-10-01T00:00:00Z",
+    "value": -67.60492786489172,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2004-11-01T00:00:00Z",
+    "value": -80.99028215199132,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2004-12-01T00:00:00Z",
+    "value": -107.07634937510714,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2005-01-01T00:00:00Z",
+    "value": -73.80512023621608,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2005-02-01T00:00:00Z",
+    "value": -101.01243745703682,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2005-03-01T00:00:00Z",
+    "value": -96.70563127867615,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2005-04-01T00:00:00Z",
+    "value": -76.42014379876953,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2005-05-01T00:00:00Z",
+    "value": -54.20207830273442,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2005-06-01T00:00:00Z",
+    "value": -143.43542957656888,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2005-07-01T00:00:00Z",
+    "value": -65.53266435719951,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2005-08-01T00:00:00Z",
+    "value": -51.388356320739604,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2005-09-01T00:00:00Z",
+    "value": -14.757688551386579,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2005-10-01T00:00:00Z",
+    "value": -124.18168570800029,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2005-11-01T00:00:00Z",
+    "value": -88.68119341034875,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2005-12-01T00:00:00Z",
+    "value": -83.44758299418413,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2006-01-01T00:00:00Z",
+    "value": -26.522493802771837,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2006-02-01T00:00:00Z",
+    "value": -45.34384495593429,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2006-03-01T00:00:00Z",
+    "value": -67.03765270541359,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2006-04-01T00:00:00Z",
+    "value": -41.791124722421344,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2006-05-01T00:00:00Z",
+    "value": -85.43704358081702,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2006-06-01T00:00:00Z",
+    "value": -11.54342904017424,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2006-07-01T00:00:00Z",
+    "value": -53.34407710820361,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2006-08-01T00:00:00Z",
+    "value": -27.888342869153313,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2006-09-01T00:00:00Z",
+    "value": -114.36609392218053,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2006-10-01T00:00:00Z",
+    "value": -26.454225383451284,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2006-11-01T00:00:00Z",
+    "value": -73.63453388731409,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2006-12-01T00:00:00Z",
+    "value": -28.948326762425552,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2007-01-01T00:00:00Z",
+    "value": -19.307599104184945,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2007-02-01T00:00:00Z",
+    "value": -33.877082613630435,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2007-03-01T00:00:00Z",
+    "value": -87.68793552198319,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2007-04-01T00:00:00Z",
+    "value": -96.8297673376376,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2007-05-01T00:00:00Z",
+    "value": -70.4157950932334,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2007-06-01T00:00:00Z",
+    "value": -69.31597741746002,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2007-07-01T00:00:00Z",
+    "value": -114.97350572537607,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2007-08-01T00:00:00Z",
+    "value": -39.677613411795534,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2007-09-01T00:00:00Z",
+    "value": -64.369566006415,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2007-10-01T00:00:00Z",
+    "value": -71.02829064741292,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2007-11-01T00:00:00Z",
+    "value": -22.406841337148077,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2007-12-01T00:00:00Z",
+    "value": -61.61590921193357,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2008-01-01T00:00:00Z",
+    "value": -29.96347039439435,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2008-02-01T00:00:00Z",
+    "value": 148.12352250806296,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2008-03-01T00:00:00Z",
+    "value": -2.254189214805753,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2008-04-01T00:00:00Z",
+    "value": -37.62099788424602,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2008-05-01T00:00:00Z",
+    "value": -17.891807707553408,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2008-06-01T00:00:00Z",
+    "value": -35.96727261834779,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2008-07-01T00:00:00Z",
+    "value": -47.878728833467356,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2008-08-01T00:00:00Z",
+    "value": -7.960772475679686,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2008-09-01T00:00:00Z",
+    "value": -22.65822236014296,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2008-10-01T00:00:00Z",
+    "value": -9.816595371799576,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2008-11-01T00:00:00Z",
+    "value": -16.505116475942447,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2008-12-01T00:00:00Z",
+    "value": -21.216072467985093,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2009-01-01T00:00:00Z",
+    "value": 27.676973262719446,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2009-02-01T00:00:00Z",
+    "value": -53.72027784581774,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2009-03-01T00:00:00Z",
+    "value": -15.630230568140714,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2009-04-01T00:00:00Z",
+    "value": 423.77680222042267,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2009-05-01T00:00:00Z",
+    "value": -1.9934310615410236,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2009-06-01T00:00:00Z",
+    "value": -1.297985938333488,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2009-07-01T00:00:00Z",
+    "value": 18.565758179015166,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2009-08-01T00:00:00Z",
+    "value": 7.228792233116097,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2009-09-01T00:00:00Z",
+    "value": -6.209556317810725,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2009-10-01T00:00:00Z",
+    "value": 22.698289414363213,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2009-11-01T00:00:00Z",
+    "value": 209.80158078759365,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2009-12-01T00:00:00Z",
+    "value": 45.02237077560552,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2010-01-01T00:00:00Z",
+    "value": 3.1539399413959384,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2010-02-01T00:00:00Z",
+    "value": 7.529863446074232,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2010-03-01T00:00:00Z",
+    "value": 30.249773931352685,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2010-04-01T00:00:00Z",
+    "value": 1.8399901487139276,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2010-05-01T00:00:00Z",
+    "value": 21.1043563753315,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2010-06-01T00:00:00Z",
+    "value": 5.405644027954774,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2010-07-01T00:00:00Z",
+    "value": 38.52828150873042,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2010-08-01T00:00:00Z",
+    "value": -0.6824554755804915,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2010-09-01T00:00:00Z",
+    "value": 28.144550120703965,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2010-10-01T00:00:00Z",
+    "value": 5.075985256066341,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2010-11-01T00:00:00Z",
+    "value": 12.437384821172792,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2010-12-01T00:00:00Z",
+    "value": 6.2849972374305985,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2011-01-01T00:00:00Z",
+    "value": 9.389155169345681,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2011-02-01T00:00:00Z",
+    "value": 6.383678256414271,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2011-03-01T00:00:00Z",
+    "value": 106.8572381543652,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2011-04-01T00:00:00Z",
+    "value": 21.777893458381943,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2011-05-01T00:00:00Z",
+    "value": 10.399774075092841,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2011-06-01T00:00:00Z",
+    "value": 34.058388643311744,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2011-07-01T00:00:00Z",
+    "value": 8.681104831901507,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2011-08-01T00:00:00Z",
+    "value": 5.903597044056329,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2011-09-01T00:00:00Z",
+    "value": 55.76567591461577,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2011-10-01T00:00:00Z",
+    "value": 2.9378482593283004,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2011-11-01T00:00:00Z",
+    "value": 18.401065007315914,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2011-12-01T00:00:00Z",
+    "value": 17.312966792475383,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2012-01-01T00:00:00Z",
+    "value": 9.034481883479035,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2012-02-01T00:00:00Z",
+    "value": 1.6731564309356846,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2012-03-01T00:00:00Z",
+    "value": 75.19964915308151,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2012-04-01T00:00:00Z",
+    "value": 7.001224944263903,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2012-05-01T00:00:00Z",
+    "value": 22.496639188664233,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2012-06-01T00:00:00Z",
+    "value": 11.419575563364177,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2012-07-01T00:00:00Z",
+    "value": 43.92270442194928,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2012-08-01T00:00:00Z",
+    "value": 22.378882945215,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2012-09-01T00:00:00Z",
+    "value": 1.2953265743083324,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2012-10-01T00:00:00Z",
+    "value": 20.11534173330307,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2012-11-01T00:00:00Z",
+    "value": 34.3852525223256,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2012-12-01T00:00:00Z",
+    "value": 37.24383796739369,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2013-01-01T00:00:00Z",
+    "value": 20.420487319071075,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2013-02-01T00:00:00Z",
+    "value": 41.466186813413074,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2013-03-01T00:00:00Z",
+    "value": 19.52228840496926,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2013-04-01T00:00:00Z",
+    "value": 30.317590214434883,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2013-05-01T00:00:00Z",
+    "value": 20.516372311134205,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2013-06-01T00:00:00Z",
+    "value": 18.88106600171963,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2013-07-01T00:00:00Z",
+    "value": 6.55785047317387,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2013-08-01T00:00:00Z",
+    "value": 8.192075173500909,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2013-09-01T00:00:00Z",
+    "value": 22.409347173712217,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2013-10-01T00:00:00Z",
+    "value": -14.58537911926653,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2013-11-01T00:00:00Z",
+    "value": 20.21684408262324,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2013-12-01T00:00:00Z",
+    "value": 50.08961032180954,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2014-01-01T00:00:00Z",
+    "value": 23.01573057018422,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2014-02-01T00:00:00Z",
+    "value": 8.559009695689143,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2014-03-01T00:00:00Z",
+    "value": 22.835902176154985,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2014-04-01T00:00:00Z",
+    "value": 52.977135756154006,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2014-05-01T00:00:00Z",
+    "value": 1.9168882415854878,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2014-06-01T00:00:00Z",
+    "value": 25.265188705157474,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2014-07-01T00:00:00Z",
+    "value": 8.084949083086071,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2014-08-01T00:00:00Z",
+    "value": 32.68217758276616,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2014-09-01T00:00:00Z",
+    "value": 67.1676424828079,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2014-10-01T00:00:00Z",
+    "value": 19.053621894563854,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2014-11-01T00:00:00Z",
+    "value": 28.12277124240984,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2014-12-01T00:00:00Z",
+    "value": 19.714558981367176,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2015-01-01T00:00:00Z",
+    "value": 9.455226962081035,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2015-02-01T00:00:00Z",
+    "value": 10.330133835090287,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2015-03-01T00:00:00Z",
+    "value": -4.331059690659279,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2015-04-01T00:00:00Z",
+    "value": -5.335760381233017,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2015-05-01T00:00:00Z",
+    "value": 14.376517145731775,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2015-06-01T00:00:00Z",
+    "value": 635.9373882530556,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2015-07-01T00:00:00Z",
+    "value": 52.088434655327035,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2015-08-01T00:00:00Z",
+    "value": 46.27561980217456,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2015-09-01T00:00:00Z",
+    "value": 54.458776006459686,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2015-10-01T00:00:00Z",
+    "value": 21.31180156557089,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2015-11-01T00:00:00Z",
+    "value": 71.00068174281839,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2015-12-01T00:00:00Z",
+    "value": 21.462848028964032,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2016-01-01T00:00:00Z",
+    "value": 33.313792298463426,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2016-02-01T00:00:00Z",
+    "value": -8.138299055608078,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2016-03-01T00:00:00Z",
+    "value": 24.286976908836607,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2016-04-01T00:00:00Z",
+    "value": -9.634685866658678,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2016-05-01T00:00:00Z",
+    "value": 3.8262096830753394,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2016-06-01T00:00:00Z",
+    "value": 42.052038502645736,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2016-07-01T00:00:00Z",
+    "value": 13.364185429557281,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2016-08-01T00:00:00Z",
+    "value": 22.01040292666399,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2016-09-01T00:00:00Z",
+    "value": 37.552409528011374,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2016-10-01T00:00:00Z",
+    "value": 46.909406107938715,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2016-11-01T00:00:00Z",
+    "value": 31.622343664713014,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2016-12-01T00:00:00Z",
+    "value": 5.560878364396629,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2017-01-01T00:00:00Z",
+    "value": 38.43385843582733,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2017-02-01T00:00:00Z",
+    "value": -6.495741326093729,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2017-03-01T00:00:00Z",
+    "value": 28.458289296885436,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2017-04-01T00:00:00Z",
+    "value": 15.897762400226505,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2017-05-01T00:00:00Z",
+    "value": 33.71403529671007,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2017-06-01T00:00:00Z",
+    "value": 26.43593741339849,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2017-07-01T00:00:00Z",
+    "value": 24.874461300535785,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2017-08-01T00:00:00Z",
+    "value": 6.786066287677973,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2017-09-01T00:00:00Z",
+    "value": 56.576566768475615,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2017-10-01T00:00:00Z",
+    "value": 50.664853526675515,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2017-11-01T00:00:00Z",
+    "value": 36.974522798334945,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2017-12-01T00:00:00Z",
+    "value": 22.87141764432374,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2018-01-01T00:00:00Z",
+    "value": 14.787833503256973,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2018-02-01T00:00:00Z",
+    "value": 29.274348268198175,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2018-03-01T00:00:00Z",
+    "value": 11.411160030599323,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2018-04-01T00:00:00Z",
+    "value": 54.61781636318729,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2018-05-01T00:00:00Z",
+    "value": 36.54277927126412,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2018-06-01T00:00:00Z",
+    "value": 35.54679857093959,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2018-07-01T00:00:00Z",
+    "value": 54.90131432304011,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2018-08-01T00:00:00Z",
+    "value": 62.458351469367656,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2018-09-01T00:00:00Z",
+    "value": 88.67452082121987,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2018-10-01T00:00:00Z",
+    "value": 99.92951386391951,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2018-11-01T00:00:00Z",
+    "value": 64.96810147030153,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2018-12-01T00:00:00Z",
+    "value": -4.389883014100849,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2019-01-01T00:00:00Z",
+    "value": 75.33008834869484,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2019-02-01T00:00:00Z",
+    "value": 37.86974349645385,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2019-03-01T00:00:00Z",
+    "value": 65.87049349717404,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2019-04-01T00:00:00Z",
+    "value": 58.108868907028,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2019-05-01T00:00:00Z",
+    "value": 43.81319370228138,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2019-06-01T00:00:00Z",
+    "value": 134.73091194474398,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2019-07-01T00:00:00Z",
+    "value": 21.895196392528682,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2019-08-01T00:00:00Z",
+    "value": 29.246751912878054,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2019-09-01T00:00:00Z",
+    "value": 59.90843210594981,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2019-10-01T00:00:00Z",
+    "value": 54.241128639337006,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2019-11-01T00:00:00Z",
+    "value": 41.401076759547095,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2019-12-01T00:00:00Z",
+    "value": 19.835476415311945,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2020-01-01T00:00:00Z",
+    "value": 25.456403972437442,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2020-02-01T00:00:00Z",
+    "value": 29.71516651336964,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2020-03-01T00:00:00Z",
+    "value": 41.11055945444407,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2020-04-01T00:00:00Z",
+    "value": 23.127475814721443,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2020-05-01T00:00:00Z",
+    "value": 17.259610076035557,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2020-06-01T00:00:00Z",
+    "value": 2.3188387194857,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2020-07-01T00:00:00Z",
+    "value": -3.38290569289561,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2020-08-01T00:00:00Z",
+    "value": -42.52076733650128,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2020-09-01T00:00:00Z",
+    "value": 13.467022028934029,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2020-10-01T00:00:00Z",
+    "value": 7.2760036184103996,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2020-11-01T00:00:00Z",
+    "value": -2.156221807131102,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2020-12-01T00:00:00Z",
+    "value": 20.493353335566848,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2021-01-01T00:00:00Z",
+    "value": -22.452106139616905,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2021-02-01T00:00:00Z",
+    "value": 23.451319005829713,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2021-03-01T00:00:00Z",
+    "value": 166.3086807648474,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2021-04-01T00:00:00Z",
+    "value": 59.49567428568573,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2021-05-01T00:00:00Z",
+    "value": 71.11860081930608,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2021-06-01T00:00:00Z",
+    "value": 34.09936725821625,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2021-07-01T00:00:00Z",
+    "value": 33.93422709140203,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2021-08-01T00:00:00Z",
+    "value": 29.881193030594645,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2021-09-01T00:00:00Z",
+    "value": 24.116835531221994,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2021-10-01T00:00:00Z",
+    "value": 4.09193720812878,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2021-11-01T00:00:00Z",
+    "value": -24.80417115264133,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2021-12-01T00:00:00Z",
+    "value": 9.72207276007879,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2022-01-01T00:00:00Z",
+    "value": -8.831619644103696,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2022-02-01T00:00:00Z",
+    "value": 32.98107060708882,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2022-03-01T00:00:00Z",
+    "value": 1.957799029955118,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2022-04-01T00:00:00Z",
+    "value": 39.499173640597206,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2022-05-01T00:00:00Z",
+    "value": 31.10516965675289,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2022-06-01T00:00:00Z",
+    "value": 68.0183753279162,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2022-07-01T00:00:00Z",
+    "value": 41.54709693751724,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2022-08-01T00:00:00Z",
+    "value": 26.0152002100913,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2022-09-01T00:00:00Z",
+    "value": 61.59354632223739,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2022-10-01T00:00:00Z",
+    "value": 36.26824552051584,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2022-11-01T00:00:00Z",
+    "value": 57.72441827918968,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2022-12-01T00:00:00Z",
+    "value": 25.82198598644133,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2023-01-01T00:00:00Z",
+    "value": 54.69395389837554,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2023-02-01T00:00:00Z",
+    "value": 58.67683810587856,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2023-03-01T00:00:00Z",
+    "value": -0.5491410650200095,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2023-04-01T00:00:00Z",
+    "value": -63.37522653570905,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2023-05-01T00:00:00Z",
+    "value": -28.51840433663462,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2023-06-01T00:00:00Z",
+    "value": 87.80466690227209,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2023-07-01T00:00:00Z",
+    "value": 49.19547901179048,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2023-08-01T00:00:00Z",
+    "value": 87.44020941800834,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2023-09-01T00:00:00Z",
+    "value": 81.76735570138783,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2023-10-01T00:00:00Z",
+    "value": 41.46998303621052,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2023-11-01T00:00:00Z",
+    "value": 46.615436751944955,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2023-12-01T00:00:00Z",
+    "value": 19.32171021833536,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2024-01-01T00:00:00Z",
+    "value": 45.76773167733113,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2024-02-01T00:00:00Z",
+    "value": 21.62880128931645,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2024-03-01T00:00:00Z",
+    "value": 6.207288223384117,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2024-04-01T00:00:00Z",
+    "value": -2.773918861468971,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2024-05-01T00:00:00Z",
+    "value": 13.996253687044511,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2024-06-01T00:00:00Z",
+    "value": 26.58117299095076,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2024-07-01T00:00:00Z",
+    "value": 43.10354599787925,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2024-08-01T00:00:00Z",
+    "value": 0.8801776392766709,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2024-09-01T00:00:00Z",
+    "value": 54.83358208414293,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2024-10-01T00:00:00Z",
+    "value": 60.8082496144164,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2024-11-01T00:00:00Z",
+    "value": 66.08731177385371,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2024-12-01T00:00:00Z",
+    "value": 15.750329260308714,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2025-01-01T00:00:00Z",
+    "value": 22.839549323603777,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2025-02-01T00:00:00Z",
+    "value": 27.584017119867443,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2025-03-01T00:00:00Z",
+    "value": 33.557855575742096,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2025-04-01T00:00:00Z",
+    "value": 16.47424671672274,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2025-05-01T00:00:00Z",
+    "value": 20.893858883986553,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2025-06-01T00:00:00Z",
+    "value": 39.10951035179299,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2025-07-01T00:00:00Z",
+    "value": 21.34904144557715,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2025-08-01T00:00:00Z",
+    "value": 21.68006773219827,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2025-09-01T00:00:00Z",
+    "value": 42.24502760848137,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2025-10-01T00:00:00Z",
+    "value": 54.71788826760891,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2025-11-01T00:00:00Z",
+    "value": 35.765781911410066,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2025-12-01T00:00:00Z",
+    "value": 27.261036450402447,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2026-01-01T00:00:00Z",
+    "value": 40.71080086821005,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2026-02-01T00:00:00Z",
+    "value": 33.05831149446364,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2026-03-01T00:00:00Z",
+    "value": -47.97117131131083,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2026-04-01T00:00:00Z",
+    "value": 23.37720582068264,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2026-05-01T00:00:00Z",
+    "value": 44.651994802243976,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L5-001",
+    "observation_timestamp": "2026-06-01T00:00:00Z",
+    "value": 51.14172951414363,
+    "unit_or_scale": "metric_tonnes",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/data/wgc/manifests/official_changes-20260830T100639Z.json",
+    "quality_flag": "PASS"
+  }
+]

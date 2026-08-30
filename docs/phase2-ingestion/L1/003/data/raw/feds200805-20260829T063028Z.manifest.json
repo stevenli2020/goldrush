@@ -1,0 +1,9 @@
+{
+  "source_url": "https://www.federalreserve.gov/data/yield-curve-tables/feds200805.csv",
+  "raw_path": "docs/phase2-ingestion/L1/003/data/raw/feds200805-20260829T063028Z.csv",
+  "size_bytes": 15069912,
+  "sha256": "5102e2324b335ff96c43360508ea26c9cfb7093bdb5607f653f2b7bdf8a924d4",
+  "downloaded_at": "2026-08-29T06:30:28.954553+00:00",
+  "http_status": 200,
+  "parser_version": "0.1.0"
+}

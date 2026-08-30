@@ -6,9 +6,9 @@ source:
   file: Section02B_Summary_Volume_And_Open_Interest_Metals_Futures_And_Options.pdf
   frequency: daily
 method:
-  input: normalized_section02b_csv
-  product: COMEX GOLD
+  input: section02b_pdf_and_manifest
+  source_row: GC COMEX GOLD FUTURES
+  source_column: current_open_interest
   unit: contracts
 collection:
-  fallback: carry_forward_stale
-  stale_after_trading_days: 5
+  fallback: blocked

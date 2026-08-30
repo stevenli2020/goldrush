@@ -4,7 +4,7 @@ The collector parses the official FRED `DTWEXBGS` series: the Federal Reserve
 Board's Nominal Broad U.S. Dollar Index from the H.10 Foreign Exchange Rates
 release. It is a daily, not-seasonally-adjusted index with January 2006 = 100.
 
-The shared FRED client fetches and preserves the raw JSON, SHA-256, and manifest.
+The shared FRED client fetches and preserves the raw JSON, source metadata, and manifest.
 This package owns only L2-002 parsing, validation, and output.
 
 ## Run

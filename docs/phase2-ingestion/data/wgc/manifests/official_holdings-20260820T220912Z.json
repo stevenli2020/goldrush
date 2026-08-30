@@ -5,7 +5,6 @@
   "filename": "World_official_gold_holdings_as_of_Aug2026_IFS.xlsx",
   "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/raw/central-bank/World_official_gold_holdings_as_of_Aug2026_IFS.xlsx",
   "size_bytes": 42353,
-  "sha256": "5d33b938e25b0fb3fd3c37462ad120c8db678e90cc27a47fc22dae1bce7b5d82",
   "downloaded_at": "2026-08-20T22:09:12.109841+00:00",
   "http_status": 200,
   "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",

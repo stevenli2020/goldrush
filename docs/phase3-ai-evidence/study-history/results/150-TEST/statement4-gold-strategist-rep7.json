@@ -1,0 +1,24 @@
+{
+  "baseline_score": 38.6,
+  "coverage": 81.25,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "lower the target range for the federal funds rate by 1/2 percentage point to 4-3/4 to 5 percent",
+    "balance_sheet": "The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.",
+    "inflation": "Inflation has made further progress toward the Committee's 2 percent objective but remains somewhat elevated.",
+    "labour": "Job gains have slowed, and the unemployment rate has moved up but remains low.",
+    "growth": "Recent indicators suggest that economic activity has continued to expand at a solid pace.",
+    "guidance_diff": "Removal of prior condition not to reduce the range until greater confidence was gained."
+  },
+  "jury_score": 42,
+  "supporting_statement": "The 50 basis point rate reduction initiates a decisive easing cycle, lowering short-term rates and exerting downward pressure on real yields and the US dollar, while ongoing balance sheet runoff maintains a modest liquidity constraint. This pivot provides a clear tailwind for risk appetite and cross-asset liquidity.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Inflation level 'somewhat elevated' mapped to slightly above 2% rule equivalent."
+    ]
+  },
+  "error": null
+}

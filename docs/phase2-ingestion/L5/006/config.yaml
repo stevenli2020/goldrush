@@ -1,0 +1,12 @@
+variable_id: L5-006
+variable_name: Official-Sector Gold Sales / Lending
+source:
+  provider: World Gold Council / IMF IFS
+  workbook_target: official_changes
+  sheets: [Monthly]
+  unit: metric_tonnes
+definition: Official-sector net reserve reductions; negative changes are expressed as positive reductions.
+limitation: Lending is not separately identified; this is a sales/reduction proxy and must not be described as outright sales or lending individually.
+fallback:
+  method: carry_forward_stale
+  no_prior: BLOCKED

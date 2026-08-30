@@ -1,0 +1,22 @@
+{
+  "baseline_score": 19.4,
+  "coverage": 95,
+  "status": "PASS",
+  "confidence": "High",
+  "evidence": {
+    "policy": "The Committee decided to lower the target range for the federal funds rate to 0 to 1/4 percent.",
+    "balance_sheet": "over coming months the Committee will increase its holdings of Treasury securities by at least $500 billion and its holdings of agency mortgage-backed securities by at least $200 billion.",
+    "inflation": "On a 12‑month basis, overall inflation and inflation for items other than food and energy are running below 2 percent.",
+    "labour": "Job gains have been solid, on average, in recent months, and the unemployment rate has remained low.",
+    "growth": "Although household spending rose at a moderate pace, business fixed investment and exports remained weak.",
+    "guidance_diff": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals."
+  },
+  "jury_score": 10,
+  "supporting_statement": "The aggressive emergency rate cut to the zero bound combined with unprecedented large-scale asset purchases ($700B+ across Treasuries and MBS) and expanded repo operations signals an extreme monetary response to pandemic-driven financial market dislocation, heavily suppressing real yields and flooding the system with dollar liquidity.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

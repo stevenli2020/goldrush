@@ -1,0 +1,22 @@
+{
+  "baseline_score": 17.17,
+  "coverage": 91.25,
+  "status": "PASS",
+  "confidence": "High",
+  "evidence": {
+    "policy": "The Committee decided to lower the target range for the federal funds rate to 0 to 1/4 percent.",
+    "balance_sheet": "over coming months the Committee will increase its holdings of Treasury securities by at least $500 billion and its holdings of agency mortgage-backed securities by at least $200 billion.",
+    "inflation": "On a 12‑month basis, overall inflation and inflation for items other than food and energy are running below 2 percent.",
+    "labour": "Job gains have been solid, on average, in recent months, and the unemployment rate has remained low.",
+    "growth": "The effects of the coronavirus will weigh on economic activity in the near term and pose risks to the economic outlook.",
+    "guidance_diff": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events"
+  },
+  "jury_score": 15,
+  "supporting_statement": "As a cross-asset strategist, the emergency inter-meeting pivot to a zero-bound policy rate, massive $700B+ QE announcement, and aggressive liquidity backstops signal extreme monetary easing in the face of severe financial market dislocation and economic contraction risks.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

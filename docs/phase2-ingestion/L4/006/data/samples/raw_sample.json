@@ -1,8 +1,17 @@
 {
   "observations": [
-    {"date": "2023-01-01", "value": "-6.06751"},
-    {"date": "2024-01-01", "value": "-6.19625"},
-    {"date": "2025-01-01", "value": "-5.76906"}
+    {
+      "date": "2023-01-01",
+      "value": "-6.06751"
+    },
+    {
+      "date": "2024-01-01",
+      "value": "-6.19625"
+    },
+    {
+      "date": "2025-01-01",
+      "value": "-5.76906"
+    }
   ],
   "_fixture_note": "Static subset of FYFSGDA188S for parser examples; not the preserved live response."
 }

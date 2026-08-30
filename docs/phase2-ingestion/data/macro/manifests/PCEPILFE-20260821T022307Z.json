@@ -8,7 +8,6 @@
   },
   "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/macro/raw/fred/PCEPILFE-20260821T022307Z.json",
   "size_bytes": 7914,
-  "sha256": "44e204223f3cddc1944c601b6d41f8829e416a9461cacc407e031ff7ca81b7b2",
   "observation_count": 78,
   "retrieved_at": "2026-08-21T02:23:07.793905+00:00",
   "http_status": 200,

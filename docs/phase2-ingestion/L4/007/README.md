@@ -21,7 +21,7 @@ python parser.py \
 ```
 
 The shared FRED client preserves raw JSON, manifests, retrieval time, and
-SHA-256. The parser verifies the series ID and hash, skips `.` missing markers,
+source metadata. The parser verifies the series ID and source metadata, skips `.` missing markers,
 rejects malformed/non-finite values and conflicting dates, and flags finite
 values outside 0–250% rather than discarding them.
 
@@ -34,5 +34,5 @@ Without prior data, the CLI writes a machine-readable `.status.json` artifact
 with `BLOCKED`. A later successful CSV write removes the obsolete artifact.
 
 FRED may revise either total public debt, GDP, or the resulting ratio. The
-shared client preserves changed raw snapshots and hashes; no separate revision
+shared client preserves changed raw snapshots and source metadata; no separate revision
 ledger is required for this personal-project collector.

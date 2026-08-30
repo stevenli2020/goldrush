@@ -1,0 +1,24 @@
+{
+  "baseline_score": 73.2,
+  "coverage": 76.25,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "the Committee decided to raise the target range for the federal funds rate to 1‑1/2 to 1-3/4 percent",
+    "balance_sheet": "the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities",
+    "inflation": "Inflation remains elevated",
+    "labour": "Job gains have been robust in recent months, and the unemployment rate has remained low",
+    "growth": "Overall economic activity appears to have picked up after edging down in the first quarter",
+    "guidance_diff": "anticipates that ongoing increases in the target range will be appropriate"
+  },
+  "jury_score": 85,
+  "supporting_statement": "Aggressive 75 bps rate hike combined with ongoing balance sheet runoff and forward guidance signaling further tightening strongly validates a hawkish cross-asset stance, pressuring liquidity and risk assets while supporting front-end yields and the dollar.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Specific liquidity operations and sector-level growth details omitted in current statement relative to prior."
+    ]
+  },
+  "error": null
+}

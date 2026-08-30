@@ -1,0 +1,22 @@
+{
+  "baseline_score": 13,
+  "coverage": 95,
+  "status": "PASS",
+  "confidence": "High",
+  "evidence": {
+    "policy": "The Committee decided to lower the target range for the federal funds rate to 0 to 1/4 percent.",
+    "balance_sheet": "the Committee will increase its holdings of Treasury securities by at least $500 billion and its holdings of agency mortgage-backed securities by at least $200 billion.",
+    "inflation": "On a 12‑month basis, overall inflation and inflation for items other than food and energy are running below 2 percent.",
+    "labour": "the unemployment rate has remained low",
+    "growth": "economic activity rose at a moderate rate",
+    "guidance_diff": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events"
+  },
+  "jury_score": 10,
+  "supporting_statement": "As a Central Bank Policy Economist, the aggressive inter-meeting rate cut to the zero lower bound, deployment of massive large-scale asset purchases ($500B Treasuries and $200B MBS), and state-contingent forward guidance reflect an overwhelming dovish policy pivot to combat extreme downside risks to economic activity from the coronavirus outbreak, overriding near-term labor market strength.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

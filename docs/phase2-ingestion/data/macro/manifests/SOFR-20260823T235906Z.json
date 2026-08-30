@@ -7,7 +7,6 @@
   },
   "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/macro/raw/fred/SOFR-20260823T235725Z.json",
   "size_bytes": 207585,
-  "sha256": "b8ec6f01bc16d3011a95b4e63d75257e6300dbda4e5c02c42f822f42ade70a2b",
   "observation_count": 2188,
   "retrieved_at": "2026-08-23T23:59:06.758287+00:00",
   "http_status": 200,

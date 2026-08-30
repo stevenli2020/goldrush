@@ -1,6 +1,6 @@
 # L10-001 — COMEX Managed-Money Net Positioning
 
-The collector downloads the official CFTC Disaggregated Futures-Only COT file and extracts the COMEX gold contract (`088691`, `FutOnly`). The raw file is preserved unchanged and hashed.
+The collector downloads the official CFTC Disaggregated Futures-Only COT file and extracts the COMEX gold contract (`088691`, `FutOnly`). The raw file is preserved unchanged and source metadata.
 
 `collector.py` uses `curl`, validates the 191-column layout, extracts the gold row, and writes a normalized source file plus a manifest. `parser.py` calculates:
 

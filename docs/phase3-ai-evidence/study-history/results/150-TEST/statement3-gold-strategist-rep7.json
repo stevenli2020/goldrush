@@ -1,0 +1,24 @@
+{
+  "baseline_score": 63.4,
+  "coverage": 84.25,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "the Committee decided to raise the target range for the federal funds rate to 5-1/4 to 5-1/2 percent.",
+    "balance_sheet": "the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities",
+    "inflation": "Inflation remains elevated.",
+    "labour": "Job gains have been robust in recent months, and the unemployment rate has remained low.",
+    "growth": "Recent indicators suggest that economic activity has been expanding at a moderate pace.",
+    "guidance_diff": "In determining the extent of additional policy firming that may be appropriate"
+  },
+  "jury_score": 65,
+  "supporting_statement": "The 25 bps rate hike and explicit openness to further policy firming maintain a restrictive cross-asset liquidity profile, though tempered by acknowledged credit tightening headwinds.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Inflation trend and expectations subcomponents omitted due to lack of explicit metric wording."
+    ]
+  },
+  "error": null
+}

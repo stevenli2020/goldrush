@@ -9,11 +9,9 @@
     "effr_observation_date": "2026-08-20",
     "source_series_id": "EFFR",
     "source_raw_path": "docs/phase2-ingestion/data/macro/raw/fred/EFFR-20260823T235726Z.json",
-    "source_raw_sha256": "6af5795178c4ff23046afb27953b72b3be13faabfb66c31d0220531c9b119993",
     "source_manifest_path": "docs/phase2-ingestion/data/macro/manifests/EFFR-20260823T235726Z.json",
     "source_retrieved_at": "2026-08-23T23:57:26.097172+00:00",
     "trade_date_query_raw_path": "docs/phase2-ingestion/L3/004/data/validation/inputs/fred/EFFR-20260824T022423Z.json",
-    "trade_date_query_raw_sha256": "067d5d939d8bef79e137e737707c90b27a21d6172c20b46499142d88c709bc81",
     "trade_date_query_manifest_path": "docs/phase2-ingestion/L3/004/data/validation/inputs/manifests/EFFR-20260824T022423Z.json",
     "trade_date_query_observation_count": 0,
     "selection_note": "The preserved FRED query for 2026-08-21 returned no published observation. The explicit 3.63% input is the latest preserved EFFR observation available before the comparison trade date (2026-08-20), preventing substitution of a later rate."
@@ -30,7 +28,6 @@
       "trade_date": "2026-08-21",
       "contract": "ZQU6",
       "official_file_path": "docs/phase2-ingestion/L3/004/data/validation/official/FedMeeting_20260916_downloaded_2026-08-24.csv",
-      "official_file_sha256": "50103925a8dab7721cc08e8cbdf4af3f0ec8c7dd82c832b7180eac39f948c789",
       "official_distribution": {
         "(225-250)": 0.0,
         "(250-275)": 0.0,
@@ -87,7 +84,6 @@
       "trade_date": "2026-08-21",
       "contract": "ZQV6",
       "official_file_path": "docs/phase2-ingestion/L3/004/data/validation/official/FedMeeting_20261028_downloaded_2026-08-24.csv",
-      "official_file_sha256": "f465dd43cfd9c6940a9fff10a1ed32b5f9a4025e3f5089dc6fb8e616d79f25a4",
       "official_distribution": {
         "(100-125)": 0.0,
         "(125-150)": 0.0,
@@ -166,7 +162,6 @@
       "trade_date": "2026-08-21",
       "contract": "ZQZ6",
       "official_file_path": "docs/phase2-ingestion/L3/004/data/validation/official/FedMeeting_20261209_downloaded_2026-08-24.csv",
-      "official_file_sha256": "27b5966988700c8210c1158a211958aef6a4efae89c30b507600922e71cfc474",
       "official_distribution": {
         "(0-25)": 0.0,
         "(25-50)": 0.0,

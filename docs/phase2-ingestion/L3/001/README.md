@@ -25,7 +25,7 @@ Live extraction from a preserved Section 10 normalized settlement file:
 ```bash
 python extract_strip.py --input ../../data/cme/processed/section10_normalized.csv \
   --output data/raw/fed_funds_strip.csv \
-  --sha256 <section-10-sha256> \
+  --source metadata <section-10-source metadata> \
   --manifest ../../data/cme/manifests/<section-10-manifest>.json
 ```
 

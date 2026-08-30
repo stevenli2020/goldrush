@@ -2,15 +2,148 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "L3-004 Calculated Policy Outcome Probabilities",
   "type": "object",
-  "required": ["variable_id","observation_date","meeting_date","contract","target_rate_lower_pct","target_rate_upper_pct","probability","probability_sum_original","calculation_method","source_name","source_settlement_identifiers","effr_observation_date","effr_pct","current_target_lower_pct","current_target_upper_pct","retrieved_at","source_manifest_path","source_manifest_sha256","cme_raw_path","cme_raw_sha256","effr_raw_path","effr_raw_sha256","target_lower_raw_path","target_lower_raw_sha256","target_upper_raw_path","target_upper_raw_sha256","schedule_path","schedule_sha256","package_version","parser_version","is_revision","validation_status","availability_status"],
+  "required": [
+    "variable_id",
+    "observation_date",
+    "meeting_date",
+    "contract",
+    "target_rate_lower_pct",
+    "target_rate_upper_pct",
+    "probability",
+    "probability_sum_original",
+    "calculation_method",
+    "source_name",
+    "source_settlement_identifiers",
+    "effr_observation_date",
+    "effr_pct",
+    "current_target_lower_pct",
+    "current_target_upper_pct",
+    "retrieved_at",
+    "source_manifest_path",
+    "cme_raw_path",
+    "effr_raw_path",
+    "target_lower_raw_path",
+    "target_upper_raw_path",
+    "schedule_path",
+    "package_version",
+    "parser_version",
+    "is_revision",
+    "validation_status",
+    "availability_status"
+  ],
   "properties": {
-    "variable_id":{"const":"L3-004"},"observation_date":{"type":"string","format":"date"},"meeting_date":{"type":"string","format":"date"},"contract":{"type":"string","pattern":"^ZQ[FGHJKMNQUVXZ][0-9]$"},
-    "target_rate_lower_pct":{"type":"number","minimum":-5,"maximum":20},"target_rate_upper_pct":{"type":"number","minimum":-4.75,"maximum":20.25},"probability":{"type":"number","minimum":0,"maximum":1},"probability_sum_original":{"type":"number","minimum":0.999,"maximum":1.001},
-    "calculation_method":{"const":"cumulative_cme_fedwatch_probability_tree_v1"},"source_name":{"const":"Calculated CME-method policy outcome probability"},"source_settlement_identifiers":{"type":"string","minLength":1},
-    "effr_observation_date":{"type":"string","format":"date"},"effr_pct":{"type":"number"},"current_target_lower_pct":{"type":"number"},"current_target_upper_pct":{"type":"number"},"retrieved_at":{"type":"string","format":"date-time"},
-    "source_manifest_path":{"type":"string","minLength":1},"source_manifest_sha256":{"type":"string","pattern":"^[a-f0-9]{64}$"},"cme_raw_path":{"type":"string","minLength":1},"cme_raw_sha256":{"type":"string","pattern":"^[a-f0-9]{64}$"},
-    "effr_raw_path":{"type":"string","minLength":1},"effr_raw_sha256":{"type":"string","pattern":"^[a-f0-9]{64}$"},"target_lower_raw_path":{"type":"string","minLength":1},"target_lower_raw_sha256":{"type":"string","pattern":"^[a-f0-9]{64}$"},"target_upper_raw_path":{"type":"string","minLength":1},"target_upper_raw_sha256":{"type":"string","pattern":"^[a-f0-9]{64}$"},
-    "schedule_path":{"type":"string","minLength":1},"schedule_sha256":{"type":"string","pattern":"^[a-f0-9]{64}$"},"package_version":{"const":"0.1.3"},"parser_version":{"type":"string"},"is_revision":{"type":"boolean"},"prior_probability":{"type":["number","null"]},
-    "validation_status":{"enum":["PASS","FLAG"]},"availability_status":{"enum":["AVAILABLE","STALE"]}
+    "variable_id": {
+      "const": "L3-004"
+    },
+    "observation_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "meeting_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "contract": {
+      "type": "string",
+      "pattern": "^ZQ[FGHJKMNQUVXZ][0-9]$"
+    },
+    "target_rate_lower_pct": {
+      "type": "number",
+      "minimum": -5,
+      "maximum": 20
+    },
+    "target_rate_upper_pct": {
+      "type": "number",
+      "minimum": -4.75,
+      "maximum": 20.25
+    },
+    "probability": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "probability_sum_original": {
+      "type": "number",
+      "minimum": 0.999,
+      "maximum": 1.001
+    },
+    "calculation_method": {
+      "const": "cumulative_cme_fedwatch_probability_tree_v1"
+    },
+    "source_name": {
+      "const": "Calculated CME-method policy outcome probability"
+    },
+    "source_settlement_identifiers": {
+      "type": "string",
+      "minLength": 1
+    },
+    "effr_observation_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "effr_pct": {
+      "type": "number"
+    },
+    "current_target_lower_pct": {
+      "type": "number"
+    },
+    "current_target_upper_pct": {
+      "type": "number"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source_manifest_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "cme_raw_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "effr_raw_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "target_lower_raw_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "target_upper_raw_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schedule_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "package_version": {
+      "const": "0.1.3"
+    },
+    "parser_version": {
+      "type": "string"
+    },
+    "is_revision": {
+      "type": "boolean"
+    },
+    "prior_probability": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "validation_status": {
+      "enum": [
+        "PASS",
+        "FLAG"
+      ]
+    },
+    "availability_status": {
+      "enum": [
+        "AVAILABLE",
+        "STALE"
+      ]
+    }
   }
 }

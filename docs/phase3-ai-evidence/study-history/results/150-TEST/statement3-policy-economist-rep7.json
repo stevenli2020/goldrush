@@ -1,0 +1,24 @@
+{
+  "baseline_score": 60.7,
+  "coverage": 76.3,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "decided to raise the target range for the federal funds rate to 5-1/4 to 5-1/2 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities",
+    "inflation": "Inflation remains elevated.",
+    "labour": "Job gains have been robust in recent months, and the unemployment rate has remained low.",
+    "growth": "economic activity has been expanding at a moderate pace",
+    "guidance_diff": "The extent of these effects remains uncertain."
+  },
+  "jury_score": 62,
+  "supporting_statement": "As a central bank policy economist, the 25 basis point hike reflects a resolute stance against elevated inflation, supported by a robust labor market. However, the acknowledgment of tighter credit conditions and cumulative policy lags justifies maintaining a data-dependent, risk-management posture.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Liquidity operations not explicitly detailed with standalone operational terminology."
+    ]
+  },
+  "error": null
+}

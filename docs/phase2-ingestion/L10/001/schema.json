@@ -2,25 +2,83 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "L10-001 COMEX Managed-Money Net Positioning",
   "type": "object",
-  "required": ["variable_id", "observation_date", "report_date", "value", "managed_money_long_contracts", "managed_money_short_contracts", "unit", "source_series_id", "raw_sha256", "retrieved_at", "validation_status", "availability_status", "parser_version"],
+  "required": [
+    "variable_id",
+    "observation_date",
+    "report_date",
+    "value",
+    "managed_money_long_contracts",
+    "managed_money_short_contracts",
+    "unit",
+    "source_series_id",
+    "retrieved_at",
+    "validation_status",
+    "availability_status",
+    "parser_version"
+  ],
   "properties": {
-    "variable_id": {"const": "L10-001"},
-    "observation_date": {"type": "string", "format": "date"},
-    "report_date": {"type": "string", "format": "date"},
-    "value": {"type": "integer"},
-    "managed_money_net_contracts": {"type": "integer"},
-    "managed_money_long_contracts": {"type": "integer", "minimum": 0},
-    "managed_money_short_contracts": {"type": "integer", "minimum": 0},
-    "managed_money_spreading_contracts": {"type": "integer", "minimum": 0},
-    "open_interest_contracts": {"type": "integer", "minimum": 0},
-    "unit": {"const": "contracts"},
-    "source_series_id": {"const": "CFTC_088691_FutOnly"},
-    "raw_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
-    "retrieved_at": {"type": "string", "format": "date-time"},
-    "validation_status": {"enum": ["PASS", "FLAG", "FAIL"]},
-    "availability_status": {"enum": ["AVAILABLE", "STALE", "BLOCKED"]},
-    "is_revision": {"type": "boolean"},
-    "prior_source_sha256": {"type": "string"},
-    "parser_version": {"type": "string"}
+    "variable_id": {
+      "const": "L10-001"
+    },
+    "observation_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "report_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "value": {
+      "type": "integer"
+    },
+    "managed_money_net_contracts": {
+      "type": "integer"
+    },
+    "managed_money_long_contracts": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "managed_money_short_contracts": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "managed_money_spreading_contracts": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "open_interest_contracts": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "unit": {
+      "const": "contracts"
+    },
+    "source_series_id": {
+      "const": "CFTC_088691_FutOnly"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "validation_status": {
+      "enum": [
+        "PASS",
+        "FLAG",
+        "FAIL"
+      ]
+    },
+    "availability_status": {
+      "enum": [
+        "AVAILABLE",
+        "STALE",
+        "BLOCKED"
+      ]
+    },
+    "is_revision": {
+      "type": "boolean"
+    },
+    "parser_version": {
+      "type": "string"
+    }
   }
 }

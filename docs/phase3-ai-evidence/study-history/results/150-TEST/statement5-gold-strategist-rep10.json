@@ -1,0 +1,25 @@
+{
+  "baseline_score": 55.3,
+  "coverage": 73.25,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent",
+    "balance_sheet": "The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.",
+    "inflation": "Inflation remains somewhat elevated.",
+    "labour": "The unemployment rate has stabilized at a low level in recent months, and labor market conditions remain solid.",
+    "growth": "Recent indicators suggest that economic activity has continued to expand at a solid pace.",
+    "guidance_diff": "0"
+  },
+  "jury_score": 58,
+  "supporting_statement": "The Committee's decision to pause rate cuts while maintaining active balance sheet runoff, set against resilient growth and sticky inflation ('somewhat elevated'), points to a higher-for-longer real rate environment that underpins dollar strength and tempers exuberant risk appetite.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Liquidity operations not explicitly mentioned beyond balance sheet runoff",
+      "Inflation trend and expectations subcomponents inferred as missing due to lack of direct comparative trend phrasing"
+    ]
+  },
+  "error": null
+}

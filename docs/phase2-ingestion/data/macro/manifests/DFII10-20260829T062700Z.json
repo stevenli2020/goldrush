@@ -1,0 +1,17 @@
+{
+  "series_id": "DFII10",
+  "request_url": "https://api.stlouisfed.org/fred/series/observations",
+  "request_params": {
+    "series_id": "DFII10",
+    "file_type": "json"
+  },
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/macro/raw/fred/DFII10-20260829T062700Z.json",
+  "size_bytes": 586645,
+  "sha256": "e8be2d940c800b0ed14f36a1d862abdf9dd7d79799c00094cc8b2c1473d90a7a",
+  "observation_count": 6171,
+  "retrieved_at": "2026-08-29T06:27:00.761007+00:00",
+  "http_status": 200,
+  "changed": true,
+  "forced": true,
+  "client_version": "0.1.0"
+}

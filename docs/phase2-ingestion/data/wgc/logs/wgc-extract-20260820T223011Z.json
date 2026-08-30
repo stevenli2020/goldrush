@@ -14,8 +14,7 @@
       "stdout": "Processing complete. Output written to 'docs/phase2-ingestion/L0/001/data/processed'.\n",
       "stderr": "",
       "target": "above_ground",
-      "status": "PASS",
-      "sha256": "f843a8e49e37b46512e45704ae74e6e8e92dc9ba15defdfcb098c3ca81b55a09"
+      "status": "PASS"
     },
     {
       "target": "etf",
@@ -35,8 +34,7 @@
       "stdout": "",
       "stderr": "usage: parse_bar_and_coin.py [-h] --workbook WORKBOOK --config CONFIG\n                             --publication-date PUBLICATION_DATE\n                             --download-date DOWNLOAD_DATE [--dry-run]\nparse_bar_and_coin.py: error: the following arguments are required: --publication-date, --download-date\n",
       "target": "gdt",
-      "status": "FAIL",
-      "sha256": "32f3c7c795b3ce83be9e3bbd53b27da97218d446d40d63b4ecdce7d214a1a687"
+      "status": "FAIL"
     },
     {
       "target": "official_changes",

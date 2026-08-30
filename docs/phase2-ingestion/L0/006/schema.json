@@ -2,33 +2,99 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "L0-006 Gold Recycling Flow Output",
   "type": "object",
-  "required": ["variable_id", "availability_status", "ingestion_metadata", "observations"],
+  "required": [
+    "variable_id",
+    "availability_status",
+    "ingestion_metadata",
+    "observations"
+  ],
   "properties": {
-    "variable_id": { "type": "string", "enum": ["L0-006"] },
-    "availability_status": { "type": "string", "enum": ["AVAILABLE", "FALLBACK", "STALE"] },
+    "variable_id": {
+      "type": "string",
+      "enum": [
+        "L0-006"
+      ]
+    },
+    "availability_status": {
+      "type": "string",
+      "enum": [
+        "AVAILABLE",
+        "FALLBACK",
+        "STALE"
+      ]
+    },
     "ingestion_metadata": {
       "type": "object",
-      "required": ["retrieved_at", "publication_date", "source_file"],
+      "required": [
+        "retrieved_at",
+        "publication_date",
+        "source_file"
+      ],
       "properties": {
-        "retrieved_at": { "type": "string", "format": "date-time" },
-        "publication_date": { "type": "string", "format": "date" },
-        "source_file": { "type": "string" },
-        "cached_file_hash": { "type": ["string", "null"] }
+        "retrieved_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "publication_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "source_file": {
+          "type": "string"
+        }
       }
     },
     "observations": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["observation_date", "value", "unit", "frequency", "revision_status"],
+        "required": [
+          "observation_date",
+          "value",
+          "unit",
+          "frequency",
+          "revision_status"
+        ],
         "properties": {
-          "observation_date": { "type": "string", "format": "date" },
-          "value": { "type": "number", "minimum": 0 },
-          "unit": { "type": "string", "enum": ["tonnes"] },
-          "frequency": { "type": "string", "enum": ["quarterly"] },
-          "revision_status": { "type": "string", "enum": ["ORIGINAL", "REVISED"] },
-          "previous_value": { "type": ["number", "null"] },
-          "revision_notes": { "type": ["string", "null"] }
+          "observation_date": {
+            "type": "string",
+            "format": "date"
+          },
+          "value": {
+            "type": "number",
+            "minimum": 0
+          },
+          "unit": {
+            "type": "string",
+            "enum": [
+              "tonnes"
+            ]
+          },
+          "frequency": {
+            "type": "string",
+            "enum": [
+              "quarterly"
+            ]
+          },
+          "revision_status": {
+            "type": "string",
+            "enum": [
+              "ORIGINAL",
+              "REVISED"
+            ]
+          },
+          "previous_value": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "revision_notes": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
         }
       }
     }

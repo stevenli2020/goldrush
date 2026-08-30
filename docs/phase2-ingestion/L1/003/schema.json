@@ -2,14 +2,90 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "L1-003 Forward Real Rates Observation",
   "type": "object",
-  "required": ["variable_id", "observation_date", "value", "unit", "forward_2y1y", "forward_3y2y", "forward_5y2y", "forward_7y3y", "forward_10y10y", "raw_sha256", "source_retrieved_at", "formula_version", "parser_version", "validation_status", "availability_status"],
+  "required": [
+    "variable_id",
+    "observation_date",
+    "value",
+    "unit",
+    "forward_2y1y",
+    "forward_3y2y",
+    "forward_5y2y",
+    "forward_7y3y",
+    "forward_10y10y",
+    "source_retrieved_at",
+    "formula_version",
+    "parser_version",
+    "validation_status",
+    "availability_status"
+  ],
   "properties": {
-    "variable_id": {"const": "L1-003"},
-    "observation_date": {"type": "string", "format": "date"},
-    "value": {"type": "number"},
-    "unit": {"const": "percent"},
-    "forward_2y1y": {"type": "number"}, "forward_3y2y": {"type": "number"}, "forward_5y2y": {"type": "number"}, "forward_7y3y": {"type": "number"}, "forward_10y10y": {"type": "number"},
-    "source_name": {"const": "Federal Reserve GS&W"}, "source_url": {"type": "string"}, "raw_file_path": {"type": "string"}, "raw_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "source_retrieved_at": {"type": "string", "format": "date-time"}, "formula_version": {"const": "gsw-forward-summary-v1"}, "parser_version": {"type": "string"},
-    "is_revised": {"type": "boolean"}, "prior_source_sha256": {"type": ["string", "null"]}, "revision_reason": {"type": ["string", "null"]}, "validation_status": {"enum": ["PASS", "FLAG"]}, "availability_status": {"enum": ["AVAILABLE", "STALE"]}
+    "variable_id": {
+      "const": "L1-003"
+    },
+    "observation_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "value": {
+      "type": "number"
+    },
+    "unit": {
+      "const": "percent"
+    },
+    "forward_2y1y": {
+      "type": "number"
+    },
+    "forward_3y2y": {
+      "type": "number"
+    },
+    "forward_5y2y": {
+      "type": "number"
+    },
+    "forward_7y3y": {
+      "type": "number"
+    },
+    "forward_10y10y": {
+      "type": "number"
+    },
+    "source_name": {
+      "const": "Federal Reserve GS&W"
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "raw_file_path": {
+      "type": "string"
+    },
+    "source_retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "formula_version": {
+      "const": "gsw-forward-summary-v1"
+    },
+    "parser_version": {
+      "type": "string"
+    },
+    "is_revised": {
+      "type": "boolean"
+    },
+    "revision_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "validation_status": {
+      "enum": [
+        "PASS",
+        "FLAG"
+      ]
+    },
+    "availability_status": {
+      "enum": [
+        "AVAILABLE",
+        "STALE"
+      ]
+    }
   }
 }

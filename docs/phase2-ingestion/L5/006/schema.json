@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "L5-006 Official-sector net reductions",
+  "type": "object",
+  "required": [
+    "variable_id",
+    "country_entity",
+    "observation_date",
+    "signed_change_tonnes",
+    "official_sector_net_reduction_tonnes",
+    "unit",
+    "validation_status",
+    "availability_status"
+  ],
+  "properties": {
+    "variable_id": {
+      "const": "L5-006"
+    },
+    "country_entity": {
+      "type": "string",
+      "minLength": 1
+    },
+    "observation_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "signed_change_tonnes": {
+      "type": "number",
+      "maximum": 0
+    },
+    "official_sector_net_reduction_tonnes": {
+      "type": "number",
+      "minimum": 0
+    },
+    "unit": {
+      "const": "metric_tonnes"
+    },
+    "value_definition": {
+      "type": "string"
+    },
+    "source_workbook": {
+      "type": "string"
+    },
+    "raw_file_path": {
+      "type": "string"
+    },
+    "manifest_path": {
+      "type": "string"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publication_date": {
+      "type": "string"
+    },
+    "download_date": {
+      "type": "string"
+    },
+    "validation_status": {
+      "enum": [
+        "PASS",
+        "FLAG",
+        "FAIL"
+      ]
+    },
+    "availability_status": {
+      "enum": [
+        "AVAILABLE",
+        "STALE",
+        "BLOCKED"
+      ]
+    },
+    "parser_version": {
+      "type": "string"
+    }
+  }
+}

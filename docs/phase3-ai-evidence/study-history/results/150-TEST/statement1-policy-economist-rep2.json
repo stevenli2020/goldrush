@@ -1,0 +1,24 @@
+{
+  "baseline_score": 12.2,
+  "coverage": 91.25,
+  "status": "PASS",
+  "confidence": "High",
+  "evidence": {
+    "policy": "the Committee decided to lower the target range for the federal funds rate to 0 to 1/4 percent.",
+    "balance_sheet": "the Committee will increase its holdings of Treasury securities by at least $500 billion and its holdings of agency mortgage-backed securities by at least $200 billion.",
+    "inflation": "overall inflation and inflation for items other than food and energy are running below 2 percent.",
+    "labour": "the unemployment rate has remained low.",
+    "growth": "The effects of the coronavirus will weigh on economic activity in the near term and pose risks to the economic outlook.",
+    "guidance_diff": "expects to maintain this target range until it is confident that the economy has weathered recent events"
+  },
+  "jury_score": 5,
+  "supporting_statement": "As a central bank policy economist focused on the dual mandate, the aggressive emergency response—slashing rates to the 0-0.25% bound, deploying massive large-scale asset purchases, and scaling up liquidity facilities—reflects an extreme dovish pivot to counter the severe economic disruptions and downside risks posed by the coronavirus outbreak.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": true,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Prior statement lacked explicit balance sheet stance, triggering fallback scoring."
+    ]
+  },
+  "error": null
+}

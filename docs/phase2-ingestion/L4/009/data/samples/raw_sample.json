@@ -1,1 +1,47 @@
-{"data":[{"record_date":"2026-07-31","security_type_desc":"Marketable","security_class1_desc":"Bills Maturity Value","maturity_date":"2026-12-31","outstanding_amt":"30","src_line_nbr":"1"},{"record_date":"2026-07-31","security_type_desc":"Marketable","security_class1_desc":"Notes","maturity_date":"2027-07-31","outstanding_amt":"20","src_line_nbr":"2"},{"record_date":"2026-07-31","security_type_desc":"Marketable","security_class1_desc":"Notes","maturity_date":"2028-07-31","outstanding_amt":"55","src_line_nbr":"3"},{"record_date":"2026-07-31","security_type_desc":"Marketable","security_class1_desc":"Federal Financing Bank","maturity_date":"null","outstanding_amt":"5","src_line_nbr":"4"},{"record_date":"2026-07-31","security_type_desc":"Marketable","security_class1_desc":"Total Marketable","maturity_date":"null","outstanding_amt":"100","src_line_nbr":"5"}],"meta":{"total-pages":1}}
+{
+  "data": [
+    {
+      "record_date": "2026-07-31",
+      "security_type_desc": "Marketable",
+      "security_class1_desc": "Bills Maturity Value",
+      "maturity_date": "2026-12-31",
+      "outstanding_amt": "30",
+      "src_line_nbr": "1"
+    },
+    {
+      "record_date": "2026-07-31",
+      "security_type_desc": "Marketable",
+      "security_class1_desc": "Notes",
+      "maturity_date": "2027-07-31",
+      "outstanding_amt": "20",
+      "src_line_nbr": "2"
+    },
+    {
+      "record_date": "2026-07-31",
+      "security_type_desc": "Marketable",
+      "security_class1_desc": "Notes",
+      "maturity_date": "2028-07-31",
+      "outstanding_amt": "55",
+      "src_line_nbr": "3"
+    },
+    {
+      "record_date": "2026-07-31",
+      "security_type_desc": "Marketable",
+      "security_class1_desc": "Federal Financing Bank",
+      "maturity_date": "null",
+      "outstanding_amt": "5",
+      "src_line_nbr": "4"
+    },
+    {
+      "record_date": "2026-07-31",
+      "security_type_desc": "Marketable",
+      "security_class1_desc": "Total Marketable",
+      "maturity_date": "null",
+      "outstanding_amt": "100",
+      "src_line_nbr": "5"
+    }
+  ],
+  "meta": {
+    "total-pages": 1
+  }
+}

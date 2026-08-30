@@ -1,0 +1,974 @@
+[
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "1999-03-31T00:00:00Z",
+    "value": null,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "1999-06-30T00:00:00Z",
+    "value": null,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "1999-09-30T00:00:00Z",
+    "value": null,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "1999-12-31T00:00:00Z",
+    "value": null,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2000-03-31T00:00:00Z",
+    "value": 7.307407491747364,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2000-06-30T00:00:00Z",
+    "value": 7.682116893927038,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2000-09-30T00:00:00Z",
+    "value": 0.6688202447063363,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2000-12-31T00:00:00Z",
+    "value": 0.3660492267411941,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2001-03-31T00:00:00Z",
+    "value": -2.4936843158823163,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2001-06-30T00:00:00Z",
+    "value": -2.2556755967561792,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2001-09-30T00:00:00Z",
+    "value": 2.9822838109356598,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2001-12-31T00:00:00Z",
+    "value": 0.26418327371511285,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2002-03-31T00:00:00Z",
+    "value": 4.275821390905632,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2002-06-30T00:00:00Z",
+    "value": 11.6378239783675,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2002-09-30T00:00:00Z",
+    "value": 7.544738645288329,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2002-12-31T00:00:00Z",
+    "value": 13.312642660285444,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2003-03-31T00:00:00Z",
+    "value": 14.482034265728426,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2003-06-30T00:00:00Z",
+    "value": 10.203041156244552,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2003-09-30T00:00:00Z",
+    "value": 13.625081680450556,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2003-12-31T00:00:00Z",
+    "value": 14.601807192947813,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2004-03-31T00:00:00Z",
+    "value": 13.843927327424922,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2004-06-30T00:00:00Z",
+    "value": 9.907156680573092,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2004-09-30T00:00:00Z",
+    "value": 8.689453343201015,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2004-12-31T00:00:00Z",
+    "value": 11.285311829722122,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2005-03-31T00:00:00Z",
+    "value": 9.15302485277869,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2005-06-30T00:00:00Z",
+    "value": 8.222686142769465,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2005-09-30T00:00:00Z",
+    "value": 7.828089365867563,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2005-12-31T00:00:00Z",
+    "value": 1.1405627035602217,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2006-03-31T00:00:00Z",
+    "value": 5.584593107603442,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2006-06-30T00:00:00Z",
+    "value": 11.632433988037839,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2006-09-30T00:00:00Z",
+    "value": 11.486214113280857,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2006-12-31T00:00:00Z",
+    "value": 14.927934719965563,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2007-03-31T00:00:00Z",
+    "value": 14.041051635432966,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2007-06-30T00:00:00Z",
+    "value": 12.440600896589004,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2007-09-30T00:00:00Z",
+    "value": 16.44515662133854,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2007-12-31T00:00:00Z",
+    "value": 16.811077228441086,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2008-03-31T00:00:00Z",
+    "value": 20.36410321184057,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2008-06-30T00:00:00Z",
+    "value": 17.983872733860927,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2008-09-30T00:00:00Z",
+    "value": 8.226074181125508,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2008-12-31T00:00:00Z",
+    "value": 1.946069469412648,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2009-03-31T00:00:00Z",
+    "value": -5.7039508372259355,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2009-06-30T00:00:00Z",
+    "value": -2.462437835011133,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2009-09-30T00:00:00Z",
+    "value": 4.128235954986437,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2009-12-31T00:00:00Z",
+    "value": 6.327937305629061,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2010-03-31T00:00:00Z",
+    "value": 7.209470739115842,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2010-06-30T00:00:00Z",
+    "value": 0.41544216400695166,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2010-09-30T00:00:00Z",
+    "value": 3.4610217702552237,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2010-12-31T00:00:00Z",
+    "value": 4.114284277590685,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2011-03-31T00:00:00Z",
+    "value": 8.854312908770744,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2011-06-30T00:00:00Z",
+    "value": 13.575451716706887,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2011-09-30T00:00:00Z",
+    "value": 4.759684456616253,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2011-12-31T00:00:00Z",
+    "value": 3.9539632039281125,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2012-03-31T00:00:00Z",
+    "value": 3.290480591463507,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2012-06-30T00:00:00Z",
+    "value": -0.43919933348276485,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2012-09-30T00:00:00Z",
+    "value": 5.032073987874042,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2012-12-31T00:00:00Z",
+    "value": 5.579472800754082,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2013-03-31T00:00:00Z",
+    "value": 2.1055717214024217,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2013-06-30T00:00:00Z",
+    "value": 4.0736321645774565,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2013-09-30T00:00:00Z",
+    "value": 3.4180154250032846,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2013-12-31T00:00:00Z",
+    "value": 3.7809982241772566,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2014-03-31T00:00:00Z",
+    "value": 5.8631555462767215,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2014-06-30T00:00:00Z",
+    "value": 7.056021397714529,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2014-09-30T00:00:00Z",
+    "value": 1.4558119083305954,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2014-12-31T00:00:00Z",
+    "value": -1.17145766081721,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2015-03-31T00:00:00Z",
+    "value": -4.019307414921725,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2015-06-30T00:00:00Z",
+    "value": -3.3957847709625844,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2015-09-30T00:00:00Z",
+    "value": -1.3723427198168658,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2015-12-31T00:00:00Z",
+    "value": 0.35736683988880635,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2016-03-31T00:00:00Z",
+    "value": 6.019668918104326,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2016-06-30T00:00:00Z",
+    "value": 3.777002224122006,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2016-09-30T00:00:00Z",
+    "value": 5.671455200359143,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2016-12-31T00:00:00Z",
+    "value": 2.3865418619606116,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2017-03-31T00:00:00Z",
+    "value": 1.7879730383990822,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2017-06-30T00:00:00Z",
+    "value": 4.687911061854666,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2017-09-30T00:00:00Z",
+    "value": 6.174598957237953,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2017-12-31T00:00:00Z",
+    "value": 12.094465677183441,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2018-03-31T00:00:00Z",
+    "value": 11.894849236583148,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2018-06-30T00:00:00Z",
+    "value": 5.805087711486534,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2018-09-30T00:00:00Z",
+    "value": 2.5959383326164875,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2018-12-31T00:00:00Z",
+    "value": 0.7912914766967427,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2019-03-31T00:00:00Z",
+    "value": -0.4647329617041285,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2019-06-30T00:00:00Z",
+    "value": 3.2880588472967265,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2019-09-30T00:00:00Z",
+    "value": 2.576800178630023,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2019-12-31T00:00:00Z",
+    "value": 4.917170089275857,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2020-03-31T00:00:00Z",
+    "value": 2.3356891432632754,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2020-06-30T00:00:00Z",
+    "value": 4.632847404150664,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2020-09-30T00:00:00Z",
+    "value": 9.412999162806157,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2020-12-31T00:00:00Z",
+    "value": 10.926484709871476,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2021-03-31T00:00:00Z",
+    "value": 11.559004186135668,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2021-06-30T00:00:00Z",
+    "value": 10.71967057399663,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2021-09-30T00:00:00Z",
+    "value": 7.149124984329314,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2021-12-31T00:00:00Z",
+    "value": 3.859352031811092,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2022-03-31T00:00:00Z",
+    "value": 5.372942622500387,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2022-06-30T00:00:00Z",
+    "value": 0.14888681897256006,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2022-09-30T00:00:00Z",
+    "value": -2.7424239383811666,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2022-12-31T00:00:00Z",
+    "value": 0.5553347007072107,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2023-03-31T00:00:00Z",
+    "value": 1.157664757328325,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2023-06-30T00:00:00Z",
+    "value": 2.440328933392366,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2023-09-30T00:00:00Z",
+    "value": 5.0826999246064375,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2023-12-31T00:00:00Z",
+    "value": 3.7452342772444025,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2024-03-31T00:00:00Z",
+    "value": 1.4739056829249586,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2024-06-30T00:00:00Z",
+    "value": 2.9296640792192186,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2024-09-30T00:00:00Z",
+    "value": 7.3733691092882525,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2024-12-31T00:00:00Z",
+    "value": 0.041188605881248286,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2025-03-31T00:00:00Z",
+    "value": 3.4908579994443523,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2025-06-30T00:00:00Z",
+    "value": 7.412619568606882,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2025-09-30T00:00:00Z",
+    "value": 4.186135135768176,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "STALE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L7-003",
+    "observation_timestamp": "2025-12-31T00:00:00Z",
+    "value": 9.819296231854157,
+    "unit_or_scale": "percent_yoy",
+    "availability_status": "AVAILABLE",
+    "source_reference": "BIS-WS-TC-Q.5A.P.A.M.USD.A:docs/phase2-ingestion/L7/003/data/manifests/ws-tc-20260830T101925Z-.manifest.json",
+    "quality_flag": "PASS"
+  }
+]

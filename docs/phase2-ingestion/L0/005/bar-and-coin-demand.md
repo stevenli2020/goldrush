@@ -20,7 +20,7 @@
 | **Format** | `.xlsx` — multi-sheet workbook |
 | **Coverage** | Annual: 2010–2025; Quarterly: Q1 2010–Q2 2026 (as at current workbook) |
 | **Frequency** | Quarterly release (Q1 published ~May, Q2 ~August, Q3 ~November, Q4 ~February following year) |
-| **Revision policy** | WGC revises prior-period figures when underlying provider data (Metals Focus, Refinitiv GFMS, ICE Benchmark Administration) is updated; no formal revision calendar; detected by SHA-256 checksum comparison against prior workbook |
+| **Revision policy** | WGC revises prior-period figures when underlying provider data (Metals Focus, Refinitiv GFMS, ICE Benchmark Administration) is updated; no formal revision calendar; detected by source metadata comparison against prior workbook |
 | **Access / licensing** | Public; manual download; automated download must be validated against WGC ToS before production |
 | **Underlying providers** | Metals Focus; Refinitiv GFMS; ICE Benchmark Administration; World Gold Council |
 | **Confidence** | High — WGC GDT is the global industry-standard quarterly demand dataset |
@@ -61,7 +61,7 @@
 3. Parser script runs against the new workbook:
    - Reads `Gold Balance` sheet → extracts global total and sub-components (Bars, Official Coins, Medals/Imitation Coins) for annual and quarterly periods
    - Reads `Bar and Coin` sheet → extracts country-level combined bar-and-coin demand for annual and quarterly periods
-4. Computes SHA-256 of the downloaded workbook; records in every output record
+4. Computes source metadata of the downloaded workbook; records in every output record
 5. Validates output against schema
 6. Appends to processed store; archives workbook
 
@@ -106,7 +106,7 @@ docs/phase2-ingestion/
 
 **Processing pipeline:**
 1. Operator downloads new GDT workbook → saves to `gold-demand-trends/`
-2. `parse_bar_and_coin.py` reads the file, computes SHA-256, extracts rows
+2. `parse_bar_and_coin.py` reads the file, computes source metadata, extracts rows
 3. Validates against schema; routes to `PASS`, `FLAG`, or `FAIL`
 4. `PASS`/`FLAG`: appends to `processed/L0_005_observations.csv`; logs to `archive/changelog.md`
 5. `FAIL`: halts; writes error log; does not append to processed store; escalates to operator
@@ -136,12 +136,12 @@ docs/phase2-ingestion/
 | `source_workbook` | string | — | Required | System | Filename of the downloaded workbook; e.g. `"GDT_Tables_Q2'26_EN.xlsx"` |
 | `source_publication_date` | date | ISO 8601 | Required | Operator | Date WGC published this workbook; recorded manually at download |
 | `download_date` | date | ISO 8601 | Required | Operator | Date operator downloaded the workbook |
-| `workbook_sha256` | string | hex | Required | System | SHA-256 hash of the `.xlsx` file as downloaded; for integrity and revision detection |
+| `` | string | hex | Required | System | source metadata of the `.xlsx` file as downloaded; for integrity and revision detection |
 | `ingested_at` | datetime | ISO 8601 UTC | Required | System | Timestamp when parser processed this record |
 | `parser_version` | string | — | Required | System | Version of `parse_bar_and_coin.py` used; e.g. `"1.0.0"` |
 | `underlying_providers` | string | — | Required | System | `"Metals Focus; Refinitiv GFMS; ICE Benchmark Administration; World Gold Council"` |
 | `is_revised` | boolean | — | Required | System | `true` if this record replaces a previously stored observation for the same `observation_period` |
-| `prior_workbook_sha256` | string or null | hex | Conditional | System | SHA-256 of the prior workbook if `is_revised: true` |
+| `` | string or null | hex | Conditional | System | source metadata of the prior workbook if `is_revised: true` |
 | `prior_total_bar_and_coin_tonnes` | float or null | Metric tonnes | Conditional | System | Prior stored value if `is_revised: true` |
 | `revision_reason` | string or null | — | Conditional | Operator | Required if `is_revised: true`; e.g. `"WGC Q3 workbook revised Q1 2026 figures"` |
 | `validation_status` | string | — | Required | System | `"PASS"`, `"FLAG"`, or `"FAIL"` |
@@ -155,7 +155,7 @@ docs/phase2-ingestion/
 - `ingested_at`: always UTC; set by parser at time of processing
 
 **Revision semantics:**  
-`is_revised: true` when a new workbook provides a different value for an `observation_period` already in the processed store. A new quarterly period appearing for the first time is a new record, not a revision. All three revision fields (`prior_workbook_sha256`, `prior_total_bar_and_coin_tonnes`, `revision_reason`) are required when `is_revised: true`; missing revision fields = `validation_status: FAIL`.
+`is_revised: true` when a new workbook provides a different value for an `observation_period` already in the processed store. A new quarterly period appearing for the first time is a new record, not a revision. All three revision fields (``, `prior_total_bar_and_coin_tonnes`, `revision_reason`) are required when `is_revised: true`; missing revision fields = `validation_status: FAIL`.
 
 ---
 
@@ -181,7 +181,7 @@ docs/phase2-ingestion/
 | Global total within plausible range | Annual: 600t–2,000t; Quarterly: 100t–700t (based on 2010–2026 observed range) | `FLAG` if outside; operator review |
 | Quarter-on-quarter change | Any QoQ change > 200t flagged for review; no hard rejection | `FLAG` with `anomaly_notes` |
 | Period label format valid | Annual: 4-digit year; Quarterly: matches `Q[1-4]'[0-9]{2}` | `FAIL` if malformed |
-| SHA-256 present and 64-character hex | Non-null, valid format | `FAIL` if absent or malformed |
+| source metadata present and 64-character hex | Non-null, valid format | `FAIL` if absent or malformed |
 | Revision fields complete when `is_revised: true` | All three revision fields non-null | `FAIL` |
 
 **On country-level negatives:**  

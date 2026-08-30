@@ -1,0 +1,82 @@
+[
+  {
+    "variable_id": "L3-004",
+    "observation_timestamp": "2026-08-28T00:00:00Z",
+    "meeting_date": "2026-09-16",
+    "value": 0,
+    "unit_or_scale": "probability_easing_0_to_1",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/L3/004/data/manifests/L3-004-2026-08-28-20260830T101916Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-004",
+    "observation_timestamp": "2026-08-28T00:00:00Z",
+    "meeting_date": "2026-09-16",
+    "value": 0.4428571428571999,
+    "unit_or_scale": "probability_hold_0_to_1",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/L3/004/data/manifests/L3-004-2026-08-28-20260830T101916Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-004",
+    "observation_timestamp": "2026-08-28T00:00:00Z",
+    "meeting_date": "2026-09-16",
+    "value": 0.5571428571428001,
+    "unit_or_scale": "probability_tightening_0_to_1",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/L3/004/data/manifests/L3-004-2026-08-28-20260830T101916Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-004",
+    "observation_timestamp": "2026-08-28T00:00:00Z",
+    "meeting_date": "2026-09-16",
+    "value": 13.928571428570002,
+    "unit_or_scale": "expected_target_change_bps",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/L3/004/data/manifests/L3-004-2026-08-28-20260830T101916Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-004",
+    "observation_timestamp": "2026-08-28T00:00:00Z",
+    "meeting_date": "2026-10-28",
+    "value": 0,
+    "unit_or_scale": "probability_easing_0_to_1",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/L3/004/data/manifests/L3-004-2026-08-28-20260830T101916Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-004",
+    "observation_timestamp": "2026-08-28T00:00:00Z",
+    "meeting_date": "2026-10-28",
+    "value": 0.2998775510204314,
+    "unit_or_scale": "probability_hold_0_to_1",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/L3/004/data/manifests/L3-004-2026-08-28-20260830T101916Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-004",
+    "observation_timestamp": "2026-08-28T00:00:00Z",
+    "meeting_date": "2026-10-28",
+    "value": 0.7001224489795685,
+    "unit_or_scale": "probability_tightening_0_to_1",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/L3/004/data/manifests/L3-004-2026-08-28-20260830T101916Z.json",
+    "quality_flag": "PASS"
+  },
+  {
+    "variable_id": "L3-004",
+    "observation_timestamp": "2026-08-28T00:00:00Z",
+    "meeting_date": "2026-10-28",
+    "value": 21.999999999999442,
+    "unit_or_scale": "expected_target_change_bps",
+    "availability_status": "AVAILABLE",
+    "source_reference": "docs/phase2-ingestion/L3/004/data/manifests/L3-004-2026-08-28-20260830T101916Z.json",
+    "quality_flag": "PASS"
+  }
+]

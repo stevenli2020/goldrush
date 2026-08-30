@@ -1,0 +1,10 @@
+{
+  "dataset_id": "BIS:WS_TC(2.0)",
+  "series_key": "Q.5A.P.A.M.USD.A",
+  "source_url": "https://stats.bis.org/api/v1/data/WS_TC/Q.5A.P.A.M.USD.A?startPeriod=1970-Q1",
+  "retrieved_at": "2026-08-30T10:19:25.472142+00:00",
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/L7/003/data/raw/ws-tc-20260830T101925Z-.csv",
+  "size_bytes": 23958,
+  "http_status": 200,
+  "collector_version": "0.1.0"
+}

@@ -23,7 +23,7 @@
 - Current collection/parser run produced five `PASS`/`AVAILABLE` rows for CME
   settlement date 2026-08-21: two September outcomes and three October
   outcomes. Both group sums are 1.0; all rows have zero schema errors and every
-  raw/manifest hash matches.
+  raw/manifest source metadata matches.
 - Operational replay returned five rows with no revisions. A forced collection
   failure returned the same five rows as `STALE`; no-prior wrote `BLOCKED`; a
   successful recovery removed the blocked artifact. Genuine probability-change

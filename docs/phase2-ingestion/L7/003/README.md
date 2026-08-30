@@ -22,9 +22,9 @@ python docs/phase2-ingestion/L7/003/parser.py \
   --manifest docs/phase2-ingestion/L7/003/data/manifests/<file>.manifest.json
 ```
 
-If API access fails, download the official flat CSV manually, place it unchanged in `data/raw/`, and create a matching manifest with the dataset and series IDs, URL, timezone-aware retrieval time, raw path, byte size, SHA-256, HTTP status, and collector version. The parser validates those fields and the path, size, and hash before extraction.
+If API access fails, download the official flat CSV manually, place it unchanged in `data/raw/`, and create a matching manifest with the dataset and series IDs, URL, timezone-aware retrieval time, raw path, byte size, source metadata, HTTP status, and collector version. The parser validates those fields and the path, size, and source metadata before extraction.
 
-BIS publishes this dataset quarterly with a material lag: a quarter-end level can be released roughly five to six months later. Data older than 270 days is `STALE`, covering that lag plus the interval to the next quarterly release without treating a newly published observation as stale. A failed collection carries forward only the latest prior valid row as `STALE`; its identity, units, dates, values, statuses, timestamps, hashes, and provenance must validate first. Without valid prior data the CLI writes a machine-readable `.status.json` with `BLOCKED`. Successful recovery removes that artifact. Raw vintages are timestamped and hash-named and are not overwritten.
+BIS publishes this dataset quarterly with a material lag: a quarter-end level can be released roughly five to six months later. Data older than 270 days is `STALE`, covering that lag plus the interval to the next quarterly release without treating a newly published observation as stale. A failed collection carries forward only the latest prior valid row as `STALE`; its identity, units, dates, values, statuses, timestamps, source metadata, and provenance must validate first. Without valid prior data the CLI writes a machine-readable `.status.json` with `BLOCKED`. Successful recovery removes that artifact. Raw vintages are timestamped and source metadata-named and are not overwritten.
 
 ## Interpretation and limitations
 

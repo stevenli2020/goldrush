@@ -1,0 +1,13 @@
+{
+  "target": "official_holdings",
+  "page_url": "https://www.gold.org/goldhub/data/gold-reserves-by-country",
+  "download_url": "https://www.gold.org/download/file/7739/World_official_gold_holdings_as_of_Aug2026_IFS.xlsx",
+  "filename": "World_official_gold_holdings_as_of_Aug2026_IFS.xlsx",
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/raw/central-bank/World_official_gold_holdings_as_of_Aug2026_IFS.xlsx",
+  "size_bytes": 42353,
+  "downloaded_at": "2026-08-30T10:06:40.888603+00:00",
+  "http_status": 200,
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "changed": false,
+  "manifest_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/manifests/official_holdings-20260830T100640Z.json"
+}

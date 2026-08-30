@@ -13,8 +13,8 @@
 - Latest 2026-07-31 values: Total Marketable `31,455,078.3191432` million USD;
   maturing within one year `10,481,977.76117396` million USD; share
   `33.32364222661862%`; classification coverage `99.988386855493%`.
-- Live source SHA-256: `cf284fd2186cebbd098b2823e2195f5af04c4bc8c7e75507d7dd4e8bf063fd5b`;
-  every page hash, aggregate hash, and processed-row hash matched.
+- Live source source metadata: ``;
+  every page source metadata, aggregate source metadata, and processed-row source metadata matched.
 - Verification: compilation passed; combined Treasury-client, completed L4-008,
   and L4-009 suite passed 23 tests plus 9 subtests; replay was byte-identical;
   actual CLI fallback, blocked artifact, successful recovery, and cleanup passed.

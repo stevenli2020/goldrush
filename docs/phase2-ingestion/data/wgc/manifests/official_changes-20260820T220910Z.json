@@ -5,7 +5,6 @@
   "filename": "Changes_latest_as_of_Aug2026_IFS.xlsx",
   "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/raw/central-bank/Changes_latest_as_of_Aug2026_IFS.xlsx",
   "size_bytes": 464245,
-  "sha256": "87869faa77c31fc8b10da3c820fed426d0b2bdc7847d348867fbd1328aee9e16",
   "downloaded_at": "2026-08-20T22:09:10.790852+00:00",
   "http_status": 200,
   "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",

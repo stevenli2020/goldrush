@@ -1,0 +1,25 @@
+{
+  "baseline_score": 60.71,
+  "coverage": 84.25,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "raise the target range for the federal funds rate to 5-1/4 to 5-1/2 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities",
+    "inflation": "Inflation remains elevated.",
+    "labour": "Job gains have been robust in recent months, and the unemployment rate has remained low.",
+    "growth": "Recent indicators suggest that economic activity has been expanding at a moderate pace.",
+    "guidance_diff": "The Committee will continue to assess additional information and its implications for monetary policy."
+  },
+  "jury_score": 60,
+  "supporting_statement": "The July 2023 statement marks a hawkish shift by upgrading economic activity from a modest to a moderate pace and executing a 25 basis point rate hike, while carefully preserving conditional, data-dependent guidance regarding future policy adjustments.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Inflation trend and expectations subcomponents are not explicitly stated beyond elevated level.",
+      "Labor market slack and wage pressures are omitted from the current text."
+    ]
+  },
+  "error": null
+}

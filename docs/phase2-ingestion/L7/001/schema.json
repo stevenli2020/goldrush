@@ -2,22 +2,77 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "L7-001 Federal Reserve Balance-Sheet Liquidity Proxy Observation",
   "type": "object",
-  "required": ["variable_id", "observation_date", "fed_total_assets_millions_usd", "unit", "observation_definition", "source_name", "source_series_id", "source_release", "raw_file_path", "manifest_file_path", "raw_sha256", "retrieved_at", "validation_status", "availability_status", "parser_version"],
+  "required": [
+    "variable_id",
+    "observation_date",
+    "fed_total_assets_millions_usd",
+    "unit",
+    "observation_definition",
+    "source_name",
+    "source_series_id",
+    "source_release",
+    "raw_file_path",
+    "manifest_file_path",
+    "retrieved_at",
+    "validation_status",
+    "availability_status",
+    "parser_version"
+  ],
   "properties": {
-    "variable_id": {"const": "L7-001"},
-    "observation_date": {"type": "string", "format": "date"},
-    "fed_total_assets_millions_usd": {"type": "number", "exclusiveMinimum": 0},
-    "unit": {"const": "millions_usd"},
-    "observation_definition": {"const": "Federal Reserve total assets, Wednesday level"},
-    "source_name": {"const": "FRED"},
-    "source_series_id": {"const": "WALCL"},
-    "source_release": {"const": "H.4.1 Factors Affecting Reserve Balances"},
-    "raw_file_path": {"type": "string", "minLength": 1},
-    "manifest_file_path": {"type": "string", "minLength": 1},
-    "raw_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
-    "retrieved_at": {"type": "string", "format": "date-time"},
-    "validation_status": {"enum": ["PASS", "FLAG", "FAIL"]},
-    "availability_status": {"enum": ["AVAILABLE", "STALE", "BLOCKED"]},
-    "parser_version": {"type": "string"}
+    "variable_id": {
+      "const": "L7-001"
+    },
+    "observation_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "fed_total_assets_millions_usd": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "unit": {
+      "const": "millions_usd"
+    },
+    "observation_definition": {
+      "const": "Federal Reserve total assets, Wednesday level"
+    },
+    "source_name": {
+      "const": "FRED"
+    },
+    "source_series_id": {
+      "const": "WALCL"
+    },
+    "source_release": {
+      "const": "H.4.1 Factors Affecting Reserve Balances"
+    },
+    "raw_file_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "manifest_file_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "validation_status": {
+      "enum": [
+        "PASS",
+        "FLAG",
+        "FAIL"
+      ]
+    },
+    "availability_status": {
+      "enum": [
+        "AVAILABLE",
+        "STALE",
+        "BLOCKED"
+      ]
+    },
+    "parser_version": {
+      "type": "string"
+    }
   }
 }

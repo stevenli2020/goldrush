@@ -10,29 +10,24 @@ This module ingests, normalizes, and audits monthly physical gold reserve holdin
 * **IMF** (International Monetary Fund)
 
 ## Files in this Directory
-* `collector.py`: Main automated ingestion script.
+* `collector.py`: Legacy IMF/OpenBB collector retained for historical reference; not the approved production route.
 * `tests/test_collector.py`: Pytest test suite covering conversion math, panel schema structure, and mock API execution.
 * `data/config.yaml`: Configuration constants and panel mappings.
 * `data/schema.json`: Output data schema contract.
 * `data/processed/gold_holdings_panel_YYYY-MM-DD.csv`: Dated generated output panel.
-* `data/raw/imf_ifs_YYYY-MM-DD.json`: Preserved source payload and metadata.
-* `data/archive/live_run_YYYY-MM-DD.json`: Run evidence linking raw and processed files.
+* `data/raw/imf_ifs_YYYY-MM-DD.json`: Legacy IMF payloads retained for historical reference.
+* `data/archive/live_run_YYYY-MM-DD.json`: Legacy IMF run evidence.
 * `audit_log.csv`: Append-only audit ledger tracking timestamps, raw values, and freshness status.
 
 ## Usage Instructions
 
-### 1. Run the Collector
-From the L0-002 directory, ensure your virtual environment is active and run:
+### 1. Approved WGC route
+From the repository root, ensure your WSL virtual environment is active and run:
 ```bash
-PYTHONPATH=. python collector.py --live
+python docs/phase2-ingestion/collectors/wgc/wgc_download.py --config docs/phase2-ingestion/collectors/wgc/config.yaml --target official_holdings
 ```
 
-For an offline test run:
-
-```bash
-PYTHONPATH=. python collector.py --mock
-PYTHONPATH=. pytest -q tests/test_collector.py
-```
+The downloaded workbook is passed to `docs/phase2-ingestion/L0/002/parse_official_holdings.py` by the configured WGC extractor. The legacy IMF/OpenBB and mock commands are not production instructions.
 
 Entity observations use full month-end dates. The `AGGREGATE` row uses the
 execution month (`YYYY-MM`) because it is a derived panel summary, not an

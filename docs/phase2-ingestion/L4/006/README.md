@@ -20,7 +20,7 @@ python parser.py \
 ```
 
 The shared client preserves raw JSON and manifests. The parser verifies the
-series ID and SHA-256, skips FRED `.` markers, rejects malformed or conflicting
+series ID and source metadata, skips FRED `.` markers, rejects malformed or conflicting
 annual observations, and flags finite values outside -30% to +10%.
 
 Freshness is determined only from the latest observation. The series becomes
@@ -32,5 +32,5 @@ row. Without valid prior data, the CLI writes a machine-readable `.status.json`
 artifact with `BLOCKED`. A later successful CSV write removes that artifact.
 
 FRED may revise the fiscal balance, annual GDP, and therefore the ratio. Changed
-raw responses and their hashes are preserved by the shared client; the output is
+raw responses and their source metadata are preserved by the shared client; the output is
 the current complete FRED snapshot rather than a separate revision ledger.

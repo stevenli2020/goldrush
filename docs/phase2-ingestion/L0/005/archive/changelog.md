@@ -62,7 +62,7 @@
 
 - Sub-components (Bars, Official Coins, Medals/Imitation Coins) published at annual frequency only
 - Country breakdown in Bar and Coin sheet: combined total only; no bar/coin split by country
-- No formal WGC revision calendar; revision detection relies on SHA-256 comparison
+- No formal WGC revision calendar; revision detection relies on source metadata comparison
 - `source_publication_date` supplied manually via CLI at run time; operator must verify against WGC press release
 - This implementation produces a **demand-flow series only**; no accumulated holdings stock is constructed
 
@@ -86,6 +86,6 @@
 
 ## Ingest Log
 
-| Run date | Workbook | Annual | Quarterly | PASS | FLAG | FAIL | Revisions | SHA-256 | Operator |
+| Run date | Workbook | Annual | Quarterly | PASS | FLAG | FAIL | Revisions | source metadata | Operator |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-08-19T03:15:44Z | GDT_Tables_Q2'26_EN.xlsx | 16 | 66 | 82 | 0 | 0 | 0 | 32f3c7c795b3ce83be9e3bbd53b27da97218d446d40d63b4ecdce7d214a1a687 | Chris |
+| 2026-08-19T03:15:44Z | GDT_Tables_Q2'26_EN.xlsx | 16 | 66 | 82 | 0 | 0 | 0 |  | Chris |

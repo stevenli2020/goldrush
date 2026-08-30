@@ -17,6 +17,6 @@ python parse_official_purchases.py \
   --publication-date 2026-08-20 --download-date 2026-08-21
 ```
 
-The shared WGC downloader preserves the workbook and hash. This parser owns
+The shared WGC downloader preserves the workbook and source metadata. This parser owns
 aggregation, output schema, and validation. If publication is delayed, carry
 forward the last observation as `STALE` and require approval before scoring.

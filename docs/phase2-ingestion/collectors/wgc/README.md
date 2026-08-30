@@ -2,7 +2,7 @@
 
 `wgc_download.py` is the transport layer for World Gold Council workbooks used
 by GoldRush. It locates the current workbook link, downloads the raw bytes,
-validates that the response is an XLSX file, calculates SHA-256, and writes a
+validates that the response is an XLSX file, calculates source metadata, and writes a
 manifest and run log.
 
 It does not parse workbook rows or apply variable-specific rules. Those remain
@@ -20,7 +20,7 @@ collectors/wgc/
 └── tests/test_wgc_download.py
 
 data/wgc/
-├── raw/{above-ground,central-bank,etf,gdt}/
+├── raw/{above-ground,central-bank,etf,gdt,premiums}/
 ├── manifests/
 ├── logs/
 └── cookies/                 # local only; never commit
@@ -36,6 +36,8 @@ python wgc_download.py
 ```
 
 Run tests with `PYTHONPATH=. pytest -q tests/test_wgc_download.py tests/test_wgc_extract.py`.
+The L9-001 package tests additionally verify the `gold_premiums` target and
+manifest pass-through.
 
 ## Extract/dispatch
 
@@ -52,9 +54,17 @@ python wgc_extract.py --force
 Parser mappings are intentionally added one at a time because the existing
 variable parsers have different command-line interfaces.
 
+The `gold_premiums` target downloads `gold-premiums.xlsx` to
+`data/wgc/raw/premiums/` and dispatches it to the L9-001 parser with its
+manifest and existing processed output as the parser prior. On unchanged
+`gold_premiums` manifests, the extractor refreshes L9 availability status so an
+old latest row can become `STALE`. Manual authenticated download plus
+`create_manifest.py` remains the fallback if the shared cookie session is
+unavailable.
+
 Each successful target produces a raw workbook, a JSON manifest containing the
-source URL, timestamp, size, and SHA-256, and a run summary under
-`data/wgc/logs/`. If the hash matches the latest manifest, the raw file is not
+source URL, timestamp, size, and source metadata, and a run summary under
+`data/wgc/logs/`. If the source metadata matches the latest manifest, the raw file is not
 rewritten and `changed` is `false`.
 
 The optional cookie jar is `data/wgc/cookies/cookies.json`. Manual workbook

@@ -14,7 +14,6 @@
     "source_workbook",
     "source_publication_date",
     "download_date",
-    "workbook_sha256",
     "ingested_at",
     "parser_version",
     "underlying_providers",
@@ -30,11 +29,18 @@
     "observation_period": {
       "type": "string",
       "description": "Period label exactly as it appears in the workbook header row. Annual: '2025'. Quarterly: \"Q2'26\".",
-      "examples": ["2025", "Q2'26", "Q1'10"]
+      "examples": [
+        "2025",
+        "Q2'26",
+        "Q1'10"
+      ]
     },
     "observation_period_type": {
       "type": "string",
-      "enum": ["annual", "quarterly"]
+      "enum": [
+        "annual",
+        "quarterly"
+      ]
     },
     "observation_year": {
       "type": "integer",
@@ -42,20 +48,38 @@
       "description": "Calendar year. For quarterly records derived from period label (e.g. Q2'26 → 2026)."
     },
     "observation_quarter": {
-      "type": ["integer", "null"],
-      "enum": [1, 2, 3, 4, null],
+      "type": [
+        "integer",
+        "null"
+      ],
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        null
+      ],
       "description": "Quarter number 1-4. Null for annual records."
     },
     "bar_demand_tonnes": {
-      "type": ["number", "null"],
+      "type": [
+        "number",
+        "null"
+      ],
       "description": "Gold Balance sheet Row 21: Bars. Metric tonnes. Annual records only; null for all quarterly records (WGC does not publish this sub-component at quarterly frequency)."
     },
     "official_coin_demand_tonnes": {
-      "type": ["number", "null"],
+      "type": [
+        "number",
+        "null"
+      ],
       "description": "Gold Balance sheet Row 22: Official Coins. Metric tonnes. Annual records only; null for all quarterly records."
     },
     "medals_imitation_coin_tonnes": {
-      "type": ["number", "null"],
+      "type": [
+        "number",
+        "null"
+      ],
       "description": "Gold Balance sheet Row 23: Medals / Imitation Coins. Metric tonnes. Annual records only; null for all quarterly records."
     },
     "total_bar_and_coin_tonnes": {
@@ -64,15 +88,24 @@
       "description": "Gold Balance sheet Row 20: Total Bar and Coin. Reconciled global demand total. Metric tonnes. Available for both annual and quarterly records."
     },
     "named_country_total_tonnes": {
-      "type": ["number", "null"],
+      "type": [
+        "number",
+        "null"
+      ],
       "description": "Bar and Coin sheet Row 44: Total above (sum of named countries). Metric tonnes. May differ from Gold Balance total due to Other & stock change."
     },
     "other_and_stock_change_tonnes": {
-      "type": ["number", "null"],
+      "type": [
+        "number",
+        "null"
+      ],
       "description": "Bar and Coin sheet Row 45: Other & stock change. Metric tonnes. Can be positive or negative."
     },
     "world_total_bar_and_coin_sheet_tonnes": {
-      "type": ["number", "null"],
+      "type": [
+        "number",
+        "null"
+      ],
       "description": "Bar and Coin sheet Row 46: World total. Should reconcile with total_bar_and_coin_tonnes within 1%."
     },
     "unit": {
@@ -86,7 +119,10 @@
     "source_workbook": {
       "type": "string",
       "description": "Filename of the downloaded workbook.",
-      "examples": ["GDT_Tables_Q2'26_EN.xlsx", "GDT_Tables_Q1'26_EN.xlsx"]
+      "examples": [
+        "GDT_Tables_Q2'26_EN.xlsx",
+        "GDT_Tables_Q1'26_EN.xlsx"
+      ]
     },
     "source_publication_date": {
       "type": "string",
@@ -98,11 +134,6 @@
       "format": "date",
       "description": "Date operator downloaded the workbook. ISO 8601 (YYYY-MM-DD)."
     },
-    "workbook_sha256": {
-      "type": "string",
-      "pattern": "^[a-f0-9]{64}$",
-      "description": "SHA-256 hex digest of the .xlsx file as downloaded. Used for integrity verification and revision detection. Fixture examples use clearly labelled placeholder strings; live run must populate with actual digest."
-    },
     "ingested_at": {
       "type": "string",
       "format": "date-time",
@@ -111,7 +142,10 @@
     "parser_version": {
       "type": "string",
       "description": "Version of parse_bar_and_coin.py that produced this record.",
-      "examples": ["1.0.0", "1.1.0"]
+      "examples": [
+        "1.0.0",
+        "1.1.0"
+      ]
     },
     "underlying_providers": {
       "type": "string",
@@ -121,45 +155,71 @@
       "type": "boolean",
       "description": "True when this record replaces a previously stored observation for the same observation_period with a changed value. A new period appearing for the first time is not a revision."
     },
-    "prior_workbook_sha256": {
-      "type": ["string", "null"],
-      "description": "SHA-256 of the prior workbook. Required (non-null) when is_revised=true."
-    },
     "prior_total_bar_and_coin_tonnes": {
-      "type": ["number", "null"],
+      "type": [
+        "number",
+        "null"
+      ],
       "description": "Previously stored total_bar_and_coin_tonnes for this observation_period. Required (non-null) when is_revised=true. Must differ from current total_bar_and_coin_tonnes."
     },
     "revision_reason": {
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "description": "Explanation of why the value changed. Required (non-null) when is_revised=true."
     },
     "validation_status": {
       "type": "string",
-      "enum": ["PASS", "FLAG", "FAIL"]
+      "enum": [
+        "PASS",
+        "FLAG",
+        "FAIL"
+      ]
     },
     "availability_status": {
       "type": "string",
-      "enum": ["AVAILABLE", "STALE", "INCOMPLETE", "BLOCKED", "INSUFFICIENT_EVIDENCE"]
+      "enum": [
+        "AVAILABLE",
+        "STALE",
+        "INCOMPLETE",
+        "BLOCKED",
+        "INSUFFICIENT_EVIDENCE"
+      ]
     },
     "anomaly_notes": {
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "description": "Required when validation_status is FLAG or FAIL. Describes the anomaly."
     }
   },
   "if": {
-    "properties": { "is_revised": { "const": true } }
+    "properties": {
+      "is_revised": {
+        "const": true
+      }
+    }
   },
   "then": {
-    "required": ["prior_workbook_sha256", "prior_total_bar_and_coin_tonnes", "revision_reason"],
+    "required": [
+      "prior_total_bar_and_coin_tonnes",
+      "revision_reason"
+    ],
     "properties": {
-      "prior_workbook_sha256": { "type": "string" },
-      "prior_total_bar_and_coin_tonnes": { "type": "number" },
-      "revision_reason": { "type": "string", "minLength": 1 }
+      "prior_total_bar_and_coin_tonnes": {
+        "type": "number"
+      },
+      "revision_reason": {
+        "type": "string",
+        "minLength": 1
+      }
     }
   },
   "examples": [
     {
-      "_fixture_note": "Static development fixture. workbook_sha256 is a placeholder; not a live-run hash.",
+      "_fixture_note": "Static development fixture.  is a placeholder; not a live-run source metadata.",
       "variable_id": "L0-005",
       "observation_period": "2025",
       "observation_period_type": "annual",
@@ -177,12 +237,10 @@
       "source_workbook": "GDT_Tables_Q2'26_EN.xlsx",
       "source_publication_date": "2026-08-07",
       "download_date": "2026-08-18",
-      "workbook_sha256": "FIXTURE_PLACEHOLDER_NOT_A_LIVE_HASH_replace_before_production_00",
       "ingested_at": "2026-08-18T10:30:00Z",
       "parser_version": "1.0.0",
       "underlying_providers": "Metals Focus; Refinitiv GFMS; ICE Benchmark Administration; World Gold Council",
       "is_revised": false,
-      "prior_workbook_sha256": null,
       "prior_total_bar_and_coin_tonnes": null,
       "revision_reason": null,
       "validation_status": "PASS",
@@ -190,7 +248,7 @@
       "anomaly_notes": null
     },
     {
-      "_fixture_note": "Static development fixture. Q2'26 quarterly record. Sub-components null (annual-only). workbook_sha256 is a placeholder.",
+      "_fixture_note": "Static development fixture. Q2'26 quarterly record. Sub-components null (annual-only).  is a placeholder.",
       "variable_id": "L0-005",
       "observation_period": "Q2'26",
       "observation_period_type": "quarterly",
@@ -208,12 +266,10 @@
       "source_workbook": "GDT_Tables_Q2'26_EN.xlsx",
       "source_publication_date": "2026-08-07",
       "download_date": "2026-08-18",
-      "workbook_sha256": "FIXTURE_PLACEHOLDER_NOT_A_LIVE_HASH_replace_before_production_00",
       "ingested_at": "2026-08-18T10:30:00Z",
       "parser_version": "1.0.0",
       "underlying_providers": "Metals Focus; Refinitiv GFMS; ICE Benchmark Administration; World Gold Council",
       "is_revised": false,
-      "prior_workbook_sha256": null,
       "prior_total_bar_and_coin_tonnes": null,
       "revision_reason": null,
       "validation_status": "PASS",
@@ -221,7 +277,7 @@
       "anomaly_notes": null
     },
     {
-      "_fixture_note": "Static development fixture. Revision example: Q1'26 total revised downward in Q3'26 workbook. workbook_sha256 values are placeholders.",
+      "_fixture_note": "Static development fixture. Revision example: Q1'26 total revised downward in Q3'26 workbook.  values are placeholders.",
       "variable_id": "L0-005",
       "observation_period": "Q1'26",
       "observation_period_type": "quarterly",
@@ -239,12 +295,10 @@
       "source_workbook": "GDT_Tables_Q3'26_EN.xlsx",
       "source_publication_date": "2026-11-06",
       "download_date": "2026-11-10",
-      "workbook_sha256": "FIXTURE_PLACEHOLDER_Q3_WORKBOOK_NOT_A_LIVE_HASH_replace_0000000",
       "ingested_at": "2026-11-10T09:00:00Z",
       "parser_version": "1.0.0",
       "underlying_providers": "Metals Focus; Refinitiv GFMS; ICE Benchmark Administration; World Gold Council",
       "is_revised": true,
-      "prior_workbook_sha256": "FIXTURE_PLACEHOLDER_NOT_A_LIVE_HASH_replace_before_production_00",
       "prior_total_bar_and_coin_tonnes": 476.77916012,
       "revision_reason": "WGC Q3'26 workbook revised Q1'26 figure from 476.77916012t to 471.23456789t; underlying Metals Focus dataset updated",
       "validation_status": "PASS",

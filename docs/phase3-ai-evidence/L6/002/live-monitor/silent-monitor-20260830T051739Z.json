@@ -1,0 +1,19 @@
+{
+  "variable_id": "L6-002",
+  "run_status": "SILENT_COMPLETE",
+  "notifications_sent": false,
+  "run_at": "2026-08-30T05:17:39.863309+00:00",
+  "source_manifest": "docs/phase3-ai-evidence/L6/002/live-monitor/manifests/L6-002_2026-08-28_20260830T051742Z.manifest.json",
+  "phase2_output": "docs/phase3-ai-evidence/L6/002/live-monitor/phase2.csv",
+  "candidate_count": 0,
+  "records": [],
+  "phase4": {
+    "phase4_status": "ACTIVE",
+    "human_review_required": true,
+    "human_review_required_until": "2026-09-06T05:17:43+00:00",
+    "run_at": "2026-08-30T05:17:39.863309+00:00",
+    "variable_id": "L6-002",
+    "records": [],
+    "notifications_sent": false
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "baseline_score": 60.3,
+  "coverage": 76.3,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities",
+    "inflation": "Inflation remains somewhat elevated.",
+    "labour": "The unemployment rate has stabilized at a low level in recent months, and labor market conditions remain solid.",
+    "growth": "economic activity has continued to expand at a solid pace",
+    "guidance_diff": ""
+  },
+  "jury_score": 52,
+  "supporting_statement": "As a central bank policy economist, the decision to pause rate cuts at 4.25-4.50% reflects a prudent risk-management approach. With solid economic activity and a stable labor market, policy can afford to remain patient while inflation works its way down from somewhat elevated levels, fully supporting the dual mandate's balance.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

@@ -1,0 +1,24 @@
+{
+  "baseline_score": 51.1,
+  "coverage": 79,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "In support of its goals, the Committee decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent.",
+    "balance_sheet": "The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.",
+    "inflation": "Inflation remains somewhat elevated.",
+    "labour": "The unemployment rate has stabilized at a low level in recent months",
+    "growth": "Recent indicators suggest that economic activity has continued to expand at a solid pace.",
+    "guidance_diff": "In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks."
+  },
+  "jury_score": 52,
+  "supporting_statement": "As a financial communications analyst, the shift from a rate cut in December to a pause in January, alongside acknowledgment that inflation remains somewhat elevated while economic activity expands at a solid pace, reflects a steady, data-dependent communication stance maintaining maximum optionality.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Inflation level mapped from 'somewhat elevated' qualitative phrasing."
+    ]
+  },
+  "error": null
+}

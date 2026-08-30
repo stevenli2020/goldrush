@@ -7,9 +7,9 @@
     "page[size]": 10000
   },
   "retrieved_at": "2026-08-24T03:49:35.808873+00:00",
-  "raw_paths": ["raw_sample.json"],
-  "page_sha256": ["16a71240e18b990b54f162faf3a4bcfebf047bbbfc8223d5c566949349d3e60d"],
-  "source_sha256": "16a71240e18b990b54f162faf3a4bcfebf047bbbfc8223d5c566949349d3e60d",
+  "raw_paths": [
+    "raw_sample.json"
+  ],
   "page_count": 1,
   "record_count": 5
 }

@@ -1,0 +1,22 @@
+{
+  "baseline_score": 48.78,
+  "coverage": 84.25,
+  "status": "PASS",
+  "confidence": "High",
+  "evidence": {
+    "policy": "maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities",
+    "inflation": "Inflation remains somewhat elevated.",
+    "labour": "The unemployment rate has stabilized at a low level in recent months, and labor market conditions remain solid.",
+    "growth": "economic activity has continued to expand at a solid pace",
+    "guidance_diff": ""
+  },
+  "jury_score": 50,
+  "supporting_statement": "As a central bank policy economist, the statement reflects a steady stance following the December rate cut. With economic activity expanding at a solid pace, labor markets remaining solid, and inflation remaining somewhat elevated, the Committee appropriately paused at 4.25-4.50 percent while maintaining a data-dependent approach to dual-mandate risks.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

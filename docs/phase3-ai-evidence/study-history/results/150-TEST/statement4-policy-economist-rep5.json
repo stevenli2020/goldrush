@@ -1,0 +1,25 @@
+{
+  "baseline_score": 38.8,
+  "coverage": 76.3,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "lower the target range for the federal funds rate by 1/2 percentage point to 4-3/4 to 5 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities",
+    "inflation": "Inflation has made further progress toward the Committee's 2 percent objective but remains somewhat elevated",
+    "labour": "Job gains have slowed, and the unemployment rate has moved up but remains low",
+    "growth": "economic activity has continued to expand at a solid pace",
+    "guidance_diff": "Removal of restriction on reducing the target range and shift to assessing incoming data for additional adjustments"
+  },
+  "jury_score": 35,
+  "supporting_statement": "As a central bank policy economist, the 50 bps rate cut reflects a decisive rebalancing of the dual mandate in response to slowing job gains and further progress on inflation toward the 2 percent target, while maintaining a flexible, data-dependent stance for future adjustments.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Inflation trend phrased as progress rather than explicit directional verb from standard list",
+      "Liquidity operations not explicitly mentioned"
+    ]
+  },
+  "error": null
+}

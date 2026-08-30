@@ -2,19 +2,59 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "L1-005 Treasury Term Premium Observation",
   "type": "object",
-  "required": ["variable_id", "observation_date", "value", "unit", "source_name", "source_series_id", "raw_sha256", "validation_status", "availability_status", "parser_version"],
+  "required": [
+    "variable_id",
+    "observation_date",
+    "value",
+    "unit",
+    "source_name",
+    "source_series_id",
+    "validation_status",
+    "availability_status",
+    "parser_version"
+  ],
   "properties": {
-    "variable_id": {"const": "L1-005"},
-    "observation_date": {"type": "string", "format": "date"},
-    "value": {"type": "number", "description": "10-year Treasury term premium estimate, percent."},
-    "unit": {"const": "percent"},
-    "source_name": {"const": "FRED"},
-    "source_series_id": {"const": "THREEFYTP10"},
-    "raw_file_path": {"type": "string"},
-    "raw_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
-    "retrieved_at": {"type": "string", "format": "date-time"},
-    "validation_status": {"enum": ["PASS", "FLAG"]},
-    "availability_status": {"enum": ["AVAILABLE", "STALE"]},
-    "parser_version": {"type": "string"}
+    "variable_id": {
+      "const": "L1-005"
+    },
+    "observation_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "value": {
+      "type": "number",
+      "description": "10-year Treasury term premium estimate, percent."
+    },
+    "unit": {
+      "const": "percent"
+    },
+    "source_name": {
+      "const": "FRED"
+    },
+    "source_series_id": {
+      "const": "THREEFYTP10"
+    },
+    "raw_file_path": {
+      "type": "string"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "validation_status": {
+      "enum": [
+        "PASS",
+        "FLAG"
+      ]
+    },
+    "availability_status": {
+      "enum": [
+        "AVAILABLE",
+        "STALE"
+      ]
+    },
+    "parser_version": {
+      "type": "string"
+    }
   }
 }

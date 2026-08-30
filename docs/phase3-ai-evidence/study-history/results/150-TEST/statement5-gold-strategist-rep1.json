@@ -1,0 +1,24 @@
+{
+  "baseline_score": 51.28,
+  "coverage": 73.25,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent",
+    "balance_sheet": "The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.",
+    "inflation": "Inflation remains somewhat elevated.",
+    "labour": "The unemployment rate has stabilized at a low level in recent months, and labor market conditions remain solid.",
+    "growth": "Recent indicators suggest that economic activity has continued to expand at a solid pace.",
+    "guidance_diff": "In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data"
+  },
+  "jury_score": 55,
+  "supporting_statement": "As a cross-asset strategist, the pause at 4.25-4.50% combined with ongoing balance sheet runoff (QT) signals a steady-state restrictive policy stance. While rate cuts have paused, the commitment to data dependence keeps front-end rate volatility anchored and supports real yields, constraining aggressive risk-on rallies in equities and precious metals.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Inflation trend and expectations subcomponents mapped to MISSING due to lack of explicit metric wording."
+    ]
+  },
+  "error": null
+}

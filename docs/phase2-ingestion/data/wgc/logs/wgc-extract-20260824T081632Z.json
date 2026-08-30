@@ -1,0 +1,41 @@
+{
+  "run_at": "2026-08-24T08:16:32.211316+00:00",
+  "results": [
+    {
+      "target": "above_ground",
+      "status": "UNCHANGED"
+    },
+    {
+      "target": "etf",
+      "status": "UNCHANGED"
+    },
+    {
+      "target": "gdt",
+      "status": "UNCHANGED"
+    },
+    {
+      "target": "gold_premiums",
+      "status": "PASS",
+      "parser": {
+        "command": [
+          "/mnt/d/Projects/GoldRush/.venv/bin/python",
+          "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/L9/001/parser.py",
+          "--refresh-status",
+          "--output",
+          "docs/phase2-ingestion/L9/001/data/processed/L9_001_observations.csv"
+        ],
+        "returncode": 0,
+        "stdout": "Wrote 6088 observations to docs/phase2-ingestion/L9/001/data/processed/L9_001_observations.csv\n",
+        "stderr": ""
+      }
+    },
+    {
+      "target": "official_changes",
+      "status": "UNCHANGED"
+    },
+    {
+      "target": "official_holdings",
+      "status": "UNCHANGED"
+    }
+  ]
+}

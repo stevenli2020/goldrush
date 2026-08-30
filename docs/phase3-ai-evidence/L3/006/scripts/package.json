@@ -1,0 +1,18 @@
+{
+  "name": "news-brief-generator",
+  "version": "1.0.0",
+  "main": "fomc_parser.ts",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "tsx --test scoring.test.ts",
+    "ai:score": "tsx fomc_parser.ts"
+  },
+  "dependencies": {
+    "@google/genai": "2.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.0.0"
+  }
+}

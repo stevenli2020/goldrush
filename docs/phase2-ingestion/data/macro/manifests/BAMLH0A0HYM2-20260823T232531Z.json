@@ -7,7 +7,6 @@
   },
   "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/macro/raw/fred/BAMLH0A0HYM2-20260823T232531Z.json",
   "size_bytes": 75825,
-  "sha256": "7cd79bf6924aa25659f2aac3f53fa32115bf7d7f2df93761c6e0c1e9d63d0eb0",
   "observation_count": 795,
   "retrieved_at": "2026-08-23T23:25:31.384457+00:00",
   "http_status": 200,

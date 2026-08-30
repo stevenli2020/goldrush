@@ -1,0 +1,13 @@
+{
+  "target": "above_ground",
+  "page_url": "https://www.gold.org/goldhub/data/how-much-gold",
+  "download_url": "https://www.gold.org/download/file/7588/above-ground-gold-stocks.xlsx",
+  "filename": "above-ground-gold-stocks.xlsx",
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/raw/above-ground/above-ground-gold-stocks.xlsx",
+  "size_bytes": 105748,
+  "downloaded_at": "2026-08-29T06:15:49.207461+00:00",
+  "http_status": 200,
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "changed": false,
+  "manifest_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/wgc/manifests/above_ground-20260829T061549Z.json"
+}

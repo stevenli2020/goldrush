@@ -1,0 +1,23 @@
+variable:
+  id: L2-001
+  name: DXY US Dollar Index
+  frequency: daily
+
+source:
+  provider: Yahoo Finance via OpenBB
+  symbol: DX-Y.NYB
+  provider_name: yfinance
+  canonical_field: dxy_close
+  unit: index
+  definition: Daily DXY close from the public Yahoo Finance quotation
+
+parser:
+  script: parser.py
+  version: "0.1.0"
+  stale_after_days: 5
+  plausible_range: [50, 200]
+
+fallback:
+  method: carry_forward_latest_valid
+  availability_status: STALE
+  no_prior_status: BLOCKED

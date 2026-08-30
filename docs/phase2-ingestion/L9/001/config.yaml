@@ -1,0 +1,24 @@
+variable:
+  id: L9-001
+  name: Shanghai Gold Exchange Premium/Discount
+  frequency: daily
+
+source:
+  provider: World Gold Council
+  page_url: https://www.gold.org/goldhub/data/gold-premium
+  workbook_name: gold-premiums.xlsx
+  access_method: shared_wgc_cookie_downloader
+  fallback_method: manual_authenticated_download_with_create_manifest.py
+  unit: usd_per_troy_ounce
+  update_schedule: weekly
+  definition: WGC theoretical local-vs-international gold price difference; Chinese workbook title states 5-day moving average as published by WGC
+
+parser:
+  script: parser.py
+  version: "0.2.0"
+  stale_after_days: 10
+
+fallback:
+  method: carry_forward_latest_valid
+  availability_status: STALE
+  no_prior_status: BLOCKED

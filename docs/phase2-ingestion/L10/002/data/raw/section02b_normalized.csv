@@ -1,2 +1,0 @@
-observation_date,product,open_interest,source_pdf_sha256,source_manifest
-2026-08-20,COMEX GOLD,425554,fed6ee2c09de5da4c71c1553cc797561e41f953ba41d75f4dd7943f316c5b9ab,docs/phase2-ingestion/data/cme/manifests/section02b-20260821T120041Z.json

@@ -1,0 +1,22 @@
+{
+  "baseline_score": 50,
+  "coverage": 76.25,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities",
+    "inflation": "Inflation remains somewhat elevated",
+    "labour": "The unemployment rate has stabilized at a low level in recent months, and labor market conditions remain solid",
+    "growth": "Recent indicators suggest that economic activity has continued to expand at a solid pace",
+    "guidance_diff": ""
+  },
+  "jury_score": 50,
+  "supporting_statement": "The Committee has adopted a prudent pause at 4.25-4.50% following December's rate reduction, maintaining strict data dependence as inflation remains somewhat elevated and economic activity expands at a solid pace while labor markets stay robust.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

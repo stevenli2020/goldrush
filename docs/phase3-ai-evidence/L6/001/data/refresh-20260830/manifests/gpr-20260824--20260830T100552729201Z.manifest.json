@@ -1,0 +1,13 @@
+{
+  "variable_id": "L6-001",
+  "source_url": "https://www.matteoiacoviello.com/gpr_files/data_gpr_daily_recent.dta",
+  "source_page": "https://www.matteoiacoviello.com/gpr.htm",
+  "retrieved_at": "2026-08-30T10:05:52.912644+00:00",
+  "source_vintage_date": "2026-08-24",
+  "raw_path": "docs/phase3-ai-evidence/L6/001/data/refresh-20260830/raw/gpr-daily-20260824-.dta",
+  "size_bytes": 1590600,
+  "content_type": "application/octet-stream",
+  "http_status": 200,
+  "collector_version": "0.1.0",
+  "authors": "Dario Caldara and Matteo Iacoviello"
+}

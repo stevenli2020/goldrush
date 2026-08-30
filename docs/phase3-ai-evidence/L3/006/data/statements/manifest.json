@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "date": "2020-03-15",
+    "statement_file": "statement1.md",
+    "previous_date": "2020-01-29",
+    "previous_file": "previous1.md",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm",
+    "previous_source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200129a.htm",
+    "focus": "Emergency pandemic easing"
+  },
+  {
+    "id": 2,
+    "date": "2022-06-15",
+    "statement_file": "statement2.md",
+    "previous_date": "2022-05-04",
+    "previous_file": "previous2.md",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm",
+    "previous_source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220504a.htm",
+    "focus": "75-basis-point tightening"
+  },
+  {
+    "id": 3,
+    "date": "2023-07-26",
+    "statement_file": "statement3.md",
+    "previous_date": "2023-06-14",
+    "previous_file": "previous3.md",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+    "previous_source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230614a.htm",
+    "focus": "Late-cycle tightening"
+  },
+  {
+    "id": 4,
+    "date": "2024-09-18",
+    "statement_file": "statement4.md",
+    "previous_date": "2024-07-31",
+    "previous_file": "previous4.md",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+    "previous_source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240731a.htm",
+    "focus": "50-basis-point easing"
+  },
+  {
+    "id": 5,
+    "date": "2025-01-29",
+    "statement_file": "statement5.md",
+    "previous_date": "2024-12-18",
+    "previous_file": "previous5.md",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250129a.htm",
+    "previous_source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241218a.htm",
+    "focus": "Post-easing hold"
+  }
+]

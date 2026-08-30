@@ -1,0 +1,22 @@
+{
+  "baseline_score": 61.2,
+  "coverage": 84.3,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "raise the target range for the federal funds rate to 5-1/4 to 5-1/2 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities",
+    "inflation": "Inflation remains elevated.",
+    "labour": "the unemployment rate has remained low",
+    "growth": "Recent indicators suggest that economic activity has been expanding at a moderate pace.",
+    "guidance_diff": "MISSING"
+  },
+  "jury_score": 58,
+  "supporting_statement": "As a gold and cross-asset strategist, the 25 bps hike to 5.25-5.50% reinforces peak rate pricing and maintains upward pressure on real yields, while ongoing balance sheet runoff steadily drains system liquidity. Simultaneously, acknowledgment that tighter credit conditions are weighing on activity introduces cross-asset growth concerns that underpin safe-haven demand.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": []
+  },
+  "error": null
+}

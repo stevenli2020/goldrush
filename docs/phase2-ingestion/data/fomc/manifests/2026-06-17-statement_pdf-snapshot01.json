@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20260617a1.pdf",
+  "document_type": "statement_pdf",
+  "release_date": "2026-06-17",
+  "meeting_date": "2026-06-17",
+  "retrieved_at": "2026-08-24T04:16:50.364554+00:00",
+  "size_bytes": 229274,
+  "content_type": "application/pdf",
+  "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/fomc/raw/2026-06-17-statement_pdf-snapshot01.pdf",
+  "changed": true,
+  "collector_version": "0.1.0"
+}

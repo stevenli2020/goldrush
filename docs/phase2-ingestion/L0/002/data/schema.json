@@ -9,20 +9,36 @@
       "description": "ISO country code or institutional identifier (US, EA, CN, JP, CH, IMF, AGGREGATE)."
     },
     "date": {
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "pattern": "^(\\d{4}-\\d{2}-\\d{2}|\\d{4}-\\d{2})$",
       "description": "Entity observation end date (YYYY-MM-DD), or YYYY-MM for the AGGREGATE execution-month summary."
     },
     "tonnes": {
-      "type": ["number", "null"],
+      "type": [
+        "number",
+        "null"
+      ],
       "minimum": 0,
       "description": "Physical gold holdings measured in metric tonnes."
     },
     "status": {
       "type": "string",
-      "enum": ["FRESH", "STALE", "ERROR", "OK"],
+      "enum": [
+        "FRESH",
+        "STALE",
+        "ERROR",
+        "OK"
+      ],
       "description": "Data freshness status or summary status flag."
     }
   },
-  "required": ["entity", "date", "tonnes", "status"]
+  "required": [
+    "entity",
+    "date",
+    "tonnes",
+    "status"
+  ]
 }

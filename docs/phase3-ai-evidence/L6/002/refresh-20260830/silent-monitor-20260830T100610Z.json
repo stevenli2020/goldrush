@@ -1,0 +1,10 @@
+{
+  "variable_id": "L6-002",
+  "run_status": "SILENT_COMPLETE",
+  "notifications_sent": false,
+  "run_at": "2026-08-30T10:06:10.172698+00:00",
+  "source_manifest": "docs/phase3-ai-evidence/L6/002/refresh-20260830/manifests/L6-002_2026-08-28_20260830T100613Z.manifest.json",
+  "phase2_output": "docs/phase3-ai-evidence/L6/002/refresh-20260830/phase2.csv",
+  "candidate_count": 0,
+  "records": []
+}

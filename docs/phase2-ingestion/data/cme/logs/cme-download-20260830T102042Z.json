@@ -1,0 +1,53 @@
+{
+  "run_at": "2026-08-30T10:20:42.320335+00:00",
+  "results": [
+    {
+      "target": "section09",
+      "status": "PASS",
+      "source_url": "https://www.cmegroup.com/daily_bulletin/current/Section09_Interest_Rate_Futures.pdf",
+      "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/cme/raw/interest-rates/section09-20260829T055925Z.pdf",
+      "size_bytes": 78990,
+      "retrieved_at": "2026-08-30T10:20:40.749075+00:00",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "changed": false,
+      "forced": false
+    },
+    {
+      "target": "section10",
+      "status": "PASS",
+      "source_url": "https://www.cmegroup.com/daily_bulletin/current/Section10_Interest_Rate_Futures_Continued.pdf",
+      "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/cme/raw/interest-rates/section10-20260830T102041Z.pdf",
+      "size_bytes": 94343,
+      "retrieved_at": "2026-08-30T10:20:41.243705+00:00",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "changed": true,
+      "forced": false
+    },
+    {
+      "target": "section62",
+      "status": "PASS",
+      "source_url": "https://www.cmegroup.com/daily_bulletin/current/Section62_Metals_Futures_Products.pdf",
+      "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/cme/raw/metals/section62-20260829T055926Z.pdf",
+      "size_bytes": 105734,
+      "retrieved_at": "2026-08-30T10:20:41.743721+00:00",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "changed": false,
+      "forced": false
+    },
+    {
+      "target": "section02b",
+      "status": "PASS",
+      "source_url": "https://www.cmegroup.com/daily_bulletin/current/Section02B_Summary_Volume_And_Open_Interest_Metals_Futures_And_Options.pdf",
+      "raw_path": "/mnt/d/Projects/GoldRush/docs/phase2-ingestion/data/cme/raw/metals/section02b-20260829T055926Z.pdf",
+      "size_bytes": 91116,
+      "retrieved_at": "2026-08-30T10:20:42.262388+00:00",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "changed": false,
+      "forced": false
+    }
+  ]
+}

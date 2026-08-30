@@ -14,7 +14,7 @@ The measure is a transparent U.S.-dollar below-investment-grade corporate-credit
 benchmark. It is not a complete global financial-stress measure and does not
 produce a gold signal or crisis classification. ICE controls the index methodology.
 Starting in April 2026, FRED limits this public series to three years of history;
-the shared client preserves each retrieved snapshot and SHA-256 for local use.
+the shared client preserves each retrieved snapshot and source metadata for local use.
 ICE's FRED terms describe the top-level data as licensed for internal use, which
 fits this personal project but limits redistribution.
 
@@ -29,7 +29,7 @@ python docs/phase2-ingestion/L7/004/parser.py \
 ```
 
 FRED `.` missing markers are skipped. Malformed dates, non-finite values,
-wrong-series manifests, hash mismatches, and conflicting duplicate dates fail.
+wrong-series manifests, source metadata mismatches, and conflicting duplicate dates fail.
 Finite values outside 0.5–30 percentage points are retained and flagged. A
 seven-day freshness threshold allows normal weekends and market holidays.
 

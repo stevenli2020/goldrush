@@ -1,0 +1,24 @@
+{
+  "baseline_score": 51.28,
+  "coverage": 73.25,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent",
+    "balance_sheet": "continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities",
+    "inflation": "Inflation remains somewhat elevated",
+    "labour": "The unemployment rate has stabilized at a low level in recent months",
+    "growth": "economic activity has continued to expand at a solid pace",
+    "guidance_diff": "MISSING"
+  },
+  "jury_score": 50,
+  "supporting_statement": "The FOMC has appropriately paused its rate-cutting cycle to evaluate incoming data against the dual mandate. With solid economic activity and a stable labor market offsetting inflation that remains somewhat elevated, policy is correctly calibrated at a neutral, data-dependent stance.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Inflation trend and expectations subcomponents mapped via general qualitative statements."
+    ]
+  },
+  "error": null
+}

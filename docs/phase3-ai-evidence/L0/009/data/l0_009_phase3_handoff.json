@@ -1,0 +1,11 @@
+[
+  {
+    "variable_id": "L0-009",
+    "observation_timestamp": "2026-08-28T00:00:00Z",
+    "value": 1.1349607944426228,
+    "unit_or_scale": "percent_per_annum",
+    "availability_status": "AVAILABLE",
+    "source_reference": "CME:docs/phase2-ingestion/data/cme/manifests/section62-20260830T102041Z.json;FRED:docs/phase2-ingestion/L0/009/data/raw/sofr3m-refresh-20260830.manifest.json;aligned-v2",
+    "quality_flag": "PASS"
+  }
+]

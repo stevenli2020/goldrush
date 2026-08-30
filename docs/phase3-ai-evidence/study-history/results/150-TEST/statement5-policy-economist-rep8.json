@@ -1,0 +1,24 @@
+{
+  "baseline_score": 54.8,
+  "coverage": 73.3,
+  "status": "PASS",
+  "confidence": "Medium",
+  "evidence": {
+    "policy": "In support of its goals, the Committee decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent.",
+    "balance_sheet": "The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.",
+    "inflation": "Inflation remains somewhat elevated.",
+    "labour": "The unemployment rate has stabilized at a low level in recent months, and labor market conditions remain solid.",
+    "growth": "Recent indicators suggest that economic activity has continued to expand at a solid pace.",
+    "guidance_diff": ""
+  },
+  "jury_score": 55,
+  "supporting_statement": "As a Central Bank Policy Economist, the decision to pause rate cuts at 4.25-4.50% reflects a prudent risk-management approach. With economic activity expanding at a solid pace, the labor market remaining resilient, and inflation still somewhat elevated, the FOMC appropriately emphasizes data dependency and balance in its dual mandate goals.",
+  "diagnostics": {
+    "balance_sheet_fallback_used": false,
+    "prior_statement_missing": false,
+    "extraction_ambiguities": [
+      "Inflation trend and expectations components not explicitly detailed in current statement text."
+    ]
+  },
+  "error": null
+}
