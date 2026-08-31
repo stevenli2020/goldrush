@@ -250,7 +250,7 @@ def special_record(variable_id: str) -> tuple[dict, Path]:
         source_manifest = phase2 / "data/wgc/manifests/official_holdings-20260830T100640Z.json"
         return {"variable_id": variable_id, "observation_timestamp": iso(row["source_publication_date"]), "value": float(row["holdings_tonnes"]), "unit_or_scale": row["unit"], "availability_status": row["availability_status"], "source_reference": normalized_source(path, source_manifest.as_posix()), "quality_flag": row["validation_status"]}, path
     if variable_id == "L0-006":
-        path = phase2 / "L0/006/processed/L0_006_observations.json"
+        path = phase2 / "L0/006/processed/l0_006_gold_recycling_flow.json"
         payload = json.loads(path.read_text(encoding="utf-8"))
         rows = payload["observations"]
         row = max(rows, key=lambda item: item["observation_date"])

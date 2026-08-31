@@ -1,9 +1,14 @@
 # Phase 2 — Data Ingestion Start Plan
 
-**Status:** Initiated after Phase 1 SSOT freeze  
+**Status:** Historical planning record — Phase 2 completed and handed off  
 **Date:** 2026-08-17  
 **Phase 1 SSOT:** `docs/phase1-registry/Phase1-master-registry.md`  
 **Production scope:** 44 ADMIT variables only. The 30 CONDITIONAL / RESEARCH ONLY variables remain outside production ingestion.
+
+This document records the original Phase 2 start plan and is retained for
+historical traceability. The current authoritative status is maintained in
+`docs/phase2-ingestion/SOURCE-IMPLEMENTATION-TRACKER.md`; the final approval
+and handoff are recorded in `docs/phase2-ingestion/phase2-handoff.md`.
 
 ## 1. Ingestion contract
 
@@ -59,7 +64,7 @@ The inventory below is the initial Phase 2 source-lock queue. “Source” recor
 | L5-002 | Gold Share of Official Reserves | Official reserve data / institutional reserve-composition datasets. | Monthly / quarterly / annual | Mixed / public for many major institutions | 1–3 years; 3–10 years — structural |
 | L5-003 | Reserve Composition Change / USD Share Change | Official reserve-composition statistics and institutional reserve datasets. | Quarterly / annual | Mixed / some restricted components | 1–3 years; 3–10 years — structural |
 | L5-006 | Official-Sector Gold Sales / Lending | Official disclosures and institutional gold-market reporting where transactions are observable. | Event-driven / monthly / quarterly | Mixed | 1–3 months; 1–3 years — cyclical / structural |
-| L2-001 | DXY US Dollar Index | ICE Benchmark Administration DXY methodology and licensed/market data; public market quotations may be used only where retrieval and licensing permit. Cross-check against Federal Reserve H.10 exchange-rate data. | Intraday / daily. | Mixed; public quotations may be crawlable, while authoritative historical data may be paid or restricted. | 1–5 days; 1–3 months; 1–3 years — cyclical and transmission-driven; conditional over 3–10 years. |
+| L2-001 | DXY US Dollar Index | OpenBB `yfinance` provider, symbol `DX-Y.NYB`, daily OHLC with `dxy_close` as the canonical field; raw snapshots and source metadata manifests are preserved. | Daily finalized market observations; evolving current-day bars excluded. | Free public quotation source; unofficial and subject to provider availability. Carry-forward is marked `STALE` when needed. | 1–5 days; 1–3 months; 1–3 years — cyclical and transmission-driven; conditional over 3–10 years. |
 | L2-002 | Broad Trade-Weighted Nominal US Dollar Index | Federal Reserve H.10 / FRED series DTWEXBGS: https://fred.stlouisfed.org/series/DTWEXBGS | Daily. | Free / public. | 1–5 days; 1–3 months; 1–3 years; 3–10 years — cyclical, structural, and regime-dependent. |
 | L2-003 | USD/CNY | Federal Reserve H.10 exchange rates / FRED DEXCHUS; official Chinese foreign-exchange reference information where needed. | Daily. | Free / public for the Federal Reserve series. | 1–5 days; 1–3 months; 1–3 years — cyclical and regional; conditional over 3–10 years. |
 | L7-001 | Major Central-Bank Balance-Sheet Liquidity | Federal Reserve H.4.1; ECB financial-statement data; PBoC and other major-central-bank official balance-sheet releases, subject to a documented aggregation method. | Weekly to monthly, depending on institution. | Free / public for major official series; some national series require additional processing. | 1–3 months; 1–3 years; 3–10 years — cyclical and structural regime conditions. |
@@ -68,7 +73,7 @@ The inventory below is the initial Phase 2 source-lock queue. “Source” recor
 | L7-005 | Treasury Repo Funding Stress | New York Federal Reserve SOFR, TGCR, and BGCR reference rates: https://www.newyorkfed.org/markets/reference-rates | Daily. | Free / public. | 1–5 days; 1–3 months — event-driven and conditional; 1–3 years for regime monitoring. |
 | L6-001 | Active Conflict and Escalation Signal | ACLED or another documented conflict-event database; official statements and primary reporting from governments and international organizations; Caldara-Iacoviello GPR threat/acts data as a benchmark: https://www.matteoiacoviello.com/gpr.htm | Daily / event-driven. | Mixed / public for major sources; some structured event data may be paid or restricted. | 1–5 days; 1–3 months — event-driven; 1–3 years — conditional regime risk. |
 | L6-002 | Sanctions and Sovereign-Asset Freeze Events | US Treasury OFAC sanctions programs and designations; UN Security Council sanctions; EU sanctions database and official national measures. | Event-driven / daily. | Free / public for major official sources. | 1–5 days; 1–3 months; 1–3 years — event-driven and structural; 3–10 years for persistent reserve-security regimes. |
-| L9-001 | Shanghai Gold Exchange Premium/Discount | Shanghai Gold Exchange market data: https://en.sge.com.cn/; World Gold Council Chinese premium/discount methodology: https://www.gold.org/sites/default/files/downloads/2019-01/Chinese-premium-discount-methodology.pdf | Daily / market-day. | Mixed; official data is public, while clean historical series may require processing or licensed distribution. | 1–5 days; 1–3 months; 1–3 years — cyclical and regional. |
+| L9-001 | Shanghai Gold Exchange Premium/Discount | World Gold Council `gold_premiums` shared authenticated workbook target; exact `Chinese premiums-discounts` sheet and published five-day moving-average series. | Daily / market-day. | Shared cookie collection with manual authenticated download and canonical manifest fallback. | 1–5 days; 1–3 months; 1–3 years — cyclical and regional. |
 | L9-004 | India Physical Gold Imports and Consumer Demand | Government of India Department of Commerce / DGCI&S trade statistics; World Gold Council and other transparent institutional demand datasets. Example official source: https://www.commerce.gov.in/ | Monthly / quarterly. | Free / public for official trade data; institutional demand estimates may be paid. | 1–3 months; 1–3 years — cyclical, seasonal, and structural. |
 | L8-001 | Gold ETF Net Flows | World Gold Council gold ETF holdings and flows dataset; issuer filings and fund-reported holdings; SEC filings for US products. WGC methodology/data: https://www.gold.org/goldhub/data/gold-etfs-holdings-and-flows | Weekly / monthly, with some daily issuer information. | Mixed; public issuer data, with comprehensive institutional datasets potentially paid. | 1–5 days; 1–3 months; 1–3 years — cyclical and flow-driven. |
 | L10-001 | COMEX Managed-Money Net Positioning | CFTC Disaggregated Commitments of Traders reports: https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm | Weekly. | Free / public. | 1–5 days; 1–3 months — cyclical and amplifier-driven. |

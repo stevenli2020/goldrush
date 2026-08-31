@@ -13,6 +13,10 @@ def test_builds_period_preserving_handoff():
     result = module.build_handoff([row()], "manifest.json")
     assert result[0]["observation_period"] == "Q2'26" and result[0]["value"] == 307.08
 
+def test_uses_valid_quarter_end_for_september():
+    result = module.build_handoff([row(period="Q3'26") | {"observation_quarter": "3"}], "manifest.json")
+    assert result[0]["observation_timestamp"] == "2026-09-30T00:00:00Z"
+
 def test_rejects_duplicate_periods(tmp_path):
     path = tmp_path / "input.csv"; fields = list(row()); path.write_text(",".join(fields) + "\n" + ",".join(row().values()) + "\n" + ",".join(row().values()) + "\n", encoding="utf-8")
     with pytest.raises(ValueError, match="duplicate"):

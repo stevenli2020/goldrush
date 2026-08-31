@@ -71,8 +71,8 @@
     "source_latest_verified_ts": null,
     "source_latest_observation_ts": null,
     "source_has_newer_data": null,
-    "approved_source_reference": "transform=docs/phase2-ingestion/L0/006/processed/L0_006_observations.json::source=docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
-    "transformation_output": "docs/phase2-ingestion/L0/006/processed/L0_006_observations.json"
+    "approved_source_reference": "transform=docs/phase2-ingestion/L0/006/processed/l0_006_gold_recycling_flow.json::source=docs/phase2-ingestion/data/wgc/manifests/gdt-20260830T100643Z.json",
+    "transformation_output": "docs/phase2-ingestion/L0/006/processed/l0_006_gold_recycling_flow.json"
   },
   {
     "variable_id": "L0-009",
@@ -626,7 +626,7 @@
     "source_latest_verified_ts": null,
     "source_latest_observation_ts": null,
     "source_has_newer_data": null,
-    "approved_source_reference": "transform=docs/phase3-ai-evidence/L8/001/data/l8_001_phase3_handoff.json::source=docs/phase2-ingestion/data/wgc/manifests/etf-20260830T100641Z.json",
+    "approved_source_reference": "transform=docs/phase3-ai-evidence/L8/001/data/l8_001_phase3_handoff.json::source=docs/phase2-ingestion/data/wgc/manifests/etf-20260830T100641Z.json::sheet=Demand by month::measure=per-fund Demand (tonnes)",
     "transformation_output": "docs/phase3-ai-evidence/L8/001/data/l8_001_phase3_handoff.json"
   },
   {

@@ -100,3 +100,15 @@ sources and transformations. No invented substitute values are present. All
 stale, blocked, and flagged records are explicitly marked. Phase 4 may consume
 this dataset as its common input layer without reference to individual
 collection or scoring implementations.
+
+## Post-freeze amendment — L8-001 (2026-08-31)
+
+Controlled workbook inspection found that the original L8-001 transformation
+selected the aggregate `Tonnes` column from `Fund flows by month`, producing
+4,068.01245306 metric tonnes for July 2026. That value is holdings-like, not a
+monthly demand flow. The corrected transformation sums per-fund `Demand
+(tonnes)` values from `Demand by month`; the July total is 23.46395211 metric
+tonnes and reconciles to the June-to-July holdings change. The original handoff
+is retained as `l8_001_phase3_handoff.superseded-20260831.json`. This amendment
+changes L8-001 only; the original Phase 3 approval remains historical. The
+post-freeze correction was approved by the owner on 2026-08-31.

@@ -34,7 +34,7 @@
   },
   {
     "variable_id": "L0-005",
-    "observation_timestamp": "2010-09-31T00:00:00Z",
+    "observation_timestamp": "2010-09-30T00:00:00Z",
     "observation_period": "Q3'10",
     "observation_period_type": "quarterly",
     "value": 328.45270493,
@@ -89,7 +89,7 @@
   },
   {
     "variable_id": "L0-005",
-    "observation_timestamp": "2011-09-31T00:00:00Z",
+    "observation_timestamp": "2011-09-30T00:00:00Z",
     "observation_period": "Q3'11",
     "observation_period_type": "quarterly",
     "value": 428.83861304,
@@ -144,7 +144,7 @@
   },
   {
     "variable_id": "L0-005",
-    "observation_timestamp": "2012-09-31T00:00:00Z",
+    "observation_timestamp": "2012-09-30T00:00:00Z",
     "observation_period": "Q3'12",
     "observation_period_type": "quarterly",
     "value": 307.92178634,
@@ -199,7 +199,7 @@
   },
   {
     "variable_id": "L0-005",
-    "observation_timestamp": "2013-09-31T00:00:00Z",
+    "observation_timestamp": "2013-09-30T00:00:00Z",
     "observation_period": "Q3'13",
     "observation_period_type": "quarterly",
     "value": 326.34768326,
@@ -254,7 +254,7 @@
   },
   {
     "variable_id": "L0-005",
-    "observation_timestamp": "2014-09-31T00:00:00Z",
+    "observation_timestamp": "2014-09-30T00:00:00Z",
     "observation_period": "Q3'14",
     "observation_period_type": "quarterly",
     "value": 239.58488239,
@@ -309,7 +309,7 @@
   },
   {
     "variable_id": "L0-005",
-    "observation_timestamp": "2015-09-31T00:00:00Z",
+    "observation_timestamp": "2015-09-30T00:00:00Z",
     "observation_period": "Q3'15",
     "observation_period_type": "quarterly",
     "value": 304.48379402,
@@ -364,7 +364,7 @@
   },
   {
     "variable_id": "L0-005",
-    "observation_timestamp": "2016-09-31T00:00:00Z",
+    "observation_timestamp": "2016-09-30T00:00:00Z",
     "observation_period": "Q3'16",
     "observation_period_type": "quarterly",
     "value": 201.4161209,
@@ -419,7 +419,7 @@
   },
   {
     "variable_id": "L0-005",
-    "observation_timestamp": "2017-09-31T00:00:00Z",
+    "observation_timestamp": "2017-09-30T00:00:00Z",
     "observation_period": "Q3'17",
     "observation_period_type": "quarterly",
     "value": 234.30776934,
@@ -474,7 +474,7 @@
   },
   {
     "variable_id": "L0-005",
-    "observation_timestamp": "2018-09-31T00:00:00Z",
+    "observation_timestamp": "2018-09-30T00:00:00Z",
     "observation_period": "Q3'18",
     "observation_period_type": "quarterly",
     "value": 298.72599265,
@@ -529,7 +529,7 @@
   },
   {
     "variable_id": "L0-005",
-    "observation_timestamp": "2019-09-31T00:00:00Z",
+    "observation_timestamp": "2019-09-30T00:00:00Z",
     "observation_period": "Q3'19",
     "observation_period_type": "quarterly",
     "value": 151.24696772,
@@ -584,7 +584,7 @@
   },
   {
     "variable_id": "L0-005",
-    "observation_timestamp": "2020-09-31T00:00:00Z",
+    "observation_timestamp": "2020-09-30T00:00:00Z",
     "observation_period": "Q3'20",
     "observation_period_type": "quarterly",
     "value": 224.64737575,
@@ -639,7 +639,7 @@
   },
   {
     "variable_id": "L0-005",
-    "observation_timestamp": "2021-09-31T00:00:00Z",
+    "observation_timestamp": "2021-09-30T00:00:00Z",
     "observation_period": "Q3'21",
     "observation_period_type": "quarterly",
     "value": 263.71866329,
@@ -694,7 +694,7 @@
   },
   {
     "variable_id": "L0-005",
-    "observation_timestamp": "2022-09-31T00:00:00Z",
+    "observation_timestamp": "2022-09-30T00:00:00Z",
     "observation_period": "Q3'22",
     "observation_period_type": "quarterly",
     "value": 350.5364228,
@@ -749,7 +749,7 @@
   },
   {
     "variable_id": "L0-005",
-    "observation_timestamp": "2023-09-31T00:00:00Z",
+    "observation_timestamp": "2023-09-30T00:00:00Z",
     "observation_period": "Q3'23",
     "observation_period_type": "quarterly",
     "value": 299.31701276,
@@ -804,7 +804,7 @@
   },
   {
     "variable_id": "L0-005",
-    "observation_timestamp": "2024-09-31T00:00:00Z",
+    "observation_timestamp": "2024-09-30T00:00:00Z",
     "observation_period": "Q3'24",
     "observation_period_type": "quarterly",
     "value": 276.60928428,
@@ -859,7 +859,7 @@
   },
   {
     "variable_id": "L0-005",
-    "observation_timestamp": "2025-09-31T00:00:00Z",
+    "observation_timestamp": "2025-09-30T00:00:00Z",
     "observation_period": "Q3'25",
     "observation_period_type": "quarterly",
     "value": 328.44519397,

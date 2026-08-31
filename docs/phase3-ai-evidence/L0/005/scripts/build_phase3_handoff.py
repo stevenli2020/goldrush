@@ -1,6 +1,6 @@
 """Build the canonical Phase 3 handoff for L0-005."""
 from __future__ import annotations
-import argparse, csv, json
+import argparse, calendar, csv, json
 from pathlib import Path
 
 REQUIRED = {"observation_period", "observation_period_type", "total_bar_and_coin_tonnes", "unit", "validation_status", "availability_status"}
@@ -28,7 +28,8 @@ def build_handoff(rows: list[dict[str, str]], source_reference: str) -> list[dic
             observation_date = f"{row['observation_year']}-12-31"
         else:
             year, quarter = int(row["observation_year"]), int(row["observation_quarter"])
-            observation_date = f"{year}-{quarter * 3:02d}-{'31' if quarter in (1, 3) else '30'}"
+            month = quarter * 3
+            observation_date = f"{year}-{month:02d}-{calendar.monthrange(year, month)[1]:02d}"
         result.append({"variable_id": "L0-005", "observation_timestamp": f"{observation_date}T00:00:00Z",
                        "observation_period": row["observation_period"], "observation_period_type": row["observation_period_type"],
                        "value": value, "unit_or_scale": "metric_tonnes", "availability_status": row["availability_status"],
