@@ -144,7 +144,21 @@ def test_missing_insufficient_and_not_applicable_are_explicit(module, variable_i
             reader_for(module, variable_id)(path)
     finally:
         path.unlink(missing_ok=True)
-    assert signal([], "1-5 days")["status"] == "NOT_APPLICABLE" if variable_id != "L0-003" else signal([], "3-10 years")["status"] == "NOT_APPLICABLE"
+    if variable_id == "L0-001":
+        short = signal([], "1-5 days")
+        assert short["status"] == "AVAILABLE" and short["signal"] == 0 and short["override"] is True
+    else:
+        assert signal([], "1-5 days")["status"] == "NOT_APPLICABLE" if variable_id != "L0-003" else signal([], "3-10 years")["status"] == "NOT_APPLICABLE"
+
+
+def test_l0_001_short_horizons_use_approved_zero_override():
+    module = load("l0_001_signal")
+    rows = [record("L0-001", "metric_tonnes", 1, 220700.0)]
+    for horizon in ("1-5 days", "1-3 months"):
+        result = module.signed_change_l0_001(rows, horizon)
+        assert result["signal"] == 0
+        assert result["reason"] == "Static annual data – no meaningful change within 5 days/3 months (Phase 4 MVP override)"
+        assert result["override"] is True
 
 
 def test_l0_005_matches_period_type_and_uses_annual_offset():
