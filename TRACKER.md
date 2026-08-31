@@ -8,7 +8,7 @@ All rule, horizon, status and commit fields start blank for this walkthrough, in
 
 | # | Variable ID | Description | Rule Summary | 1-5d | 1-3m | 1-3y | 3-10y | Status | Commit Hash |
 |---|-------------|-------------|--------------|------|------|------|-------|--------|-------------|
-| Task 1 | L0-001 | Above-Ground Gold Stock | Annual stock delta. Short horizons (1-5d, 1-3m) → 0 (neutral). Long horizons → sign of delta (-1 if stock rose). | ✅ | ✅ | ✅ | ✅ | ✅ Pass | |
+| Task 1 | L0-001 | Above-Ground Gold Stock | Annual stock delta. Short horizons (1-5d, 1-3m) → 0 (neutral). Long horizons → sign of delta (-1 if stock rose). | ✅ | ✅ | ✅ | ✅ | ✅ Pass | 131b47881ad73a0da11db1062dadf64eb66f39cd |
 | Task 2 | L0-002 | Central-Bank Gold Holdings | | | | | | | |
 | Task 3 | L0-003 | Gold ETF Holdings | | | | | | | |
 | Task 4 | L0-005 | Bar-and-Coin Investment Holdings / Demand | | | | | | | |
