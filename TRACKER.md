@@ -9,7 +9,7 @@ All rule, horizon, status and commit fields start blank for this walkthrough, in
 | # | Variable ID | Description | Rule Summary | 1-5d | 1-3m | 1-3y | 3-10y | Status | Commit Hash |
 |---|-------------|-------------|--------------|------|------|------|-------|--------|-------------|
 | Task 1 | L0-001 | Above-Ground Gold Stock | Annual stock delta. Short horizons (1-5d, 1-3m) → 0 (neutral). Long horizons → sign of delta (-1 if stock rose). | ✅ | ✅ | ✅ | ✅ | ✅ Pass | 131b47881ad73a0da11db1062dadf64eb66f39cd |
-| Task 2 | L0-002 | Central-Bank Gold Holdings | Aggregate 52-country monthly holdings. Short horizons -> 0; long horizons -> sign of total percentage change (36m/120m), fallback >=12m. | 0 | 0 | -1 | -1 | Closed | |
+| Task 2 | L0-002 | Central-Bank Gold Holdings | Aggregate 52-country monthly holdings. Short horizons -> 0; long horizons -> sign of total percentage change (36m/120m), fallback >=12m. | 0 | 0 | -1 | -1 | Closed | b766a1de16681ecff8b87a8859cb03ab90e26554 |
 | Task 3 | L0-003 | Gold ETF Holdings | | | | | | | |
 | Task 4 | L0-005 | Bar-and-Coin Investment Holdings / Demand | | | | | | | |
 | Task 5 | L0-006 | Gold Recycling Flow | | | | | | | |
